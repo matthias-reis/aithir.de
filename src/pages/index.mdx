@@ -1,12 +1,12 @@
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 
-import Layout from '../components/layout'
-import Image from '../components/image'
-import SEO from '../components/seo'
+import Layout from '../components/layout';
+import Image from '../components/image';
+import { Head } from '../components';
 
-<SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+<Head title="Startseite" keywords={['gatsby', 'application', 'react']} />
 
-# Hi people
+# Hi people ...Homepage
 
 Welcome to your new Gatsby site.
 
@@ -15,5 +15,8 @@ Now go build something great.
 <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
   <Image />
 </div>
-<Link to="/page-2/">Go to page 2</Link>
 
+- <Link to="/page-2">Go to page 2</Link>
+- <Link to="/test/first-entry">First Entry - sub route, articles template</Link>
+- <Link to="/second-entry">Second Entry - photos template</Link>
+- <Link to="/third-entry">Thierd Entry - articles template</Link>
