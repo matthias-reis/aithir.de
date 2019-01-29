@@ -1,14 +1,17 @@
 import Typography from 'typography';
+import { colorCopy, lineHeight } from './var';
 
 const typography = new Typography({
   baseFontSize: '18px',
-  baseLineHeight: 1.45,
+  scaleRatio: 3,
+  baseLineHeight: lineHeight,
   headerFontFamily: ['Voltaire', 'Helvetica', 'Arial', 'sans-serif'],
-  bodyFontFamily: ['Dosis', 'Georgia', 'serif'],
+  bodyFontFamily: ['Montserrat', 'Helvetica', 'Arial', 'sans-serif'],
+  bodyWeight: 200,
   googleFonts: [
     {
-      name: 'Dosis',
-      styles: ['400', '400i', '700'],
+      name: 'Montserrat',
+      styles: ['200', '200i', '700'],
     },
     {
       name: 'Voltaire',

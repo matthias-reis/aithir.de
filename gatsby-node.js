@@ -6,7 +6,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === 'Mdx') {
     const parent = getNode(node.parent);
-    const type = parent.sourceInstanceName;
     const slug = `${createFilePath({
       node,
       getNode,
@@ -16,11 +15,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       name: 'slug',
       value: slug,
-    });
-    createNodeField({
-      node,
-      name: 'type',
-      value: type,
     });
   }
 };
@@ -35,8 +29,10 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             id
             fields {
-              type
               slug
+            }
+            frontmatter {
+              layout
             }
           }
         }
@@ -45,9 +41,11 @@ exports.createPages = async ({ graphql, actions }) => {
   `);
 
   result.data.allMdx.edges.forEach(({ node }) => {
+    const layout = node.frontmatter.type || 'article';
+
     createPage({
       path: node.fields.slug,
-      component: resolve(`./src/layout/${node.fields.type}Layout.tsx`),
+      component: resolve(`./src/layout/${layout}.tsx`),
       context: { id: node.id },
     });
   });

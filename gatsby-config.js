@@ -1,4 +1,6 @@
 const path = require('path');
+const math = require('remark-math');
+const katex = require('remark-html-katex');
 
 module.exports = {
   siteMetadata: {
@@ -11,6 +13,8 @@ module.exports = {
       resolve: `gatsby-mdx`,
       options: {
         defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+        hastPlugins: [math],
+        mdPlugins: [katex],
       },
     },
     {
@@ -22,37 +26,23 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'articles',
-        path: `${__dirname}/content/articles/`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'photos',
-        path: `${__dirname}/content/photos/`,
+        name: 'content',
+        path: `${__dirname}/content/`,
       },
     },
     'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-default-mdx-basic',
-        short_name: 'starter',
+        name: 'aithir.de',
+        short_name: 'aithir',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'static/apple-icon.png',
       },
     },
     'gatsby-plugin-typescript',
