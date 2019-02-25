@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { colorHighlight } from './var';
 export const H1 = styled.h1`
   font-size: 4rem;
+  margin-bottom: 1em;
   strong {
     font-weight: normal;
     color: ${colorHighlight};

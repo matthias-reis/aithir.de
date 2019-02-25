@@ -10,7 +10,7 @@ export default ({ data }) => {
   return (
     <Fragment>
       <Head title="Welcome" description="The Blog of Matthias Reis" />
-      <h1>Hallo</h1>
+      <h1>Hallo ...</h1>
       {data.allMdx.edges.map(edge => (
         <Link to={edge.node.fields.slug} key={edge.node.id}>
           <h2>{edge.node.frontmatter.title}</h2>

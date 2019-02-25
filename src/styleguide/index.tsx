@@ -19,4 +19,5 @@ export { Blockquote } from './Blockquote';
 export { Link } from './Link';
 export { M, MI } from './Math';
 export { H1, H2, H3 } from './Headline';
+export * from './Paragraph';
 export * from './Aligned';

@@ -7,11 +7,12 @@ type PageType = { children: ReactNode; headerSection?: ReactNode };
 
 const Body = styled.div`
   background: ${colorBackground};
+  padding: 20px 0;
 `;
 
 const Container = styled.div`
   padding: 80px 20px;
-  max-width: 620px;
+  max-width: 660px;
   margin: 0 auto;
 `;
 
