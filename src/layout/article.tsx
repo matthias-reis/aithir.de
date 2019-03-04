@@ -6,13 +6,14 @@ import { Head, Page, Navigation } from '../components';
 import {
   Blockquote,
   Link,
-  H1,
   H2,
   H3,
-  PLead,
-  PMeta,
-  colorHighlight,
+  media10,
+  media20,
+  media30,
+  media40,
 } from '../styleguide';
+
 import Img from 'gatsby-image';
 
 const components = {
@@ -23,24 +24,60 @@ const components = {
 };
 
 const TitleBlock = styled.div`
+  max-height: 50vw;
+  overflow: hidden;
+  position: relative;
+`;
+
+const Headline = styled.h1`
+  text-shadow: 0 0 5px #0008;
+  margin: 0;
+  font-size: 1.75rem;
+  @media ${media10} {
+    font-size: 2.25rem;
+  }
+  @media ${media20} {
+    font-size: 3rem;
+  }
+  @media ${media30} {
+    font-size: 4rem;
+  }
+  @media ${media40} {
+    font-size: 5rem;
+  }
+`;
+
+const Lead = styled.p`
+  font-size: 1rem;
+  max-width: 900px;
+  padding: 20px;
   margin: 0 auto;
-  max-width: 660px;
-  padding: 0 20px;
+  @media ${media20} {
+    font-size: 1.25rem;
+  }
+  @media ${media30} {
+    font-size: 1.5rem;
+  }
 `;
-
-const InnerHeadline = styled.span`
-  background: linear-gradient(
-    to bottom,
-    ${colorHighlight}00 0%,
-    ${colorHighlight}00 64.9%,
-    ${colorHighlight}ff 65%,
-    ${colorHighlight}ff 100%
-  );
+const Meta = styled.p`
+  text-shadow: 0 0 3px #0003;
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 `;
-
 const ImageBlock = styled.div`
-  max-width: 940px;
   margin: 0 auto;
+`;
+
+const TextBlock = styled.div`
+  position: absolute;
+  padding-top: 60px;
+  width: 100%;
+  bottom: 0;
+  z-index: 1;
+  text-align: center;
+  background: linear-gradient(to bottom, #00000000 0%, #000000ff 100%);
 `;
 
 type PageType = {
@@ -60,7 +97,6 @@ type PageType = {
 };
 
 export default ({ data }: PageType) => {
-  console.log(data);
   const { category, date, title, description, image } = data.mdx.frontmatter;
   return (
     <Page
@@ -68,19 +104,19 @@ export default ({ data }: PageType) => {
         <Fragment>
           <Navigation />
           <TitleBlock>
-            <PMeta>
-              {category || 'Beitrag'} — {date}
-            </PMeta>
-            <H1>
-              <InnerHeadline>{title}</InnerHeadline>
-            </H1>
-            <PLead>{description}</PLead>
+            {image && (
+              <ImageBlock>
+                <Img fluid={image.childImageSharp.fluid} />
+              </ImageBlock>
+            )}
+            <TextBlock>
+              <Meta>
+                <strong>{category || 'Beitrag'}</strong> — {date}
+              </Meta>
+              <Headline>{title}</Headline>
+              <Lead>{description}</Lead>
+            </TextBlock>
           </TitleBlock>
-          {image && (
-            <ImageBlock>
-              <Img fluid={image.childImageSharp.fluid} />
-            </ImageBlock>
-          )}
         </Fragment>
       }>
       <Head
@@ -105,7 +141,7 @@ export const pageQuery = graphql`
         keywords
         image {
           childImageSharp {
-            fluid(maxWidth: 1260, quality: 80) {
+            fluid(maxWidth: 1600, quality: 70) {
               ...GatsbyImageSharpFluid
             }
           }

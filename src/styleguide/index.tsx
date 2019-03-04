@@ -21,3 +21,4 @@ export { M, MI } from './Math';
 export { H1, H2, H3 } from './Headline';
 export * from './Paragraph';
 export * from './Aligned';
+export * from './icons';
