@@ -12,7 +12,6 @@ module.exports = {
     {
       resolve: `gatsby-mdx`,
       options: {
-        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
         hastPlugins: [math],
         mdPlugins: [katex],
       },
