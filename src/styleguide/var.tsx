@@ -1,7 +1,9 @@
 export const colorBackground = '#2e3332';
 export const colorCopy = '#ccc';
+export const colorCopyWeak = '#999';
 export const colorStrong = '#fff';
 export const colorHighlight = '#30A795';
+export const colorHighlightBright = '#77C3B8';
 export const colorSecondary = '#A1192E';
 
 export const lineHeight = 1.6;

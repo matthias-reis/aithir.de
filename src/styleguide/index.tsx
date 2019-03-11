@@ -2,7 +2,12 @@
 import 'katex/dist/katex.min.css';
 
 import { css } from '@emotion/core';
-import { colorCopy, lineHeight } from './var';
+import {
+  colorCopy,
+  lineHeight,
+  colorHighlight,
+  colorHighlightBright,
+} from './var';
 
 // here goes the single global styles
 export const globalStyles = css`
@@ -11,6 +16,16 @@ export const globalStyles = css`
   }
   .katex {
     line-height: 0;
+  }
+  a {
+    color: ${colorHighlight};
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px dashed ${colorHighlight};
+    &:hover {
+      color: ${colorHighlightBright};
+      border-bottom: 1px dashed ${colorHighlightBright};
+    }
   }
 `;
 

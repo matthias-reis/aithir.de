@@ -33,20 +33,30 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               layout
+              keywords
             }
           }
         }
       }
     }
   `);
-
+  let keywords = new Set();
   result.data.allMdx.edges.forEach(({ node }) => {
     const layout = node.frontmatter.type || 'article';
+    keywords = new Set([...keywords, ...(node.frontmatter.keywords || [])]);
 
     createPage({
       path: node.fields.slug,
       component: resolve(`./src/layout/${layout}.tsx`),
       context: { id: node.id },
+    });
+  });
+
+  keywords.forEach(keyword => {
+    createPage({
+      path: `/schlagworte/${keyword}/`,
+      component: resolve(`./src/layout/keyword.tsx`),
+      context: { keyword: keyword },
     });
   });
 };

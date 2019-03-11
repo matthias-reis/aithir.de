@@ -63,10 +63,12 @@ const Search = styled(Link)`
   color: ${colorCopy};
   background: ${colorSecondary};
   display: block;
+  border: none;
   text-align: center;
   padding: 0 3px;
   border-radius: 0 10px 10px 0;
   &:hover {
+    border: none;
     background: ${colorHighlight};
   }
   svg {
@@ -78,10 +80,12 @@ const Search = styled(Link)`
 const InnerListItem = styled(Link)`
   color: ${colorCopy};
   text-decoration: none;
+  border: none;
   display: block;
   text-align: center;
 
   &:hover {
+    border: none;
     color: ${colorStrong};
     background: ${colorHighlight};
   }
@@ -101,25 +105,25 @@ export const Navigation = () => (
         </InnerListItem>
       </ListItem>
       <ListItem>
-        <InnerListItem to="/schlagwort/texte">
+        <InnerListItem to="/schlagworte/texte/">
           <TextIcon />
           Texte
         </InnerListItem>
       </ListItem>
       <ListItem>
-        <InnerListItem to="/schlagwort/bilder">
+        <InnerListItem to="/schlagworte/bilder/">
           <ImagesIcon />
           Bilder
         </InnerListItem>
       </ListItem>
       <ListItem>
-        <InnerListItem to="/schlagwort/texte">
+        <InnerListItem to="/schlagworte/texte/">
           <MusicIcon />
           Musik
         </InnerListItem>
       </ListItem>
       <ListItem>
-        <Search to="/suche">
+        <Search to="/suche/">
           <SearchIcon />
         </Search>
       </ListItem>
