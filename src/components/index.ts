@@ -3,4 +3,4 @@ export { Page } from './Page';
 export { Logo } from './Logo';
 export { Navigation } from './Navigation';
 export { ArticleList } from './ArticleList';
-export { Article, Node } from './Article';
+export { Article } from './Article';

@@ -1,27 +1,12 @@
 import React, { Fragment } from 'react';
 import styled from '@emotion/styled';
 import { graphql, Link } from 'gatsby';
-import MDXRenderer from 'gatsby-mdx/mdx-renderer';
 
-import {
-  Head,
-  Page,
-  Navigation,
-  Node,
-  Article,
-  ArticleList,
-} from '../components';
-import {
-  Blockquote,
-  H2,
-  H3,
-  media10,
-  media20,
-  media30,
-  media40,
-} from '../styleguide';
+import { Head, Page, Navigation, Article, ArticleList } from '../components';
 
-import Img from 'gatsby-image';
+import { Blockquote, H2, H3 } from '../styleguide';
+
+import { ArticleNode } from '../typings';
 
 const components = {
   blockquote: Blockquote,
@@ -43,7 +28,7 @@ interface Keyword {
   };
   data: {
     allMdx: {
-      edges: { node: Node }[];
+      edges: ArticleNode[];
     };
   };
 }
@@ -54,7 +39,7 @@ export default ({ pageContext, data }: Keyword) => {
       <Navigation />
       <Headline>{pageContext.keyword.toUpperCase()}</Headline>
       <ArticleList>
-        {data.allMdx.edges.map(({ node }: { node: Node }) => (
+        {data.allMdx.edges.map(({ node }: ArticleNode) => (
           <Article key={node.fields.slug} node={node} />
         ))}
       </ArticleList>
@@ -70,22 +55,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            date(formatString: "D. MMMM Y", locale: "de")
-            description
-            keywords
-            image {
-              childImageSharp {
-                fluid(maxWidth: 600, quality: 70) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
+          ...ArticleEntity
         }
       }
     }

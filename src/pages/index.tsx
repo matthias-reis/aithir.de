@@ -1,25 +1,47 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import styled from '@emotion/styled';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
 
-import { Link } from 'gatsby';
-import { Head } from '../components';
+import { Page, Navigation, Article, ArticleList } from '../components';
+import { Wide } from '../styleguide';
+import image from './home1.jpg';
 
-export default ({ data }) => {
-  console.log(data);
+import { ArticleNode } from '../typings';
+
+interface HomepageProps {
+  data: {
+    allMdx: {
+      edges: ArticleNode[];
+    };
+  };
+}
+
+const Headline = styled.h1`
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-top: 80px;
+`;
+
+const Bg = styled.div`
+  background: url(${image});
+  background-attachment: fixed;
+  background-size: cover;
+`;
+
+export default ({ data }: HomepageProps) => {
   return (
-    <Fragment>
-      <Head title="Welcome" description="The Blog of Matthias Reis" />
-      <h1>Hallo ...</h1>
-      {data.allMdx.edges.map(edge => (
-        <Link to={edge.node.fields.slug} key={edge.node.id}>
-          <h2>{edge.node.frontmatter.title}</h2>
-          {edge.node.frontmatter.image && (
-            <Img fluid={edge.node.frontmatter.image.childImageSharp.fluid} />
-          )}
-        </Link>
-      ))}
-    </Fragment>
+    <Bg>
+      <Page wide transparent>
+        <Navigation />
+        <Headline>Welcome</Headline>
+        <ArticleList inline>
+          {data.allMdx.edges.map(({ node }: ArticleNode) => (
+            <Article key={node.fields.slug} node={node} />
+          ))}
+        </ArticleList>
+      </Page>
+    </Bg>
   );
 };
 
@@ -28,21 +50,7 @@ export const pageQuery = graphql`
     allMdx(limit: 3) {
       edges {
         node {
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            description
-            image {
-              childImageSharp {
-                fluid(maxWidth: 300, quality: 80) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
+          ...ArticleEntity
         }
       }
     }

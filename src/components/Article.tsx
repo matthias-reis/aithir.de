@@ -1,19 +1,20 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 import styled from '@emotion/styled';
 import { colorCopy, colorCopyWeak } from '../styleguide';
+import { ArticleEntity } from '../typings';
 
 const Item = styled(Link)`
   display: block;
   color: ${colorCopy};
-  background: #0003;
+  background: #0007;
   border: 0;
   height: 100%;
   padding-bottom: 15px;
   &:hover {
     border: 0;
-    background: #0008;
+    background: #000b;
   }
 `;
 
@@ -40,21 +41,7 @@ const Description = styled.p`
   margin: 15px 15px 15px 15px;
 `;
 
-export interface Node {
-  fields: {
-    slug: string;
-  };
-  frontmatter: {
-    title: string;
-    description: string;
-    category?: string;
-    date?: string;
-    keywords?: string[];
-    image: { childImageSharp: { fluid: any } };
-  };
-}
-
-export const Article = ({ node }: { node: Node }) => (
+export const Article = ({ node }: { node: ArticleEntity }) => (
   <Container>
     <Item to={node.fields.slug}>
       <Image fluid={node.frontmatter.image.childImageSharp.fluid} />
@@ -64,3 +51,24 @@ export const Article = ({ node }: { node: Node }) => (
     </Item>
   </Container>
 );
+
+export const query = graphql`
+  fragment ArticleEntity on Mdx {
+    fields {
+      slug
+    }
+    frontmatter {
+      title
+      date(formatString: "D. MMMM Y", locale: "de")
+      description
+      keywords
+      image {
+        childImageSharp {
+          fluid(maxWidth: 600, quality: 70) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  }
+`;
