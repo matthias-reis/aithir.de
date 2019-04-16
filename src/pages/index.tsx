@@ -3,8 +3,6 @@ import styled from '@emotion/styled';
 import { graphql } from 'gatsby';
 
 import { Page, Navigation, Article, ArticleList } from '../components';
-import { Wide } from '../styleguide';
-import image from './home1.jpg';
 
 import { ArticleNode } from '../typings';
 
@@ -20,34 +18,36 @@ const Headline = styled.h1`
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.2em;
-  margin-top: 80px;
+  margin-top: 120px;
 `;
 
-const Bg = styled.div`
-  background: url(${image});
-  background-attachment: fixed;
-  background-size: cover;
+const Content = styled.div`
+  @media (min-width: 920px) {
+    & li:last-child {
+      display: none;
+    }
+  }
 `;
 
 export default ({ data }: HomepageProps) => {
   return (
-    <Bg>
-      <Page wide transparent>
-        <Navigation />
-        <Headline>Welcome</Headline>
+    <Page wide>
+      <Navigation />
+      <Headline>Welcome</Headline>
+      <Content>
         <ArticleList inline>
           {data.allMdx.edges.map(({ node }: ArticleNode) => (
             <Article key={node.fields.slug} node={node} />
           ))}
         </ArticleList>
-      </Page>
-    </Bg>
+      </Content>
+    </Page>
   );
 };
 
 export const pageQuery = graphql`
   query HomepageQuery {
-    allMdx(limit: 3) {
+    allMdx(limit: 4) {
       edges {
         node {
           ...ArticleEntity
