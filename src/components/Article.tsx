@@ -22,6 +22,30 @@ const Container = styled.li`
   margin-bottom: 0;
 `;
 
+const ImageContainer = styled.div`
+  height: 0;
+  padding-bottom: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+`;
+
+const ImageInnerContainer = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+
+  & .gatsby-image-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+`;
+
 const Date = styled.p`
   font-size: 0.8rem;
   color: ${colorCopyWeak};
@@ -44,7 +68,11 @@ const Description = styled.p`
 export const Article = ({ node }: { node: ArticleEntity }) => (
   <Container>
     <Item to={node.fields.slug}>
-      <Image fluid={node.frontmatter.image.childImageSharp.fluid} />
+      <ImageContainer>
+        <ImageInnerContainer>
+          <Image fluid={node.frontmatter.image.childImageSharp.fluid} />
+        </ImageInnerContainer>
+      </ImageContainer>
       <Date>{node.frontmatter.date}</Date>
       <Title>{node.frontmatter.title}</Title>
       <Description>{node.frontmatter.description}</Description>
