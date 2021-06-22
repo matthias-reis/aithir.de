@@ -1,63 +1,68 @@
-const { createFilePath } = require('gatsby-source-filesystem');
-const { resolve } = require('path');
+const { resolve } = require("path");
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions;
+module.exports = {
+  createPages: async ({ actions, graphql }) => {
+    const { createPage } = actions;
 
-  if (node.internal.type === 'Mdx') {
-    const parent = getNode(node.parent);
-    const slug = `${createFilePath({
-      node,
-      getNode,
-      basePath: 'content',
-    })}`;
-    createNodeField({
-      node,
-      name: 'slug',
-      value: slug,
+    const { errors, data } = await graphql(ALL_PAGE_QUERY);
+
+    if (errors) {
+      errors.forEach(e => console.error(e.toString()));
+      process.exit(1);
+    }
+
+    const edges = data.allPostsYaml.edges;
+
+    edges.forEach((edge, i) => {
+      const { id, file } = edge.node;
+
+      const path = `/${file.name}`;
+      previous = edge.node;
+
+      const component = resolve(__dirname, "src", "post.tsx");
+
+      createPage({
+        path: path,
+        component,
+        context: {
+          id,
+          previous: edges[i - 1] ? edges[i - 1].node.file.name : null,
+          next: edges[i + 1] ? edges[i + 1].node.file.name : null,
+        },
+      });
     });
-  }
+  },
 };
 
-exports.createPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+const pad = num => `0${num}`.slice(-2);
+const slugify = s =>
+  s
+    .toString()
+    .toLowerCase()
+    .replace(/&/g, " und ")
+    .replace(/è/g, "e")
+    .replace(/'/g, "")
+    .replace(/é/g, "e")
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ø/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .replace(/[^a-z0-9]/g, " ")
+    .trim()
+    .replace(/\s+/g, " ")
+    .replace(/ /g, "-");
 
-  const result = await graphql(`
-    {
-      allMdx {
-        edges {
-          node {
-            id
-            fields {
-              slug
-            }
-            frontmatter {
-              type
-              layout
-              keywords
-            }
-          }
+const ALL_PAGE_QUERY = `
+query AllPageQuery {
+  allPostsYaml(sort: {fields: file___name, order: ASC}) {
+    edges {
+      node {
+        id
+        file {
+          name
         }
       }
     }
-  `);
-  let keywords = new Set();
-  result.data.allMdx.edges.forEach(({ node }) => {
-    const layout = node.frontmatter.type || 'article';
-    keywords = new Set([...keywords, ...(node.frontmatter.keywords || [])]);
-
-    createPage({
-      path: node.fields.slug,
-      component: resolve(`./src/layout/${layout}.tsx`),
-      context: { id: node.id },
-    });
-  });
-
-  keywords.forEach(keyword => {
-    createPage({
-      path: `/schlagworte/${keyword}/`,
-      component: resolve(`./src/layout/keyword.tsx`),
-      context: { keyword: keyword },
-    });
-  });
-};
+  }
+}`;
