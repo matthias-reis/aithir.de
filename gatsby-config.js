@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Aithir.de`,
-    description: `Kick off your next, great Gatsby projPhotography And Media`,
-    author: `mahhias-reis`,
+    description: `Photography And Media`,
+    author: `matthias-reis`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
