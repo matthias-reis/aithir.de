@@ -2,22 +2,27 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build",
-    "dev": "remix build && run-p \"dev:*\"",
-    "dev:node": "cross-env NODE_ENV=development nodemon ./server.js --watch ./server.js",
-    "dev:remix": "remix watch",
+    "build": "run-s \"build:*\"",
+    "build:css": "npm run generate:css -- --minify",
+    "build:remix": "remix build",
+    "dev": "run-p \"dev:*\"",
+    "dev:css": "npm run generate:css -- --watch",
+    "dev:remix": "remix dev",
+    "generate:css": "npx tailwindcss -i ./app/tailwind-base.css -o ./app/tailwind.css",
     "start": "cross-env NODE_ENV=production node ./server.js"
   },
   "dependencies": {
     "@remix-run/express": "^1.6.4",
     "@remix-run/node": "^1.6.4",
     "@remix-run/react": "^1.6.4",
+    "@remix-run/serve": "^1.6.4",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
     "express": "^4.18.1",
     "morgan": "^1.10.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^3.1.6"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.6.4",

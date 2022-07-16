@@ -1,4 +1,5 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction, LinksFunction } from "@remix-run/node";
+
 import {
   Links,
   LiveReload,
@@ -7,6 +8,8 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+
+import styles from "./tailwind.css";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
@@ -20,8 +23,18 @@ export default function App() {
       <head>
         <Meta />
         <Links />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Saira:wght@200;400;700&&display=swap"
+          rel="stylesheet"
+        />
       </head>
-      <body>
+      <body className="text-gray-100 bg-black flex justify-center">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
@@ -30,3 +43,5 @@ export default function App() {
     </html>
   );
 }
+
+export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
