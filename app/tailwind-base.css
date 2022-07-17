@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer pase {
+  p {
+    @apply text-base py-2;
+  }
+}
