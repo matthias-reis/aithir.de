@@ -10,7 +10,7 @@ const Box = styled.div`
 `;
 
 const Home: NextPage = () => {
-  return <Box>Hello</Box>;
+  return <Box>This has changed!</Box>;
 };
 
 export default Home;
