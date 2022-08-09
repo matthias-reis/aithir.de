@@ -1,11 +1,12 @@
 ---
 name: Gravity Dimensions
-week: 2022-28
+year: 2022
+week: 28
 day: 4
 tags:
-  - spaceopera
-  - scifi
-  - amwriting
+  - Space Opera
+  - SciFi
+  - AmWriting
 ---
 
 It's getting more esoteric now. This part forms the perfect technobabble for

@@ -3,9 +3,12 @@ import Link from 'next/link';
 import { Page } from '../../components/page';
 import { Section } from '../../components/section';
 import { getAllStorylines } from '../../core/data-layer';
+import { StorylineMeta } from '../../core/types';
 
 // lists all available storylines
-const Storylines: NextPage = () => {
+const Storylines: NextPage<{ storylines: StorylineMeta[] }> = ({
+  storylines,
+}) => {
   return (
     <Page>
       <Section>
@@ -13,15 +16,19 @@ const Storylines: NextPage = () => {
       </Section>
       <Section>
         <ul>
-          <li>
-            <Link href="/storylines/one">One</Link>
-          </li>
-          <li>
-            <Link href="/storylines/two">Two</Link>
-          </li>
-          <li>
-            <Link href="/storylines/three">Three</Link>
-          </li>
+          {storylines.map((storyline) => (
+            <li key={storyline.slug}>
+              <Link href={`/storylines/${storyline.slug}`}>
+                <div>
+                  <div>
+                    <strong>{storyline.name}</strong>
+                  </div>
+                  <div>{storyline.description}</div>
+                  <div>{storyline.count} posts</div>
+                </div>
+              </Link>
+            </li>
+          ))}
         </ul>
       </Section>
     </Page>
@@ -31,7 +38,8 @@ const Storylines: NextPage = () => {
 export default Storylines;
 
 export async function getServerSideProps() {
-  const storylines = await getAllStorylines();
-  console.log(JSON.stringify(storylines, null, 2));
-  return { props: {} };
+  // filter out posts for performance reasons
+  const storylines = (await getAllStorylines()).map(({ posts, ...s }) => s);
+
+  return { props: { storylines } };
 }
