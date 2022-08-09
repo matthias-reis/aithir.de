@@ -1,7 +1,8 @@
 import glob from 'glob-promise';
-import { dirname } from 'path';
+import { dirname, resolve } from 'path';
 import { PostMeta, StorylineMeta } from './types';
 import { yaml, fm } from './io';
+import { log } from 'next-axiom';
 
 let metaData = {} as Record<string, StorylineMeta>;
 
@@ -26,7 +27,7 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
   metaData = {};
   // we glob and read all ymls
   const storylineFiles = await glob('**/*.yml', {
-    cwd: `${process.cwd}/..`,
+    cwd: process.cwd(),
     absolute: true,
   });
   for (const file of storylineFiles) {
@@ -60,6 +61,15 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
       posts,
     };
   }
+
+  console.log(
+    'vercel',
+    process.cwd(),
+    __dirname,
+    resolve('./'),
+    storylineFiles
+  );
+  log.debug('processing metadata', process.cwd());
 
   // and then the md files next to them
   return metaData;
