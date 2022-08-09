@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "yarn process && yarn watch & next dev",
+    "build": "yarn process && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "process": "node -r @swc-node/register ./core/preprocess.ts",
+    "watch": "chokidar ./_content/**/* -c 'yarn process'"
   },
   "dependencies": {
     "@emotion/babel-plugin": "^11.10.0",
@@ -14,7 +16,9 @@
     "@emotion/react": "^11.10.0",
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "@swc-node/register": "^1.5.1",
     "@types/js-yaml": "^4.0.5",
+    "chokidar-cli": "^3.0.0",
     "front-matter": "^4.0.2",
     "glob": "^8.0.3",
     "glob-promise": "^5.0.0",

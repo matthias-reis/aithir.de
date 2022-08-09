@@ -20,13 +20,13 @@ const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
 
 export default Post;
 
-export async function getServerSideProps({
+export function getServerSideProps({
   params,
 }: {
   params: { storyline: string; post: string };
 }) {
   const slug = `${params.storyline}/${params.post}`;
-  const posts = await getAllPosts();
+  const posts = getAllPosts();
   const post = posts.find((p) => p.slug === slug);
   if (!post) {
     return { notFound: true };

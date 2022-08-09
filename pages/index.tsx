@@ -24,13 +24,11 @@ const Home: NextPage<{
               <Link href={`/storylines/${post.slug}`}>
                 <div>
                   <div>{post.name}</div>
-                  <div>{post.storyline}</div>
+                  <div>{post.storyline.name}</div>
                   <div>
                     {post.year}-{post.week}
                   </div>
-                  {post.serializedDate && (
-                    <div>{new Date(post.serializedDate).toDateString()}</div>
-                  )}
+                  {post.date && <div>{new Date(post.date).toDateString()}</div>}
                 </div>
               </Link>
             </li>
@@ -78,15 +76,15 @@ const Home: NextPage<{
 
 export default Home;
 
-export async function getServerSideProps() {
+export function getServerSideProps() {
   //latest three visible posts
-  const posts = (await getAllPosts()).slice(0, 3);
+  const posts = getAllPosts().slice(0, 3);
 
   // filter out posts for performance reasons
-  const storylines = (await getAllStorylines()).map(({ posts, ...s }) => s);
+  const storylines = getAllStorylines().map(({ posts, ...s }) => s);
 
   // filter out posts for performance reasons
-  const tags = (await getAllTags()).map(({ posts, ...tag }) => tag);
+  const tags = getAllTags().map(({ posts, ...tag }) => tag);
 
   return { props: { storylines, posts, tags } };
 }

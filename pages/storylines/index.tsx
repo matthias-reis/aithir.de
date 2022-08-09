@@ -37,9 +37,9 @@ const Storylines: NextPage<{ storylines: StorylineMeta[] }> = ({
 
 export default Storylines;
 
-export async function getServerSideProps() {
+export function getServerSideProps() {
   // filter out posts for performance reasons
-  const storylines = (await getAllStorylines()).map(({ posts, ...s }) => s);
+  const storylines = getAllStorylines().map(({ posts, ...s }) => s);
 
   return { props: { storylines } };
 }

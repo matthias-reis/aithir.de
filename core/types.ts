@@ -11,14 +11,14 @@ export type StorylineMeta = {
 export type PostMeta = {
   slug: string;
   name: string;
-  storyline: string;
+  storyline: { name: string; slug: string };
   year: number;
   week: number;
   day: number;
   md: string;
-  date?: Date;
-  serializedDate?: string;
+  date?: string;
   tags?: string[];
+  hidden?: boolean;
 };
 
 export type Tag = {

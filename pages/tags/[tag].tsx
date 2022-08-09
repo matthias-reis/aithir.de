@@ -20,13 +20,11 @@ const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
               <Link href={`/storylines/${post.slug}`}>
                 <div>
                   <div>{post.name}</div>
-                  <div>{post.storyline}</div>
+                  <div>{post.storyline.name}</div>
                   <div>
                     {post.year}-{post.week}
                   </div>
-                  {post.serializedDate && (
-                    <div>{new Date(post.serializedDate).toDateString()}</div>
-                  )}
+                  {post.date && <div>{new Date(post.date).toDateString()}</div>}
                 </div>
               </Link>
             </li>
@@ -41,13 +39,11 @@ const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
               <Link href={`/storylines/${post.slug}`}>
                 <div>
                   <div>{post.name}</div>
-                  <div>{post.storyline}</div>
+                  <div>{post.storyline.name}</div>
                   <div>
                     {post.year}-{post.week}
                   </div>
-                  {post.serializedDate && (
-                    <div>{new Date(post.serializedDate).toDateString()}</div>
-                  )}
+                  {post.date && <div>{new Date(post.date).toDateString()}</div>}
                 </div>
               </Link>
             </li>
@@ -60,12 +56,8 @@ const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
 
 export default TagPage;
 
-export async function getServerSideProps({
-  params,
-}: {
-  params: { tag: string };
-}) {
-  const tags = await getAllTags();
+export function getServerSideProps({ params }: { params: { tag: string } }) {
+  const tags = getAllTags();
   const tag = tags.find((tag) => tag.slug === params.tag);
   if (!tag) {
     return { notFound: true };

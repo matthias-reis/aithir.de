@@ -31,9 +31,9 @@ const Tags: NextPage<{ tags: Tag[] }> = ({ tags }) => {
 
 export default Tags;
 
-export async function getServerSideProps() {
+export function getServerSideProps() {
   // filter out posts for performance reasons
-  const tags = (await getAllTags()).map(({ posts, ...tag }) => tag);
+  const tags = getAllTags().map(({ posts, ...tag }) => tag);
 
   return { props: { tags } };
 }

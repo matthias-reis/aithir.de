@@ -7,7 +7,6 @@ import { StorylineMeta } from '../../../core/types';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
-  console.log(storyline);
   return (
     <Page>
       <Section>
@@ -20,13 +19,11 @@ const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
               <Link href={`/storylines/${post.slug}`}>
                 <div>
                   <div>{post.name}</div>
-                  <div>{post.storyline}</div>
+                  <div>{post.storyline.name}</div>
                   <div>
                     {post.year}-{post.week}
                   </div>
-                  {post.serializedDate && (
-                    <div>{new Date(post.serializedDate).toDateString()}</div>
-                  )}
+                  {post.date && <div>{new Date(post.date).toDateString()}</div>}
                 </div>
               </Link>
             </li>
@@ -39,12 +36,12 @@ const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
 
 export default Storyline;
 
-export async function getServerSideProps({
+export function getServerSideProps({
   params,
 }: {
   params: { storyline: string };
 }) {
-  const storylines = await getAllStorylines();
+  const storylines = getAllStorylines();
   const storyline = storylines.find((s) => s.slug === params.storyline);
   if (!storyline) {
     return { notFound: true };
