@@ -3,10 +3,6 @@ name: Entering the Mesh
 year: 2022
 week: 28
 day: 2
-tags:
-  - Cyberpunk
-  - SciFi
-  - AmWriting
 ---
 
 The Mesh has four centres on its outer equator - South, West, North and East.
