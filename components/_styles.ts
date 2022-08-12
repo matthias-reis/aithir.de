@@ -1,0 +1,15 @@
+export const COLOR_BG = '#000';
+export const COLOR_BG_LIGHT = '#fff1';
+export const COLOR_BG_HOVER = '#fff4';
+export const COLOR_TEXT = '#ddd';
+export const GRID_GAP = '1rem';
+export const SPACE_S = '0.25rem';
+export const SPACE_M = '1rem';
+export const FONT_S = '0.8rem';
+export const FONT_M = '1rem';
+export const FONT_L = '1.4rem';
+export const FONT_H2 = '2rem';
+export const FONT_H1 = '3rem';
+export const WEIGHT_NORMAL = '200';
+export const WEIGHT_MEDIUM = '400';
+export const WEIGHT_BOLD = '700';
