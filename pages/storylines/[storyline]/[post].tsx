@@ -2,17 +2,26 @@ import type { NextPage } from 'next';
 import { Page } from '../../../components/page';
 import { Section } from '../../../components/section';
 import { getAllPosts } from '../../../core/data-layer';
+import { parseMarkdown } from '../../../core/markdown';
 import { PostMeta } from '../../../core/types';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
+  const content = parseMarkdown(post.md);
+  const length = post.md.length;
   return (
     <Page>
       <Section>
         <h1>{post.name}</h1>
       </Section>
+      <Section>{content}</Section>
       <Section>
-        <p>{post.md}</p>
+        <p>
+          <strong>Length:</strong> {length}
+        </p>
+        <p>
+          <strong>Date:</strong> {post.date}
+        </p>
       </Section>
     </Page>
   );

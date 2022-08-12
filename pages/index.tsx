@@ -17,7 +17,7 @@ const Home: NextPage<{
         <h1>Startseite</h1>
       </Section>
       <Section>
-        <h2>Latest Stories</h2>
+        <h2>Latest Posts</h2>
         <ul>
           {posts.map((post) => (
             <li key={post.slug}>
