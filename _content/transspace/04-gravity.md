@@ -4,9 +4,8 @@ year: 2022
 week: 28
 day: 4
 tags:
-  - Space Opera
-  - SciFi
-  - AmWriting
+  - Dimensions
+  - Gravity
 ---
 
 It's getting more esoteric now. This part forms the perfect technobabble for
