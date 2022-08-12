@@ -1,3 +1,4 @@
+import { Global } from '@emotion/react';
 import Document, {
   Html,
   Head,
@@ -6,6 +7,7 @@ import Document, {
   DocumentContext,
 } from 'next/document';
 import * as React from 'react';
+import { GlobalStyles } from '../components/global-styles';
 import { renderStatic } from '../core/renderer';
 
 export default class AppDocument extends Document {
@@ -31,8 +33,20 @@ export default class AppDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Saira:wght@200;400;700&&display=swap"
+            rel="stylesheet"
+          />
+        </Head>
         <body>
+          <GlobalStyles />
           <Main />
           <NextScript />
         </body>

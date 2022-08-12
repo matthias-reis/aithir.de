@@ -1,7 +1,10 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
+import { Grid, Item } from '../components/grid';
 import { Page } from '../components/page';
+import { Post } from '../components/post';
 import { Section } from '../components/section';
+import { H1, H2 } from '../components/typo';
 import { getAllPosts, getAllStorylines, getAllTags } from '../core/data-layer';
 import { PostMeta, StorylineMeta, Tag } from '../core/types';
 
@@ -14,29 +17,20 @@ const Home: NextPage<{
   return (
     <Page>
       <Section>
-        <h1>Startseite</h1>
+        <H1>Startseite</H1>
       </Section>
       <Section>
-        <h2>Latest Posts</h2>
-        <ul>
+        <H2>Latest Posts</H2>
+        <Grid>
           {posts.map((post) => (
-            <li key={post.slug}>
-              <Link href={`/storylines/${post.slug}`}>
-                <div>
-                  <div>{post.name}</div>
-                  <div>{post.storyline.name}</div>
-                  <div>
-                    {post.year}-{post.week}
-                  </div>
-                  {post.date && <div>{new Date(post.date).toDateString()}</div>}
-                </div>
-              </Link>
-            </li>
+            <Item key={post.slug}>
+              <Post meta={post} />
+            </Item>
           ))}
-        </ul>
+        </Grid>
       </Section>
       <Section>
-        <h2>Storylines</h2>
+        <H2>Most Active Storylines</H2>
         <ul>
           {storylines.map((storyline) => (
             <li key={storyline.slug}>
@@ -57,7 +51,7 @@ const Home: NextPage<{
         </p>
       </Section>
       <Section>
-        <h2>Tags</h2>
+        <H2>Tags</H2>
         <ul>
           {tags.map((tag) => (
             <li key={tag.slug}>
@@ -78,7 +72,7 @@ export default Home;
 
 export function getServerSideProps() {
   //latest three visible posts
-  const posts = getAllPosts().slice(0, 3);
+  const posts = getAllPosts().slice(0, 4);
 
   // filter out posts for performance reasons
   const storylines = getAllStorylines().map(({ posts, ...s }) => s);
