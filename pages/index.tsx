@@ -4,6 +4,7 @@ import { Grid, Item } from '../components/grid';
 import { Page } from '../components/page';
 import { Post } from '../components/post';
 import { Section } from '../components/section';
+import { Storyline } from '../components/storyline';
 import { H1, H2 } from '../components/typo';
 import { getAllPosts, getAllStorylines, getAllTags } from '../core/data-layer';
 import { PostMeta, StorylineMeta, Tag } from '../core/types';
@@ -31,21 +32,13 @@ const Home: NextPage<{
       </Section>
       <Section>
         <H2>Most Active Storylines</H2>
-        <ul>
+        <Grid>
           {storylines.map((storyline) => (
-            <li key={storyline.slug}>
-              <Link href={`/storylines/${storyline.slug}`}>
-                <div>
-                  <div>
-                    <strong>{storyline.name}</strong>
-                  </div>
-                  <div>{storyline.description}</div>
-                  <div>{storyline.count} posts</div>
-                </div>
-              </Link>
-            </li>
+            <Item key={storyline.slug}>
+              <Storyline meta={storyline} />
+            </Item>
           ))}
-        </ul>
+        </Grid>
         <p>
           <Link href="/storylines">All Storylines</Link>
         </p>
