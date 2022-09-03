@@ -9,6 +9,7 @@ export const GlobalStyles: FC = () => (
         font-family: 'Saira', sans-serif;
         font-weight: 200;
         font-size: 1rem;
+        background-image: url(/patterns/default.png);
         background: ${COLOR_BG};
         color: ${COLOR_TEXT};
       }

@@ -16,6 +16,7 @@
     "@emotion/react": "^11.10.0",
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "@piwikpro/react-piwik-pro": "^1.1.1",
     "@swc-node/register": "^1.5.1",
     "@types/js-yaml": "^4.0.5",
     "chokidar-cli": "^3.0.0",

@@ -371,6 +371,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@piwikpro/react-piwik-pro@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@piwikpro/react-piwik-pro/-/react-piwik-pro-1.1.1.tgz#2869e77876c95cc7c850e69fa8367a3b5ae7f744"
+  integrity sha512-Zl6+3FMUOqENOflmVkP8YP8WMV0D+H9BND8QUCp1gCqGUSSMlsSxco9hJFZGG0m0wiDAIqkF6p0ocNSVcUeR4g==
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.4.tgz#0c8b74c50f29ee44f423f7416829c0bf8bb5eb27"
