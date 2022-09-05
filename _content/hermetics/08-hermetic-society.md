@@ -1,5 +1,5 @@
 ---
-name: The Hrmetic Society
+name: The Hermetic Society
 year: 2022
 week: 31
 day: 2
