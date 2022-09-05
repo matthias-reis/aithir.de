@@ -8,7 +8,7 @@ import { PostMeta, Tag } from '../../core/types';
 // lists all available storylines
 const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
   return (
-    <Page>
+    <Page title={`Tag: ${tag.name}`}>
       <Section>
         <h1>Tag {tag.name}</h1>
       </Section>

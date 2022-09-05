@@ -8,7 +8,7 @@ import { StorylineMeta, Tag } from '../../core/types';
 // lists all available storylines
 const Tags: NextPage<{ tags: Tag[] }> = ({ tags }) => {
   return (
-    <Page>
+    <Page title="All Tags and Keywords">
       <Section>
         <h1>Used Tags</h1>
       </Section>
