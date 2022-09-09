@@ -8,7 +8,7 @@ import { StorylineMeta } from '../../../core/types';
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
   return (
-    <Page title={`Storyline: ${storyline.name}`}>
+    <Page type="Storyline" title={`${storyline.name}`}>
       <Section>
         <h1>Storyline {storyline.name}</h1>
       </Section>

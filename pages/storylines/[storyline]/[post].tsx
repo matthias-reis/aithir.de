@@ -10,7 +10,7 @@ const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
   const content = parseMarkdown(post.md);
   const length = post.md.length;
   return (
-    <Page title={`Post: ${post.name} (${post.storyline})`}>
+    <Page type="Post" title={`${post.name} (${post.storyline.name})`}>
       <Section>
         <h1>{post.name}</h1>
       </Section>

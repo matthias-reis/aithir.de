@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { FC, ReactNode, useEffect } from 'react';
 import { COLOR_BG } from './_styles';
 import { PageViews } from '@piwikpro/react-piwik-pro';
+import { pageView } from '../core/tracking';
 
 const PageBox = styled.div`
   max-width: 50rem;
@@ -11,12 +12,14 @@ const PageBox = styled.div`
   border-radius: 2rem;
 `;
 
-export const Page: FC<{ title: string; children: ReactNode }> = ({
+export const Page: FC<{ type: string; title: string; children: ReactNode }> = ({
   children,
   title,
+  type,
 }) => {
-  useEffect(() => {
-    PageViews.trackPageView(title);
-  }, [title]);
+  pageView(type, title);
+  // useEffect(() => {
+  //   PageViews.trackPageView(title);
+  // }, [title]);
   return <PageBox>{children}</PageBox>;
 };

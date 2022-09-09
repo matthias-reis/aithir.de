@@ -16,7 +16,7 @@ const Home: NextPage<{
   tags: Tag[];
 }> = ({ posts, storylines, tags }) => {
   return (
-    <Page title="Welcome to Octahedron.World">
+    <Page type="Home" title="Welcome to Octahedron.World">
       <Section>
         <H1>
           <strong>Octahedron</strong>World
