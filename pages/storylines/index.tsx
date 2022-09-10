@@ -10,7 +10,7 @@ const Storylines: NextPage<{ storylines: StorylineMeta[] }> = ({
   storylines,
 }) => {
   return (
-    <Page title="Storylines">
+    <Page type="Storylines" title="Storylines">
       <Section>
         <h1>Storylines</h1>
       </Section>

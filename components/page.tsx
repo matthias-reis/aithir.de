@@ -1,14 +1,23 @@
 import styled from '@emotion/styled';
 import { FC, ReactNode } from 'react';
-import { COLOR_BG } from './_styles';
 import { pageView } from '../core/tracking';
+import { colorBackground, sizeCanvas } from '../core/style';
 
-const PageBox = styled.div`
-  max-width: 50rem;
-  padding: 1rem;
+const Viewport = styled.div`
+  background-image: url(/patterns/default.png);
+  background-attachment: fixed;
+  padding: 1rem 0.5rem;
+`;
+
+const Canvas = styled.div`
+  max-width: ${sizeCanvas};
+  position: relative;
+  box-sizing: border-box;
+  padding: 2rem 6rem;
   margin: 0 auto;
-  background: ${COLOR_BG};
-  border-radius: 2rem;
+  background: ${colorBackground};
+  border-radius: 0.25rem;
+  box-shadow: 0 0 4rem #fff4;
 `;
 
 export const Page: FC<{ type: string; title: string; children: ReactNode }> = ({
@@ -17,5 +26,9 @@ export const Page: FC<{ type: string; title: string; children: ReactNode }> = ({
   type,
 }) => {
   pageView(type, title);
-  return <PageBox>{children}</PageBox>;
+  return (
+    <Viewport>
+      <Canvas>{children}</Canvas>
+    </Viewport>
+  );
 };
