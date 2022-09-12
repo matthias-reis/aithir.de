@@ -1,33 +1,34 @@
 import styled from '@emotion/styled';
 import Link from 'next/link';
 import { FC } from 'react';
-import { PostMeta } from '../core/types';
-import { formatDate } from './format-date';
 import {
-  COLOR_BG_HOVER,
-  COLOR_BG_LIGHT,
-  FONT_L,
-  FONT_M,
-  FONT_S,
-  SPACE_M,
-  SPACE_S,
-  WEIGHT_BOLD,
-} from './_styles';
+  colorBackgroundWeak,
+  colorMain,
+  colorText,
+  colorTextStrong,
+  colorTextWeak,
+  fontBold,
+  fontMedium,
+  fontNormal,
+  fontSizeLarge,
+  fontSizeMedium,
+  fontSizeStandard,
+} from '../core/style';
+import { PostMeta } from '../core/types';
+import { DateLabel } from './date-label';
+import { formatDate } from './format-date';
+import { FONT_L, FONT_M, FONT_S, SPACE_M, WEIGHT_BOLD } from './_styles';
 
 export const Post: FC<{ meta: PostMeta; type?: 'reference' | 'storyline' }> = ({
   meta,
   type = 'reference',
 }) => {
   return (
-    <Link href={`/storylines/${meta.slug}`}>
+    <Link href={`/storylines/${meta.slug}`} passHref>
       <PostBox>
-        <SuperHead>
-          {type === 'reference'
-            ? meta.storyline.name
-            : `${meta.year}-${meta.week}`}
-        </SuperHead>
+        <DateLabel date={new Date(meta.date || '')} />
+        {type === 'reference' && <SuperHead>{meta.storyline.name}</SuperHead>}
         <Title>{meta.name}</Title>
-        {meta.date && <FullDate>{formatDate(meta.date)}</FullDate>}
       </PostBox>
     </Link>
   );
@@ -35,31 +36,28 @@ export const Post: FC<{ meta: PostMeta; type?: 'reference' | 'storyline' }> = ({
 
 const PostBox = styled.a`
   display: flex;
+  color: ${colorText};
+  text-decoration: none;
   flex-direction: column;
   justify-content: stretch;
-  background: ${COLOR_BG_LIGHT};
-  padding: ${SPACE_S};
-  border-radius: ${SPACE_S};
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+
   &:hover {
-    background: ${COLOR_BG_HOVER};
+    background: ${colorBackgroundWeak};
   }
 `;
 
 const SuperHead = styled.div`
-  font-size: ${FONT_M};
+  font-size: ${fontSizeStandard};
+  color: ${colorTextWeak};
   line-height: 1;
+  margin-bottom: 0.25rem;
 `;
 
 const Title = styled.div`
-  font-size: ${FONT_L};
-  font-weight: ${WEIGHT_BOLD};
-  line-height: 1.25;
-  margin-bottom: ${SPACE_M};
-`;
-
-const FullDate = styled.div`
-  font-size: ${FONT_S};
-  flex: 1;
-  display: flex;
-  align-items: flex-end;
+  font-size: ${fontSizeLarge};
+  font-weight: ${fontBold};
+  color: ${colorTextStrong};
+  line-height: 1.1;
 `;

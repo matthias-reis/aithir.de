@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "process": "node -r @swc-node/register ./core/preprocess.ts",
-    "watch": "chokidar ./_content/**/* -c --silent 'yarn process'"
+    "watch": "chokidar ./_content/**/* --silent --command  'yarn process'"
   },
   "dependencies": {
     "@emotion/babel-plugin": "^11.10.0",

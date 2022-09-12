@@ -12,10 +12,9 @@ import { getAllPosts, getAllStorylines, getAllTags } from '../core/data-layer';
 import { colorMain } from '../core/style';
 import { PostMeta, StorylineMeta, Tag } from '../core/types';
 import { Headline } from '../components/headline';
-import { Pointer } from '../components/pointer';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
-const Home: NextPage<{
+const Calendar: NextPage<{
   posts: PostMeta[];
   storylines: StorylineMeta[];
   tags: Tag[];
@@ -27,47 +26,12 @@ const Home: NextPage<{
 
       <Section>
         <Headline>Latest Posts</Headline>
-        <Grid>
-          {posts.map((post) => (
-            <Item key={post.slug}>
-              <Post meta={post} />
-            </Item>
-          ))}
-        </Grid>
-        <Pointer to="/calendar">All Posts</Pointer>
-      </Section>
-      <Section>
-        <Headline>Storylines</Headline>
-        <Grid>
-          {storylines.map((storyline) => (
-            <Item key={storyline.slug}>
-              <Storyline meta={storyline} />
-            </Item>
-          ))}
-        </Grid>
-        <p>
-          <Link href="/storylines">All Storylines</Link>
-        </p>
-      </Section>
-      <Section>
-        <Headline>Tags</Headline>
-        <ul>
-          {tags.map((tag) => (
-            <li key={tag.slug}>
-              <Link href={`/tags/${tag.slug}`}>
-                <div>
-                  <strong>#{tag.name}</strong> ({tag.count})
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
       </Section>
     </Page>
   );
 };
 
-export default Home;
+export default Calendar;
 
 export function getServerSideProps() {
   //latest three visible posts
