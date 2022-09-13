@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "process": "node -r @swc-node/register ./core/preprocess.ts",
-    "watch": "chokidar ./_content/**/* --silent --command  'yarn process'"
+    "watch": "chokidar ./_content/**/* --silent --command  'yarn process'",
+    "svgr": "svgr --out-dir components/icons --no-index --filename-case kebab --typescript resources/storylines"
   },
   "dependencies": {
     "@emotion/babel-plugin": "^11.10.0",
@@ -16,6 +17,7 @@
     "@emotion/react": "^11.10.0",
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "@svgr/cli": "^6.3.1",
     "@swc-node/register": "^1.5.1",
     "@types/js-yaml": "^4.0.5",
     "@types/mixpanel-browser": "^2.38.0",
