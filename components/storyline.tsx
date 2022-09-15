@@ -68,10 +68,10 @@ const TitleBox = styled.div`
   align-items: center;
   margin-bottom: 1rem;
 
-  & > div:first-child {
+  & > div:first-of-type {
     flex: 0 0 auto;
   }
-  & > div:last-child {
+  & > div:last-of-type {
     flex: 1 1 auto;
   }
 `;

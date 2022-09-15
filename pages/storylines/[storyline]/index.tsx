@@ -1,5 +1,7 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
+import { OctahedronNav } from '../../../components/octahedron-nav';
+import { OctahedronText } from '../../../components/octahedron-text';
 import { Page } from '../../../components/page';
 import { Section } from '../../../components/section';
 import { getAllStorylines } from '../../../core/data-layer';
@@ -8,7 +10,9 @@ import { StorylineMeta } from '../../../core/types';
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
   return (
-    <Page type="Storyline" title={`${storyline.name}`}>
+    <Page type="Storyline" title={`${storyline.name}`} bg={storyline.slug}>
+      <OctahedronNav color={storyline.color || ''} />
+      <OctahedronText variant="minor" color={storyline.color || ''} />
       <Section>
         <h1>Storyline {storyline.name}</h1>
       </Section>

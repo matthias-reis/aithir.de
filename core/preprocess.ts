@@ -39,6 +39,7 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
           slug: `${storylineSlug}/${postSlug}`,
           storyline: {
             name: storylineMetaData.name,
+            color: storylineMetaData.color,
             slug: storylineSlug,
           },
           tags: [

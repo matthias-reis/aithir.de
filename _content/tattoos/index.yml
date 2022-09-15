@@ -2,6 +2,7 @@ name: Tattoos
 description:
   Just like in Ray Bradbury's "The Illustrated Man", I bring my tattoos to life
   in this storyline.
+color: '#A77879'
 weight: 10
 tags:
   - Tattoos

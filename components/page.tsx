@@ -3,11 +3,26 @@ import { FC, ReactNode } from 'react';
 import { pageView } from '../core/tracking';
 import { colorBackground, mediaLarge, sizeCanvas } from '../core/style';
 
-const Viewport = styled.div`
-  background-image: url(/patterns/general.jpg);
+export const Page: FC<{
+  type: string;
+  title: string;
+  children: ReactNode;
+  bg?: string;
+}> = ({ children, title, type, bg = 'general' }) => {
+  pageView(type, title);
+  return (
+    <Viewport bg={`/patterns/${bg}.jpg`}>
+      <Canvas>{children}</Canvas>
+    </Viewport>
+  );
+};
+
+const Viewport = styled.div<{ bg: string }>`
+  background-image: url(${({ bg }) => bg});
   background-attachment: fixed;
   background-size: cover;
   padding: 1rem 1rem;
+  min-height: 100vh;
 
   @media ${mediaLarge} {
     padding: 1rem 0.5rem;
@@ -28,16 +43,3 @@ const Canvas = styled.div`
     padding: 1rem 2rem;
   }
 `;
-
-export const Page: FC<{ type: string; title: string; children: ReactNode }> = ({
-  children,
-  title,
-  type,
-}) => {
-  pageView(type, title);
-  return (
-    <Viewport>
-      <Canvas>{children}</Canvas>
-    </Viewport>
-  );
-};

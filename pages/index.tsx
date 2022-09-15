@@ -50,7 +50,7 @@ const Home: NextPage<{
         <Headline>Tags</Headline>
         <TagList>
           {tags.map((tag) => (
-            <TagItem tag={tag} />
+            <TagItem tag={tag} key={tag.slug} />
           ))}
         </TagList>
       </Section>

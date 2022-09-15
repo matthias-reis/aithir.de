@@ -10,6 +10,5 @@ export function parseMarkdown(s: string) {
     .use(remarkRehype)
     .use(rehypeReact, { createElement, Fragment })
     .processSync(s);
-  // console.log(processed);
   return processed.result;
 }
