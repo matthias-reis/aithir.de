@@ -3,12 +3,7 @@ name: Energy
 year: 2022
 week: 36
 day: 2
-tags:
-  - Veganism
-  - Biomass
 ---
-
-#World2 - Energy
 
 Energy consumption and management is the third train of thought, I want to talk
 about in this series.
