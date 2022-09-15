@@ -4,8 +4,9 @@ import { pageView } from '../core/tracking';
 import { colorBackground, mediaLarge, sizeCanvas } from '../core/style';
 
 const Viewport = styled.div`
-  background-image: url(/patterns/default.png);
+  background-image: url(/patterns/general.jpg);
   background-attachment: fixed;
+  background-size: cover;
   padding: 1rem 1rem;
 
   @media ${mediaLarge} {

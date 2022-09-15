@@ -1,7 +1,10 @@
 export const colorMain = '#08b9c4';
 export const colorBackground = '#000';
 export const colorBackgroundWeak = '#fff2';
+export const colorBackgroundLight = '#fff6';
+export const colorBackgroundLighter = '#fff8';
 export const colorText = '#fffc';
+export const colorTextLight = '#fff4';
 export const colorTextWeak = '#fff9';
 export const colorTextStrong = '#fff';
 

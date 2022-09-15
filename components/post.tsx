@@ -3,14 +3,10 @@ import Link from 'next/link';
 import { FC } from 'react';
 import {
   colorBackgroundWeak,
-  colorMain,
   colorText,
   colorTextStrong,
   colorTextWeak,
   fontBold,
-  fontMedium,
-  fontNormal,
-  fontSizeLarge,
   fontSizeMedium,
   fontSizeStandard,
 } from '../core/style';
@@ -56,7 +52,7 @@ const SuperHead = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: ${fontSizeLarge};
+  font-size: ${fontSizeMedium};
   font-weight: ${fontBold};
   color: ${colorTextStrong};
   line-height: 1.1;

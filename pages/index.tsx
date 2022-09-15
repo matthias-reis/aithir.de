@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import Link from 'next/link';
 import { Grid, Item } from '../components/grid';
 import { OctahedronNav } from '../components/octahedron-nav';
 import { Page } from '../components/page';
@@ -7,12 +6,12 @@ import { Post } from '../components/post';
 import { Section } from '../components/section';
 import { Storyline } from '../components/storyline';
 import { OctahedronText } from '../components/octahedron-text';
-import { H1, H2 } from '../components/typo';
 import { getAllPosts, getAllStorylines, getAllTags } from '../core/data-layer';
 import { colorMain } from '../core/style';
 import { PostMeta, StorylineMeta, Tag } from '../core/types';
 import { Headline } from '../components/headline';
 import { Pointer } from '../components/pointer';
+import { TagItem, TagList } from '../components/tag';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Home: NextPage<{
@@ -45,23 +44,15 @@ const Home: NextPage<{
             </Item>
           ))}
         </Grid>
-        <p>
-          <Link href="/storylines">All Storylines</Link>
-        </p>
+        <Pointer to="/storylines">All Storylines</Pointer>
       </Section>
       <Section>
         <Headline>Tags</Headline>
-        <ul>
+        <TagList>
           {tags.map((tag) => (
-            <li key={tag.slug}>
-              <Link href={`/tags/${tag.slug}`}>
-                <div>
-                  <strong>#{tag.name}</strong> ({tag.count})
-                </div>
-              </Link>
-            </li>
+            <TagItem tag={tag} />
           ))}
-        </ul>
+        </TagList>
       </Section>
     </Page>
   );
@@ -74,10 +65,14 @@ export function getServerSideProps() {
   const posts = getAllPosts().slice(0, 4);
 
   // filter out posts for performance reasons
-  const storylines = getAllStorylines().map(({ posts, ...s }) => s);
+  const storylines = getAllStorylines()
+    .map(({ posts, ...s }) => s)
+    .slice(0, 4);
 
   // filter out posts for performance reasons
-  const tags = getAllTags().map(({ posts, ...tag }) => tag);
+  const tags = getAllTags()
+    .map(({ posts, ...tag }) => tag)
+    .filter((tag) => tag.count > 1);
 
   return { props: { storylines, posts, tags } };
 }
