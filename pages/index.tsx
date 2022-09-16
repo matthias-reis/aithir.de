@@ -20,10 +20,7 @@ const Home: NextPage<{
   tags: Tag[];
 }> = ({ posts, storylines, tags }) => {
   return (
-    <Page type="Home" title="Welcome to Octahedron.World">
-      <OctahedronNav color={colorMain} />
-      <OctahedronText variant="major" color={colorMain} />
-
+    <Page type="Home" title="Welcome to Octahedron.World" layout="major">
       <Section>
         <Headline>Latest Posts</Headline>
         <Grid>

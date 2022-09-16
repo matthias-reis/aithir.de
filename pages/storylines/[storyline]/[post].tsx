@@ -1,6 +1,4 @@
 import type { NextPage } from 'next';
-import { OctahedronNav } from '../../../components/octahedron-nav';
-import { OctahedronText } from '../../../components/octahedron-text';
 import { Page } from '../../../components/page';
 import { Section } from '../../../components/section';
 import { getAllPosts } from '../../../core/data-layer';
@@ -16,9 +14,9 @@ const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
       type="Post"
       title={`${post.name} (${post.storyline.name})`}
       bg={post.storyline.slug}
+      color={post.storyline.color}
+      layout="minor"
     >
-      <OctahedronNav color={post.storyline.color || ''} />
-      <OctahedronText variant="minor" color={post.storyline.color || ''} />
       <Section>
         <h1>{post.name}</h1>
       </Section>

@@ -1,18 +1,40 @@
 import styled from '@emotion/styled';
 import { FC, ReactNode } from 'react';
 import { pageView } from '../core/tracking';
-import { colorBackground, mediaLarge, sizeCanvas } from '../core/style';
+import {
+  colorBackground,
+  colorMain,
+  mediaLarge,
+  sizeCanvas,
+} from '../core/style';
+import { MajorLayout, MinorLayout } from './layout';
+import { OctahedronNav } from './octahedron-nav';
+
+type Layout = 'major' | 'minor';
 
 export const Page: FC<{
   type: string;
   title: string;
   children: ReactNode;
+  layout?: Layout;
+  color?: string;
   bg?: string;
-}> = ({ children, title, type, bg = 'general' }) => {
+}> = ({
+  children,
+  title,
+  type,
+  layout = 'minor',
+  color = colorMain,
+  bg = 'general',
+}) => {
   pageView(type, title);
+  const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   return (
     <Viewport bg={`/patterns/${bg}.jpg`}>
-      <Canvas>{children}</Canvas>
+      <Canvas>
+        <OctahedronNav color={color} />
+        <Layout color={color}>{children}</Layout>
+      </Canvas>
     </Viewport>
   );
 };
@@ -33,13 +55,8 @@ const Canvas = styled.div`
   max-width: ${sizeCanvas};
   position: relative;
   box-sizing: border-box;
-  padding: 2rem 6rem;
   margin: 0 auto;
   background: ${colorBackground};
   border-radius: 0.25rem;
   box-shadow: 0 0 4rem #fff4;
-
-  @media ${mediaLarge} {
-    padding: 1rem 2rem;
-  }
 `;

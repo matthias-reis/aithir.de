@@ -1,6 +1,8 @@
 import styled from '@emotion/styled';
-import { FC } from 'react';
+import Link from 'next/link';
+import { FC, ReactNode } from 'react';
 import {
+  colorText,
   fontBold,
   fontNormal,
   fontSizeOctahedron,
@@ -11,14 +13,27 @@ import {
 export const OctahedronText: FC<{
   variant: 'major' | 'minor';
   color: string;
-}> = ({ variant, color }) => {
+  children: ReactNode;
+}> = ({ variant, color, children }) => {
   const Positioning = variant === 'major' ? MajorPositioning : MinorPositioning;
+  const Headline = variant === 'major' ? MajorPositioning : MinorPositioning;
+  const H1 = variant === 'major' ? MajorPositioning : MinorPositioning;
+  const Content = variant === 'major' ? MajorPositioning : MinorPositioning;
   return (
-    <Positioning>
-      <H1 variant={variant}>
-        Octahedron<Sub color={color}>World</Sub>
-      </H1>
-    </Positioning>
+    <>
+      <Positioning>
+        <Headline>
+          <Link href="/" passHref>
+            <a>
+              <Octahedron>
+                Octahedron<Sub color={color}>World</Sub>
+              </Octahedron>
+            </a>
+          </Link>
+        </Headline>
+        <Content>{children}</Content>
+      </Positioning>
+    </>
   );
 };
 
@@ -32,18 +47,24 @@ const MajorPositioning = styled.div`
     right: 5rem;
   }
 `;
-const MinorPositioning = styled.div``;
-const H1 = styled.h1<{ variant: 'major' | 'minor' }>`
-  font-size: ${fontSizeOctahedron};
-  font-weight: ${fontBold};
-  margin: 0;
 
-  @media ${mediaSmall} {
-    font-size: ${fontSizeOctahedronSmall};
+const MinorPositioning = styled.div`
+  display: flex;
+  gap: 1rem;
+`;
+
+const Headline = styled.div<{ variant: 'major' | 'minor' }>`
+  ${({ variant }) =>
+    variant === 'minor' &&
+    `
+    border-right: 1px solid ${colorText};
+    
+  `}
+
+  & a {
+    text-decoration: none;
+    color: inherit;
   }
 `;
-const Sub = styled.span<{ color: string }>`
-  color: ${({ color }) => color};
-  opacity: 0.5;
-  font-weight: ${fontNormal};
-`;
+
+const Content = styled.div``;
