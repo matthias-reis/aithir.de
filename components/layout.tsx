@@ -129,6 +129,7 @@ const OctaSection = styled.div`
 `;
 const MainSection = styled.main`
   padding: 3rem 6rem;
+  flex: 1 1 auto;
   @media ${mediaMedium} {
     padding: 3rem 1rem;
   }

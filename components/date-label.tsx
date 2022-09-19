@@ -1,14 +1,17 @@
 import styled from '@emotion/styled';
 import { FC } from 'react';
-import { colorMain, fontSizeMedium } from '../core/style';
+import { colorMain, fontSizeMedium, fontSizeSmall } from '../core/style';
 
-export const DateLabel: FC<{ date: Date }> = ({ date }) => {
+export const DateLabel: FC<{ date: Date; small: boolean }> = ({
+  date,
+  small,
+}) => {
   const day = date.getDate();
   const month = date.getMonth() + 1;
   const year = date.getFullYear();
 
   return (
-    <DateBox>
+    <DateBox small={small}>
       <Year>{year}</Year>
       <Month>{pad(month)}</Month>
       <Day>{pad(day)}</Day>
@@ -18,19 +21,20 @@ export const DateLabel: FC<{ date: Date }> = ({ date }) => {
 
 const pad = (n: number) => `0${n}`.slice(-2);
 
-const DateBox = styled.div`
+const DateBox = styled.div<{ small: boolean }>`
   color: ${colorMain};
-  font-size: ${fontSizeMedium};
-  margin-bottom: 1rem;
+  font-size: ${({ small }) => (small ? fontSizeSmall : fontSizeMedium)};
+  margin-bottom: ${({ small }) => (small ? '0.25rem' : '1rem')};
 `;
 
 const Year = styled.span`
-  opacity: 0.4;
+  opacity: 0.5;
   font-size: 75%;
 `;
 const Month = styled.span`
-  opacity: 0.55;
+  opacity: 0.65;
 `;
 const Day = styled.span`
   opacity: 0.8;
+  font-weight: bold;
 `;

@@ -17,6 +17,7 @@ export const fontBold = '700';
 export const fontSizeOctahedron = '2rem';
 export const fontSizeOctahedronSmall = '1.5rem';
 export const fontSizeHeadline = '1.2rem';
+export const fontSizeXLarge = '3rem';
 export const fontSizeLarge = '2.2rem';
 export const fontSizeMedium = '1.5rem';
 export const fontSizeStandard = '1.1rem';
