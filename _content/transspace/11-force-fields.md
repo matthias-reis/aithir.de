@@ -1,9 +1,9 @@
 ---
-name: To Luyten's Star
+name: Force Fields
 year: 2022
-week: 38
+week: 43
 day: 4
 placeholder: true
 tags:
-  - Luyten's Star
+  - Gravity
 ---

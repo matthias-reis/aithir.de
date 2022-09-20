@@ -1,10 +1,8 @@
 name: World 2
 description:
-  Deep-dive into the burning topics of our time - energy, agriculture, transport
+  Deep-dive into the burning topics of our time - this series focuses on energy.
 color: '#E2C88E'
 weight: 10
 tags:
-  - Veganism
   - Climate Crisis
-  - Transport
   - Energy

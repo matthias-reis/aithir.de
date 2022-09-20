@@ -1,9 +1,9 @@
 ---
-name: To Luyten's Star
+name: The Observers
 year: 2022
-week: 38
+week: 41
 day: 4
 placeholder: true
 tags:
-  - Luyten's Star
+  - Breaucracy
 ---

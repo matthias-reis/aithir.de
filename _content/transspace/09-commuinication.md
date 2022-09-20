@@ -1,9 +1,9 @@
 ---
-name: To Luyten's Star
+name: Communication
 year: 2022
 week: 38
-day: 4
+day: 3
 placeholder: true
 tags:
-  - Luyten's Star
+  - ftl
 ---

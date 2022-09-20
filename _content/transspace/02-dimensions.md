@@ -2,7 +2,7 @@
 name: Dimensions
 year: 2022
 week: 24
-day: 4
+day: 3
 ---
 
 A view of my imagined #multiverse simplified through the looking glass of

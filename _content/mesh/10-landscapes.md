@@ -5,8 +5,6 @@ week: 36
 day: 4
 ---
 
-#Mesh - Landscapes
-
 The freshly created pristine Mesh contained virtual landscapes that resembled
 different regions of the earth from Antarctica over deserts to rainforests.
 

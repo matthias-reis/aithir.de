@@ -26,5 +26,3 @@ more efficient greenhouse gases, deforestation and tipping points.
 I have the feeling that I have to increase the frequency of these posts because
 every day something new happens in that sector and I need to get behind that. So
 much for the shortkick start into the energy topic.
-
-#energy #climatecrisis

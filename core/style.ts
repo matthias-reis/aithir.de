@@ -7,6 +7,7 @@ export const colorText = '#fffc';
 export const colorTextLight = '#fff4';
 export const colorTextWeak = '#fff9';
 export const colorTextStrong = '#fff';
+export const colorTextPlaceholder = '#f88';
 
 export const sizeCanvas = '66rem';
 

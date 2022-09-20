@@ -4,7 +4,6 @@ year: 2022
 week: 33
 day: 4
 tags:
-  - Veganism
   - Biomass
 ---
 

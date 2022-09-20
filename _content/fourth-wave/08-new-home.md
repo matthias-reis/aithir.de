@@ -1,8 +1,8 @@
 ---
-name: To Luyten's Star
+name: The New Home
 year: 2022
-week: 38
-day: 4
+week: 41
+day: 3
 placeholder: true
 tags:
   - Luyten's Star

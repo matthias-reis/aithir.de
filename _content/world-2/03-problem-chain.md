@@ -24,5 +24,3 @@ significantly heating up. CO₂ pollution is coming from burning fossile fuels -
 like coal (C) or gas (CH4).
 
 We use the energy coming from there for global wealth, so we can't just stop it.
-
-#climatecrisis

@@ -19,7 +19,7 @@ export type PostMeta = {
   md: string;
   date?: string;
   tags?: string[];
-  hidden?: boolean;
+  placeholder?: boolean;
 };
 
 export type Tag = {

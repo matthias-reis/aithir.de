@@ -2,7 +2,7 @@
 name: Entering the Mesh
 year: 2022
 week: 28
-day: 2
+day: 3
 ---
 
 The Mesh has four centres on its outer equator - South, West, North and East.

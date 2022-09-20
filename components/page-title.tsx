@@ -4,7 +4,7 @@ import { fontSizeStandard, fontSizeXLarge } from '../core/style';
 
 export const PageTitle = styled.h2`
   font-size: ${fontSizeXLarge};
-  margin: 0;
+  margin: 0 0 6rem 0;
 `;
 export const PageSuperTitle = styled.p`
   font-size: ${fontSizeStandard};

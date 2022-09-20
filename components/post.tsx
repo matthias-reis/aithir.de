@@ -4,6 +4,7 @@ import { FC } from 'react';
 import {
   colorBackgroundWeak,
   colorText,
+  colorTextPlaceholder,
   colorTextStrong,
   colorTextWeak,
   fontBold,
@@ -13,8 +14,6 @@ import {
 } from '../core/style';
 import { PostMeta } from '../core/types';
 import { DateLabel } from './date-label';
-import { formatDate } from './format-date';
-import { FONT_L, FONT_M, FONT_S, SPACE_M, WEIGHT_BOLD } from './_styles';
 
 export const Post: FC<{
   meta: PostMeta;
@@ -28,7 +27,9 @@ export const Post: FC<{
         {type === 'reference' && (
           <SuperHead small={small}>{meta.storyline.name}</SuperHead>
         )}
-        <Title small={small}>{meta.name}</Title>
+        <Title small={small} isPlaceholder={meta.placeholder}>
+          {meta.name}
+        </Title>
       </PostBox>
     </Link>
   );
@@ -55,9 +56,10 @@ const SuperHead = styled.div<{ small: boolean }>`
   margin-bottom: 0.25rem;
 `;
 
-const Title = styled.div<{ small: boolean }>`
+const Title = styled.div<{ small: boolean; isPlaceholder: boolean }>`
   font-size: ${({ small }) => (small ? fontSizeSmall : fontSizeMedium)};
   font-weight: ${fontBold};
-  color: ${colorTextStrong};
+  color: ${({ isPlaceholder }) =>
+    isPlaceholder ? colorTextPlaceholder : colorTextStrong};
   line-height: 1.1;
 `;
