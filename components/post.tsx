@@ -27,7 +27,7 @@ export const Post: FC<{
         {type === 'reference' && (
           <SuperHead small={small}>{meta.storyline.name}</SuperHead>
         )}
-        <Title small={small} isPlaceholder={meta.placeholder}>
+        <Title small={small} isPlaceholder={!!meta.placeholder}>
           {meta.name}
         </Title>
       </PostBox>

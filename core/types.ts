@@ -3,7 +3,7 @@ export type StorylineMeta = {
   name: string;
   description: string;
   count: number;
-  color: string;
+  color?: string;
   weight?: number;
   tags?: string[];
   posts?: PostMeta[];
