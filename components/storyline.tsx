@@ -7,23 +7,11 @@ import {
   colorText,
   colorTextWeak,
   fontBold,
-  fontLarge,
-  fontSizeLarge,
   fontSizeMedium,
   fontSizeSmall,
 } from '../core/style';
 import { StorylineMeta } from '../core/types';
 import { icons } from './icons';
-import {
-  COLOR_BG_HOVER,
-  COLOR_BG_LIGHT,
-  FONT_L,
-  FONT_M,
-  FONT_S,
-  SPACE_M,
-  SPACE_S,
-  WEIGHT_BOLD,
-} from './_styles';
 
 export const Storyline: FC<{ meta: StorylineMeta }> = ({ meta }) => {
   const Icon = icons[meta.slug];

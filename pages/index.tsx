@@ -1,13 +1,10 @@
 import type { NextPage } from 'next';
 import { Grid, Item } from '../components/grid';
-import { OctahedronNav } from '../components/octahedron-nav';
 import { Page } from '../components/page';
 import { Post } from '../components/post';
 import { Section } from '../components/section';
 import { Storyline } from '../components/storyline';
-import { OctahedronText } from '../components/octahedron-text';
 import { getAllPosts, getAllStorylines, getAllTags } from '../core/data-layer';
-import { colorMain } from '../core/style';
 import { PostMeta, StorylineMeta, Tag } from '../core/types';
 import { Headline } from '../components/headline';
 import { Pointer } from '../components/pointer';
@@ -59,7 +56,9 @@ export default Home;
 
 export function getServerSideProps() {
   //latest three visible posts
-  const posts = getAllPosts().slice(0, 4);
+  const posts = getAllPosts()
+    .filter((post) => new Date(post.date || Date.now()) <= new Date())
+    .slice(0, 4);
 
   // filter out posts for performance reasons
   const storylines = getAllStorylines()

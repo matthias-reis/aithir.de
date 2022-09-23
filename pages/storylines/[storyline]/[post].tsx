@@ -1,14 +1,21 @@
 import type { NextPage } from 'next';
+import { DateLabel } from '../../../components/date-label';
 import { Page } from '../../../components/page';
-import { Section } from '../../../components/section';
+import { PageSuperTitle, PageTitle } from '../../../components/page-title';
 import { getAllPosts } from '../../../core/data-layer';
 import { parseMarkdown } from '../../../core/markdown';
 import { PostMeta } from '../../../core/types';
+import { icons } from '../../../components/icons';
+import styled from '@emotion/styled';
+import Link from 'next/link';
+import { colorMain, colorText } from '../../../core/style';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
   const content = parseMarkdown(post.md);
-  const length = post.md.length;
+  const chars = post.md.length;
+  const words = post.md.split(/\s/).length;
+  const Icon = icons[post.storyline.slug];
   return (
     <Page
       type="Post"
@@ -17,18 +24,28 @@ const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
       color={post.storyline.color}
       layout="minor"
     >
-      <Section>
-        <h1>{post.name}</h1>
-      </Section>
-      <Section>{content}</Section>
-      <Section>
-        <p>
-          <strong>Length:</strong> {length}
-        </p>
-        <p>
-          <strong>Date:</strong> {post.date}
-        </p>
-      </Section>
+      <Link href={`/storylines/${post.storyline.slug}`} passHref>
+        <A color={post.storyline.color}>
+          <Icon width={32} height={32} />
+          <PageSuperTitle>{post.storyline.name}</PageSuperTitle>
+        </A>
+      </Link>
+      <PageTitle>{post.name}</PageTitle>
+      <Content>{content}</Content>
+      <Meta>
+        <div>
+          <DateLabel
+            date={new Date(post.date || '')}
+            color={post.storyline.color}
+          />
+        </div>
+        <div>
+          <strong>{chars}</strong> chars
+        </div>
+        <div>
+          <strong>{words}</strong> words
+        </div>
+      </Meta>
     </Page>
   );
 };
@@ -46,6 +63,27 @@ export function getServerSideProps({
   if (!post) {
     return { notFound: true };
   }
-  const { date, ...rest } = post;
-  return { props: { post: rest } };
+  return { props: { post } };
 }
+
+const A = styled.a<{ color?: string }>`
+  color: ${({ color = colorMain }) => color};
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  &:hover {
+    color: ${colorText};
+  }
+`;
+
+const Content = styled.div`
+  margin-right: 8rem;
+  line-height: 1.75;
+`;
+
+const Meta = styled.div`
+  text-align: right;
+  margin-top: 5rem;
+`;
