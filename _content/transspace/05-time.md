@@ -1,5 +1,5 @@
 ---
-name: Gravity Dimensions
+name: Time Dimensions
 year: 2022
 week: 30
 day: 1

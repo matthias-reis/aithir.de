@@ -1,12 +1,23 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
 import { Page } from '../../../components/page';
-import { Section } from '../../../components/section';
 import { getAllStorylines } from '../../../core/data-layer';
 import { StorylineMeta } from '../../../core/types';
+import { icons } from '../../../components/icons';
+import styled from '@emotion/styled';
+import {
+  colorMain,
+  colorText,
+  colorTextLight,
+  fontSizeMedium,
+  mediaMobile,
+} from '../../../core/style';
+import { PageSuperTitle, PageTitle } from '../../../components/page-title';
+import { Post } from '../../../components/post';
 
-// home page contains: welcome visual, last three posts, all current storylines, all tags
 const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
+  const Icon = icons[storyline.slug];
+
   return (
     <Page
       type="Storyline"
@@ -14,27 +25,22 @@ const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
       bg={storyline.slug}
       color={storyline.color}
     >
-      <Section>
-        <h1>Storyline {storyline.name}</h1>
-      </Section>
-      <Section>
-        <ul>
-          {(storyline.posts || []).map((post) => (
-            <li key={post.slug}>
-              <Link href={`/storylines/${post.slug}`}>
-                <div>
-                  <div>{post.name}</div>
-                  <div>{post.storyline.name}</div>
-                  <div>
-                    {post.year}-{post.week}
-                  </div>
-                  {post.date && <div>{new Date(post.date).toDateString()}</div>}
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Section>
+      <Link href={`/storylines`} passHref>
+        <A color={storyline.color}>
+          <PageSuperTitle>Storyline</PageSuperTitle>
+        </A>
+      </Link>
+      <PageTitle>{storyline.name}</PageTitle>
+      <DescriptionBox>
+        <Icon width={120} height={120} />
+        <Description>{storyline.description}</Description>
+      </DescriptionBox>
+
+      <StorylineBox>
+        {(storyline.posts || []).map((post) => (
+          <Post key={post.slug} meta={post} color={storyline.color} />
+        ))}
+      </StorylineBox>
     </Page>
   );
 };
@@ -53,3 +59,45 @@ export function getServerSideProps({
   }
   return { props: { storyline } };
 }
+
+const A = styled.a<{ color?: string }>`
+  color: ${({ color = colorMain }) => color};
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+
+  &:hover {
+    color: ${colorText};
+  }
+`;
+
+const DescriptionBox = styled.section`
+  position: relative;
+
+  & svg {
+    color: ${colorTextLight};
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+`;
+
+const Description = styled.div`
+  padding: 1rem 4rem;
+  font-size: ${fontSizeMedium};
+  @media ${mediaMobile} {
+    padding: 1rem 0 1rem 4rem;
+  }
+`;
+
+const StorylineBox = styled.div`
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  @media ${mediaMobile} {
+    padding: 1rem 0;
+  
+`;

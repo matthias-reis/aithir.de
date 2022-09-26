@@ -19,11 +19,16 @@ export const Post: FC<{
   meta: PostMeta;
   type?: 'reference' | 'storyline';
   small?: boolean;
-}> = ({ meta, type = 'reference', small = false }) => {
+  color?: string;
+}> = ({ meta, type = 'reference', small = false, color }) => {
   return (
     <Link href={`/storylines/${meta.slug}`} passHref>
       <PostBox>
-        <DateLabel date={new Date(meta.date || '')} small={small} />
+        <DateLabel
+          date={new Date(meta.date || '')}
+          small={small}
+          color={color}
+        />
         {type === 'reference' && (
           <SuperHead small={small}>{meta.storyline.name}</SuperHead>
         )}
