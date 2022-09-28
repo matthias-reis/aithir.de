@@ -3,7 +3,6 @@ name: Death
 year: 2022
 week: 39
 day: 3
-placeholder: true
 ---
 
 "The aliens know us" was what everybody had in their heads after the second
