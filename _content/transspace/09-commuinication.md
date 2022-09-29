@@ -4,7 +4,7 @@ year: 2022
 week: 38
 day: 3
 tags:
-  - ftl
+  - FTL
 ---
 
 Things that travel at the speed of light have the most benefit from the anatomy

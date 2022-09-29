@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const SvgTheFourthWave = (props: SVGProps<SVGSVGElement>) => (
+const SvgFourthWave = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 48 48"
     fill="none"
@@ -23,4 +23,4 @@ const SvgTheFourthWave = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default SvgTheFourthWave;
+export default SvgFourthWave;

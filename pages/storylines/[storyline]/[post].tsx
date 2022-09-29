@@ -15,7 +15,7 @@ const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
   const content = parseMarkdown(post.md);
   const chars = post.md.length;
   const words = post.md.split(/\s/).length;
-  const Icon = icons[post.storyline.slug] || icons['general'];
+  const Icon = icons[post.storyline.slug];
   return (
     <Page
       type="Post"

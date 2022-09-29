@@ -4,7 +4,7 @@ year: 2022
 week: 37
 day: 3
 tags:
-  - ftl
+  - FTL
 ---
 
 Two of the participants in the Enclave project, **Charles Frempton**, an
