@@ -57,7 +57,10 @@ export default Home;
 export function getServerSideProps() {
   //latest three visible posts
   const posts = getAllPosts()
-    .filter((post) => new Date(post.date || Date.now()) <= new Date())
+    .filter(
+      (post) =>
+        new Date(post.date || Date.now()) <= new Date() && !post.placeholder
+    )
     .slice(0, 4);
 
   // filter out posts for performance reasons

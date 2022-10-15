@@ -17,6 +17,7 @@ export type PostMeta = {
   week: number;
   day: number;
   md: string;
+  episode?: number;
   date?: string;
   tags?: string[];
   placeholder?: boolean;

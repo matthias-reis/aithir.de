@@ -5,7 +5,6 @@ export const initTracking = () => {
   mixpanel.track('Session');
 };
 
-export const pageView = (type: string, title: string) => {
-  mixpanel.track(`Page ${type}`, { type, title });
-  454545;
+export const pageView = (type: string, title: string, campaign?: string) => {
+  mixpanel.track(`Page ${type}`, { type, title, campaign });
 };

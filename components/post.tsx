@@ -30,8 +30,12 @@ export const Post: FC<{
           color={color}
         />
         {type === 'reference' && (
-          <SuperHead small={small}>{meta.storyline.name}</SuperHead>
+          <SuperHead small={small}>
+            {meta.storyline.name}{' '}
+            {meta.episode && <Episode>{meta.episode}</Episode>}
+          </SuperHead>
         )}
+
         <Title small={small} isPlaceholder={!!meta.placeholder}>
           {meta.name}
         </Title>
@@ -57,8 +61,22 @@ const PostBox = styled.a`
 const SuperHead = styled.div<{ small: boolean }>`
   font-size: ${({ small }) => (small ? fontSizeSmall : fontSizeStandard)};
   color: ${colorTextWeak};
-  line-height: 1;
+  line-height: 1.25;
   margin-bottom: 0.25rem;
+`;
+
+const Episode = styled.span`
+  display: inline-flex;
+  width: 1.4rem;
+  height: 1rem;
+  vertical-align: baseline;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -0.1rem;
+  border: 1px solid ${colorTextWeak};
+  border-radius: 0.5rem;
+  font-size: 80%;
+  padding-right: 2px;
 `;
 
 const Title = styled.div<{ small: boolean; isPlaceholder: boolean }>`

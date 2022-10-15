@@ -25,7 +25,7 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
     const postFiles = await glob('**/*.md', { cwd, absolute: true });
     console.log(`[PRE] ${storylineSlug}: <${postFiles.length}>`);
     const posts = await Promise.all(
-      postFiles.map(async (postFile) => {
+      postFiles.map(async (postFile, i) => {
         const postSlug = postFile.split('/').at(-1)?.replace('.md', '') ?? '';
         const post = await fm<PostMeta>(postFile);
         return {
@@ -42,6 +42,7 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
             color: storylineMetaData.color,
             slug: storylineSlug,
           },
+          episode: i + 1,
           tags: [
             ...(post.attributes.tags ?? []),
             ...(storylineMetaData.tags ?? []),
@@ -53,7 +54,9 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
       ...storylineMetaData,
       slug: storylineSlug,
       posts,
-      count: posts.length,
+      count: posts.filter(
+        (post) => new Date(post.date || Date.now()) <= new Date()
+      ).length,
     };
   }
 

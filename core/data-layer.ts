@@ -20,8 +20,9 @@ export function getAllStorylines(): StorylineMeta[] {
       // remove posts and replace them with a count to optimize data
       .map(({ posts, ...rest }) => ({
         ...rest,
-        posts: (posts || []).filter(isVisible),
-        count: (posts || []).filter(isVisible).length ?? 0,
+        posts: (posts || [])
+          .filter(isVisible)
+          .map((post, i) => ({ ...post, episode: i + 1 })),
       }))
       // sort by weight and number of posts
       .sort(

@@ -9,6 +9,7 @@ import {
 } from '../core/style';
 import { MajorLayout, MinorLayout } from './layout';
 import { OctahedronNav } from './octahedron-nav';
+import { useRouter } from 'next/router';
 
 type Layout = 'major' | 'minor';
 
@@ -27,7 +28,8 @@ export const Page: FC<{
   color = colorMain,
   bg = 'general',
 }) => {
-  pageView(type, title);
+  const router = useRouter();
+  pageView(type, title, router.query.c as string | undefined);
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   return (
     <Viewport bg={`/patterns/${bg}.jpg`}>
