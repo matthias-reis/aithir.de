@@ -57,6 +57,13 @@ export function getServerSideProps({
   if (!storyline) {
     return { notFound: true };
   }
+
+  storyline.posts =
+    storyline.posts?.filter(
+      (post) =>
+        new Date(post.date || Date.now()) <= new Date() && !post.placeholder
+    ) ?? [];
+
   return { props: { storyline } };
 }
 
@@ -99,5 +106,5 @@ const StorylineBox = styled.div`
 
   @media ${mediaMobile} {
     padding: 1rem 0;
-  
+  }
 `;

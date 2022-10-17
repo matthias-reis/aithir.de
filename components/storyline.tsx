@@ -9,6 +9,7 @@ import {
   fontBold,
   fontSizeMedium,
   fontSizeSmall,
+  fontSizeStandard,
 } from '../core/style';
 import { StorylineMeta } from '../core/types';
 import { icons } from './icons';
@@ -19,6 +20,7 @@ export const Storyline: FC<{ meta: StorylineMeta }> = ({ meta }) => {
   return (
     <Link href={`/storylines/${meta.slug}`} passHref>
       <StorylineBox>
+        <Img src={img} alt={`${meta.name} Pattern`} />
         <TitleBox>
           <IconBox>
             <Icon width={24} height={24} />
@@ -30,7 +32,6 @@ export const Storyline: FC<{ meta: StorylineMeta }> = ({ meta }) => {
             </Count>
           </div>
         </TitleBox>
-        <Img src={img} alt={`${meta.name} Pattern`} />
         <Description>{meta.description}</Description>
       </StorylineBox>
     </Link>
@@ -53,7 +54,7 @@ const StorylineBox = styled.a`
 const TitleBox = styled.div`
   display: flex;
   gap: 0.5rem;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 1rem;
 
   & > div:first-of-type {

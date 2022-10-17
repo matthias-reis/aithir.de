@@ -1,7 +1,10 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
+import { Grid, Item } from '../../components/grid';
 import { Page } from '../../components/page';
+import { PageSuperTitle, PageTitle } from '../../components/page-title';
 import { Section } from '../../components/section';
+import { Storyline } from '../../components/storyline';
 import { getAllStorylines } from '../../core/data-layer';
 import { StorylineMeta } from '../../core/types';
 
@@ -11,26 +14,15 @@ const Storylines: NextPage<{ storylines: StorylineMeta[] }> = ({
 }) => {
   return (
     <Page type="Storylines" title="Storylines">
-      <Section>
-        <h1>Storylines</h1>
-      </Section>
-      <Section>
-        <ul>
-          {storylines.map((storyline) => (
-            <li key={storyline.slug}>
-              <Link href={`/storylines/${storyline.slug}`}>
-                <div>
-                  <div>
-                    <strong>{storyline.name}</strong>
-                  </div>
-                  <div>{storyline.description}</div>
-                  <div>{storyline.count} posts</div>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Section>
+      <PageSuperTitle>All Current Posting Series</PageSuperTitle>
+      <PageTitle>Storylines</PageTitle>
+      <Grid>
+        {storylines.map((storyline) => (
+          <Item key={storyline.slug}>
+            <Storyline meta={storyline} />
+          </Item>
+        ))}
+      </Grid>
     </Page>
   );
 };
