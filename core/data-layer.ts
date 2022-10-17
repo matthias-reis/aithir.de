@@ -46,18 +46,37 @@ export function getAllPosts(): PostMeta[] {
 
 export function getAllTags() {
   const posts = getAllPosts();
-  const tags = {} as Record<string, PostMeta[]>;
+  const storylines = getAllStorylines();
+
+  const tags = {} as Record<
+    string,
+    { storylines: StorylineMeta[]; posts: PostMeta[] }
+  >;
+
   for (const post of posts) {
-    for (const tag of post.tags ?? []) {
-      tags[tag] = [...(tags[tag] ?? []), post];
+    if (new Date(post.date || Date.now()) <= new Date() && !post.placeholder) {
+      for (const tag of post.tags ?? []) {
+        if (!tags[tag]) {
+          tags[tag] = { posts: [], storylines: [] };
+        }
+        tags[tag].posts.push(post);
+      }
+    }
+  }
+  for (const storyline of storylines) {
+    for (const tag of storyline.tags ?? []) {
+      if (!tags[tag]) {
+        tags[tag] = { posts: [], storylines: [] };
+      }
+      tags[tag].storylines.push(storyline);
     }
   }
   return Object.entries(tags)
-    .map(([name, posts]) => ({
+    .map(([name, entries]) => ({
       name,
       slug: slugify(name),
-      count: posts.length,
-      posts,
+      count: entries.storylines.length + entries.posts.length,
+      ...entries,
     }))
     .sort((a, b) => b.count - a.count);
 }

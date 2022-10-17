@@ -1,7 +1,12 @@
 import type { GetServerSideProps, NextPage } from 'next';
 import Link from 'next/link';
+import { Grid, Item } from '../../components/grid';
+import { Headline } from '../../components/headline';
 import { Page } from '../../components/page';
+import { PageSuperTitle, PageTitle } from '../../components/page-title';
+import { Post } from '../../components/post';
 import { Section } from '../../components/section';
+import { Storyline } from '../../components/storyline';
 import { getAllTags } from '../../core/data-layer';
 import { PostMeta, Tag } from '../../core/types';
 
@@ -9,47 +14,32 @@ import { PostMeta, Tag } from '../../core/types';
 const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
   return (
     <Page type="Tag" title={`Tag: ${tag.name}`}>
-      <Section>
-        <h1>Tag {tag.name}</h1>
-      </Section>
-      <Section>
-        <h2>Storylines with {tag.name}</h2>
-        <ul>
-          {(tag.posts || []).map((post) => (
-            <li key={post.slug}>
-              <Link href={`/storylines/${post.slug}`}>
-                <div>
-                  <div>{post.name}</div>
-                  <div>{post.storyline.name}</div>
-                  <div>
-                    {post.year}-{post.week}
-                  </div>
-                  {post.date && <div>{new Date(post.date).toDateString()}</div>}
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Section>
-      <Section>
-        <h2>Posts with {tag.name}</h2>
-        <ul>
-          {(tag.posts || []).map((post) => (
-            <li key={post.slug}>
-              <Link href={`/storylines/${post.slug}`}>
-                <div>
-                  <div>{post.name}</div>
-                  <div>{post.storyline.name}</div>
-                  <div>
-                    {post.year}-{post.week}
-                  </div>
-                  {post.date && <div>{new Date(post.date).toDateString()}</div>}
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </Section>
+      <PageSuperTitle>Tag, Topic, Keyword</PageSuperTitle>
+      <PageTitle>{tag.name}</PageTitle>
+      {(tag.storylines?.length ?? 0) > 0 && (
+        <Section>
+          <Headline>Storylines tagged with "{tag.name}"</Headline>
+          <Grid>
+            {(tag.storylines || []).map((storyline) => (
+              <Item key={storyline.slug}>
+                <Storyline meta={storyline} />
+              </Item>
+            ))}
+          </Grid>
+        </Section>
+      )}
+      {(tag.posts?.length ?? 0) > 0 && (
+        <Section>
+          <Headline>Posts tagged with "{tag.name}"</Headline>
+          <Grid>
+            {(tag.posts || []).map((post) => (
+              <Item key={post.slug}>
+                <Post meta={post} />
+              </Item>
+            ))}
+          </Grid>
+        </Section>
+      )}
     </Page>
   );
 };

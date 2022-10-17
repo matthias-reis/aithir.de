@@ -1,5 +1,5 @@
 ---
-name: The Storm
+name: Ryu
 year: 2022
 week: 30
 day: 2

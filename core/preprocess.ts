@@ -43,10 +43,8 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
             slug: storylineSlug,
           },
           episode: i + 1,
-          tags: [
-            ...(post.attributes.tags ?? []),
-            ...(storylineMetaData.tags ?? []),
-          ],
+          tags: post.attributes.tags ?? [],
+          storylineTags: storylineMetaData.tags ?? [],
         };
       })
     );
