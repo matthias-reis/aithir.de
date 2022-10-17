@@ -1,5 +1,5 @@
 ---
-name: Navigate the Mesh
+name: Avatars
 year: 2022
 week: 27
 day: 3
