@@ -24,11 +24,12 @@ export function getAllStorylines(): StorylineMeta[] {
           .filter(isVisible)
           .map((post, i) => ({ ...post, episode: i + 1 })),
       }))
-      // sort by weight and number of posts
-      .sort(
-        (a, b) =>
-          (b.weight || 0) * 10 + b.count - (a.weight || 0) * 10 - a.count
-      )
+      // sort by age and number of posts
+      .sort((a, b) => {
+        const aAgeIndicator = getAgeIndicator(a);
+        const bAgeIndicator = getAgeIndicator(b);
+        return bAgeIndicator + b.count - aAgeIndicator - a.count;
+      })
       // remove storylines that are not yet published
       .filter((s) => s.count !== 0)
   );
@@ -59,4 +60,23 @@ export function getAllTags() {
       posts,
     }))
     .sort((a, b) => b.count - a.count);
+}
+
+function getAgeIndicator(storyline: StorylineMeta) {
+  const ages =
+    storyline.posts
+      ?.map((p) => {
+        const ageInDays =
+          (new Date().getTime() - new Date(p.date || '').getTime()) /
+          (1000 * 60 * 60 * 24);
+        return ageInDays;
+      })
+      .filter((age) => age > 0)
+      .map((age) => 30 - age)
+      .sort((a, b) => b - a)
+      .filter((ageIndicator) => {
+        return ageIndicator > 0;
+      }) ?? [];
+  const ageIndicator = ages.reduce((sum, next) => sum + next, 0);
+  return ageIndicator;
 }
