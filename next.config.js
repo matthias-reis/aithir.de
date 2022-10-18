@@ -4,6 +4,13 @@ const { withAxiom } = require('next-axiom');
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  redirects: async () => [
+    {
+      source: '/more',
+      destination: '/more/about',
+      permanent: true,
+    },
+  ],
 };
 
 module.exports = withAxiom(nextConfig);
