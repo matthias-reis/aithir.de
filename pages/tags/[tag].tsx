@@ -18,7 +18,7 @@ const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
       <PageTitle>{tag.name}</PageTitle>
       {(tag.storylines?.length ?? 0) > 0 && (
         <Section>
-          <Headline>Storylines tagged with "{tag.name}"</Headline>
+          <Headline>Storylines tagged with &quot;{tag.name}&quot;</Headline>
           <Grid>
             {(tag.storylines || []).map((storyline) => (
               <Item key={storyline.slug}>
@@ -30,7 +30,7 @@ const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
       )}
       {(tag.posts?.length ?? 0) > 0 && (
         <Section>
-          <Headline>Posts tagged with "{tag.name}"</Headline>
+          <Headline>Posts tagged with &quot;{tag.name}&quot;</Headline>
           <Grid>
             {(tag.posts || []).map((post) => (
               <Item key={post.slug}>
