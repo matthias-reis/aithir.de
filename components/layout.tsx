@@ -29,11 +29,13 @@ export const MajorLayout: LayoutComp = ({ children, color }) => (
 export const MinorLayout: LayoutComp = ({ children, color }) => (
   <MinorBox>
     <OctaSection>
-      <MinorOcta>
-        <h1>
-          Octahedron<Sub color={color}>World</Sub>
-        </h1>
-      </MinorOcta>
+      <Link href="/" passHref>
+        <MinorOcta>
+          <h1>
+            Octahedron<Sub color={color}>World</Sub>
+          </h1>
+        </MinorOcta>
+      </Link>
     </OctaSection>
     <MainSection>{children}</MainSection>
   </MinorBox>
@@ -67,7 +69,8 @@ const MajorOcta = styled.a`
   margin: 0;
   display: block;
   position: absolute;
-  top: 1.5rem;
+  line-height: 1;
+  top: 1.75rem;
   right: 6rem;
 
   @media ${mediaSmall} {
@@ -89,11 +92,12 @@ const MinorOcta = styled.a`
   color: inherit;
   text-decoration: none;
   margin: 0;
+  line-height: 1;
   display: block;
   transform-origin: bottom right;
   transform: rotate(-90deg);
   position: absolute;
-  right: 1rem;
+  right: 1.25rem;
 
   @media ${mediaSmall} {
     transform: none;

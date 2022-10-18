@@ -1,5 +1,4 @@
 import styled from '@emotion/styled';
-import { FC } from 'react';
 import { fontSizeStandard, fontSizeXLarge } from '../core/style';
 
 export const PageTitle = styled.h2`
