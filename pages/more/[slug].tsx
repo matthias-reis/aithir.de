@@ -10,7 +10,6 @@ type Params = { slug: string; title: string; supertitle: string; md: string };
 
 const LegalPage: NextPage<{ data: Params }> = ({ data }) => {
   const content = parseMarkdown(data.md);
-  console.log(data);
   return (
     <Page type="Legal" title={`${data.title})`} layout="minor">
       {data.supertitle && <PageSuperTitle>{data.supertitle}</PageSuperTitle>}
@@ -29,7 +28,6 @@ export async function getServerSideProps({
 }) {
   // find a page with that slug
   const filename = resolve(process.cwd(), '_legal', `${params.slug}.md`);
-  console.log({ filename });
   if (!existsSync(filename)) return { notFound: true };
 
   const page = await fm<{
