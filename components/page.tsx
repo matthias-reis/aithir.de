@@ -10,6 +10,7 @@ import {
 import { MajorLayout, MinorLayout } from './layout';
 import { OctahedronNav } from './octahedron-nav';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 type Layout = 'major' | 'minor';
 
@@ -37,9 +38,31 @@ export const Page: FC<{
         <OctahedronNav color={color} />
         <Layout color={color}>{children}</Layout>
       </Canvas>
+      <Legal color={color}>
+        <Link href="/more/about">About</Link>
+        <Link href="/more/privacy">Privacy Policy</Link>
+        <Link href="/more/imprint">Imprint</Link>
+      </Legal>
     </Viewport>
   );
 };
+
+const Legal = styled.nav<{ color: string }>`
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  & > * {
+    background: ${colorBackground};
+    padding: 0 1rem;
+    border-radius: 1rem;
+  }
+
+  & a {
+    color: ${({ color }) => color || colorMain};
+    text-decoration: none;
+  }
+`;
 
 const Viewport = styled.div<{ bg: string }>`
   background-image: url(${({ bg }) => bg});
