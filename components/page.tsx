@@ -12,6 +12,7 @@ import { OctahedronNav } from './octahedron-nav';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
+import CookieConsent from 'react-cookie-consent';
 
 type Layout = 'major' | 'minor';
 
@@ -51,6 +52,11 @@ export const Page: FC<{
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   return (
     <Viewport bg={`/patterns/${bg}.jpg`}>
+      <CookieConsent>
+        This website uses cookies to analyse the usage and traffic flow in an
+        anonymous way . We won&apos;t collect any user data, nor do we
+        personalize the experience with it.
+      </CookieConsent>
       <Head>
         <title>{title} - OctahedronWorld</title>
         <meta charSet="utf-8" />
