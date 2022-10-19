@@ -20,6 +20,7 @@ export type PostMeta = {
   episode?: number;
   date?: string;
   tags?: string[];
+  storylineTags?: string[];
   placeholder?: boolean;
 };
 

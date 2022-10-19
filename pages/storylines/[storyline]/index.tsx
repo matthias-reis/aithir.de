@@ -21,7 +21,9 @@ const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
   return (
     <Page
       type="Storyline"
-      title={`${storyline.name}`}
+      title={storyline.name}
+      description={storyline.description}
+      keywords={storyline.tags}
       bg={storyline.slug}
       color={storyline.color}
     >

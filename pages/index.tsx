@@ -17,7 +17,12 @@ const Home: NextPage<{
   tags: Tag[];
 }> = ({ posts, storylines, tags }) => {
   return (
-    <Page type="Home" title="Welcome to Octahedron.World" layout="major">
+    <Page
+      type="Home"
+      title="Welcome to Octahedron.World"
+      layout="major"
+      keywords={['SciFi', 'Science Fiction', 'Science', 'Fantasy']}
+    >
       <Section>
         <Headline>Latest Posts</Headline>
         <Grid>

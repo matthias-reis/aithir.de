@@ -11,12 +11,26 @@ import { MajorLayout, MinorLayout } from './layout';
 import { OctahedronNav } from './octahedron-nav';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import Head from 'next/head';
 
 type Layout = 'major' | 'minor';
+
+const defaultDescription =
+  'Science Fiction, Science Fact and Fantasy in short bits. 1.000 characters, a 30 second read per day';
+const defaultImage = 'https://octahedron.world/strips/general.jpg';
+const defaultKeywords = [
+  'Microfiction',
+  'Fiction',
+  'Writing',
+  'Creative Writing',
+];
 
 export const Page: FC<{
   type: string;
   title: string;
+  description?: string;
+  image?: string;
+  keywords?: string[];
   children: ReactNode;
   layout?: Layout;
   color?: string;
@@ -24,6 +38,9 @@ export const Page: FC<{
 }> = ({
   children,
   title,
+  description,
+  image,
+  keywords,
   type,
   layout = 'minor',
   color = colorMain,
@@ -34,6 +51,22 @@ export const Page: FC<{
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   return (
     <Viewport bg={`/patterns/${bg}.jpg`}>
+      <Head>
+        <title>{title} - OctahedronWorld</title>
+        <meta charSet="utf-8" />
+        <meta name="description" content={description || defaultDescription} />
+        <meta
+          name="keywords"
+          content={Array.from(
+            new Set([...(keywords || []), ...defaultKeywords])
+          ).join(', ')}
+        />
+        <meta name="author" content="Matthias Reis" />
+        <meta name="copyright" content="Matthias Reis, OctahedronWorld" />
+        <meta name="robots" content="index,follow" />
+        <meta property="og:title" content={title} />
+        <meta property="og:image" content={image || defaultImage} />
+      </Head>
       <Canvas>
         <OctahedronNav color={color} />
         <Layout color={color}>{children}</Layout>

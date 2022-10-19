@@ -13,7 +13,11 @@ const Storylines: NextPage<{ storylines: StorylineMeta[] }> = ({
   storylines,
 }) => {
   return (
-    <Page type="Storylines" title="Storylines">
+    <Page
+      type="Storylines"
+      title="Storylines"
+      description="Have a look at all storylines and all available arc of the OctahedronWorld. Each Storyline consists of a set of posts and forms an overarching series."
+    >
       <PageSuperTitle>All Current Posting Series</PageSuperTitle>
       <PageTitle>Storylines</PageTitle>
       <Grid>

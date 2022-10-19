@@ -16,7 +16,12 @@ const Calendar: NextPage<{
   isPreview: boolean;
 }> = ({ weeks, isPreview }) => {
   return (
-    <Page type="Calendar" title="All Posts">
+    <Page
+      type="Calendar"
+      title="All Posts"
+      description="Articles of the past weeks ordered by daye and grouped by calendar week."
+      keywords={['SciFi', 'Science Fiction', 'Science', 'Fantasy']}
+    >
       <PageSuperTitle>Calendar Weeks</PageSuperTitle>
       <PageTitle>All Posts</PageTitle>
       {Object.entries(weeks)

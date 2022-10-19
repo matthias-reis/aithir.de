@@ -13,7 +13,12 @@ import { PostMeta, Tag } from '../../core/types';
 // lists all available storylines
 const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
   return (
-    <Page type="Tag" title={`Tag: ${tag.name}`}>
+    <Page
+      type="Tag"
+      title={`Tag: ${tag.name}`}
+      description={`Listing of all storylines and posts that contain the keyword "${tag.name}"`}
+      keywords={[tag.name]}
+    >
       <PageSuperTitle>Tag, Topic, Keyword</PageSuperTitle>
       <PageTitle>{tag.name}</PageTitle>
       {(tag.storylines?.length ?? 0) > 0 && (

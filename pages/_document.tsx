@@ -1,4 +1,3 @@
-import { Global } from '@emotion/react';
 import Document, {
   Html,
   Head,
@@ -32,7 +31,7 @@ export default class AppDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en-GB">
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
