@@ -22,6 +22,7 @@ const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
     <Page
       type="Storyline"
       title={storyline.name}
+      canonicalPath={`/storylines/${storyline.slug}`}
       description={storyline.description}
       keywords={storyline.tags}
       bg={storyline.slug}

@@ -13,6 +13,7 @@ const Tags: NextPage<{ tags: Tag[] }> = ({ tags }) => {
     <Page
       type="Tags"
       title="All Tags and Keywords"
+      canonicalPath="/tags"
       keywords={['SciFi', 'Science Fiction', 'Science', 'Fantasy']}
     >
       <PageSuperTitle>A Collection of Topics and Keywords</PageSuperTitle>

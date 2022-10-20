@@ -16,6 +16,7 @@ const Storylines: NextPage<{ storylines: StorylineMeta[] }> = ({
     <Page
       type="Storylines"
       title="Storylines"
+      canonicalPath="/storylines"
       description="Have a look at all storylines and all available arc of the OctahedronWorld. Each Storyline consists of a set of posts and forms an overarching series."
     >
       <PageSuperTitle>All Current Posting Series</PageSuperTitle>

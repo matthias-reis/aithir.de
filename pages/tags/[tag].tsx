@@ -17,6 +17,7 @@ const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
       type="Tag"
       title={`Tag: ${tag.name}`}
       description={`Listing of all storylines and posts that contain the keyword "${tag.name}"`}
+      canonicalPath={`/tags/${tag.slug}`}
       keywords={[tag.name]}
     >
       <PageSuperTitle>Tag, Topic, Keyword</PageSuperTitle>

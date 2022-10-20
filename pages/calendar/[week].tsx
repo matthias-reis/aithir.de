@@ -13,7 +13,11 @@ const Week: NextPage<{
   week: string;
 }> = ({ week, posts }) => {
   return (
-    <Page type="Week" title="Calendar Week (Internal)">
+    <Page
+      type="Week"
+      title="Calendar Week (Internal)"
+      canonicalPath={`/calendar/${week}`}
+    >
       <PageSuperTitle>Calendar Week</PageSuperTitle>
       <PageTitle>{week}</PageTitle>
       {posts.map((post) => {

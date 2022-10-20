@@ -32,6 +32,7 @@ export const Page: FC<{
   description?: string;
   image?: string;
   keywords?: string[];
+  canonicalPath: string;
   children: ReactNode;
   layout?: Layout;
   color?: string;
@@ -43,6 +44,7 @@ export const Page: FC<{
   image,
   keywords,
   type,
+  canonicalPath,
   layout = 'minor',
   color = colorMain,
   bg = 'general',
@@ -50,6 +52,7 @@ export const Page: FC<{
   const router = useRouter();
   pageView(type, title, router.query.c as string | undefined);
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
+  const canonicalUrl = `https://octahedron.world${canonicalPath}`;
   return (
     <Viewport bg={`/patterns/${bg}.jpg`}>
       <CookieConsent>
@@ -59,6 +62,7 @@ export const Page: FC<{
       </CookieConsent>
       <Head>
         <title>{title} - OctahedronWorld</title>
+        <link rel="canonical" href={canonicalUrl} />
         <meta charSet="utf-8" />
         <meta name="description" content={description || defaultDescription} />
         <meta
@@ -69,11 +73,17 @@ export const Page: FC<{
         />
         <meta name="author" content="Matthias Reis" />
         <meta name="copyright" content="Matthias Reis, OctahedronWorld" />
+        <meta name="description" content={description || defaultDescription} />
         <meta name="robots" content="index,follow" />
         <meta property="og:title" content={title} />
         <meta property="og:image" content={image || defaultImage} />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content={description || defaultDescription}
+        />
+        <meta property="og:url" content={canonicalUrl} />
         <meta name="twitter:card" content="summary" />
-        <meta name="description" content={description || defaultDescription} />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

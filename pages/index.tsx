@@ -20,6 +20,7 @@ const Home: NextPage<{
     <Page
       type="Home"
       title="Welcome to Octahedron.World"
+      canonicalPath="/"
       layout="major"
       keywords={['SciFi', 'Science Fiction', 'Science', 'Fantasy']}
     >

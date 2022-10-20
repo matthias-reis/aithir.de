@@ -33,6 +33,7 @@ const Post: NextPage<{
       type="Post"
       title={`${post.name} (${post.storyline.name})`}
       description={post.md.slice(0, 250)}
+      canonicalPath={`/storylines/${post.slug}`}
       keywords={[...(post.tags || []), ...(post.storylineTags || [])]}
       bg={post.storyline.slug}
       color={post.storyline.color}

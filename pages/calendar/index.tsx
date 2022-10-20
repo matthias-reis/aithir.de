@@ -18,6 +18,7 @@ const Calendar: NextPage<{
   return (
     <Page
       type="Calendar"
+      canonicalPath="/calendar"
       title="All Posts"
       description="Articles of the past weeks ordered by daye and grouped by calendar week."
       keywords={['SciFi', 'Science Fiction', 'Science', 'Fantasy']}
