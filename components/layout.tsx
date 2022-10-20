@@ -125,10 +125,12 @@ const OctaSection = styled.div`
   width: 4rem;
   border-right: 1px solid ${colorText};
   flex: 0 0 auto;
+
   @media ${mediaSmall} {
     border-right: none;
     position: static;
     width: auto;
+    padding-top: 3rem;
   }
 `;
 const MainSection = styled.main`

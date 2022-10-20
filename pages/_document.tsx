@@ -32,6 +32,9 @@ export default class AppDocument extends Document {
   render() {
     return (
       <Html lang="en-GB">
+        <Head>
+          <></>
+        </Head>
         <body>
           <GlobalStyles />
           <Main />

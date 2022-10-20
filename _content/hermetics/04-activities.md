@@ -1,5 +1,5 @@
 ---
-name: What Can You Do With You Hermetic Power?
+name: What Can You Do With Your Hermetic Power?
 year: 2022
 week: 24
 day: 4

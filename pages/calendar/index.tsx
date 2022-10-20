@@ -4,7 +4,7 @@ import { getAllPosts } from '../../core/data-layer';
 import { PostMeta } from '../../core/types';
 import { PageTitle, PageSuperTitle } from '../../components/page-title';
 import styled from '@emotion/styled';
-import { colorText } from '../../core/style';
+import { colorText, fontBold, mediaMedium, mediaSmall } from '../../core/style';
 import { Post } from '../../components/post';
 import Link from 'next/link';
 
@@ -27,20 +27,38 @@ const Calendar: NextPage<{
       {Object.entries(weeks)
         .reverse()
         .map(([w, days]) => {
+          const [year, week] = w.split('-');
           return (
             <Week key={w}>
               {isPreview ? (
-                <Link href={`/calendar/${w}`}>{w}</Link>
+                <Link href={`/calendar/${w}`} passHref>
+                  <A>
+                    <W>{week}</W>
+                    <Y>{year}</Y>
+                  </A>
+                </Link>
               ) : (
-                <div>{w}</div>
+                <div>
+                  <W>{week}</W>
+                  <Y>{year}</Y>
+                </div>
               )}
-              {days.map((day, i) => (
-                <Day key={i}>
-                  {day.map((post) => (
-                    <Post meta={post} key={post.slug} small />
-                  ))}
-                </Day>
-              ))}
+              <Days>
+                {days.map((day, i) => (
+                  <Day key={i}>
+                    {day.map((post) => (
+                      <>
+                        <Post meta={post} key={post.slug} small />
+                        {isPreview && (
+                          <Link href={`/storylines/${post.slug}/copy`}>
+                            copy
+                          </Link>
+                        )}
+                      </>
+                    ))}
+                  </Day>
+                ))}
+              </Days>
             </Week>
           );
         })}
@@ -83,7 +101,14 @@ const pad = (s: number) => `00${s}`.slice(-2);
 const Week = styled.div`
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+`;
+
+const Days = styled.div`
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
 `;
 
 const Day = styled.div`
@@ -93,4 +118,26 @@ const Day = styled.div`
   padding: 0.25rem;
   overflow: hidden;
   text-overflow: ellipsis;
+  @media ${mediaMedium} {
+    width: 20%;
+  }
+  @media ${mediaSmall} {
+    width: 40%;
+  }
+`;
+
+const A = styled.a`
+  text-decoration: none;
+`;
+const W = styled.div`
+  text-align: right;
+  font-weight: ${fontBold};
+  opacity: 0.5;
+  font-size: 2rem;
+  line-height: 1;
+`;
+const Y = styled.div`
+  text-align: right;
+  opacity: 0.3;
+  line-height: 1;
 `;

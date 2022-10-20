@@ -1,16 +1,22 @@
 import type { NextPage } from 'next';
-import { DateLabel } from '../../../components/date-label';
-import { Page } from '../../../components/page';
-import { PageSuperTitle, PageTitle } from '../../../components/page-title';
-import { getAllPosts, getAllStorylines } from '../../../core/data-layer';
-import { parseMarkdown } from '../../../core/markdown';
-import { PostMeta } from '../../../core/types';
-import { icons } from '../../../components/icons';
+import { DateLabel } from '../../../../components/date-label';
+import { Page } from '../../../../components/page';
+import { PageSuperTitle, PageTitle } from '../../../../components/page-title';
+import { getAllPosts, getAllStorylines } from '../../../../core/data-layer';
+import { parseMarkdown } from '../../../../core/markdown';
+import { PostMeta } from '../../../../core/types';
+import { icons } from '../../../../components/icons';
 import styled from '@emotion/styled';
 import Link from 'next/link';
-import { colorMain, colorText, fontSizeStandard } from '../../../core/style';
-import { ChevronRight } from '../../../components/chevron-right';
-import { ChevronLeft } from '../../../components/chevron-left';
+import {
+  colorMain,
+  colorText,
+  fontSizeStandard,
+  mediaMedium,
+  mediaSmall,
+} from '../../../../core/style';
+import { ChevronRight } from '../../../../components/chevron-right';
+import { ChevronLeft } from '../../../../components/chevron-left';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Post: NextPage<{
@@ -63,7 +69,7 @@ const Post: NextPage<{
         {previous && (
           <Link href={'/storylines/' + previous.slug} passHref>
             <A>
-              <ChevronLeft width={16} />
+              <ChevronLeft width={16} style={{ flex: '0 0 auto' }} />
               {previous.name}
             </A>
           </Link>
@@ -72,7 +78,7 @@ const Post: NextPage<{
           <Link href={'/storylines/' + next.slug} passHref>
             <A>
               {next.name}
-              <ChevronRight width={16} />
+              <ChevronRight width={16} style={{ flex: '0 0 auto' }} />
             </A>
           </Link>
         )}
@@ -91,19 +97,22 @@ export function getServerSideProps({
   const slug = `${params.storyline}/${params.post}`;
   const storylines = getAllStorylines();
   const storyline = storylines.find((s) => s.slug === params.storyline);
+  console.log(slug);
   if (!storyline) {
     return { notFound: true };
   }
 
-  const postIndex = storyline.posts?.findIndex((p) => p.slug === slug);
-  if (!postIndex) {
+  const postIndex =
+    storyline.posts?.findIndex((p) => {
+      return p.slug === slug;
+    }) ?? -1;
+  if (postIndex === -1) {
     return { notFound: true };
   }
   const post = storyline.posts?.[postIndex];
   if (!post) {
     return { notFound: true };
   }
-
   const previous = storyline.posts?.[postIndex - 1] ?? null;
   const next = storyline.posts?.[postIndex + 1] ?? null;
   return { props: { post, previous, next } };
@@ -131,6 +140,12 @@ const A = styled.a<{ color?: string }>`
 const Content = styled.div`
   margin-right: 8rem;
   line-height: 1.75;
+  @media ${mediaMedium} {
+    margin-right: 5rem;
+  }
+  @media ${mediaSmall} {
+    margin-right: 0;
+  }
 `;
 
 const Meta = styled.div`
@@ -141,6 +156,7 @@ const Meta = styled.div`
 const Navigation = styled.div<{ color?: string }>`
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
   margin-top: 3rem;
   & a {
     color: ${({ color = colorMain }) => color};

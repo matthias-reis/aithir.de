@@ -1,5 +1,5 @@
 ---
-title: About octahedron.world
+title: About octahedron world
 supertitle: Author, Motivation and Used Technology
 ---
 
