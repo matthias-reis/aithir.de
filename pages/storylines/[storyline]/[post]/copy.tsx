@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import { DateLabel } from '../../../../components/date-label';
 import { Page } from '../../../../components/page';
 import { PageSuperTitle, PageTitle } from '../../../../components/page-title';
-import { getAllPosts, getAllStorylines } from '../../../../core/data-layer';
+import { getAllStorylines } from '../../../../core/data-layer';
 import { parseMarkdown } from '../../../../core/markdown';
 import { PostMeta } from '../../../../core/types';
 import { icons } from '../../../../components/icons';
@@ -17,6 +17,7 @@ import {
 } from '../../../../core/style';
 import { ChevronRight } from '../../../../components/chevron-right';
 import { ChevronLeft } from '../../../../components/chevron-left';
+import { Headline } from '../../../../components/headline';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Post: NextPage<{
@@ -25,9 +26,26 @@ const Post: NextPage<{
   next: PostMeta | null;
 }> = ({ post, previous, next }) => {
   const content = parseMarkdown(post.md);
-  const chars = post.md.length;
-  const words = post.md.split(/\s/).length;
   const Icon = icons[post.storyline.slug];
+  const tags = Array.from(
+    new Set([...(post.tags || []), ...(post.storylineTags || [])])
+  )
+    .map((t) => `#${t}`)
+    .join(', ');
+
+  const url = `https://octahedron.world/storylines/${post.slug}`;
+
+  const mastodonText = `#${post.storyline.name}: ${post.name}
+
+${tags}
+
+${url}`;
+
+  const twitterText = `#${post.storyline.name}: ${post.name}
+
+${tags}
+
+${url}`;
   return (
     <Page
       type="Post"
@@ -45,44 +63,12 @@ const Post: NextPage<{
             <PageSuperTitle>{post.storyline.name}</PageSuperTitle>
           </A>
         </Link>
-        <ChevronRight width="16px" />
-        {post.episode && <div>Episode {post.episode}</div>}
       </Line>
-      <PageTitle>{post.name}</PageTitle>
-      <Content>{content}</Content>
-
-      <Meta>
-        <div>
-          <DateLabel
-            date={new Date(post.date || '')}
-            color={post.storyline.color}
-          />
-        </div>
-        <div>
-          <strong>{chars}</strong> chars
-        </div>
-        <div>
-          <strong>{words}</strong> words
-        </div>
-      </Meta>
-      <Navigation color={post.storyline.color}>
-        {previous && (
-          <Link href={'/storylines/' + previous.slug} passHref>
-            <A>
-              <ChevronLeft width={16} style={{ flex: '0 0 auto' }} />
-              {previous.name}
-            </A>
-          </Link>
-        )}
-        {next && (
-          <Link href={'/storylines/' + next.slug} passHref>
-            <A>
-              {next.name}
-              <ChevronRight width={16} style={{ flex: '0 0 auto' }} />
-            </A>
-          </Link>
-        )}
-      </Navigation>
+      <PageTitle>{post.name} (Copyable Format)</PageTitle>
+      <Headline>For Mastodon</Headline>
+      <Box>{mastodonText}</Box>
+      <Headline>For Twitter</Headline>
+      <Box>{twitterText}</Box>
     </Page>
   );
 };
@@ -132,6 +118,17 @@ const A = styled.a<{ color?: string }>`
   &:hover {
     color: ${colorText};
   }
+`;
+
+const Box = styled.textarea`
+  font-family: 'Menlo', monospace;
+  line-height: 1.4;
+  font-size: 1.25rem;
+  background: transparent;
+  color: ${colorText};
+  padding: 1rem;
+  width: 100%;
+  height: 8rem;
 `;
 
 const Content = styled.div`

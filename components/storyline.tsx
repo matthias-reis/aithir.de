@@ -20,7 +20,7 @@ export const Storyline: FC<{ meta: StorylineMeta }> = ({ meta }) => {
   return (
     <Link href={`/storylines/${meta.slug}`} passHref>
       <StorylineBox>
-        <Img src={img} alt={`${meta.name} Pattern`} />
+        <Img src={img} alt={`${meta.name} Pattern`} title={`${meta.name}`} />
         <TitleBox>
           <IconBox>
             <Icon width={24} height={24} />
