@@ -2,16 +2,22 @@ import type { NextPage } from 'next';
 import { DateLabel } from '../../../components/date-label';
 import { Page } from '../../../components/page';
 import { PageSuperTitle, PageTitle } from '../../../components/page-title';
-import { getAllPosts } from '../../../core/data-layer';
+import { getAllPosts, getAllStorylines } from '../../../core/data-layer';
 import { parseMarkdown } from '../../../core/markdown';
 import { PostMeta } from '../../../core/types';
 import { icons } from '../../../components/icons';
 import styled from '@emotion/styled';
 import Link from 'next/link';
-import { colorMain, colorText } from '../../../core/style';
+import { colorMain, colorText, fontSizeStandard } from '../../../core/style';
+import { ChevronRight } from '../../../components/chevron-right';
+import { ChevronLeft } from '../../../components/chevron-left';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
-const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
+const Post: NextPage<{
+  post: PostMeta;
+  previous: PostMeta | null;
+  next: PostMeta | null;
+}> = ({ post, previous, next }) => {
   const content = parseMarkdown(post.md);
   const chars = post.md.length;
   const words = post.md.split(/\s/).length;
@@ -26,14 +32,19 @@ const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
       color={post.storyline.color}
       layout="minor"
     >
-      <Link href={`/storylines/${post.storyline.slug}`} passHref>
-        <A color={post.storyline.color}>
-          <Icon width={32} height={32} />
-          <PageSuperTitle>{post.storyline.name}</PageSuperTitle>
-        </A>
-      </Link>
+      <Line>
+        <Link href={`/storylines/${post.storyline.slug}`} passHref>
+          <A color={post.storyline.color}>
+            <Icon width={32} height={32} />
+            <PageSuperTitle>{post.storyline.name}</PageSuperTitle>
+          </A>
+        </Link>
+        <ChevronRight width="16px" />
+        {post.episode && <div>Episode {post.episode}</div>}
+      </Line>
       <PageTitle>{post.name}</PageTitle>
       <Content>{content}</Content>
+
       <Meta>
         <div>
           <DateLabel
@@ -48,6 +59,24 @@ const Post: NextPage<{ post: PostMeta }> = ({ post }) => {
           <strong>{words}</strong> words
         </div>
       </Meta>
+      <Navigation color={post.storyline.color}>
+        {previous && (
+          <Link href={'/storylines/' + previous.slug} passHref>
+            <A>
+              <ChevronLeft width={16} />
+              {previous.name}
+            </A>
+          </Link>
+        )}
+        {next && (
+          <Link href={'/storylines/' + next.slug} passHref>
+            <A>
+              {next.name}
+              <ChevronRight width={16} />
+            </A>
+          </Link>
+        )}
+      </Navigation>
     </Page>
   );
 };
@@ -60,13 +89,32 @@ export function getServerSideProps({
   params: { storyline: string; post: string };
 }) {
   const slug = `${params.storyline}/${params.post}`;
-  const posts = getAllPosts();
-  const post = posts.find((p) => p.slug === slug);
+  const storylines = getAllStorylines();
+  const storyline = storylines.find((s) => s.slug === params.storyline);
+  if (!storyline) {
+    return { notFound: true };
+  }
+
+  const postIndex = storyline.posts?.findIndex((p) => p.slug === slug);
+  if (!postIndex) {
+    return { notFound: true };
+  }
+  const post = storyline.posts?.[postIndex];
   if (!post) {
     return { notFound: true };
   }
-  return { props: { post } };
+
+  const previous = storyline.posts?.[postIndex - 1] ?? null;
+  const next = storyline.posts?.[postIndex + 1] ?? null;
+  return { props: { post, previous, next } };
 }
+
+const Line = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: ${fontSizeStandard};
+`;
 
 const A = styled.a<{ color?: string }>`
   color: ${({ color = colorMain }) => color};
@@ -88,4 +136,14 @@ const Content = styled.div`
 const Meta = styled.div`
   text-align: right;
   margin-top: 5rem;
+`;
+
+const Navigation = styled.div<{ color?: string }>`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  & a {
+    color: ${({ color = colorMain }) => color};
+    text-decoration: none;
+  }
 `;
