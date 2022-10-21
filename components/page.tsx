@@ -77,6 +77,7 @@ export const Page: FC<{
         <meta name="robots" content="index,follow" />
         <meta property="og:title" content={title} />
         <meta property="og:image" content={image || defaultImage} />
+        <meta name="twitter:image" content={image || defaultImage} />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"

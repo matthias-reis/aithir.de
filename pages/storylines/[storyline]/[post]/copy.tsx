@@ -37,11 +37,15 @@ const Post: NextPage<{
 
   const mastodonText = `#${post.storyline.name}: ${post.name}
 
+${post.md.split('\n\n')[0].replace('\n', ' ')} ...
+
 ${tags}
 
-${url}`;
+Full Post: ${url}`;
 
-  const twitterText = `#${post.storyline.name}: ${post.name}
+  const twitterText = `Octahedron Post Week ${post.week} / ${post.day}
+  
+#${post.storyline.name}: ${post.name}
 
 ${tags}
 
@@ -68,8 +72,10 @@ ${url}`;
       <PageTitle>{post.name} (Copyable Format)</PageTitle>
       <Headline>For Mastodon</Headline>
       <Box>{mastodonText}</Box>
+      <p>Length: {mastodonText.length}</p>
       <Headline>For Twitter</Headline>
       <Box>{twitterText}</Box>
+      <p>Length: {twitterText.length}</p>
     </Page>
   );
 };
@@ -129,7 +135,7 @@ const Box = styled.textarea`
   color: ${colorText};
   padding: 1rem;
   width: 100%;
-  height: 8rem;
+  height: 20rem;
 `;
 
 const Content = styled.div`

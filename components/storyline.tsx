@@ -9,7 +9,6 @@ import {
   fontBold,
   fontSizeMedium,
   fontSizeSmall,
-  fontSizeStandard,
 } from '../core/style';
 import { StorylineMeta } from '../core/types';
 import { icons } from './icons';

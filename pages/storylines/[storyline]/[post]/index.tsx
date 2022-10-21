@@ -32,9 +32,10 @@ const Post: NextPage<{
     <Page
       type="Post"
       title={`${post.name} (${post.storyline.name})`}
-      description={post.md.slice(0, 250)}
+      description={post.md.slice(0, 170)}
       canonicalPath={`/storylines/${post.slug}`}
       keywords={[...(post.tags || []), ...(post.storylineTags || [])]}
+      image={`https://octahedron.world/strips/${post.storyline.slug}.jpg`}
       bg={post.storyline.slug}
       color={post.storyline.color}
       layout="minor"
