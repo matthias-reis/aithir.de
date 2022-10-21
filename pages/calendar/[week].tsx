@@ -28,7 +28,7 @@ const Week: NextPage<{
             <hr />
             <h4>
               <a
-                href={`https://octahedron.world/storylines/${post.storyline.slug}?c=su`}
+                href={`https://octahedron.world/storylines/${post.storyline.slug}?c=nl`}
               >
                 {post.storyline.name}
               </a>
@@ -37,7 +37,7 @@ const Week: NextPage<{
             <h2>{post.name}</h2>
             <p>{words.join(' ')} ...</p>
             <p>
-              <a href={`https://octahedron.world/storylines/${post.slug}?c=su`}>
+              <a href={`https://octahedron.world/storylines/${post.slug}?c=nl`}>
                 View full post ...
               </a>
             </p>

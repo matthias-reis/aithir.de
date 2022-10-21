@@ -25,7 +25,6 @@ const Post: NextPage<{
   previous: PostMeta | null;
   next: PostMeta | null;
 }> = ({ post, previous, next }) => {
-  const content = parseMarkdown(post.md);
   const Icon = icons[post.storyline.slug];
   const tags = Array.from(
     new Set([...(post.tags || []), ...(post.storylineTags || [])])
@@ -41,7 +40,7 @@ ${post.md.split('\n\n')[0].replace('\n', ' ')} ...
 
 ${tags}
 
-Full Post: ${url}`;
+Full Post: ${url}?c=mn`;
 
   const twitterText = `Octahedron Post Week ${post.week} / ${post.day}
   
@@ -49,7 +48,7 @@ Full Post: ${url}`;
 
 ${tags}
 
-${url}`;
+${url}?c=tw`;
   return (
     <Page
       type="Post"

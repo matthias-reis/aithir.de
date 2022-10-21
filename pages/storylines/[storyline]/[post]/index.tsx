@@ -99,7 +99,6 @@ export function getServerSideProps({
   const slug = `${params.storyline}/${params.post}`;
   const storylines = getAllStorylines();
   const storyline = storylines.find((s) => s.slug === params.storyline);
-  console.log(slug);
   if (!storyline) {
     return { notFound: true };
   }
@@ -115,8 +114,11 @@ export function getServerSideProps({
   if (!post) {
     return { notFound: true };
   }
-  const previous = storyline.posts?.[postIndex - 1] ?? null;
-  const next = storyline.posts?.[postIndex + 1] ?? null;
+  let previous = storyline.posts?.[postIndex - 1] ?? null;
+  let next = storyline.posts?.[postIndex + 1] ?? null;
+  if (next?.placeholder || new Date(next?.date || Date.now()) > new Date()) {
+    next = null;
+  }
   return { props: { post, previous, next } };
 }
 
