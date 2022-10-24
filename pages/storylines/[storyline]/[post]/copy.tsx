@@ -36,7 +36,7 @@ const Post: NextPage<{
 
   const mastodonText = `#${post.storyline.name}: ${post.name}
 
-${post.md.split('\n\n')[0].replace('\n', ' ')} ...
+${post.md.split('\n\n')[0].replace(/\n/g, ' ')} ...
 
 ${tags}
 
