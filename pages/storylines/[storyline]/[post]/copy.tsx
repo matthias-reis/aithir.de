@@ -1,9 +1,7 @@
 import type { NextPage } from 'next';
-import { DateLabel } from '../../../../components/date-label';
 import { Page } from '../../../../components/page';
 import { PageSuperTitle, PageTitle } from '../../../../components/page-title';
 import { getAllStorylines } from '../../../../core/data-layer';
-import { parseMarkdown } from '../../../../core/markdown';
 import { PostMeta } from '../../../../core/types';
 import { icons } from '../../../../components/icons';
 import styled from '@emotion/styled';
@@ -15,8 +13,6 @@ import {
   mediaMedium,
   mediaSmall,
 } from '../../../../core/style';
-import { ChevronRight } from '../../../../components/chevron-right';
-import { ChevronLeft } from '../../../../components/chevron-left';
 import { Headline } from '../../../../components/headline';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
@@ -29,7 +25,7 @@ const Post: NextPage<{
   const tags = Array.from(
     new Set([...(post.tags || []), ...(post.storylineTags || [])])
   )
-    .map((t) => `#${t}`)
+    .map((t) => `#${t.replace(/ /g, '')}`)
     .join(', ');
 
   const url = `https://octahedron.world/storylines/${post.slug}`;
@@ -40,7 +36,7 @@ ${post.md.split('\n\n')[0].replace(/\n/g, ' ')} ...
 
 ${tags}
 
-Full Post: ${url}?c=mn`;
+Full Post: ${url}?c=mst`;
 
   const twitterText = `Octahedron Post Week ${post.week} / ${post.day}
   
@@ -48,7 +44,7 @@ Full Post: ${url}?c=mn`;
 
 ${tags}
 
-${url}?c=tw`;
+${url}?c=twt`;
   return (
     <Page
       type="Post"
