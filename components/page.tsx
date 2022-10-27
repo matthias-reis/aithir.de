@@ -65,12 +65,6 @@ export const Page: FC<{
         <link rel="canonical" href={canonicalUrl} />
         <meta charSet="utf-8" />
         <meta name="description" content={description || defaultDescription} />
-        <meta
-          name="keywords"
-          content={Array.from(
-            new Set([...(keywords || []), ...defaultKeywords])
-          ).join(', ')}
-        />
         <meta name="author" content="Matthias Reis" />
         <meta name="copyright" content="Matthias Reis, OctahedronWorld" />
         <meta name="description" content={description || defaultDescription} />
