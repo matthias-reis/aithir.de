@@ -18,7 +18,7 @@ export const TagItem: FC<{ tag: Tag }> = ({ tag }) => (
   </Link>
 );
 
-export const TagList = styled.ul`
+export const TagList = styled.div`
   text-decoration: none;
   margin: 0;
   padding: 0;
