@@ -26,6 +26,7 @@ const Calendar: NextPage<{
       <PageSuperTitle>Calendar Weeks</PageSuperTitle>
       <PageTitle>All Posts</PageTitle>
       {Object.entries(weeks)
+        .sort()
         .reverse()
         .map(([w, days]) => {
           const [year, week] = w.split('-');
@@ -79,8 +80,10 @@ export function getServerSideProps({
 }) {
   const isPreview = 'preview' in query;
   let posts = getAllPosts().sort(
-    (a, b) => a.week * 10 + a.day - b.week * 10 - b.day
+    (a, b) =>
+      a.year * 100 + a.week * 10 + a.day - b.year * 100 - b.week * 10 - b.day
   );
+
   if (!isPreview) {
     posts = posts.filter(
       (post) => new Date(post.date || Date.now()) <= new Date()
