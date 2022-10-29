@@ -32,7 +32,7 @@ const Calendar: NextPage<{
           return (
             <Week key={w}>
               {isPreview ? (
-                <Link href={`/calendar/${w}`} passHref>
+                <Link href={`/calendar/${w}`} passHref legacyBehavior>
                   <A>
                     <W>{week}</W>
                     <Y>{year}</Y>
@@ -51,7 +51,10 @@ const Calendar: NextPage<{
                       <>
                         <Post meta={post} key={post.slug} small />
                         {isPreview && (
-                          <Link href={`/storylines/${post.slug}/copy`}>
+                          <Link
+                            href={`/storylines/${post.slug}/copy`}
+                            legacyBehavior
+                          >
                             copy
                           </Link>
                         )}

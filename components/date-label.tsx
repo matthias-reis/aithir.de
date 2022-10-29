@@ -22,7 +22,9 @@ export const DateLabel: FC<{ date: Date; small?: boolean; color?: string }> = ({
 
 const pad = (n: number) => `0${n}`.slice(-2);
 
-const DateBox = styled.div<{ small: boolean; color: string }>`
+const DateBox = styled('div', {
+  shouldForwardProp: (prop) => prop !== 'color' && prop !== 'small',
+})<{ small: boolean; color: string }>`
   color: ${({ color }) => color};
   font-size: ${({ small }) => (small ? fontSizeSmall : fontSizeMedium)};
   margin-bottom: ${({ small }) => (small ? '0.25rem' : '1rem')};

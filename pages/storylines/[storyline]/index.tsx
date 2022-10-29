@@ -28,7 +28,7 @@ const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
       bg={storyline.slug}
       color={storyline.color}
     >
-      <Link href={`/storylines`} passHref>
+      <Link href={`/storylines`} passHref legacyBehavior>
         <A color={storyline.color}>
           <PageSuperTitle>Storyline</PageSuperTitle>
         </A>
@@ -70,7 +70,9 @@ export function getServerSideProps({
   return { props: { storyline } };
 }
 
-const A = styled.a<{ color?: string }>`
+const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
+  color?: string;
+}>`
   color: ${({ color = colorMain }) => color};
   text-decoration: none;
   display: flex;

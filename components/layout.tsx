@@ -15,7 +15,7 @@ type LayoutComp = FC<{ children: ReactNode; color: string }>;
 
 export const MajorLayout: LayoutComp = ({ children, color }) => (
   <MajorBox>
-    <Link href="/" passHref>
+    <Link href="/" passHref legacyBehavior>
       <MajorOcta>
         <h1>
           Octahedron<Sub color={color}>World</Sub>
@@ -29,7 +29,7 @@ export const MajorLayout: LayoutComp = ({ children, color }) => (
 export const MinorLayout: LayoutComp = ({ children, color }) => (
   <MinorBox>
     <OctaSection>
-      <Link href="/" passHref>
+      <Link href="/" passHref legacyBehavior>
         <MinorOcta>
           <h1>
             Octahedron<Sub color={color}>World</Sub>
@@ -114,7 +114,9 @@ const MinorOcta = styled.a`
   }
 `;
 
-const Sub = styled.span<{ color: string }>`
+const Sub = styled('span', { shouldForwardProp: (prop) => prop !== 'color' })<{
+  color: string;
+}>`
   color: ${({ color }) => color};
   opacity: 0.5;
   font-weight: ${fontNormal};

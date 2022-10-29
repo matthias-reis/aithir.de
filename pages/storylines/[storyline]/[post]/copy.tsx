@@ -20,7 +20,7 @@ const Post: NextPage<{
   post: PostMeta;
   previous: PostMeta | null;
   next: PostMeta | null;
-}> = ({ post, previous, next }) => {
+}> = ({ post }) => {
   const Icon = icons[post.storyline.slug];
   const tags = Array.from(
     new Set([...(post.tags || []), ...(post.storylineTags || [])])
@@ -110,7 +110,9 @@ const Line = styled.div`
   font-size: ${fontSizeStandard};
 `;
 
-const A = styled.a<{ color?: string }>`
+const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
+  color?: string;
+}>`
   color: ${({ color = colorMain }) => color};
   text-decoration: none;
   display: flex;
@@ -149,7 +151,9 @@ const Meta = styled.div`
   margin-top: 5rem;
 `;
 
-const Navigation = styled.div<{ color?: string }>`
+const Navigation = styled('div', {
+  shouldForwardProp: (prop) => prop !== 'color',
+})<{ color?: string }>`
   display: flex;
   justify-content: space-between;
   gap: 1rem;

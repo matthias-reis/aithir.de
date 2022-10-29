@@ -8,9 +8,7 @@ export const OctahedronNav: FC<{ color: string }> = ({ color }) => {
   return (
     <Positioning>
       <Link href="/" passHref>
-        <A>
-          <Octahedron color={color} />
-        </A>
+        <Octahedron color={color} />
       </Link>
     </Positioning>
   );

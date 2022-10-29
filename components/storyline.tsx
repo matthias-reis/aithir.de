@@ -17,7 +17,7 @@ export const Storyline: FC<{ meta: StorylineMeta }> = ({ meta }) => {
   const Icon = icons[meta.slug];
   const img = `/strips/${meta.slug}.jpg`;
   return (
-    <Link href={`/storylines/${meta.slug}`} passHref>
+    <Link href={`/storylines/${meta.slug}`} passHref legacyBehavior>
       <StorylineBox>
         <Img src={img} alt={`${meta.name} Pattern`} title={`${meta.name}`} />
         <TitleBox>
@@ -95,5 +95,4 @@ const Img = styled.img`
 
 const Description = styled.div`
   font-size: ${fontSizeSmall};
-  line-height: 1.25;
 `;

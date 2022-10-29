@@ -8,7 +8,7 @@ export const Pointer: FC<{ to: string; children: ReactNode }> = ({
   to,
   children,
 }) => (
-  <Link href={to} passHref>
+  <Link href={to} passHref legacyBehavior>
     <A>
       {children}
       <ChevronRight width={20} height={20} />

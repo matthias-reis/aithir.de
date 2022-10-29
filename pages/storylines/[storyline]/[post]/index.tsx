@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import { DateLabel } from '../../../../components/date-label';
 import { Page } from '../../../../components/page';
 import { PageSuperTitle, PageTitle } from '../../../../components/page-title';
-import { getAllPosts, getAllStorylines } from '../../../../core/data-layer';
+import { getAllStorylines } from '../../../../core/data-layer';
 import { parseMarkdown } from '../../../../core/markdown';
 import { PostMeta } from '../../../../core/types';
 import { icons } from '../../../../components/icons';
@@ -41,7 +41,11 @@ const Post: NextPage<{
       layout="minor"
     >
       <Line>
-        <Link href={`/storylines/${post.storyline.slug}`} passHref>
+        <Link
+          href={`/storylines/${post.storyline.slug}`}
+          passHref
+          legacyBehavior
+        >
           <A color={post.storyline.color}>
             <Icon width={32} height={32} />
             <PageSuperTitle>{post.storyline.name}</PageSuperTitle>
@@ -69,7 +73,7 @@ const Post: NextPage<{
       </Meta>
       <Navigation color={post.storyline.color}>
         {previous && (
-          <Link href={'/storylines/' + previous.slug} passHref>
+          <Link href={'/storylines/' + previous.slug} passHref legacyBehavior>
             <A>
               <ChevronLeft width={16} style={{ flex: '0 0 auto' }} />
               {previous.name}
@@ -77,7 +81,7 @@ const Post: NextPage<{
           </Link>
         )}
         {next && (
-          <Link href={'/storylines/' + next.slug} passHref>
+          <Link href={'/storylines/' + next.slug} passHref legacyBehavior>
             <A>
               {next.name}
               <ChevronRight width={16} style={{ flex: '0 0 auto' }} />
@@ -129,7 +133,9 @@ const Line = styled.div`
   font-size: ${fontSizeStandard};
 `;
 
-const A = styled.a<{ color?: string }>`
+const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
+  color?: string;
+}>`
   color: ${({ color = colorMain }) => color};
   text-decoration: none;
   display: flex;
@@ -157,7 +163,9 @@ const Meta = styled.div`
   margin-top: 5rem;
 `;
 
-const Navigation = styled.div<{ color?: string }>`
+const Navigation = styled('div', {
+  shouldForwardProp: (prop) => prop !== 'color',
+})<{ color?: string }>`
   display: flex;
   justify-content: space-between;
   gap: 1rem;

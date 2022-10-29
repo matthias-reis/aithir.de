@@ -11,7 +11,7 @@ import {
 import { Tag } from '../core/types';
 
 export const TagItem: FC<{ tag: Tag }> = ({ tag }) => (
-  <Link href={`/tags/${tag.slug}`} passHref>
+  <Link href={`/tags/${tag.slug}`} passHref legacyBehavior>
     <A>
       <Name>#{tag.name}</Name> <Count>{tag.count}</Count>
     </A>

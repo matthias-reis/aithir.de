@@ -53,6 +53,7 @@ export const Page: FC<{
   pageView(type, title, router.query.c as string | undefined);
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   const canonicalUrl = `https://octahedron.world${canonicalPath}`;
+  const titleText = `${title} - OctahedronWorld`;
   return (
     <Viewport bg={`/patterns/${bg}.jpg`}>
       <CookieConsent>
@@ -61,7 +62,7 @@ export const Page: FC<{
         personalize the experience with it.
       </CookieConsent>
       <Head>
-        <title>{title} - OctahedronWorld</title>
+        <title>{titleText}</title>
         <link rel="canonical" href={canonicalUrl} />
         <meta charSet="utf-8" />
         <meta name="description" content={description || defaultDescription} />
@@ -111,7 +112,9 @@ export const Page: FC<{
   );
 };
 
-const Legal = styled.nav<{ color: string }>`
+const Legal = styled('nav', {
+  shouldForwardProp: (prop) => prop !== 'color',
+})<{ color: string }>`
   display: flex;
   justify-content: center;
   gap: 1rem;

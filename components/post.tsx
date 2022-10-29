@@ -22,7 +22,7 @@ export const Post: FC<{
   color?: string;
 }> = ({ meta, type = 'reference', small = false, color }) => {
   return (
-    <Link href={`/storylines/${meta.slug}`} passHref>
+    <Link href={`/storylines/${meta.slug}`} passHref legacyBehavior>
       <PostBox>
         <DateLabel
           date={new Date(meta.date || '')}
