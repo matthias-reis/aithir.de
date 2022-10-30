@@ -1,0 +1,27 @@
+import * as React from 'react';
+import { SVGProps } from 'react';
+
+const SvgOperator = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 49 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    {...props}
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M17.5 46.5V41L12 34L17.5 17.5L17 5.5L18.5 2.5L20.5 5.5V17.5L25.5 34L20.5 41V46.5H17.5ZM14.5 34L19 21L23 34L19 39L14.5 34Z"
+      fill="currentColor"
+    />
+    <path d="M26 16L22.5 10V21L26 30V16Z" fill="currentColor" />
+    <path d="M31.5 21L28 18V34H31.5V21Z" fill="currentColor" />
+    <path d="M11.5 16.5L15 10V20L11.5 28.5V16.5Z" fill="currentColor" />
+    <path d="M37 24.5L33 22V34H37V24.5Z" fill="currentColor" />
+    <path d="M42 26.5L38.5 25V34H42V26.5Z" fill="currentColor" />
+    <path d="M6.5 22L9.5 18.5V33.5H6.5V22Z" fill="currentColor" />
+  </svg>
+);
+
+export default SvgOperator;
