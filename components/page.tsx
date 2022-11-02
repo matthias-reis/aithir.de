@@ -105,6 +105,9 @@ export const Page: FC<{
       </Canvas>
       <Legal color={color}>
         <Link href="/more/about">About</Link>
+        <a rel="me" href="https://mstdn.social/@aithir">
+          Mastodon
+        </a>
         <Link href="/more/privacy">Privacy Policy</Link>
         <Link href="/more/imprint">Imprint</Link>
       </Legal>
