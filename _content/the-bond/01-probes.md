@@ -1,5 +1,5 @@
 ---
-name: Explorer Probes
+name: Probes
 year: 2022
 week: 46
 day: 4

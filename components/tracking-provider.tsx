@@ -4,8 +4,6 @@ import { initTracking } from '../core/tracking';
 initTracking();
 
 export const TrackingProvider: FC = () => {
-  useEffect(() => {
-    console.log('tracking provider: mount');
-  }, []);
+  useEffect(() => {}, []);
   return null;
 };
