@@ -55,7 +55,7 @@ const Post: NextPage<{
         {post.episode && <div>Episode {post.episode}</div>}
       </Line>
       <PageTitle>{post.name}</PageTitle>
-      <Content>{content}</Content>
+      <Content color={post.storyline.color}>{content}</Content>
 
       <Meta>
         <div>
@@ -147,9 +147,16 @@ const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
   }
 `;
 
-const Content = styled.div`
+const Content = styled('div', {
+  shouldForwardProp: (prop) => prop !== 'color',
+})<{ color?: string }>`
   margin-right: 8rem;
   line-height: 1.75;
+
+  & a {
+    color: ${({ color = colorMain }) => color};
+  }
+
   @media ${mediaMedium} {
     margin-right: 5rem;
   }
