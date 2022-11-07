@@ -3,6 +3,7 @@ export type StorylineMeta = {
   name: string;
   description: string;
   count: number;
+  finished?: boolean;
   color?: string;
   weight?: number;
   tags?: string[];

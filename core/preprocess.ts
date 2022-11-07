@@ -23,7 +23,12 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
     const storylineMetaData = (await yaml(file)) as Omit<StorylineMeta, 'slug'>;
     const cwd = dirname(file);
     const postFiles = await glob('**/*.md', { cwd, absolute: true });
-    console.log(`[PRE] ${storylineSlug}: <${postFiles.length}>`);
+    const finished = file.includes('_archive');
+    console.log(
+      `[PRE] ${storylineSlug}: <${postFiles.length}>${
+        finished ? ' (FINISHED)' : ''
+      }`
+    );
     const posts = await Promise.all(
       postFiles.map(async (postFile, i) => {
         const postSlug = postFile.split('/').at(-1)?.replace('.md', '') ?? '';
@@ -49,8 +54,9 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
       })
     );
     metaData[storylineSlug] = {
-      ...storylineMetaData,
       slug: storylineSlug,
+      finished,
+      ...storylineMetaData,
       posts,
       count: posts.filter(
         (post) => new Date(post.date || Date.now()) <= new Date()
