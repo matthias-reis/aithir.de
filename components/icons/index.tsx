@@ -14,6 +14,7 @@ import World2 from './world-2';
 import Vegan from './vegan';
 import Traffic from './traffic';
 import Elements from './elements';
+import Operator from './operator';
 
 export const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   'ai-jobs': AiJobs,
@@ -30,4 +31,5 @@ export const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   vegan: Vegan,
   traffic: Traffic,
   elements: Elements,
+  operator: Operator,
 };
