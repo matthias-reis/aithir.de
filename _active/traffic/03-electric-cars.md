@@ -4,7 +4,8 @@ year: 2022
 week: 42
 day: 3
 sources:
-  - https://www.tuev-nord.de/de/privatkunden/verkehr/auto-motorrad-caravan/elektromobilitaet/wirkungsgrad/
+  - url: https://www.tuev-nord.de/de/privatkunden/verkehr/auto-motorrad-caravan/elektromobilitaet/wirkungsgrad/
+    title: German TüV on efficiency degrees of drives
 ---
 
 The problem with classic cars powered by petrol for the environment is obvious.

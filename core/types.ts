@@ -23,6 +23,7 @@ export type PostMeta = {
   tags?: string[];
   storylineTags?: string[];
   placeholder?: boolean;
+  sources?: { url: string; title: string }[];
 };
 
 export type Tag = {

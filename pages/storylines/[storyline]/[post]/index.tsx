@@ -11,12 +11,15 @@ import Link from 'next/link';
 import {
   colorMain,
   colorText,
+  fontNormal,
+  fontSizeSmall,
   fontSizeStandard,
   mediaMedium,
   mediaSmall,
 } from '../../../../core/style';
 import { ChevronRight } from '../../../../components/chevron-right';
 import { ChevronLeft } from '../../../../components/chevron-left';
+import { Headline } from '../../../../components/headline';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Post: NextPage<{
@@ -57,6 +60,20 @@ const Post: NextPage<{
       <PageTitle>{post.name}</PageTitle>
       <Content color={post.storyline.color}>{content}</Content>
 
+      {post.sources && (
+        <Sources>
+          <h3>Sources and Good Reads</h3>
+          <ul>
+            {post.sources.map((source) => (
+              <li key={source.url}>
+                <A href={source.url} color={post.storyline.color}>
+                  {source.title}
+                </A>
+              </li>
+            ))}
+          </ul>
+        </Sources>
+      )}
       <Meta>
         <div>
           <DateLabel
@@ -180,5 +197,17 @@ const Navigation = styled('div', {
   & a {
     color: ${({ color = colorMain }) => color};
     text-decoration: none;
+  }
+`;
+
+const Sources = styled.div`
+  margin-top: 3rem;
+  & h3 {
+    font-size: ${fontSizeSmall};
+    font-weight: ${fontNormal};
+  }
+  & li {
+    font-size: ${fontSizeSmall};
+    list-style: none;
   }
 `;

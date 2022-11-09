@@ -6,9 +6,11 @@ day: 3
 tags:
   - Livestock
   - Biomass
-resources:
-  - https://www.theguardian.com/environment/2018/may/21/human-race-just-001-of-all-life-but-has-destroyed-over-80-of-wild-mammals-study
-  - https://www.pnas.org/doi/full/10.1073/pnas.1711842115
+sources:
+  - url: https://www.theguardian.com/environment/2018/may/21/human-race-just-001-of-all-life-but-has-destroyed-over-80-of-wild-mammals-study
+    title: Guardian article
+  - url: https://www.pnas.org/doi/full/10.1073/pnas.1711842115
+    title: Study in the PNAS journal
 ---
 
 I just want to give you some relation between nature and livestock.

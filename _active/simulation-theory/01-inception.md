@@ -5,8 +5,9 @@ week: 19
 day: 4
 tags:
   - Inception
-resources:
-  - https://en.wikipedia.org/wiki/Simulation_hypothesis
+sources:
+  - url: https://en.wikipedia.org/wiki/Simulation_hypothesis
+    title: Wikipedia
 ---
 
 There is an interesting thought experiment, I want to tell you about.
