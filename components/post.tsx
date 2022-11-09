@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import Link from 'next/link';
 import { FC } from 'react';
+import { parseMarkdown } from '../core/markdown';
 import {
   colorBackgroundWeak,
   colorText,
@@ -39,6 +40,14 @@ export const Post: FC<{
         <Title small={small} isPlaceholder={!!meta.placeholder}>
           {meta.name}
         </Title>
+
+        {!small && !meta.placeholder && (
+          <Text>
+            {parseMarkdown(
+              meta.md.split(' ').slice(0, 15).join(' ') + `&nbsp;&hellip;`
+            )}
+          </Text>
+        )}
       </PostBox>
     </Link>
   );
@@ -85,4 +94,8 @@ const Title = styled.div<{ small: boolean; isPlaceholder: boolean }>`
   color: ${({ isPlaceholder }) =>
     isPlaceholder ? colorTextPlaceholder : colorTextStrong};
   line-height: 1.1;
+`;
+
+const Text = styled.div`
+  font-size: ${fontSizeSmall};
 `;

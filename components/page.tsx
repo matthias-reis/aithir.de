@@ -120,6 +120,7 @@ const Legal = styled('nav', {
   shouldForwardProp: (prop) => prop !== 'color',
 })<{ color: string }>`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 
