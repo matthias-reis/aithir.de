@@ -5,8 +5,8 @@ week: 24
 day: 1
 ---
 
-I'd like to dive into another new scenario. A new setting for a short story,
-that will come in chunks of 1000 characters at a time.
+> I'd like to dive into another new scenario. A new setting for a short story,
+> that will come in chunks of 1000 characters at a time.
 
 Goliath is an AI program that is funded by several European states, the US and
 Canada. And it is led by three major IT companies. Its goal is to create an AI,

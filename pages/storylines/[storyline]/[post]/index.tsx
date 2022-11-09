@@ -9,6 +9,7 @@ import { icons } from '../../../../components/icons';
 import styled from '@emotion/styled';
 import Link from 'next/link';
 import {
+  colorBackgroundWeak,
   colorMain,
   colorText,
   fontNormal,
@@ -197,6 +198,14 @@ const Content = styled('div', {
 })<{ color?: string }>`
   margin-right: 8rem;
   line-height: 1.75;
+
+  & blockquote {
+    font-style: italic;
+    font-size: ${fontSizeSmall};
+    margin: 0;
+    padding: 1rem 2rem;
+    background: ${colorBackgroundWeak};
+  }
 
   & a {
     color: ${({ color = colorMain }) => color};

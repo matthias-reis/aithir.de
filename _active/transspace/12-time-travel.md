@@ -20,5 +20,5 @@ Both devices have been confirmed by theories and micro experiments. But on a
 large scale, their complexity exceeds the capacities in the known space. The
 universe could prevent a paradox just by making it too complicated to execute.
 
-This marks the end of the storyline. So who wants to dive into the first
-missions now? It's time to meet some (well known) aliens, isn't it?
+> This marks the end of the storyline. So who wants to dive into the first
+> missions now? It's time to meet some (well known) aliens, isn't it?
