@@ -6,9 +6,9 @@ day: 3
 ---
 
 The last chapter of this worldbuilding exercise focuses on things not invented
-yet. Let's go back to time travelling. Even 100 years after the enclave,
-scientists have no practical clue how to do it, although some groups have worked
-on it since the beginning.
+yet. Let's go back to [time travelling](/storylines/transspace/05-time). Even
+100 years after the enclave, scientists have no practical clue how to do it,
+although some groups have worked on it since the beginning.
 
 The current state of the art speaks of two devices. The first is a temporal
 converter (or Verter). It allows to slide along the regular time axis into the
