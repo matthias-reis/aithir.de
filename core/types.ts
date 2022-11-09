@@ -8,6 +8,7 @@ export type StorylineMeta = {
   weight?: number;
   tags?: string[];
   posts?: PostMeta[];
+  related: string[];
 };
 
 export type PostMeta = {

@@ -14,8 +14,14 @@ import {
 } from '../../../core/style';
 import { PageSuperTitle, PageTitle } from '../../../components/page-title';
 import { Post } from '../../../components/post';
+import { Headline } from '../../../components/headline';
+import { Storyline } from '../../../components/storyline';
+import { Grid } from '../../../components/grid';
 
-const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
+const StorylinePage: NextPage<{
+  storyline: StorylineMeta;
+  related: StorylineMeta[];
+}> = ({ storyline, related }) => {
   const Icon = icons[storyline.slug];
 
   return (
@@ -44,11 +50,21 @@ const Storyline: NextPage<{ storyline: StorylineMeta }> = ({ storyline }) => {
           <Post key={post.slug} meta={post} color={storyline.color} />
         ))}
       </StorylineBox>
+      {related.length > 0 && (
+        <RelatedBox>
+          <Headline>Related Storyline{related.length > 1 && 's'}</Headline>
+          <Grid>
+            {related.map((s) => (
+              <Storyline key={s.slug} meta={s} />
+            ))}
+          </Grid>
+        </RelatedBox>
+      )}
     </Page>
   );
 };
 
-export default Storyline;
+export default StorylinePage;
 
 export function getServerSideProps({
   params,
@@ -67,7 +83,17 @@ export function getServerSideProps({
         new Date(post.date || Date.now()) <= new Date() && !post.placeholder
     ) ?? [];
 
-  return { props: { storyline } };
+  let related: StorylineMeta[] = [];
+  if (storyline.related) {
+    related = storyline.related
+      .map((slug) => {
+        const relatedStoryline = storylines.find((s) => s.slug === slug);
+        delete relatedStoryline?.posts;
+        return relatedStoryline as StorylineMeta;
+      })
+      .filter(Boolean);
+  }
+  return { props: { storyline, related } };
 }
 
 const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
@@ -112,4 +138,8 @@ const StorylineBox = styled.div`
   @media ${mediaMobile} {
     padding: 1rem 0;
   }
+`;
+
+const RelatedBox = styled.div`
+  margin-top: 8rem;
 `;

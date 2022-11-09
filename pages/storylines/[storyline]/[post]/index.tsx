@@ -4,7 +4,7 @@ import { Page } from '../../../../components/page';
 import { PageSuperTitle, PageTitle } from '../../../../components/page-title';
 import { getAllStorylines } from '../../../../core/data-layer';
 import { parseMarkdown } from '../../../../core/markdown';
-import { PostMeta } from '../../../../core/types';
+import { PostMeta, StorylineMeta } from '../../../../core/types';
 import { icons } from '../../../../components/icons';
 import styled from '@emotion/styled';
 import Link from 'next/link';
@@ -20,13 +20,16 @@ import {
 import { ChevronRight } from '../../../../components/chevron-right';
 import { ChevronLeft } from '../../../../components/chevron-left';
 import { Headline } from '../../../../components/headline';
+import { Grid } from '../../../../components/grid';
+import { Storyline } from '../../../../components/storyline';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const Post: NextPage<{
   post: PostMeta;
   previous: PostMeta | null;
   next: PostMeta | null;
-}> = ({ post, previous, next }) => {
+  related: StorylineMeta[];
+}> = ({ post, previous, next, related }) => {
   const content = parseMarkdown(post.md);
   const chars = post.md.length;
   const words = post.md.split(/\s/).length;
@@ -89,13 +92,15 @@ const Post: NextPage<{
         </div>
       </Meta>
       <Navigation color={post.storyline.color}>
-        {previous && (
+        {previous ? (
           <Link href={'/storylines/' + previous.slug} passHref legacyBehavior>
             <A>
               <ChevronLeft width={16} style={{ flex: '0 0 auto' }} />
               {previous.name}
             </A>
           </Link>
+        ) : (
+          <div />
         )}
         {next && (
           <Link href={'/storylines/' + next.slug} passHref legacyBehavior>
@@ -106,6 +111,17 @@ const Post: NextPage<{
           </Link>
         )}
       </Navigation>
+
+      {related.length > 0 && (
+        <RelatedBox>
+          <Headline>Related Storyline{related.length > 1 && 's'}</Headline>
+          <Grid>
+            {related.map((s) => (
+              <Storyline key={s.slug} meta={s} />
+            ))}
+          </Grid>
+        </RelatedBox>
+      )}
     </Page>
   );
 };
@@ -140,7 +156,19 @@ export function getServerSideProps({
   if (next?.placeholder || new Date(next?.date || Date.now()) > new Date()) {
     next = null;
   }
-  return { props: { post, previous, next } };
+
+  let related: StorylineMeta[] = [];
+  if (storyline.related) {
+    related = storyline.related
+      .map((slug) => {
+        const relatedStoryline = storylines.find((s) => s.slug === slug);
+        delete relatedStoryline?.posts;
+        return relatedStoryline as StorylineMeta;
+      })
+      .filter(Boolean);
+  }
+
+  return { props: { post, previous, next, related } };
 }
 
 const Line = styled.div`
@@ -210,4 +238,8 @@ const Sources = styled.div`
     font-size: ${fontSizeSmall};
     list-style: none;
   }
+`;
+
+const RelatedBox = styled.div`
+  margin-top: 8rem;
 `;
