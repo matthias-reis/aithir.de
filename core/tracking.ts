@@ -5,6 +5,14 @@ export const initTracking = () => {
   mixpanel.track('Session');
 };
 
-export const pageView = (type: string, title: string, campaign?: string) => {
-  mixpanel.track(`Page ${type}`, { type, title, campaign });
+export const pageView = (
+  type: string,
+  title: string,
+  storyline?: string | null,
+  campaign?: string
+) => {
+  if (campaign) {
+    mixpanel.register({ campaign });
+  }
+  mixpanel.track(`Page ${type}`, { type, title, storyline });
 };

@@ -22,7 +22,6 @@ const Home: NextPage<{
       title="Welcome to Octahedron.World"
       canonicalPath="/"
       layout="major"
-      keywords={['SciFi', 'Science Fiction', 'Science', 'Fantasy']}
     >
       <Section>
         <Headline>Latest Posts</Headline>

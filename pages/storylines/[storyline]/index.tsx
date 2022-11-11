@@ -30,7 +30,7 @@ const StorylinePage: NextPage<{
       title={storyline.name}
       canonicalPath={`/storylines/${storyline.slug}`}
       description={storyline.description}
-      keywords={storyline.tags}
+      storyline={storyline.name}
       bg={storyline.slug}
       color={storyline.color}
     >

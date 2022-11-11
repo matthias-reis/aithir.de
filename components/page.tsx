@@ -31,7 +31,7 @@ export const Page: FC<{
   title: string;
   description?: string;
   image?: string;
-  keywords?: string[];
+  storyline?: string;
   canonicalPath: string;
   children: ReactNode;
   layout?: Layout;
@@ -42,15 +42,15 @@ export const Page: FC<{
   title,
   description,
   image,
-  keywords,
   type,
   canonicalPath,
   layout = 'minor',
   color = colorMain,
   bg = 'general',
+  storyline = null,
 }) => {
   const router = useRouter();
-  pageView(type, title, router.query.c as string | undefined);
+  pageView(type, title, storyline, router.query.c as string | undefined);
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   const canonicalUrl = `https://octahedron.world${canonicalPath}`;
   const titleText = `${title} - OctahedronWorld`;

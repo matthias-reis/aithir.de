@@ -51,7 +51,6 @@ ${url}?c=twt`;
       title={`${post.name} (${post.storyline.name})`}
       description={post.md.slice(0, 250)}
       canonicalPath={`/storylines/${post.slug}/copy`}
-      keywords={[...(post.tags || []), ...(post.storylineTags || [])]}
       bg={post.storyline.slug}
       color={post.storyline.color}
       layout="minor"

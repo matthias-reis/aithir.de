@@ -41,7 +41,7 @@ const Post: NextPage<{
       title={`${post.name} (${post.storyline.name})`}
       description={post.md.slice(0, 170)}
       canonicalPath={`/storylines/${post.slug}`}
-      keywords={[...(post.tags || []), ...(post.storylineTags || [])]}
+      storyline={post.storyline.name}
       image={`https://octahedron.world/strips/${post.storyline.slug}.jpg`}
       bg={post.storyline.slug}
       color={post.storyline.color}
