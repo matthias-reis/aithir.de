@@ -17,6 +17,7 @@ import { Post } from '../../../components/post';
 import { Headline } from '../../../components/headline';
 import { Storyline } from '../../../components/storyline';
 import { Grid } from '../../../components/grid';
+import { getCookie } from 'cookies-next';
 
 const StorylinePage: NextPage<{
   storyline: StorylineMeta;
@@ -68,20 +69,24 @@ export default StorylinePage;
 
 export function getServerSideProps({
   params,
+  ...options
 }: {
   params: { storyline: string };
 }) {
+  const isPreview = getCookie('oa', options) === 'oa';
   const storylines = getAllStorylines();
   const storyline = storylines.find((s) => s.slug === params.storyline);
   if (!storyline) {
     return { notFound: true };
   }
 
-  storyline.posts =
-    storyline.posts?.filter(
-      (post) =>
-        new Date(post.date || Date.now()) <= new Date() && !post.placeholder
-    ) ?? [];
+  if (!isPreview) {
+    storyline.posts =
+      storyline.posts?.filter(
+        (post) =>
+          new Date(post.date || Date.now()) <= new Date() && !post.placeholder
+      ) ?? [];
+  }
 
   let related: StorylineMeta[] = [];
   if (storyline.related) {

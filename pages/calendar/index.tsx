@@ -1,4 +1,4 @@
-import type { NextPage } from 'next';
+import type { GetServerSidePropsContext, NextPage } from 'next';
 import { Page } from '../../components/page';
 import { getAllPosts } from '../../core/data-layer';
 import { PostMeta } from '../../core/types';
@@ -7,6 +7,7 @@ import styled from '@emotion/styled';
 import { colorText, fontBold, mediaMedium, mediaSmall } from '../../core/style';
 import { Post } from '../../components/post';
 import Link from 'next/link';
+import { getCookie } from 'cookies-next';
 
 type Weeks = Record<string, PostMeta[][]>;
 
@@ -72,12 +73,8 @@ const Calendar: NextPage<{
 
 export default Calendar;
 
-export function getServerSideProps({
-  query,
-}: {
-  query: Record<string, string>;
-}) {
-  const isPreview = 'preview' in query;
+export function getServerSideProps(options: GetServerSidePropsContext) {
+  const isPreview = getCookie('oa', options) === 'oa';
   let posts = getAllPosts().sort(
     (a, b) =>
       a.year * 100 + a.week * 10 + a.day - b.year * 100 - b.week * 10 - b.day

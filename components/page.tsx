@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { FC, ReactNode } from 'react';
+import { FC, ReactNode, useEffect } from 'react';
 import { pageView } from '../core/tracking';
 import {
   colorBackground,
@@ -50,7 +50,10 @@ export const Page: FC<{
   storyline = null,
 }) => {
   const router = useRouter();
-  pageView(type, title, storyline, router.query.c as string | undefined);
+  useEffect(() => {
+    pageView(type, title, storyline, router.query.c as string | undefined);
+  }, [router.query.c, storyline, title, type]);
+
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   const canonicalUrl = `https://octahedron.world${canonicalPath}`;
   const titleText = `${title} - OctahedronWorld`;
