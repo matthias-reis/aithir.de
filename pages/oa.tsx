@@ -28,7 +28,10 @@ const Oa: NextPage<{
 export default Oa;
 
 export function getServerSideProps(options: GetServerSidePropsContext) {
-  setCookie('oa', 'oa', options);
+  setCookie('oa', 'oa', {
+    ...options,
+    expires: new Date(new Date().setFullYear(new Date().getFullYear() + 1)),
+  });
   return { props: {} };
 }
 
