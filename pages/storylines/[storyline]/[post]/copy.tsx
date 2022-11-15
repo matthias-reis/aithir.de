@@ -21,7 +21,6 @@ const Post: NextPage<{
   previous: PostMeta | null;
   next: PostMeta | null;
 }> = ({ post }) => {
-  const Icon = icons[post.storyline.slug];
   const tags = Array.from(
     new Set([...(post.tags || []), ...(post.storylineTags || [])])
   )
@@ -58,7 +57,6 @@ ${url}?c=twt`;
       <Line>
         <Link href={`/storylines/${post.storyline.slug}`} passHref>
           <A color={post.storyline.color}>
-            <Icon width={32} height={32} />
             <PageSuperTitle>{post.storyline.name}</PageSuperTitle>
           </A>
         </Link>
@@ -89,7 +87,7 @@ export function getServerSideProps({
   }
 
   const postIndex = storyline.posts?.findIndex((p) => p.slug === slug);
-  if (!postIndex) {
+  if (postIndex === undefined || postIndex === null) {
     return { notFound: true };
   }
   const post = storyline.posts?.[postIndex];
