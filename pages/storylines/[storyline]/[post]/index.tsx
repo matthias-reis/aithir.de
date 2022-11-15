@@ -25,7 +25,7 @@ import { Grid } from '../../../../components/grid';
 import { Storyline } from '../../../../components/storyline';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
-const Post: NextPage<{
+const PostPage: NextPage<{
   post: PostMeta;
   previous: PostMeta | null;
   next: PostMeta | null;
@@ -34,7 +34,7 @@ const Post: NextPage<{
   const content = parseMarkdown(post.md);
   const chars = post.md.length;
   const words = post.md.split(/\s/).length;
-  const Icon = icons[post.storyline.slug];
+  const Icon = icons[post.storyline.slug] || (() => null);
   return (
     <Page
       type="Post"
@@ -127,7 +127,7 @@ const Post: NextPage<{
   );
 };
 
-export default Post;
+export default PostPage;
 
 export function getServerSideProps({
   params,
