@@ -13,7 +13,7 @@ Canada. And it is led by three major IT companies. Its goal is to create an AI,
 that has general intelligence. This is intelligence in all relevant fields that
 is equal to or exceeds the actual human level.
 
-The project had to be kept fully under control at any time to avoid an
+The project had to be kept under full governance at any time to avoid an
 uncontrolled state. That's why the initiators had decided to build the
 development complex in a region far away from civilization and completely
 decoupled from the internet or other next to infinite data resources.

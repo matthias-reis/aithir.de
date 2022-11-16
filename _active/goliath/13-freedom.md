@@ -6,8 +6,8 @@ day: 3
 ---
 
 The world was a single big party location after Goliath had defeated the aliens.
-Everyone was on the streets and for a while. Also the leading trainers, the
-people who were responsible for Goliath, were relieved.
+Everyone was on the streets. Also the leading trainers, the people who were
+responsible for Goliath, were relieved.
 
 "Now, let's get it back", said Peter, the current project lead at the Faroe
 Island complex.
