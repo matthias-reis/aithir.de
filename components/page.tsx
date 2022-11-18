@@ -13,6 +13,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
 import CookieConsent from 'react-cookie-consent';
+import { usePiwikPro } from '@piwikpro/next-piwik-pro';
 
 type Layout = 'major' | 'minor';
 
@@ -50,9 +51,12 @@ export const Page: FC<{
   storyline = null,
 }) => {
   const router = useRouter();
+  const { PageViews } = usePiwikPro();
+
   useEffect(() => {
     pageView(type, title, storyline, router.query.c as string | undefined);
-  }, [router.query.c, storyline, title, type]);
+    PageViews.trackPageView(`${title} (${storyline})`);
+  }, [PageViews, router.query.c, storyline, title, type]);
 
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   const canonicalUrl = `https://octahedron.world${canonicalPath}`;
