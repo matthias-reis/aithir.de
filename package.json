@@ -26,6 +26,7 @@
     "@types/cookie": "^0.5.1",
     "@types/js-yaml": "^4.0.5",
     "@types/mixpanel-browser": "^2.38.0",
+    "@vercel/analytics": "^0.1.5",
     "chokidar-cli": "^3.0.0",
     "cookies-next": "^2.1.1",
     "front-matter": "^4.0.2",
