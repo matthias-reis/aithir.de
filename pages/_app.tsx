@@ -3,19 +3,22 @@ import { TrackingProvider } from '../components/tracking-provider';
 import PiwikProProvider from '@piwikpro/next-piwik-pro';
 import { Analytics } from '@vercel/analytics/react';
 
-function MyApp({ Component, pageProps }: AppProps) {
+const Piwik = (PiwikProProvider as any).default;
+
+function OctahedronApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <TrackingProvider />
-      <PiwikProProvider
+      <Piwik
         accountName="octahedron.world"
+        containerUrl="https://octahedron.containers.piwik.pro"
         containerId="70d2fc5f-9f84-43da-a30d-960d909bbbde"
       >
         <Component {...pageProps} />
-      </PiwikProProvider>
+      </Piwik>
       <Analytics />
     </>
   );
 }
 
-export default MyApp;
+export default OctahedronApp;
