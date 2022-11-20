@@ -12,7 +12,6 @@ import { OctahedronNav } from './octahedron-nav';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
-import CookieConsent from 'react-cookie-consent';
 import { usePiwikPro } from '@piwikpro/next-piwik-pro';
 
 type Layout = 'major' | 'minor';
@@ -20,12 +19,6 @@ type Layout = 'major' | 'minor';
 const defaultDescription =
   'Science Fiction, Science Fact and Fantasy in short bits. 1.000 characters, a 30 second read per day';
 const defaultImage = 'https://octahedron.world/strips/general.jpg';
-const defaultKeywords = [
-  'Microfiction',
-  'Fiction',
-  'Writing',
-  'Creative Writing',
-];
 
 export const Page: FC<{
   type: string;
@@ -63,11 +56,6 @@ export const Page: FC<{
   const titleText = `${title} - OctahedronWorld`;
   return (
     <Viewport bg={`/patterns/${bg}.jpg`}>
-      <CookieConsent>
-        This website uses cookies to analyse the usage and traffic flow in an
-        anonymous way . We won&apos;t collect any user data, nor do we
-        personalize the experience with it.
-      </CookieConsent>
       <Head>
         <title>{titleText}</title>
         <link rel="canonical" href={canonicalUrl} />
