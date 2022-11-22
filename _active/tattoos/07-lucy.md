@@ -9,9 +9,9 @@ tags:
   - Mesh
 ---
 
-I can't wait to dive into the story of my left arm now. It's almost finished and
-its theme is predestined for a mashup with another storyline,
-"[The Mesh](/storylines/mesh)". So let's dive in and meet Lucy.
+> I can't wait to dive into the story of my left arm now. It's almost finished
+> and its theme is predestined for a mashup with another storyline,
+> "[The Mesh](/storylines/mesh)". So let's dive in and meet Lucy.
 
 Lucy is a designer and design connaisseur. Others would say that she's an
 influencer because, besides her job, she maintains a travel blog. Not for the

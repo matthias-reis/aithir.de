@@ -1,8 +1,8 @@
 ---
-name: Climbing the Tree of Life
+name: The Day of the Awakening
 year: 2022
-week: 47
-day: 2
+week: 50
+day: 1
 placeholder: true
 tags:
   - SciFi
