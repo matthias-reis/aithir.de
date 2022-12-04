@@ -1,7 +1,7 @@
 ---
-name: The Theologist
+name: Animal Rights
 year: 2022
-week: 49
-day: 1
+week: 52
+day: 2
 placeholder: true
 ---

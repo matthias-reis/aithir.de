@@ -1,7 +1,7 @@
 ---
-name: The Theologist
+name: Footprint
 year: 2022
 week: 49
-day: 1
+day: 4
 placeholder: true
 ---

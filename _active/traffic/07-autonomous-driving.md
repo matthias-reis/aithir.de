@@ -6,4 +6,6 @@ day: 1
 placeholder: true
 tags:
   - AI
+  - Self Driving Cars
+  - Autopilot
 ---

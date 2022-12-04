@@ -1,7 +1,7 @@
 ---
-name: The Theologist
+name: World
 year: 2022
-week: 49
-day: 1
+week: 51
+day: 3
 placeholder: true
 ---

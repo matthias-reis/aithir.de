@@ -1,9 +1,9 @@
 ---
 name: Travelling the World
 year: 2023
-week: 3
-day: 4
+week: 4
+day: 2
 placeholder: true
 tags:
-  - kret
+  - Flights
 ---
