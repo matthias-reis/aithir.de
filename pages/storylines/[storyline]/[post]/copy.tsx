@@ -39,7 +39,7 @@ Full Post: ${url}?c=mst`;
 
   const twitterText = `Octahedron Post Week ${post.week} / ${post.day}
   
-#${post.storyline.name}: ${post.name}
+#${post.storyline.name.replace(/\n/g, ' ')}: ${post.name}
 
 ${tags}
 
