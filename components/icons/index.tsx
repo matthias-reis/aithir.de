@@ -16,6 +16,7 @@ import Traffic from './traffic';
 import Elements from './elements';
 import Operator from './operator';
 import TheBond from './the-bond';
+import Vlad from './vlad';
 
 export const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   'ai-jobs': AiJobs,
@@ -34,4 +35,5 @@ export const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   elements: Elements,
   operator: Operator,
   'the-bond': TheBond,
+  vlad: Vlad,
 };
