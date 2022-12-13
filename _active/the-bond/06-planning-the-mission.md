@@ -1,7 +1,7 @@
 ---
 name: Planning the Mission
 year: 2023
-week: 2
-day: 4
+week: 8
+day: 2
 placeholder: true
 ---
