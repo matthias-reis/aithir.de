@@ -12,7 +12,7 @@ import { getCookie } from 'cookies-next';
 type Weeks = Record<string, PostMeta[][]>;
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
-const Calendar: NextPage<{
+const CalendarPage: NextPage<{
   weeks: Weeks;
   isPreview: boolean;
 }> = ({ weeks, isPreview }) => {
@@ -71,7 +71,7 @@ const Calendar: NextPage<{
   );
 };
 
-export default Calendar;
+export default CalendarPage;
 
 export function getServerSideProps(options: GetServerSidePropsContext) {
   const isPreview = getCookie('oa', options) === 'oa';

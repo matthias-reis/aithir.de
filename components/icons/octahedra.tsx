@@ -1,12 +1,10 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgOctahedra = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 49 48"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    role="img"
     {...props}
   >
     <g>
@@ -17,5 +15,4 @@ const SvgOctahedra = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default SvgOctahedra;

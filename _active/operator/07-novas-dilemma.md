@@ -1,8 +1,8 @@
 ---
 name: Novas Dilemma
-year: 2022
-week: 7
-day: 4
+year: 2023
+week: 10
+day: 1
 placeholder: true
 ---
 

@@ -1,12 +1,10 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgOperator = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 49 48"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    role="img"
     {...props}
   >
     <path
@@ -23,5 +21,4 @@ const SvgOperator = (props: SVGProps<SVGSVGElement>) => (
     <path d="M6.5 22L9.5 18.5V33.5H6.5V22Z" fill="currentColor" />
   </svg>
 );
-
 export default SvgOperator;

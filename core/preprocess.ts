@@ -59,7 +59,8 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
       ...storylineMetaData,
       posts,
       count: posts.filter(
-        (post) => new Date(post.date || Date.now()) <= new Date()
+        (post) =>
+          new Date(post.date || Date.now()) <= new Date() || post.placeholder
       ).length,
     };
   }

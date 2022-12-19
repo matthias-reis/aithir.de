@@ -1,8 +1,8 @@
 ---
 name: Kidnap Induced Heist
 year: 2023
-week: 6
-day: 2
+week: 8
+day: 3
 placeholder: true
 ---
 

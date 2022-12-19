@@ -17,6 +17,10 @@ import Elements from './elements';
 import Operator from './operator';
 import TheBond from './the-bond';
 import Vlad from './vlad';
+import Asimov from './asimov';
+import Kamina2 from './kamina-2';
+import Predictions from './predictions';
+import Sandfuss from './sandfuss';
 
 export const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   'ai-jobs': AiJobs,
@@ -36,4 +40,8 @@ export const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   operator: Operator,
   'the-bond': TheBond,
   vlad: Vlad,
+  asimov: Asimov,
+  'kamina-2': Kamina2,
+  predictions: Predictions,
+  sandfuss: Sandfuss,
 };
