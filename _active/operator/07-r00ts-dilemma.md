@@ -1,5 +1,5 @@
 ---
-name: Novas Dilemma
+name: R00ts Dilemma
 year: 2023
 week: 11
 day: 4

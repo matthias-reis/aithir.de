@@ -6,4 +6,4 @@ day: 3
 placeholder: true
 ---
 
-Where Nova lives. Prague quarter. Bar Bukowski.
+Where R00t lives. Prague quarter. Bar Bukowski.

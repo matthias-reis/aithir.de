@@ -6,5 +6,5 @@ day: 1
 placeholder: true
 ---
 
-The others have Adele, Hugos girlfriend. Hugo and Nova have to take the job. Or
+The others have Adele, Hugos girlfriend. Hugo and R00t have to take the job. Or
 not. THere doesn't seem to be a way out.

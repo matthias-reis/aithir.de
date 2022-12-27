@@ -11,9 +11,9 @@ will be a very expensive option to eat meat, eggs or dairy products from time to
 time. And as it has no additional value, people will just stop doing it.
 
 While many of us are still in denial, we are already transitioning into that way
-of life. Farmers see more and problems with livestock farming. Feed gets more
-expensive and subsidies from the states will become less and less. On the other
-hand, vegan products become more and more versatile and are healthier by design.
+of life. Farmers see more and more problems with livestock farming. Feed gets
+more expensive and subsidies from the states will become less and less. On the
+other hand, vegan products become more versatile and are healthier by design.
 People notice that spices are vegan and therefore vegan food does not taste like
 nothing. Also the rituals built around meat - barbecues, sunday roast and full
 monty breakfast will have worthy replacements even without french cream sauce,
