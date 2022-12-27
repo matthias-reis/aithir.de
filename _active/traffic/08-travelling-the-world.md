@@ -1,8 +1,8 @@
 ---
 name: Travelling the World
 year: 2023
-week: 4
-day: 2
+week: 7
+day: 1
 placeholder: true
 tags:
   - Flights

@@ -1,7 +1,7 @@
 ---
 name: Paper Chase
 year: 2023
-week: 4
-day: 3
+week: 6
+day: 2
 placeholder: true
 ---
