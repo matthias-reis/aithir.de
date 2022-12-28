@@ -1,5 +1,5 @@
 ---
-name: Specism
+name: Speciesism
 year: 2022
 week: 52
 day: 3
@@ -7,9 +7,10 @@ day: 3
 
 Going vegan has three pillars. In the last episodes, we have covered some ground
 on one of them - sustainability and climate protection. In the next posts, I'd
-also dive into the other aspects. So let's start with specism and animal rights.
+also dive into the other aspects. So let's start with speciesism and animal
+rights.
 
-Specism in its clearest form is when you love your little designer dog and at
+Speciesism in its clearest form is when you love your little designer dog and at
 the same time have fur around your neck from one of its ancestors/siblings. But
 it's more than that.
 
