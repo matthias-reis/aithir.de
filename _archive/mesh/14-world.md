@@ -3,6 +3,9 @@ name: World
 year: 2022
 week: 51
 day: 3
+tags:
+  - Neuromancer
+  - Metaverse
 ---
 
 I got started with the concept of the Mesh back in the late eighties when I had
