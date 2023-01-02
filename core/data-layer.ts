@@ -2,6 +2,7 @@ import { PostMeta, StorylineMeta } from './types';
 import metaData from './data-layer.json';
 
 function isVisible(post: PostMeta) {
+  console.log(post.slug, post.date, new Date(post.date || 0) <= new Date());
   return post.placeholder || new Date(post.date || 0) <= new Date();
 }
 

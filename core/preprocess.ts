@@ -6,7 +6,9 @@ import { fstat, writeFileSync } from 'fs';
 
 function createDate(year: number, week: number, day: number) {
   const date = new Date(year, 0, 1);
-  date.setDate(date.getDate() + (week - 1) * 7 + day + 1);
+  date.setDate(date.getDate() + (week - 1) * 7 + day);
+  date.setHours(3, 0, 0, 1);
+
   return date;
 }
 

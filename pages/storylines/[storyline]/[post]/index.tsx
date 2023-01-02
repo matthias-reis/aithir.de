@@ -137,6 +137,7 @@ export function getServerSideProps({
   const slug = `${params.storyline}/${params.post}`;
   const storylines = getAllStorylines();
   const storyline = storylines.find((s) => s.slug === params.storyline);
+  console.log(params.storyline, storyline);
   if (!storyline) {
     return { notFound: true };
   }
