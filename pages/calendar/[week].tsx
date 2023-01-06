@@ -53,7 +53,9 @@ export default Week;
 export function getServerSideProps({ params }: { params: { week: string } }) {
   const [y, w] = params.week.split('-');
   const posts: PostMeta[] = getAllPosts()
-    .filter((p) => p.year.toString() === y && p.week.toString() === w)
+    .filter((p) => {
+      return p.year.toString() === y && pad(p.week) === w;
+    })
     .sort((a, b) => a.day - b.day);
 
   return { props: { posts, week: params.week } };
