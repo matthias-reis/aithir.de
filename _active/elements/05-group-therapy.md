@@ -10,7 +10,7 @@ official leaders are not actually wise. They have a lot of street knowledge
 though. And they brought the O'Clares through hard times and made everyone keep
 their faith.
 
-Now the clans thought leaders were sitting in a circle around that box that was
+Now the clan's thought leaders were sitting in a circle around that box that was
 shaking from time to time with the movement of the demon inside. There was
 Juliette of course, the two elders, Ruben and his friend Thom, who caught the
 thing, and others. Overall eight people discussed for a whole hour what to do
