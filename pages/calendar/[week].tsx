@@ -21,8 +21,8 @@ const Week: NextPage<{
       <PageSuperTitle>Calendar Week</PageSuperTitle>
       <PageTitle>{week}</PageTitle>
       {posts.map((post) => {
-        let words = post.md.split(' ');
-        words = words.slice(0, words.length / 2);
+        let paragraphs = post.md.split('\n\n');
+        let excerpt = paragraphs[0];
         return (
           <div key={post.slug}>
             <hr />
@@ -35,10 +35,10 @@ const Week: NextPage<{
               , episode {post.episode}
             </h4>
             <h2>{post.name}</h2>
-            <p>{words.join(' ')} ...</p>
+            <p>{excerpt} ...</p>
             <p>
               <a href={`https://octahedron.world/storylines/${post.slug}?c=nl`}>
-                View full post ...
+                Read the post ...
               </a>
             </p>
           </div>
