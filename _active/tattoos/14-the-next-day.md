@@ -1,9 +1,10 @@
 ---
-name: Travelling the World
+name: The next day
 year: 2023
 week: 7
-day: 2
+day: 1
 placeholder: true
 tags:
-  - Flights
+  - SciFi
+  - Cyberspace
 ---

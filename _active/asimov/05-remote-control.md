@@ -1,7 +1,7 @@
 ---
-name: Pandemica
+name: Remote Control
 year: 2023
 week: 8
-day: 4
+day: 1
 placeholder: true
 ---
