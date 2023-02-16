@@ -20,5 +20,5 @@ And then there was the Theologist, Rory Spencer, who volunteered. At age 59 he
 was the oldest. But strategically, his knowledge could be of use.
 
 Juliette was satisfied with her arrangements. She ordered some days of
-preparation and training and arranged her office next to the Comms at Trinity.
-The party was ready to set out.
+preparation and training and chhose her office next to the Comms at Trinity. The
+party was ready to set out.
