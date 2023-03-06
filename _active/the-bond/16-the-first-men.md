@@ -1,7 +1,7 @@
 ---
-name: Superfurry
+name: The First Men
 year: 2023
-week: 12
-day: 1
+week: 36
+day: 2
 placeholder: true
 ---

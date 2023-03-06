@@ -1,7 +1,7 @@
 ---
-name: Lorient
+name: AI Job Market
 year: 2023
-week: 12
+week: 13
 day: 4
 placeholder: true
 ---
