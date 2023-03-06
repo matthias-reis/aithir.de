@@ -23,7 +23,6 @@ const StorylinePage: NextPage<{
   storyline: StorylineMeta;
   related: StorylineMeta[];
 }> = ({ storyline, related }) => {
-  console.log(storyline.slug, Object.keys(icons));
   const Icon = icons[storyline.slug];
 
   return (

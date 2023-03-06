@@ -16,6 +16,7 @@ import { icons } from './icons';
 export const Storyline: FC<{ meta: StorylineMeta }> = ({ meta }) => {
   const Icon = icons[meta.slug];
   const img = `/strips/${meta.slug}.jpg`;
+
   return (
     <Link href={`/storylines/${meta.slug}`} passHref legacyBehavior>
       <StorylineBox>

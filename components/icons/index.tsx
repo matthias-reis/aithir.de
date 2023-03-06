@@ -21,6 +21,10 @@ import Asimov from './asimov';
 import Kamina2 from './kamina-2';
 import Predictions from './predictions';
 import TheGuillorys from './the-guillorys';
+import Bolt from './bolt';
+import Reviews from './reviews';
+import Tropes from './tropes';
+import Octahedra from './octahedra';
 
 export const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   'ai-jobs': AiJobs,
@@ -38,10 +42,15 @@ export const icons: Record<string, FC<SVGProps<SVGSVGElement>>> = {
   traffic: Traffic,
   elements: Elements,
   operator: Operator,
+  pylons: Operator,
+  octahedra: Octahedra,
   'the-bond': TheBond,
   vlad: Vlad,
   asimov: Asimov,
   'kamina-2': Kamina2,
   predictions: Predictions,
   'the-guillorys': TheGuillorys,
+  bolt: Bolt,
+  reviews: Reviews,
+  tropes: Tropes,
 };
