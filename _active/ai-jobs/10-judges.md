@@ -1,5 +1,5 @@
 ---
-name: AI Job Market
+name: Judges
 year: 2023
 week: 13
 day: 4
