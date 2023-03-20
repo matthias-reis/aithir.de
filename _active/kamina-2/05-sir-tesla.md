@@ -2,8 +2,8 @@
 name: Sir Tesla
 year: 2023
 week: 12
-day: 3
+day: 4
 placeholder: true
 ---
 
-She meets the captain, Sir TEsla
+She meets the captain, Sir Tesla
