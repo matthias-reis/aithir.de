@@ -1,8 +1,8 @@
 ---
 name: Battles, Tricks and Prisons
 year: 2023
-week: 16
-day: 1
+week: 18
+day: 2
 placeholder: true
 ---
 
