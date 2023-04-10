@@ -1,7 +1,7 @@
 ---
-name: Octahedra One
+name: Early Findings
 year: 2023
-week: 51
-day: 1
+week: 17
+day: 3
 placeholder: true
 ---
