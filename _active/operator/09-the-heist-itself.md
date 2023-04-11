@@ -2,8 +2,8 @@
 name: Counter Heist
 year: 2023
 week: 15
-day: 2
+day: 3
 placeholder: true
 ---
 
-They find a way to bust the dark lords.
+They find a way into the vault

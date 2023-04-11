@@ -1,7 +1,7 @@
 ---
 name: The Magister and the Holy Court
 year: 2023
-week: 30
-day: 1
+week: 27
+day: 2
 placeholder: true
 ---
