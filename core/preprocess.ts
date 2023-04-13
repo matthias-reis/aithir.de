@@ -24,7 +24,9 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
     const storylineSlug = file.split('/').at(-2) ?? '';
     const storylineMetaData = (await yaml(file)) as Omit<StorylineMeta, 'slug'>;
     const cwd = dirname(file);
-    const postFiles = await glob('**/*.md', { cwd, absolute: true });
+    const postFiles = await (
+      await glob('**/*.md', { cwd, absolute: true })
+    ).filter((f) => f.indexOf('all.md') === -1);
     const finished = file.includes('_archive');
     console.log(
       `[PRE] ${storylineSlug}: <${postFiles.length}>${
@@ -35,6 +37,7 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
       postFiles.map(async (postFile, i) => {
         const postSlug = postFile.split('/').at(-1)?.replace('.md', '') ?? '';
         const post = await fm<PostMeta>(postFile);
+        console.log(postSlug);
         return {
           ...post.attributes,
           date: createDate(
