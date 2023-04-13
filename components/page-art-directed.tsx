@@ -135,12 +135,7 @@ const Legal = styled('nav', {
 
 const Viewport = styled.div<{ bgColor: string }>`
   background: ${({ bgColor }) => bgColor};
-  padding: 1rem 1rem;
   min-height: 100vh;
-
-  @media ${mediaLarge} {
-    padding: 1rem 0.5rem;
-  }
 `;
 
 const Canvas = styled.div<{ bgColor: string }>`
@@ -155,5 +150,7 @@ const Canvas = styled.div<{ bgColor: string }>`
 const Box = styled.div``;
 
 const Image = styled(UnstyledImage)`
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
 `;
