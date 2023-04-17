@@ -1,13 +1,7 @@
 import styled from '@emotion/styled';
 import { FC, ReactNode, useEffect } from 'react';
 import { pageView } from '../core/tracking';
-import {
-  colorBackground,
-  colorMain,
-  mediaLarge,
-  sizeCanvas,
-} from '../core/style';
-import { MajorLayout, MinorLayout } from './layout';
+import { colorBackground, colorMain, sizeCanvas } from '../core/style';
 import { OctahedronNav } from './octahedron-nav';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
@@ -15,11 +9,8 @@ import Head from 'next/head';
 import { usePiwikPro } from '@piwikpro/next-piwik-pro';
 import UnstyledImage, { StaticImageData } from 'next/image';
 
-type Layout = 'major' | 'minor';
-
 const defaultDescription =
   'Science Fiction, Science Fact and Fantasy in short bits. 1.000 characters, a 30 second read per day';
-const defaultImage = 'https://octahedron.world/strips/general.jpg';
 
 export const PageArtDirected: FC<{
   type: string;
@@ -28,6 +19,7 @@ export const PageArtDirected: FC<{
   image: StaticImageData;
   canonicalPath: string;
   children: ReactNode;
+  logoColor?: string;
   color?: string;
   bgColor?: string;
 }> = ({
@@ -36,6 +28,7 @@ export const PageArtDirected: FC<{
   image,
   type,
   canonicalPath,
+  logoColor = '#0008',
   color = '#0008',
   bgColor = '#000',
   storyline,
@@ -91,7 +84,7 @@ export const PageArtDirected: FC<{
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Canvas bgColor={bgColor} data-id="canvas">
-        <OctahedronNav color={color} />
+        <OctahedronNav color={logoColor} />
         <Image
           src={image.src}
           width={image.width}
@@ -105,7 +98,6 @@ export const PageArtDirected: FC<{
         <a rel="me" href="https://mstdn.social/@aithir">
           Mastodon
         </a>
-        <a href="https://octahedronworld.substack.com/">Newsletter</a>
         <Link href="/more/privacy">Privacy Policy</Link>
         <Link href="/more/imprint">Imprint</Link>
       </Legal>
@@ -120,6 +112,7 @@ const Legal = styled('nav', {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  margin-bottom: 5rem;
 
   & > * {
     background: ${colorBackground};

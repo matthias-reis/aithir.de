@@ -103,7 +103,6 @@ export const Page: FC<{
         <a rel="me" href="https://mstdn.social/@aithir">
           Mastodon
         </a>
-        <a href="https://octahedronworld.substack.com/">Newsletter</a>
         <Link href="/more/privacy">Privacy Policy</Link>
         <Link href="/more/imprint">Imprint</Link>
       </Legal>

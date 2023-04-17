@@ -21,7 +21,8 @@ const GoliathStoryline: NextPage = () => {
       type="Storyline"
       storyline="Goliath"
       image={image}
-      bgColor="#000"
+      bgColor="#010201"
+      color="#6F6E2B"
       canonicalPath="/storylines/goliath"
       description={description}
     >
@@ -32,6 +33,26 @@ const GoliathStoryline: NextPage = () => {
           <Hr />
         </Post>
       ))}
+      <Outro>
+        <p>
+          Initially, this story was formed by two ideas: How would we approach
+          the topic of creating an AGI, a generel artificial intelligence. And
+          why don&apos;t we let it fight against some nasty aliens. The movie
+          Cowboys vs. Aliens came to my mind and the story was born. Also the
+          story arc of splitting into two different and presumably independent
+          parts was clear to me from the start.
+        </p>
+        <p>
+          The ideation phase happened way before Chat GPT and Large Language
+          Models took off. I had imagined the scenario 20 or 30 years in the
+          future. So the reality was faster this time.
+        </p>
+      </Outro>
+      <Hr />
+      <Disclaimer>
+        Released between June 12th and November 16th 2022
+        <br />© 2022 Octahedron World, Matthias Reis
+      </Disclaimer>
     </PageArtDirected>
   );
 };
@@ -53,10 +74,25 @@ const Hr = styled.hr`
 
 const Intro = styled.p`
   font-weight: bold;
-  margin: 1rem 10% 8rem auto;
+  margin: 0 10% 8rem auto;
+  margin-top: max(-25vw, -270px);
   padding-left: 1rem;
   text-align: right;
   font-size: 20px;
   max-width: 30rem;
-  margin-top: -25vw;
+`;
+
+const Outro = styled.div`
+  color: #fff8;
+  font-size: 0.9rem;
+  max-width: 30rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+`;
+
+const Disclaimer = styled.p`
+  color: #fff8;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-bottom: 5rem;
 `;
