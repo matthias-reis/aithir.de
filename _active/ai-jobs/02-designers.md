@@ -1,5 +1,5 @@
 ---
-name: Cashiers
+name: Designers
 year: 2022
 week: 24
 day: 2
