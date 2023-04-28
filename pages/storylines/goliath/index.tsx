@@ -12,7 +12,7 @@ const parts = text
   .map(parseMarkdown);
 
 const description =
-  'What if we develop an AI with more than human level intelligence? And how powerful can it become? The story in this line is following that thought.';
+  'What if we developed an AI with more than human level intelligence? And how powerful can it become? Goliath is following that thought and adds a twist in the second half.';
 
 // lists all available storylines
 const GoliathStoryline: NextPage = () => {
