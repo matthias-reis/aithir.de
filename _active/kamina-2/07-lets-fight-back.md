@@ -1,5 +1,5 @@
 ---
-name: Let\'s fight back
+name: Let's fight back
 year: 2023
 week: 21
 day: 3

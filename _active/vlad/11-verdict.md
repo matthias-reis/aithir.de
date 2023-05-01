@@ -1,5 +1,5 @@
 ---
-name: Judge Farcas
+name: The Verdict
 year: 2023
 week: 24
 day: 2
