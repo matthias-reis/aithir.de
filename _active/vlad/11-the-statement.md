@@ -1,7 +1,7 @@
 ---
-name: Judge Farcas
+name: The Statement
 year: 2023
-week: 18
-day: 4
+week: 24
+day: 2
 placeholder: true
 ---
