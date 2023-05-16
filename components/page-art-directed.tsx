@@ -112,7 +112,7 @@ const Legal = styled('nav', {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 5rem;
+  padding-bottom: 10rem;
 
   & > * {
     background: ${colorBackground};
