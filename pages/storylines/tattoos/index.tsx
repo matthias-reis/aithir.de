@@ -101,6 +101,7 @@ const GoliathStoryline: NextPage = () => {
       image={image}
       bgColor="#132634"
       color="#ac768c"
+      logoColor="#ffffff"
       canonicalPath="/storylines/tattoos"
       description={description}
     >
