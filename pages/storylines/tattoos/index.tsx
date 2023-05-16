@@ -8,7 +8,7 @@ import Link from 'next/link';
 import image from './title.jpg';
 import p1 from './1.jpeg';
 import p2 from './2.jpeg';
-import p3 from './3.jpeg';
+// import p3 from './3.jpeg';
 import p4 from './4.jpeg';
 import p5 from './5.jpeg';
 import p6 from './6.jpeg';
@@ -43,6 +43,7 @@ const Left = styled.div`
   justify-content: space-evenly;
   flex-flow: row;
   margin: 2rem;
+
   & div {
     max-width: 30rem;
   }
@@ -51,6 +52,11 @@ const Left = styled.div`
     max-width: 270px;
     max-height: 480px;
     aspect-ratio: 16 / 9;
+  }
+
+  @media (max-width: 768px) {
+    flex-flow: column;
+    margin: 0;
   }
 `;
 const Right = styled(Left)`
@@ -93,7 +99,7 @@ const GoliathStoryline: NextPage = () => {
       storyline="Tattoos"
       image={image}
       bgColor="#132634"
-      color="#6B394E"
+      color="#ac768c"
       canonicalPath="/storylines/tattoos"
       description={description}
     >
@@ -223,7 +229,7 @@ const SubHeadline = styled.h5`
   font-size: 1.3rem;
   font-weight: 300;
   margin: 0;
-  margin: 0 4rem;
+  margin: 0 0 0 4rem;
   color: #fff5;
   text-transform: uppercase;
   letter-spacing: 1rem;
@@ -231,6 +237,7 @@ const SubHeadline = styled.h5`
 
 const Post = styled.div`
   color: #fff;
+  margin: 0 1rem;
 `;
 
 const Hr = styled.hr`
