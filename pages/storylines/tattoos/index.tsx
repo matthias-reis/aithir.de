@@ -78,6 +78,7 @@ const parts: {
   md: ReactElement;
   alignment: Alignment;
   image: StaticImageData | false;
+  alt?: string;
 }[] = text
   .split('---')
   .map((t: string) => t.trim())
@@ -117,7 +118,7 @@ const GoliathStoryline: NextPage = () => {
           art. <strong>They acquire meaning by being on my skin.</strong>
         </p>
         <p>
-          But as I'm into making up stories, I&apos;ve also tried to find
+          But as I&apos;m into making up stories, I&apos;ve also tried to find
           commonalities and a meaning or a small world that opens up when you
           look behind the already existing general themes and concepts.
           It&apos;s inspired by Ray Bradbury&apos;s &quot;The Illustrated
@@ -145,7 +146,7 @@ const GoliathStoryline: NextPage = () => {
                 src={p.image.src}
                 width={p.image.width}
                 height={p.image.height}
-                alt={p.alt}
+                alt={p.alt || ''}
               />
             )}
           </Layout>
@@ -186,7 +187,7 @@ const GoliathStoryline: NextPage = () => {
                 src={p.image.src}
                 width={p.image.width}
                 height={p.image.height}
-                alt={p.alt}
+                alt={p.alt || ''}
               />
             )}
           </Layout>
