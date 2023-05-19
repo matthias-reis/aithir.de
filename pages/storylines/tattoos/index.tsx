@@ -196,23 +196,24 @@ const GoliathStoryline: NextPage = () => {
       })}
       <Annotation>
         <p>
-          Initially, this story was formed by two ideas: How would we approach
-          the topic of creating an AGI, a generel artificial intelligence. And
-          why don&apos;t we let it fight against some nasty aliens. The movie
-          Cowboys vs. Aliens came to my mind and the story was born. Also the
-          story arc of splitting into two different and presumably independent
-          parts was clear to me from the start.
+          While my tattoos as well as many others out there don&apos;t have a
+          real meaning, they still follow a common concept. I wanted the pieces
+          to fit together - in style and in topic.
         </p>
         <p>
-          The ideation phase happened way before Chat GPT and Large Language
-          Models took off. I had imagined the scenario 20 or 30 years in the
-          future. So the reality was faster this time.
+          Usually, this is not so easy. Sometimes you start a motive but it
+          turns out you don&apos;t like the artist&apos;s style or parts of the
+          project just have started at different times in your life.
+        </p>
+        <p>
+          These stories are my attempt to make sense of the chaos. They have
+          brought everything to an ordered end.
         </p>
       </Annotation>
       <Hr />
       <Disclaimer>
         Released between May 2022 and February 2023
-        <br />© 2022 Octahedron World, Matthias Reis
+        <br />© 2022-2023 Octahedron World, Matthias Reis
       </Disclaimer>
     </PageArtDirected>
   );
