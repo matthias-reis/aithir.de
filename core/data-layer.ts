@@ -26,6 +26,11 @@ export function getAllStorylines(): StorylineMeta[] {
       }))
       // sort by age and number of posts
       .sort((a, b) => {
+        const aWeight = a.weight || 0;
+        const bWeight = b.weight || 0;
+        if (aWeight !== bWeight) {
+          return bWeight - aWeight;
+        }
         const aAgeIndicator = getAgeIndicator(a);
         const bAgeIndicator = getAgeIndicator(b);
         return bAgeIndicator + b.count - aAgeIndicator - a.count;
