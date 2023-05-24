@@ -1,8 +1,8 @@
 ---
 name: Everything Everywhere All at Once
 year: 2023
-week: 21
-day: 2
+week: 24
+day: 4
 placeholder: true
 tags:
   - oscar
