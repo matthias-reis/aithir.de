@@ -1,8 +1,8 @@
 ---
 name: Battle in the Sky
 year: 2023
-week: 23
-day: 4
+week: 24
+day: 3
 placeholder: true
 ---
 
