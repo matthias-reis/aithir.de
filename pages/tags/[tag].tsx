@@ -4,11 +4,11 @@ import { Grid, Item } from '../../components/grid';
 import { Headline } from '../../components/headline';
 import { Page } from '../../components/page';
 import { PageSuperTitle, PageTitle } from '../../components/page-title';
-import { Post } from '../../components/post';
 import { Section } from '../../components/section';
 import { Storyline } from '../../components/storyline';
 import { getAllTags } from '../../core/data-layer';
 import { PostMeta, Tag } from '../../core/types';
+import { Article } from '../../components/article';
 
 // lists all available storylines
 const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
@@ -26,8 +26,8 @@ const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
           <Headline>Storylines tagged with &quot;{tag.name}&quot;</Headline>
           <Grid>
             {(tag.storylines || []).map((storyline) => (
-              <Item key={storyline.slug}>
-                <Storyline meta={storyline} />
+              <Item key={storyline.path}>
+                <Article meta={storyline} />
               </Item>
             ))}
           </Grid>
@@ -38,8 +38,8 @@ const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
           <Headline>Posts tagged with &quot;{tag.name}&quot;</Headline>
           <Grid>
             {(tag.posts || []).map((post) => (
-              <Item key={post.slug}>
-                <Post meta={post} />
+              <Item key={post.path}>
+                <Article meta={post} />
               </Item>
             ))}
           </Grid>

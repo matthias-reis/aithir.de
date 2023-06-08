@@ -13,7 +13,6 @@ export const GlobalStyles: FC = () => (
     styles={css`
       html {
         font-family: ${fontStack};
-        letter-spacing: 0.8px;
         line-height: 1.75;
         font-weight: ${fontNormal};
         font-size: 1rem;

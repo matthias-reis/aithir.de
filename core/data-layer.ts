@@ -1,4 +1,4 @@
-import { PostMeta, StorylineMeta } from './types';
+import { ItemMeta, PostMeta, StorylineMeta } from './types';
 import metaData from './data-layer.json';
 
 function isVisible(post: PostMeta) {
@@ -77,12 +77,17 @@ export function getAllTags() {
     }
   }
   return Object.entries(tags)
-    .map(([name, entries]) => ({
-      name,
-      slug: slugify(name),
-      count: entries.storylines.length + entries.posts.length,
-      ...entries,
-    }))
+    .map(([name, entries]) => {
+      const posts = entries.posts.map(getItemFromPost);
+      const storylines = entries.storylines.map(getItemFromStoryline);
+      return {
+        name,
+        slug: slugify(name),
+        count: storylines.length + posts.length,
+        posts,
+        storylines,
+      };
+    })
     .sort((a, b) => b.count - a.count);
 }
 
@@ -103,4 +108,71 @@ function getAgeIndicator(storyline: StorylineMeta) {
       }) ?? [];
   const ageIndicator = ages.reduce((sum, next) => sum + next, 0);
   return ageIndicator;
+}
+
+export function getItemFromPost(p: PostMeta): ItemMeta {
+  const item: ItemMeta = {
+    path: `/storylines/${p.slug}`,
+    title: p.name,
+    superTitle: `${p.storyline.name}, pt. ${p.episode}`,
+    date: p.date,
+    type: 'post',
+    image: `/strips/${p.storyline.slug}.jpg`,
+    text: p.md.split(' ').slice(0, 20).join(' ') + ` ...`,
+    seed: seed(p.name),
+  };
+
+  item.factors = factors(item);
+  return item;
+}
+
+export function getItemFromStoryline(s: StorylineMeta): ItemMeta {
+  const item: ItemMeta = {
+    path: `/storylines/${s.slug}`,
+    title: s.name,
+    type: s.type || 'storyline',
+    image: `/strips/${s.slug}.jpg`,
+    text: s.description,
+    seed: seed(s.name),
+  };
+
+  if (s.weight) {
+    item.weight = s.weight.toString();
+  }
+  item.factors = factors(item);
+  return item;
+}
+
+function seed(title: string) {
+  const salt = new Date().toDateString();
+  const buffer = Array.from(`${title} ${salt}`);
+  const value = buffer.reduce((acc, char) => acc + char.charCodeAt(0), 0);
+  // we take the third decimal place and downwards
+  const seed = Math.sin(value) * 1000;
+  // const hash = seed;
+  // const hash = seed - Math.floor(seed);
+  const hash = seed - Math.floor(seed);
+
+  return hash;
+}
+
+function factors(item: ItemMeta) {
+  // that's the randomizer. It will create a fresh order every day (hopefully)
+  const seedFactor = item.weight ? parseFloat(item.weight) : item.seed!;
+
+  // posts have an age and posts older than 60 days are not shown
+  // we consider storylines to be 7 days old
+  const age = item.date
+    ? (Date.now() - new Date(item.date).getTime()) / (1000 * 60 * 60 * 24)
+    : 7;
+  const ageFactor = age > 60 ? 0 : (60 - age) / 60;
+
+  // if the type is storyline, it is assumed to be an overview page which
+  // should weigh less than an art directed page.
+  const storylineFactor = item.type === 'storyline' ? 0.7 : 1;
+
+  return {
+    product: Math.sqrt(seedFactor) * ageFactor * storylineFactor,
+    factors: [seedFactor, ageFactor, storylineFactor],
+  };
 }

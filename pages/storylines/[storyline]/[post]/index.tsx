@@ -15,6 +15,8 @@ import {
   fontNormal,
   fontSizeSmall,
   fontSizeStandard,
+  fontStack,
+  fontStackCopy,
   mediaMedium,
   mediaSmall,
 } from '../../../../core/style';
@@ -61,6 +63,10 @@ const PostPage: NextPage<{
         <ChevronRight width="16px" />
         {post.episode && <div>Episode {post.episode}</div>}
       </Line>
+      <Image
+        src={`/patterns/${post.storyline.slug}.jpg`}
+        alt={`${post.name} (${post.storyline.name})`}
+      />
       <PageTitle>{post.name}</PageTitle>
       <Content color={post.storyline.color}>{content}</Content>
 
@@ -177,6 +183,7 @@ const Line = styled.div`
   align-items: center;
   gap: 0.5rem;
   font-size: ${fontSizeStandard};
+  margin-bottom: 1rem;
 `;
 
 const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
@@ -193,14 +200,21 @@ const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
   }
 `;
 
+const Image = styled.img`
+  max-width: 100%;
+  aspect-ratio: 3 / 2;
+  border: 0.5vw solid #fff;
+`;
+
 const Content = styled('div', {
   shouldForwardProp: (prop) => prop !== 'color',
 })<{ color?: string }>`
+  font-family: ${fontStackCopy};
   margin-right: 8rem;
-  line-height: 1.75;
+  line-height: 1.6;
 
   & blockquote {
-    font-style: italic;
+    font-family: ${fontStack};
     font-size: ${fontSizeSmall};
     margin: 0;
     padding: 1rem 2rem;

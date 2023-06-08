@@ -5,12 +5,11 @@ import {
   mediaLarge,
   mediaMobile,
 } from '../core/style';
-import { GRID_GAP } from './_styles';
 
 export const Grid = styled.ul`
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: ${gridGapVertical} ${gridGapHorizontal};
   margin: 0;
   padding: 0;

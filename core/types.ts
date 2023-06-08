@@ -1,14 +1,18 @@
+import { text } from 'stream/consumers';
+
 export type StorylineMeta = {
   slug: string;
   name: string;
   description: string;
   count: number;
+  type?: string;
   finished?: boolean;
   color?: string;
   weight?: number;
   tags?: string[];
   posts?: PostMeta[];
   related?: string[];
+  seed?: number;
 };
 
 export type PostMeta = {
@@ -25,12 +29,26 @@ export type PostMeta = {
   storylineTags?: string[];
   placeholder?: boolean;
   sources?: { url: string; title: string }[];
+  seed?: number;
+};
+
+export type ItemMeta = {
+  path: string;
+  title: string;
+  superTitle?: string;
+  date?: string;
+  type: string;
+  image: string;
+  text: string;
+  seed?: number;
+  weight?: string;
+  factors?: { product: number; factors: number[] };
 };
 
 export type Tag = {
   name: string;
   slug: string;
   count?: number;
-  posts?: PostMeta[];
-  storylines?: StorylineMeta[];
+  posts?: ItemMeta[];
+  storylines?: ItemMeta[];
 };

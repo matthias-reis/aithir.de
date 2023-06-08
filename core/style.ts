@@ -11,7 +11,9 @@ export const colorTextPlaceholder = '#f88';
 
 export const sizeCanvas = '66rem';
 
-export const fontStack = "'Helvetica Neue', 'Helvetica', sans-serif";
+export const fontStack = "'Source Sans 3', sans-serif";
+export const fontStackCopy = 'Lora, serif';
+export const fontStackSerif = "'Euphoria Script', cursive";
 export const fontNormal = '300';
 export const fontMedium = '500';
 export const fontBold = '700';
@@ -31,4 +33,4 @@ export const mediaLarge = '(max-width: 1023px)';
 // XLarge starts at 1024
 
 export const gridGapHorizontal = '1rem';
-export const gridGapVertical = '2rem';
+export const gridGapVertical = '4rem';

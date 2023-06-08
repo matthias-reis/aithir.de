@@ -3,6 +3,7 @@ import { FC, ReactNode, useEffect } from 'react';
 import { pageView } from '../core/tracking';
 import {
   colorBackground,
+  colorBackgroundWeak,
   colorMain,
   mediaLarge,
   sizeCanvas,
@@ -12,7 +13,7 @@ import { OctahedronNav } from './octahedron-nav';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
-import { usePiwikPro } from '@piwikpro/next-piwik-pro';
+// import { usePiwikPro } from '@piwikpro/next-piwik-pro';
 
 type Layout = 'major' | 'minor';
 
@@ -44,12 +45,12 @@ export const Page: FC<{
   storyline = null,
 }) => {
   const router = useRouter();
-  const { PageViews } = usePiwikPro();
+  // const { PageViews } = usePiwikPro();
 
   useEffect(() => {
     pageView(type, title, storyline, router.query.c as string | undefined);
-    PageViews.trackPageView(`${title} (${storyline})`);
-  }, [PageViews, router.query.c, storyline, title, type]);
+    // PageViews.trackPageView(`${title} (${storyline})`);
+  }, [router.query.c, storyline, title, type]);
 
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   const canonicalUrl = `https://octahedron.world${canonicalPath}`;
@@ -131,15 +132,9 @@ const Legal = styled('nav', {
 `;
 
 const Viewport = styled.div<{ bg: string }>`
-  background-image: url(${({ bg }) => bg});
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 1rem 1rem;
+  background: ${colorBackgroundWeak};
+  padding: 0;
   min-height: 100vh;
-
-  @media ${mediaLarge} {
-    padding: 1rem 0.5rem;
-  }
 `;
 
 const Canvas = styled.div`

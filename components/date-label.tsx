@@ -31,13 +31,15 @@ const DateBox = styled('div', {
 `;
 
 const Year = styled.span`
-  opacity: 0.5;
+  opacity: 0.6;
   font-size: 75%;
 `;
 const Month = styled.span`
-  opacity: 0.65;
+  opacity: 0.7;
+  font-size: 90%;
 `;
 const Day = styled.span`
   opacity: 0.8;
   font-weight: bold;
+  font-size: 90%;
 `;

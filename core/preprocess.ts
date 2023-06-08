@@ -1,4 +1,4 @@
-import glob from 'glob-promise';
+import { glob } from 'glob';
 import { dirname, join } from 'path';
 import { PostMeta, StorylineMeta } from './types';
 import { yaml, fm } from './io';
@@ -15,29 +15,31 @@ function createDate(year: number, week: number, day: number) {
 async function getMetaData(): Promise<Record<string, StorylineMeta>> {
   const metaData = {} as Record<string, StorylineMeta>;
   // we glob and read all ymls
-  const storylineFiles = await glob('**/*.yml', {
-    cwd: process.cwd(),
-    absolute: true,
-  });
+  const storylineFiles = (
+    await glob('**/*.yml', {
+      cwd: process.cwd(),
+      absolute: true,
+    })
+  ).filter((f) => f.indexOf('node_modules') === -1);
 
   for (const file of storylineFiles) {
     const storylineSlug = file.split('/').at(-2) ?? '';
     const storylineMetaData = (await yaml(file)) as Omit<StorylineMeta, 'slug'>;
     const cwd = dirname(file);
-    const postFiles = await (
-      await glob('**/*.md', { cwd, absolute: true })
-    ).filter((f) => f.indexOf('all.md') === -1);
+    // filter out node_modules folder, nasty
+    const postFiles = (await glob('**/*.md', { cwd, absolute: true })).filter(
+      (f) => f.indexOf('all.md') === -1 && f.indexOf('node_modules') === -1
+    );
     const finished = file.includes('_archive');
     console.log(
       `[PRE] ${storylineSlug}: <${postFiles.length}>${
         finished ? ' (FINISHED)' : ''
       }`
     );
-    const posts = await Promise.all(
+    let posts = await Promise.all(
       postFiles.map(async (postFile, i) => {
         const postSlug = postFile.split('/').at(-1)?.replace('.md', '') ?? '';
         const post = await fm<PostMeta>(postFile);
-        console.log(postSlug);
         return {
           ...post.attributes,
           date: createDate(
@@ -52,12 +54,14 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
             color: storylineMetaData.color,
             slug: storylineSlug,
           },
-          episode: i + 1,
           tags: post.attributes.tags ?? [],
           storylineTags: storylineMetaData.tags ?? [],
         };
       })
     );
+    posts = posts
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .map((post, i) => ({ ...post, episode: i + 1 }));
     metaData[storylineSlug] = {
       slug: storylineSlug,
       finished,

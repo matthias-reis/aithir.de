@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.section`
-  padding: 3rem 0;
+  padding: 6rem 0 0 0;
 `;

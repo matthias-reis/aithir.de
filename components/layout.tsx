@@ -42,23 +42,23 @@ export const MinorLayout: LayoutComp = ({ children, color }) => (
 );
 
 const MajorBox = styled.main`
-  margin: 3rem 6rem;
+  margin: 0 6rem;
 
   @media ${mediaMedium} {
-    margin: 3rem 2rem;
+    margin: 0 2rem;
   }
   @media ${mediaSmall} {
-    margin: 1rem 2rem 3rem;
+    margin: 0 2rem 3rem;
   }
 `;
 
 const MinorBox = styled.div`
   display: flex;
-  margin: 1rem;
+  margin: 0 1rem 1rem;
 
   @media ${mediaSmall} {
     display: block;
-    margin: 1rem 2rem 3rem;
+    margin: 0 2rem 3rem;
   }
 `;
 

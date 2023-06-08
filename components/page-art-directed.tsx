@@ -6,7 +6,7 @@ import { OctahedronNav } from './octahedron-nav';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
-import { usePiwikPro } from '@piwikpro/next-piwik-pro';
+// import { usePiwikPro } from '@piwikpro/next-piwik-pro';
 import UnstyledImage, { StaticImageData } from 'next/image';
 
 const defaultDescription =
@@ -34,12 +34,12 @@ export const PageArtDirected: FC<{
   storyline,
 }) => {
   const router = useRouter();
-  const { PageViews } = usePiwikPro();
+  // const { PageViews } = usePiwikPro();
 
   useEffect(() => {
     pageView(type, storyline, storyline, router.query.c as string | undefined);
-    PageViews.trackPageView(`${storyline} (${storyline})`);
-  }, [PageViews, router.query.c, storyline, type]);
+    // PageViews.trackPageView(`${storyline} (${storyline})`);
+  }, [router.query.c, storyline, type]);
 
   const canonicalUrl = `https://octahedron.world${canonicalPath}`;
   const titleText = `${storyline} - OctahedronWorld`;
