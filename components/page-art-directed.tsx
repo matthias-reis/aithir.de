@@ -22,6 +22,8 @@ export const PageArtDirected: FC<{
   logoColor?: string;
   color?: string;
   bgColor?: string;
+  bdColor?: string;
+  withShadow?: boolean;
 }> = ({
   children,
   description,
@@ -31,7 +33,9 @@ export const PageArtDirected: FC<{
   logoColor = '#0008',
   color = '#0008',
   bgColor = '#000',
+  bdColor,
   storyline,
+  withShadow = true,
 }) => {
   const router = useRouter();
   // const { PageViews } = usePiwikPro();
@@ -43,8 +47,9 @@ export const PageArtDirected: FC<{
 
   const canonicalUrl = `https://octahedron.world${canonicalPath}`;
   const titleText = `${storyline} - OctahedronWorld`;
+  const backdropColor = bdColor || bgColor;
   return (
-    <Viewport bgColor={bgColor} data-id="viewport">
+    <Viewport bgColor={backdropColor} data-id="viewport">
       <Head>
         <title>{titleText}</title>
         <link rel="canonical" href={canonicalUrl} />
@@ -83,7 +88,7 @@ export const PageArtDirected: FC<{
         />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <Canvas bgColor={bgColor} data-id="canvas">
+      <Canvas bgColor={bgColor} data-id="canvas" withShadow={withShadow}>
         <OctahedronNav color={logoColor} />
         <Image
           src={image.src}
@@ -131,13 +136,13 @@ const Viewport = styled.div<{ bgColor: string }>`
   min-height: 100vh;
 `;
 
-const Canvas = styled.div<{ bgColor: string }>`
+const Canvas = styled.div<{ bgColor: string; withShadow: boolean }>`
   max-width: ${sizeCanvas};
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
   background: ${({ bgColor }) => bgColor};
-  box-shadow: 0 0 4rem #fff4;
+  box-shadow: ${({ withShadow }) => (withShadow ? `0 0 4rem #fff4` : 'none')};
 `;
 
 const Box = styled.div``;
