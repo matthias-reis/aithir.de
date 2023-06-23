@@ -5,6 +5,8 @@ import text from '../../../_archive/goliath/all.md';
 import { parseMarkdown } from '../../../core/markdown';
 import { ReactElement } from 'react';
 import styled from '@emotion/styled';
+import { ItemMeta } from '../../../core/types';
+import { getStoryline } from '../../../core/data-layer';
 
 const parts = text
   .split('---')
@@ -15,7 +17,9 @@ const description =
   'What if we developed an AI with more than human level intelligence? And how powerful can it become? Goliath is following that thought and adds a twist in the second half.';
 
 // lists all available storylines
-const GoliathStoryline: NextPage = () => {
+const GoliathStoryline: NextPage<{
+  related: ItemMeta[];
+}> = ({ related }) => {
   return (
     <PageArtDirected
       type="Storyline"
@@ -25,6 +29,9 @@ const GoliathStoryline: NextPage = () => {
       color="#6F6E2B"
       canonicalPath="/storylines/goliath"
       description={description}
+      start={new Date('2022-06-12')}
+      end={new Date('2022-06-12')}
+      related={related}
     >
       <Intro>{description}</Intro>
       {parts.map((p: ReactElement, i: number) => (
@@ -48,14 +55,18 @@ const GoliathStoryline: NextPage = () => {
           future. So the reality was faster this time.
         </p>
       </Outro>
-      <Hr />
-      <Disclaimer>
-        Released between June 12th and November 16th 2022
-        <br />© 2022 Octahedron World, Matthias Reis
-      </Disclaimer>
     </PageArtDirected>
   );
 };
+
+export function getServerSideProps() {
+  const related: ItemMeta[] = [
+    getStoryline('reviews'),
+    getStoryline('tropes'),
+    getStoryline('tattoos'),
+  ];
+  return { props: { related } };
+}
 
 export default GoliathStoryline;
 

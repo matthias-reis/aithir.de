@@ -40,6 +40,11 @@ export function getAllStorylines(): StorylineMeta[] {
   );
 }
 
+export const getStoryline = (slug: string) => {
+  const metaData = getMetaData();
+  return getItemFromStoryline(metaData[slug]);
+};
+
 export function getAllPosts(): PostMeta[] {
   const metaData = getMetaData();
   return Object.values(metaData)

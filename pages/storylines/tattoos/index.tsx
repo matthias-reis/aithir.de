@@ -17,6 +17,8 @@ import p8 from './8.jpeg';
 import p9 from './9.jpeg';
 import p10 from './10.jpeg';
 import Image, { StaticImageData } from 'next/image';
+import { ItemMeta } from '../../../core/types';
+import { getStoryline } from '../../../core/data-layer';
 
 type Alignment = 'l' | 'c' | 'r';
 
@@ -93,7 +95,9 @@ const parts: {
 const description = `Just like in Ray Bradbury's "The Illustrated Man", I am trying to bring my tattoos to life in this storyline.`;
 
 // lists all available storylines
-const GoliathStoryline: NextPage = () => {
+const GoliathStoryline: NextPage<{
+  related: ItemMeta[];
+}> = ({ related }) => {
   return (
     <PageArtDirected
       type="Storyline"
@@ -104,6 +108,9 @@ const GoliathStoryline: NextPage = () => {
       logoColor="#ffffff"
       canonicalPath="/storylines/tattoos"
       description={description}
+      start={new Date('2022-05-25')}
+      end={new Date('2023-02-13')}
+      related={related}
     >
       <Intro>{description}</Intro>
       <Annotation>
@@ -210,14 +217,18 @@ const GoliathStoryline: NextPage = () => {
           brought everything to an ordered end.
         </p>
       </Annotation>
-      <Hr />
-      <Disclaimer>
-        Released between May 2022 and February 2023
-        <br />© 2022-2023 Octahedron World, Matthias Reis
-      </Disclaimer>
     </PageArtDirected>
   );
 };
+
+export function getServerSideProps() {
+  const related: ItemMeta[] = [
+    getStoryline('mesh'),
+    getStoryline('tropes'),
+    getStoryline('operator'),
+  ];
+  return { props: { related } };
+}
 
 export default GoliathStoryline;
 

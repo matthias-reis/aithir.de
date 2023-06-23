@@ -13,6 +13,8 @@ import {
 } from '../../../core/style';
 import { Graphics } from '../../../components/world-2-graphics';
 import { Calculator } from '../../../components/calculator';
+import { ItemMeta } from '../../../core/types';
+import { getStoryline } from '../../../core/data-layer';
 
 const parts: ReactElement[][] = text
   .split('---')
@@ -28,7 +30,9 @@ const parts: ReactElement[][] = text
 const description = `What are the biggest problems of our time and how do we overcome them? This storyline focuses on the complex problems around energy creation and consumption`;
 
 // lists all available storylines
-const World2Storyline: NextPage = () => {
+const World2Storyline: NextPage<{
+  related: ItemMeta[];
+}> = ({ related }) => {
   return (
     <PageArtDirected
       type="Storyline"
@@ -41,6 +45,9 @@ const World2Storyline: NextPage = () => {
       canonicalPath="/storylines/world-2"
       withShadow={false}
       description={description}
+      start={new Date('2022-08-01')}
+      end={new Date('2023-04-04')}
+      related={related}
     >
       <TitleArea>
         <Title>World 2</Title>
@@ -147,15 +154,18 @@ const World2Storyline: NextPage = () => {
           </Post>
         );
       })}
-
-      <Hr />
-      <Disclaimer>
-        Released between August 2022 and April 2023
-        <br />© 2022-2023 Octahedron World, Matthias Reis
-      </Disclaimer>
     </PageArtDirected>
   );
 };
+
+export function getServerSideProps() {
+  const related: ItemMeta[] = [
+    getStoryline('vegan'),
+    getStoryline('traffic'),
+    getStoryline('predictions'),
+  ];
+  return { props: { related } };
+}
 
 export default World2Storyline;
 

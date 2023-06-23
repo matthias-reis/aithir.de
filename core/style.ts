@@ -23,6 +23,7 @@ export const fontSizeHeadline = '1.2rem';
 export const fontSizeXLarge = '3rem';
 export const fontSizeLarge = '2.2rem';
 export const fontSizeMedium = '1.5rem';
+export const fontSizeReading = '1.25rem';
 export const fontSizeStandard = '1.1rem';
 export const fontSizeSmall = '0.9rem';
 

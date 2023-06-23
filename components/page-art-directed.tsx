@@ -8,6 +8,12 @@ import Link from 'next/link';
 import Head from 'next/head';
 // import { usePiwikPro } from '@piwikpro/next-piwik-pro';
 import UnstyledImage, { StaticImageData } from 'next/image';
+import { ItemMeta } from '../core/types';
+import { getMonthName, getYearSpan } from '../core/date-helpers';
+import { Headline } from './headline';
+import { Grid } from './grid';
+import { Article } from './article';
+import { getItemFromStoryline } from '../core/data-layer';
 
 const defaultDescription =
   'Science Fiction, Science Fact and Fantasy in short bits. 1.000 characters, a 30 second read per day';
@@ -24,6 +30,9 @@ export const PageArtDirected: FC<{
   bgColor?: string;
   bdColor?: string;
   withShadow?: boolean;
+  start: Date;
+  end: Date;
+  related?: ItemMeta[];
 }> = ({
   children,
   description,
@@ -35,7 +44,10 @@ export const PageArtDirected: FC<{
   bgColor = '#000',
   bdColor,
   storyline,
+  start,
+  end,
   withShadow = true,
+  related,
 }) => {
   const router = useRouter();
   // const { PageViews } = usePiwikPro();
@@ -97,6 +109,21 @@ export const PageArtDirected: FC<{
           alt={`${storyline} - title image`}
         />
         <Box data-id="box">{children}</Box>
+        {!!related && related.length > 0 && (
+          <RelatedBox>
+            <Headline>Recommended Reads</Headline>
+            <Grid>
+              {related.map((s) => (
+                <Article key={s.path} meta={s} />
+              ))}
+            </Grid>
+          </RelatedBox>
+        )}
+        <Hr />
+        <Disclaimer>
+          Released between {getMonthName(start)} and {getMonthName(end)}
+          <br />© {getYearSpan(start, end)} Octahedron World, Matthias Reis
+        </Disclaimer>
       </Canvas>
       <Legal color={color}>
         <Link href="/more/about">About</Link>
@@ -151,4 +178,22 @@ const Image = styled(UnstyledImage)`
   max-width: 100%;
   height: auto;
   aspect-ratio: 1 / 1;
+`;
+
+const Hr = styled.hr`
+  border: none;
+  border-bottom: 2px solid #fff3;
+  width: 30%;
+  margin: 3rem auto;
+`;
+
+const Disclaimer = styled.p`
+  color: #fff8;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-bottom: 5rem;
+`;
+
+const RelatedBox = styled.div`
+  margin: 5rem 2rem 8rem;
 `;
