@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import { FC, ReactNode, useEffect } from 'react';
-import { pageView } from '../core/tracking';
+import { usePageView } from '../core/tracking';
 import {
   colorBackground,
   colorBackgroundWeak,
@@ -13,7 +13,6 @@ import { OctahedronNav } from './octahedron-nav';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
-// import { usePiwikPro } from '@piwikpro/next-piwik-pro';
 
 type Layout = 'major' | 'minor';
 
@@ -44,13 +43,11 @@ export const Page: FC<{
   bg = 'general',
   storyline = null,
 }) => {
-  const router = useRouter();
-  // const { PageViews } = usePiwikPro();
+  const track = usePageView();
 
   useEffect(() => {
-    pageView(type, title, storyline, router.query.c as string | undefined);
-    // PageViews.trackPageView(`${title} (${storyline})`);
-  }, [router.query.c, storyline, title, type]);
+    track(title);
+  }, [storyline, title, track]);
 
   const Layout = layout === 'major' ? MajorLayout : MinorLayout;
   const canonicalUrl = `https://octahedron.world${canonicalPath}`;

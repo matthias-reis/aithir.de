@@ -1,14 +1,11 @@
 import type { AppProps } from 'next/app';
 import { TrackingProvider } from '../components/tracking-provider';
-import { Analytics } from '@vercel/analytics/react';
 
 function OctahedronApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <TrackingProvider />
+    <TrackingProvider>
       <Component {...pageProps} />
-      <Analytics />
-    </>
+    </TrackingProvider>
   );
 }
 
