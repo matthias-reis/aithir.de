@@ -9,7 +9,7 @@ import styled from '@emotion/styled';
 // lists all available storylines
 const TagsPage: NextPage<{ tags: Tag[] }> = ({ tags }) => {
   return (
-    <LayoutMajor title="All Tags" path="">
+    <LayoutMajor title="All Tags" path="/tags">
       <Title superTitle="A Collection of Topics and Keywords">Tags</Title>
       <Box>
         <TagList>

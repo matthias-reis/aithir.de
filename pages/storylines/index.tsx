@@ -1,34 +1,28 @@
 import type { NextPage } from 'next';
-import Link from 'next/link';
 import { Grid, Item } from '../../components/grid';
-import { Page } from '../../components/page';
-import { PageSuperTitle, PageTitle } from '../../components/page-title';
-import { Section } from '../../components/section';
-import { Storyline } from '../../components/storyline';
-import { getAllStorylines } from '../../core/data-layer';
-import { StorylineMeta } from '../../core/types';
+import { Title } from '../../components/page-title';
+import {
+  getAllItems,
+  getAllStorylines,
+  getItemFromStoryline,
+} from '../../core/data-layer';
+import { ItemMeta } from '../../core/types';
+import { LayoutMajor } from '../../components/layout-major';
+import { Article } from '../../components/article';
 
 // lists all available storylines
-const Storylines: NextPage<{ storylines: StorylineMeta[] }> = ({
-  storylines,
-}) => {
+const Storylines: NextPage<{ storylines: ItemMeta[] }> = ({ storylines }) => {
   return (
-    <Page
-      type="Storylines"
-      title="Storylines"
-      canonicalPath="/storylines"
-      description="Have a look at all storylines and all available arc of the OctahedronWorld. Each Storyline consists of a set of posts and forms an overarching series."
-    >
-      <PageSuperTitle>All Current Posting Series</PageSuperTitle>
-      <PageTitle>Storylines</PageTitle>
+    <LayoutMajor title="Storylines" path="/storylines">
+      <Title superTitle="All Current Long Form Posts">Storylines</Title>
       <Grid>
         {storylines.map((storyline) => (
-          <Item key={storyline.slug}>
-            <Storyline meta={storyline} />
+          <Item key={storyline.path}>
+            <Article meta={storyline} />
           </Item>
         ))}
       </Grid>
-    </Page>
+    </LayoutMajor>
   );
 };
 
@@ -36,7 +30,7 @@ export default Storylines;
 
 export function getServerSideProps() {
   // filter out posts for performance reasons
-  const storylines = getAllStorylines().map(({ posts, ...s }) => s);
+  const storylines = getAllItems().filter((i) => i.type !== 'post');
 
   return { props: { storylines } };
 }
