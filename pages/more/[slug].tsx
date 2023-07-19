@@ -2,25 +2,19 @@ import { fm } from '../../core/io';
 import { existsSync } from 'fs';
 import type { NextPage } from 'next';
 import { resolve } from 'path';
-import { Page } from '../../components/page';
 import { parseMarkdown } from '../../core/markdown';
-import { PageSuperTitle, PageTitle } from '../../components/page-title';
+import { LayoutMajor } from '../../components/layout-major';
+import { Title } from '../../components/page-title';
 
 type Params = { slug: string; title: string; supertitle: string; md: string };
 
 const LegalPage: NextPage<{ data: Params }> = ({ data }) => {
   const content = parseMarkdown(data.md);
   return (
-    <Page
-      type="Legal"
-      title={`${data.title})`}
-      layout="minor"
-      canonicalPath={`/more/${data.slug}`}
-    >
-      {data.supertitle && <PageSuperTitle>{data.supertitle}</PageSuperTitle>}
-      <PageTitle>{data.title}</PageTitle>
+    <LayoutMajor title="All Tags" path="">
+      <Title superTitle={data.supertitle}>{data.title}</Title>
       {content}
-    </Page>
+    </LayoutMajor>
   );
 };
 
