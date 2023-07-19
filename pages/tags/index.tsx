@@ -1,32 +1,36 @@
 import type { NextPage } from 'next';
-import Link from 'next/link';
-import { Page } from '../../components/page';
-import { PageSuperTitle, PageTitle } from '../../components/page-title';
-import { Section } from '../../components/section';
+import { Title } from '../../components/page-title';
 import { TagItem, TagList } from '../../components/tag';
-import { getAllStorylines, getAllTags } from '../../core/data-layer';
-import { StorylineMeta, Tag } from '../../core/types';
+import { getAllTags } from '../../core/data-layer';
+import { Tag } from '../../core/types';
+import { LayoutMajor } from '../../components/layout-major';
+import styled from '@emotion/styled';
 
 // lists all available storylines
-const Tags: NextPage<{ tags: Tag[] }> = ({ tags }) => {
+const TagsPage: NextPage<{ tags: Tag[] }> = ({ tags }) => {
   return (
-    <Page type="Tags" title="All Tags and Keywords" canonicalPath="/tags">
-      <PageSuperTitle>A Collection of Topics and Keywords</PageSuperTitle>
-      <PageTitle>Tags</PageTitle>
-      <TagList>
-        {tags.map((tag) => (
-          <TagItem tag={tag} key={tag.slug} />
-        ))}
-      </TagList>
-    </Page>
+    <LayoutMajor title="All Tags" path="">
+      <Title superTitle="A Collection of Topics and Keywords">Tags</Title>
+      <Box>
+        <TagList>
+          {tags.map((tag) => (
+            <TagItem tag={tag} key={tag.slug} />
+          ))}
+        </TagList>
+      </Box>
+    </LayoutMajor>
   );
 };
 
-export default Tags;
+export default TagsPage;
 
 export function getServerSideProps() {
-  // filter out posts for performance reasons
-  const tags = getAllTags().map(({ posts, ...tag }) => tag);
+  // filter out posts and storylines for performance reasons
+  const tags = getAllTags().map(({ items, ...tag }) => tag);
 
   return { props: { tags } };
 }
+
+const Box = styled.div`
+  margin-top: 5rem;
+`;

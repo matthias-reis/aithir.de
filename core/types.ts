@@ -43,12 +43,12 @@ export type ItemMeta = {
   seed?: number;
   weight?: string;
   factors?: { product: number; factors: number[] };
+  tags?: string[];
 };
 
 export type Tag = {
   name: string;
   slug: string;
   count?: number;
-  posts?: ItemMeta[];
-  storylines?: ItemMeta[];
+  items?: ItemMeta[];
 };

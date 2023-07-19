@@ -54,43 +54,43 @@ export function getAllPosts(): PostMeta[] {
     .sort((a, b) => (new Date(b.date || '') > new Date(a.date || '') ? 1 : -1));
 }
 
+export function getAllItems(): ItemMeta[] {
+  const posts: ItemMeta[] = getAllPosts()
+    .filter(
+      (post) =>
+        new Date(post.date || Date.now()) <= new Date() && !post.placeholder
+    )
+    .map(getItemFromPost);
+
+  const storylines: ItemMeta[] = getAllStorylines().map(getItemFromStoryline);
+
+  const items = [...posts, ...storylines]
+    .filter((item) => item.factors!.product > 0)
+    .sort((a, b) => b.factors!.product - a.factors!.product);
+
+  return items;
+}
+
 export function getAllTags() {
-  const posts = getAllPosts();
-  const storylines = getAllStorylines();
+  const items = getAllItems();
+  const tags = {} as Record<string, ItemMeta[]>;
 
-  const tags = {} as Record<
-    string,
-    { storylines: StorylineMeta[]; posts: PostMeta[] }
-  >;
-
-  for (const post of posts) {
-    if (new Date(post.date || Date.now()) <= new Date() && !post.placeholder) {
-      for (const tag of post.tags ?? []) {
-        if (!tags[tag]) {
-          tags[tag] = { posts: [], storylines: [] };
-        }
-        tags[tag].posts.push(post);
-      }
-    }
-  }
-  for (const storyline of storylines) {
-    for (const tag of storyline.tags ?? []) {
+  for (const item of items) {
+    for (const tag of item.tags ?? []) {
       if (!tags[tag]) {
-        tags[tag] = { posts: [], storylines: [] };
+        tags[tag] = [];
       }
-      tags[tag].storylines.push(storyline);
+      tags[tag].push(item);
     }
   }
+
   return Object.entries(tags)
-    .map(([name, entries]) => {
-      const posts = entries.posts.map(getItemFromPost);
-      const storylines = entries.storylines.map(getItemFromStoryline);
+    .map(([name, items]) => {
       return {
         name,
         slug: slugify(name),
-        count: storylines.length + posts.length,
-        posts,
-        storylines,
+        count: items.length,
+        items,
       };
     })
     .sort((a, b) => b.count - a.count);
@@ -125,6 +125,7 @@ export function getItemFromPost(p: PostMeta): ItemMeta {
     image: `/strips/${p.storyline.slug}.jpg`,
     text: p.md.split(' ').slice(0, 20).join(' ') + ` ...`,
     seed: seed(p.name),
+    tags: [...(p.tags || []), ...(p.storylineTags || [])],
   };
 
   item.factors = factors(item);
@@ -139,6 +140,7 @@ export function getItemFromStoryline(s: StorylineMeta): ItemMeta {
     image: `/strips/${s.slug}.jpg`,
     text: s.description,
     seed: seed(s.name),
+    tags: s.tags || [],
   };
 
   if (s.weight) {

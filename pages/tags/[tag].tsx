@@ -1,51 +1,26 @@
-import type { GetServerSideProps, NextPage } from 'next';
-import Link from 'next/link';
+import type { NextPage } from 'next';
 import { Grid, Item } from '../../components/grid';
-import { Headline } from '../../components/headline';
-import { Page } from '../../components/page';
-import { PageSuperTitle, PageTitle } from '../../components/page-title';
+import { Title } from '../../components/page-title';
 import { Section } from '../../components/section';
-import { Storyline } from '../../components/storyline';
 import { getAllTags } from '../../core/data-layer';
-import { PostMeta, Tag } from '../../core/types';
+import { Tag } from '../../core/types';
 import { Article } from '../../components/article';
+import { LayoutMajor } from '../../components/layout-major';
 
-// lists all available storylines
 const TagPage: NextPage<{ tag: Tag }> = ({ tag }) => {
   return (
-    <Page
-      type="Tag"
-      title={`Tag: ${tag.name}`}
-      description={`Listing of all storylines and posts that contain the keyword "${tag.name}"`}
-      canonicalPath={`/tags/${tag.slug}`}
-    >
-      <PageSuperTitle>Tag, Topic, Keyword</PageSuperTitle>
-      <PageTitle>{tag.name}</PageTitle>
-      {(tag.storylines?.length ?? 0) > 0 && (
-        <Section>
-          <Headline>Storylines tagged with &quot;{tag.name}&quot;</Headline>
-          <Grid>
-            {(tag.storylines || []).map((storyline) => (
-              <Item key={storyline.path}>
-                <Article meta={storyline} />
-              </Item>
-            ))}
-          </Grid>
-        </Section>
-      )}
-      {(tag.posts?.length ?? 0) > 0 && (
-        <Section>
-          <Headline>Posts tagged with &quot;{tag.name}&quot;</Headline>
-          <Grid>
-            {(tag.posts || []).map((post) => (
-              <Item key={post.path}>
-                <Article meta={post} />
-              </Item>
-            ))}
-          </Grid>
-        </Section>
-      )}
-    </Page>
+    <LayoutMajor title={`Keyword ${tag.name}`} path={`/tags/${tag.slug}`}>
+      <Title superTitle="Tag, Topic, Keyword">{tag.name}</Title>
+      <Section>
+        <Grid>
+          {(tag.items || []).map((item) => (
+            <Item key={item.path}>
+              <Article meta={item} />
+            </Item>
+          ))}
+        </Grid>
+      </Section>
+    </LayoutMajor>
   );
 };
 
