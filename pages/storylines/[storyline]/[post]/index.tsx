@@ -25,6 +25,7 @@ import { ChevronLeft } from '../../../../components/chevron-left';
 import { Headline } from '../../../../components/headline';
 import { Grid } from '../../../../components/grid';
 import { Storyline } from '../../../../components/storyline';
+import { LayoutMinor } from '../../../../components/layout-minor';
 
 // home page contains: welcome visual, last three posts, all current storylines, all tags
 const PostPage: NextPage<{
@@ -36,40 +37,38 @@ const PostPage: NextPage<{
   const content = parseMarkdown(post.md);
   const chars = post.md.length;
   const words = post.md.split(/\s/).length;
-  const Icon = icons[post.storyline.slug] || (() => null);
+
   return (
-    <Page
-      type="Post"
+    <LayoutMinor
       title={`${post.name} (${post.storyline.name})`}
       description={post.md.slice(0, 170)}
-      canonicalPath={`/storylines/${post.slug}`}
-      storyline={post.storyline.name}
+      path={`/storylines/${post.slug}`}
       image={`https://octahedron.world/strips/${post.storyline.slug}.jpg`}
-      bg={post.storyline.slug}
       color={post.storyline.color}
-      layout="minor"
     >
-      <Line>
-        <Link
-          href={`/storylines/${post.storyline.slug}`}
-          passHref
-          legacyBehavior
-        >
-          <A color={post.storyline.color}>
-            <Icon width={32} height={32} />
-            <PageSuperTitle>{post.storyline.name}</PageSuperTitle>
-          </A>
-        </Link>
-        <ChevronRight width="16px" />
-        {post.episode && <div>Episode {post.episode}</div>}
-      </Line>
+      <Confined>
+        <Line>
+          <Link
+            href={`/storylines/${post.storyline.slug}`}
+            passHref
+            legacyBehavior
+          >
+            <A color={post.storyline.color}>
+              <PageSuperTitle>{post.storyline.name}</PageSuperTitle>
+            </A>
+          </Link>
+          <ChevronRight width="16px" />
+          {post.episode && <div>Part {post.episode}</div>}
+        </Line>
+        <PageTitle>{post.name}</PageTitle>
+      </Confined>
       <Image
         src={`/patterns/${post.storyline.slug}.jpg`}
         alt={`${post.name} (${post.storyline.name})`}
       />
-      <PageTitle>{post.name}</PageTitle>
-      <Content color={post.storyline.color}>{content}</Content>
-
+      <Confined>
+        <Content color={post.storyline.color}>{content}</Content>
+      </Confined>
       {post.sources && (
         <Sources>
           <h3>Sources and Good Reads</h3>
@@ -129,7 +128,7 @@ const PostPage: NextPage<{
           </Grid>
         </RelatedBox>
       )}
-    </Page>
+    </LayoutMinor>
   );
 };
 
@@ -178,6 +177,10 @@ export function getServerSideProps({
   return { props: { post, previous, next, related } };
 }
 
+const Confined = styled.div`
+  margin: 3rem 5rem;
+`;
+
 const Line = styled.div`
   display: flex;
   align-items: center;
@@ -201,9 +204,8 @@ const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
 `;
 
 const Image = styled.img`
-  max-width: 100%;
+  width: 100%;
   aspect-ratio: 3 / 2;
-  border: 0.5vw solid #fff;
 `;
 
 const Content = styled('div', {

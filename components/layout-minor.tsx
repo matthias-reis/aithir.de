@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { FC, ReactNode } from 'react';
 import {
   colorMain,
+  colorText,
   fontBold,
   fontNormal,
   fontSizeOctahedron,
@@ -13,14 +14,23 @@ import { OctahedronNav } from './octahedron-nav';
 import Link from 'next/link';
 import { LayoutFrame } from './layout-frame';
 
-export const LayoutMajor: FC<{
+export const LayoutMinor: FC<{
   title: string;
   description?: string;
   path: string;
   children: ReactNode;
   color?: string;
   bgColor?: string;
-}> = ({ children, title, description, path, color = colorMain, bgColor }) => {
+  image?: string;
+}> = ({
+  children,
+  title,
+  description,
+  path,
+  color = colorMain,
+  bgColor,
+  image,
+}) => {
   return (
     <LayoutFrame
       title={title}
@@ -28,31 +38,31 @@ export const LayoutMajor: FC<{
       color={color}
       bgColor={bgColor}
       path={path}
+      image={image}
     >
       <OctahedronNav color={color} />
       <Box>
-        <Link href="/" passHref legacyBehavior>
-          <Octa>
-            <h1>
-              Octahedron<Sub color={color}>World</Sub>
-            </h1>
-          </Octa>
-        </Link>
-        {children}
+        <OctaSection>
+          <Link href="/" passHref legacyBehavior>
+            <Octa>
+              <h1>
+                Octahedron<Sub color={color}>World</Sub>
+              </h1>
+            </Octa>
+          </Link>
+        </OctaSection>
+        <MainSection>{children}</MainSection>
       </Box>
     </LayoutFrame>
   );
 };
 
-const Box = styled.main`
-  margin: 0 6rem;
-  padding-bottom: 5rem;
-
-  @media ${mediaMedium} {
-    margin: 0 2rem;
-  }
+const Box = styled.div`
+  display: flex;
+  margin: 0 0 0 1rem;
 
   @media ${mediaSmall} {
+    display: block;
     margin: 0 2rem 3rem;
   }
 `;
@@ -62,13 +72,15 @@ const Octa = styled.a`
   color: inherit;
   text-decoration: none;
   margin: 0;
-  display: block;
-  position: absolute;
   line-height: 1;
-  top: 1.75rem;
-  right: 6rem;
+  display: block;
+  transform-origin: bottom right;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 1.25rem;
 
   @media ${mediaSmall} {
+    transform: none;
     top: 1.2rem;
     right: 5rem;
   }
@@ -88,4 +100,26 @@ const Sub = styled('span', { shouldForwardProp: (prop) => prop !== 'color' })<{
   color: ${({ color }) => color};
   opacity: 0.5;
   font-weight: ${fontNormal};
+`;
+
+const MainSection = styled.main`
+  padding: 3rem 0;
+  flex: 1 1 auto;
+  @media ${mediaSmall} {
+    padding: 2rem 0;
+  }
+`;
+
+const OctaSection = styled.div`
+  position: relative;
+  width: 4rem;
+  border-right: 1px solid ${colorText};
+  flex: 0 0 auto;
+
+  @media ${mediaSmall} {
+    border-right: none;
+    position: static;
+    width: auto;
+    padding-top: 3rem;
+  }
 `;

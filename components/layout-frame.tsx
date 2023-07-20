@@ -13,9 +13,24 @@ export const LayoutFrame: FC<{
   children: ReactNode;
   color?: string;
   bgColor?: string;
-}> = ({ children, title, description, path, color = colorMain, bgColor }) => {
+  image?: string;
+}> = ({
+  children,
+  title,
+  description,
+  path,
+  color = colorMain,
+  bgColor,
+  image,
+}) => {
   return (
-    <Page title={title} description={description} path={path} bgColor={bgColor}>
+    <Page
+      title={title}
+      description={description}
+      path={path}
+      bgColor={bgColor}
+      image={image}
+    >
       <Main>{children}</Main>
       <Legal color={color}>
         <Link href="/more/about">About</Link>
@@ -58,7 +73,6 @@ const Main = styled.div`
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
-  padding-bottom: 5rem;
   background: ${colorBackground};
   box-shadow: 0 0 2rem #fff4;
 `;

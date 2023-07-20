@@ -1,11 +1,7 @@
 import type { NextPage } from 'next';
 import { Grid, Item } from '../../components/grid';
 import { Title } from '../../components/page-title';
-import {
-  getAllItems,
-  getAllStorylines,
-  getItemFromStoryline,
-} from '../../core/data-layer';
+import { getAllItems } from '../../core/data-layer';
 import { ItemMeta } from '../../core/types';
 import { LayoutMajor } from '../../components/layout-major';
 import { Article } from '../../components/article';
