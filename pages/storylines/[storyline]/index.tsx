@@ -1,13 +1,11 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import { Page } from '../../../components/page';
 import {
   getAllStorylines,
   getItemFromPost,
   getItemFromStoryline,
 } from '../../../core/data-layer';
 import { StorylineMeta } from '../../../core/types';
-import { icons } from '../../../components/icons';
 import styled from '@emotion/styled';
 import {
   colorMain,
@@ -26,65 +24,54 @@ import { Article } from '../../../components/article';
 import { Headline } from '../../../components/headline';
 import { Grid } from '../../../components/grid';
 import { getCookie } from 'cookies-next';
+import { LayoutMinor } from '../../../components/layout-minor';
 
 const StorylinePage: NextPage<{
   storyline: StorylineMeta;
   related: StorylineMeta[];
 }> = ({ storyline, related }) => {
-  const Icon = icons[storyline.slug];
-
+  const posts = (storyline.posts || []).map(getItemFromPost);
   return (
-    <Page
-      type="Storyline"
+    <LayoutMinor
       title={storyline.name}
-      canonicalPath={`/storylines/${storyline.slug}`}
       description={storyline.description}
-      storyline={storyline.name}
-      bg={storyline.slug}
+      path={`/storylines/${storyline.slug}`}
+      image={`https://octahedron.world/strips/${storyline.slug}.jpg`}
       color={storyline.color}
     >
-      <Link href={`/storylines`} passHref legacyBehavior>
-        <A color={storyline.color}>
-          <PageSuperTitle>{storyline.type || 'Storyline'}</PageSuperTitle>
-        </A>
-      </Link>
-      <PageTitle>{storyline.name}</PageTitle>
+      <Confined>
+        <Link href={`/storylines`} passHref legacyBehavior>
+          <A color={storyline.color}>
+            <PageSuperTitle>{storyline.type || 'Topic'}</PageSuperTitle>
+          </A>
+        </Link>
+        <PageTitle>{storyline.name}</PageTitle>
+      </Confined>
       <Image
         src={`/patterns/${storyline.slug}.jpg`}
         alt={`${storyline.name}`}
       />
-      <DescriptionBox>
+      <Confined>
         <Description>{storyline.description}</Description>
-      </DescriptionBox>
 
-      <StorylineBox>
-        {(storyline.posts || []).map((post) => (
-          <Link
-            key={post.slug}
-            href={`/storylines/${post.slug}`}
-            passHref
-            legacyBehavior
-          >
-            <PostBox>
-              <Title>{post.name}</Title>
-              <SubTitle>Episode {post.episode}</SubTitle>
-              <Text>{post.md.split('\n\n')[0]}</Text>
-              <Pointer>Read More</Pointer>
-            </PostBox>
-          </Link>
-        ))}
-      </StorylineBox>
-      {related.length > 0 && (
-        <RelatedBox>
-          <Headline>Related Storyline{related.length > 1 && 's'}</Headline>
-          <Grid>
-            {related.map((s) => (
-              <Article key={s.slug} meta={getItemFromStoryline(s)} />
-            ))}
-          </Grid>
-        </RelatedBox>
-      )}
-    </Page>
+        <Headline>Posts in this Topic</Headline>
+        <Grid>
+          {posts.map((post) => (
+            <Article key={post.path} meta={post} />
+          ))}
+        </Grid>
+        {related.length > 0 && (
+          <RelatedBox>
+            <Headline>Related Storyline{related.length > 1 && 's'}</Headline>
+            <Grid>
+              {related.map((s) => (
+                <Article key={s.slug} meta={getItemFromStoryline(s)} />
+              ))}
+            </Grid>
+          </RelatedBox>
+        )}
+      </Confined>
+    </LayoutMinor>
   );
 };
 
@@ -124,32 +111,13 @@ export function getServerSideProps({
   return { props: { storyline, related } };
 }
 
-const PostBox = styled.div``;
-const Title = styled.h3`
-  font-size: ${fontSizeLarge};
-  font-weight: ${fontBold};
-  color: ${colorTextStrong};
-  line-height: 1.1;
-  margin-top: 3rem;
-  margin-bottom: 0;
-`;
-const SubTitle = styled.p`
-  font-size: ${fontSizeStandard};
-  color: ${colorTextWeak};
-  line-height: 1.25;
-  margin-top: 0;
-  margin-bottom: 0.25rem;
-`;
-const Text = styled.p``;
-const Pointer = styled.div`
-  display: flex;
-  justify-content: flex-end;
+const Confined = styled.div`
+  margin: 3rem 5rem;
 `;
 
 const Image = styled.img`
   max-width: 100%;
   aspect-ratio: 3 / 2;
-  border: 0.5vw solid #fff;
 `;
 
 const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
@@ -166,23 +134,10 @@ const A = styled('a', { shouldForwardProp: (prop) => prop !== 'color' })<{
   }
 `;
 
-const DescriptionBox = styled.section`
-  position: relative;
-
-  & svg {
-    color: ${colorTextLight};
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-`;
-
 const Description = styled.div`
-  padding: 1rem 4rem;
   font-size: ${fontSizeMedium};
-  @media ${mediaMobile} {
-    padding: 1rem 0 1rem 4rem;
-  }
+  margin-top: 1rem;
+  margin-bottom: 5rem;
 `;
 
 const StorylineBox = styled.div`
