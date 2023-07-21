@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import { PageArtDirected } from '../../../components/page-art-directed';
 import text from '../../../_archive/tattoos/all.md';
 import { parseMarkdown } from '../../../core/markdown';
 import { ComponentType, ReactElement, ReactNode } from 'react';
@@ -19,6 +18,7 @@ import p10 from './10.jpeg';
 import Image, { StaticImageData } from 'next/image';
 import { ItemMeta } from '../../../core/types';
 import { getStoryline } from '../../../core/data-layer';
+import { LayoutLFA } from '../../../components/layout-lfa';
 
 type Alignment = 'l' | 'c' | 'r';
 
@@ -99,14 +99,14 @@ const GoliathStoryline: NextPage<{
   related: ItemMeta[];
 }> = ({ related }) => {
   return (
-    <PageArtDirected
-      type="Storyline"
-      storyline="Tattoos"
+    <LayoutLFA
+      title="Tattoos"
+      slug="tattoos"
       image={image}
+      bdColor="#132634"
       bgColor="#132634"
       color="#ac768c"
       logoColor="#ffffff"
-      canonicalPath="/storylines/tattoos"
       description={description}
       start={new Date('2022-05-25')}
       end={new Date('2023-02-13')}
@@ -217,7 +217,7 @@ const GoliathStoryline: NextPage<{
           brought everything to an ordered end.
         </p>
       </Annotation>
-    </PageArtDirected>
+    </LayoutLFA>
   );
 };
 

@@ -13,6 +13,7 @@ export const LayoutFrame: FC<{
   children: ReactNode;
   color?: string;
   bgColor?: string;
+  bdColor?: string;
   image?: string;
 }> = ({
   children,
@@ -21,6 +22,7 @@ export const LayoutFrame: FC<{
   path,
   color = colorMain,
   bgColor,
+  bdColor = colorBackground,
   image,
 }) => {
   return (
@@ -31,7 +33,7 @@ export const LayoutFrame: FC<{
       bgColor={bgColor}
       image={image}
     >
-      <Main>{children}</Main>
+      <Main bdColor={bdColor}>{children}</Main>
       <Legal color={color}>
         <Link href="/more/about">About</Link>
         <a rel="me" href="https://mstdn.social/@aithir">
@@ -51,10 +53,9 @@ const Legal = styled('nav', {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  margin: 5rem 0;
+  padding: 5rem 0;
 
   & > * {
-    background: ${colorBackground};
     padding: 0 1rem;
   }
 
@@ -68,11 +69,13 @@ const Legal = styled('nav', {
   }
 `;
 
-const Main = styled.div`
+const Main = styled('div', {
+  shouldForwardProp: (prop) => prop !== 'color',
+})<{ bdColor: string }>`
   max-width: ${sizeCanvas};
   position: relative;
   box-sizing: border-box;
   margin: 0 auto;
-  background: ${colorBackground};
+  background: ${(props) => props.bdColor};
   box-shadow: 0 0 2rem #fff4;
 `;

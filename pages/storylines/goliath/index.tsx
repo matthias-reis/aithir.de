@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import { PageArtDirected } from '../../../components/page-art-directed';
 import image from './title.jpg';
 import text from '../../../_archive/goliath/all.md';
 import { parseMarkdown } from '../../../core/markdown';
@@ -7,6 +6,7 @@ import { ReactElement } from 'react';
 import styled from '@emotion/styled';
 import { ItemMeta } from '../../../core/types';
 import { getStoryline } from '../../../core/data-layer';
+import { LayoutLFA } from '../../../components/layout-lfa';
 
 const parts = text
   .split('---')
@@ -21,16 +21,16 @@ const GoliathStoryline: NextPage<{
   related: ItemMeta[];
 }> = ({ related }) => {
   return (
-    <PageArtDirected
-      type="Storyline"
-      storyline="Goliath"
+    <LayoutLFA
+      title="Goliath"
+      slug="goliath"
       image={image}
       bgColor="#010201"
+      bdColor="#010201"
       color="#6F6E2B"
-      canonicalPath="/storylines/goliath"
       description={description}
       start={new Date('2022-06-12')}
-      end={new Date('2022-06-12')}
+      end={new Date('2022-11-14')}
       related={related}
     >
       <Intro>{description}</Intro>
@@ -55,7 +55,7 @@ const GoliathStoryline: NextPage<{
           future. So the reality was faster this time.
         </p>
       </Outro>
-    </PageArtDirected>
+    </LayoutLFA>
   );
 };
 

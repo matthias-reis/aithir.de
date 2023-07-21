@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import { PageArtDirected } from '../../../components/page-art-directed';
 import text from '../../../_archive/vlad/all.md';
 import { parseMarkdown } from '../../../core/markdown';
 import styled from '@emotion/styled';
@@ -11,6 +10,7 @@ import {
 } from '../../../core/style';
 import { getStoryline } from '../../../core/data-layer';
 import { ItemMeta } from '../../../core/types';
+import { LayoutLFA } from '../../../components/layout-lfa';
 
 const md = parseMarkdown(text);
 
@@ -26,16 +26,14 @@ const VladStoryline: NextPage<{
   related: ItemMeta[];
 }> = ({ related }) => {
   return (
-    <PageArtDirected
-      type="Storyline"
-      storyline={title}
+    <LayoutLFA
+      title={title}
+      slug="vlad"
       image={image}
       bgColor="#000"
       bdColor="#20090b"
       color="#ac768c"
       logoColor="#ffffff"
-      canonicalPath="/storylines/world-2"
-      withShadow={false}
       description={description}
       start={new Date('2022-12-07')}
       end={new Date('2023-06-23')}
@@ -48,7 +46,7 @@ const VladStoryline: NextPage<{
       </TitleArea>
 
       <Post>{md}</Post>
-    </PageArtDirected>
+    </LayoutLFA>
   );
 };
 

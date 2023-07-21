@@ -15,6 +15,7 @@ import { Graphics } from '../../../components/world-2-graphics';
 import { Calculator } from '../../../components/calculator';
 import { ItemMeta } from '../../../core/types';
 import { getStoryline } from '../../../core/data-layer';
+import { LayoutLFA } from '../../../components/layout-lfa';
 
 const parts: ReactElement[][] = text
   .split('---')
@@ -34,16 +35,12 @@ const World2Storyline: NextPage<{
   related: ItemMeta[];
 }> = ({ related }) => {
   return (
-    <PageArtDirected
-      type="Storyline"
-      storyline="World 2"
+    <LayoutLFA
+      title="World 2"
+      slug="world-2"
       image={image}
-      bgColor="#000"
       bdColor="#111106"
-      color="#ac768c"
-      logoColor="#ffffff"
-      canonicalPath="/storylines/world-2"
-      withShadow={false}
+      logoColor="#fffdd7"
       description={description}
       start={new Date('2022-08-01')}
       end={new Date('2023-04-04')}
@@ -154,7 +151,7 @@ const World2Storyline: NextPage<{
           </Post>
         );
       })}
-    </PageArtDirected>
+    </LayoutLFA>
   );
 };
 
