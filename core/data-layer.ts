@@ -35,10 +35,16 @@ export function getAllStorylines(): StorylineMeta[] {
         const bAgeIndicator = getAgeIndicator(b);
         return bAgeIndicator + b.count - aAgeIndicator - a.count;
       })
-      // remove storylines that are not yet published
-      .filter((s) => s.count !== 0)
   );
 }
+
+export const getStorylineDetailed = (slug: string) => {
+  const metaData = getMetaData();
+  const storyline = metaData[slug];
+  const related = (storyline.related || []).map(getStoryline);
+
+  return { storyline, related };
+};
 
 export const getStoryline = (slug: string) => {
   const metaData = getMetaData();
@@ -62,7 +68,10 @@ export function getAllItems(): ItemMeta[] {
     )
     .map(getItemFromPost);
 
-  const storylines: ItemMeta[] = getAllStorylines().map(getItemFromStoryline);
+  const storylines: ItemMeta[] = getAllStorylines()
+    // only show english storylines
+    .filter((s) => s.language !== 'de')
+    .map(getItemFromStoryline);
 
   const items = [...posts, ...storylines]
     .filter((item) => item.factors!.product > 0)
@@ -180,6 +189,6 @@ function factors(item: ItemMeta) {
 
   return {
     product: Math.sqrt(seedFactor) * ageFactor * storylineFactor,
-    factors: [seedFactor, ageFactor, storylineFactor],
+    factors: { seedFactor, ageFactor, storylineFactor },
   };
 }

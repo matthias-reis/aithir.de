@@ -2,7 +2,7 @@ import { glob } from 'glob';
 import { dirname, join } from 'path';
 import { PostMeta, StorylineMeta } from './types';
 import { yaml, fm } from './io';
-import { fstat, writeFileSync } from 'fs';
+import { writeFileSync } from 'fs';
 
 function createDate(year: number, week: number, day: number) {
   const date = new Date(year, 0, 1);
@@ -15,14 +15,21 @@ function createDate(year: number, week: number, day: number) {
 async function getMetaData(): Promise<Record<string, StorylineMeta>> {
   const metaData = {} as Record<string, StorylineMeta>;
   // we glob and read all ymls
-  const storylineFiles = (
+  const sfGroupFiles = (
     await glob('**/*.yml', {
       cwd: process.cwd(),
       absolute: true,
     })
   ).filter((f) => f.indexOf('node_modules') === -1);
 
-  for (const file of storylineFiles) {
+  const lfFiles = (
+    await glob('**/@(de|en|all).md', {
+      cwd: process.cwd(),
+      absolute: true,
+    })
+  ).filter((f) => f.indexOf('node_modules') === -1);
+
+  for (const file of sfGroupFiles) {
     const storylineSlug = file.split('/').at(-2) ?? '';
     const storylineMetaData = (await yaml(file)) as Omit<StorylineMeta, 'slug'>;
     const cwd = dirname(file);
@@ -32,7 +39,7 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
     );
     const finished = file.includes('_archive');
     console.log(
-      `[PRE] ${storylineSlug}: <${postFiles.length}>${
+      `[PRE] <SF> ${storylineSlug} (${postFiles.length} items)${
         finished ? ' (FINISHED)' : ''
       }`
     );
@@ -74,6 +81,21 @@ async function getMetaData(): Promise<Record<string, StorylineMeta>> {
     };
   }
 
+  for (const file of lfFiles) {
+    const lfData = await fm<StorylineMeta>(file);
+    if (lfData.attributes.slug) {
+      metaData[lfData.attributes.slug] = {
+        ...lfData.attributes,
+        md: lfData.body,
+        count: 0,
+      };
+      console.log(
+        `[PRE] <LF> ${lfData.attributes.slug}${
+          lfData.attributes.finished ? ' (FINISHED)' : ''
+        }`
+      );
+    }
+  }
   // and then the md files next to them
   return metaData;
 }

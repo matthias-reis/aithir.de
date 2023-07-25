@@ -1,145 +1,210 @@
 import styled from '@emotion/styled';
-import { FC, ReactNode, useEffect } from 'react';
-import { usePageView } from '../core/tracking';
+import { FC } from 'react';
+import type { ItemMeta, StorylineMeta } from '../core/types';
+import { LayoutMinor } from './layout-minor';
+import { PageSuperTitle, PageTitle } from './page-title';
+import { Headline } from './headline';
+import { Grid } from './grid';
+import { Article } from './article';
+import { parseMarkdown } from '../core/markdown';
 import {
-  colorBackground,
+  colorBackgroundLight,
   colorBackgroundWeak,
   colorMain,
-  mediaLarge,
-  sizeCanvas,
+  colorTextLight,
+  colorTextWeak,
+  fontSizeMedium,
+  fontSizeReading,
+  fontSizeSmall,
+  fontStack,
+  fontStackCopy,
+  mediaMedium,
+  mediaSmall,
 } from '../core/style';
-import { MajorLayout, MinorLayout } from './layout';
-import { OctahedronNav } from './octahedron-nav';
-import { useRouter } from 'next/router';
+import {
+  getFormattedDate,
+  getMonthName,
+  getYearSpan,
+} from '../core/date-helpers';
 import Link from 'next/link';
-import Head from 'next/head';
 
-type Layout = 'major' | 'minor';
-
-const defaultDescription =
-  'Science Fiction, Science Fact and Fantasy in short bits. 1.000 characters, a 30 second read per day';
-const defaultImage = 'https://octahedron.world/strips/general.jpg';
-
-export const Page: FC<{
-  type: string;
-  title: string;
-  description?: string;
-  image?: string;
-  storyline?: string;
-  canonicalPath: string;
-  children: ReactNode;
-  layout?: Layout;
-  color?: string;
-  bg?: string;
-}> = ({
-  children,
-  title,
-  description,
-  image,
-  type,
-  canonicalPath,
-  layout = 'minor',
-  color = colorMain,
-  bg = 'general',
-  storyline = null,
-}) => {
-  const track = usePageView();
-
-  useEffect(() => {
-    track(title);
-  }, [storyline, title, track]);
-
-  const Layout = layout === 'major' ? MajorLayout : MinorLayout;
-  const canonicalUrl = `https://octahedron.world${canonicalPath}`;
-  const titleText = `${title} - OctahedronWorld`;
+export const LayoutLF: FC<{
+  storyline: StorylineMeta;
+  related: ItemMeta[];
+}> = ({ storyline, related }) => {
+  const sections = storyline.md
+    ?.split('---')
+    .map((s) => s.trim())
+    .map(parseMarkdown);
   return (
-    <Viewport bg={`/patterns/${bg}.jpg`}>
-      <Head>
-        <title>{titleText}</title>
-        <link rel="canonical" href={canonicalUrl} />
-        <meta charSet="utf-8" />
-        <meta name="description" content={description || defaultDescription} />
-        <meta name="author" content="Matthias Reis" />
-        <meta name="copyright" content="Matthias Reis, OctahedronWorld" />
-        <meta name="description" content={description || defaultDescription} />
-        <meta name="robots" content="index,follow" />
-        <meta property="og:title" content={title} />
-        <meta property="og:image" content={image || defaultImage} />
-        <meta name="twitter:image" content={image || defaultImage} />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:description"
-          content={description || defaultDescription}
-        />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta name="twitter:card" content="summary" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/site.webmanifest" />
-      </Head>
-      <Canvas>
-        <OctahedronNav color={color} />
-        <Layout color={color}>{children}</Layout>
-      </Canvas>
-      <Legal color={color}>
-        <Link href="/more/about">About</Link>
-        <a rel="me" href="https://mstdn.social/@aithir">
-          Mastodon
-        </a>
-        <Link href="/more/privacy">Privacy Policy</Link>
-        <Link href="/more/imprint">Imprint</Link>
-      </Legal>
-    </Viewport>
+    <LayoutMinor
+      {...storyline}
+      title={storyline.name}
+      path={`/storylines/${storyline.slug}`}
+    >
+      <Confined>
+        <PageSuperTitle>{storyline.type || 'Storyline'}</PageSuperTitle>
+        <PageTitle>{storyline.name}</PageTitle>
+      </Confined>
+      <Image
+        src={`/patterns/${storyline.image || storyline.slug}.jpg`}
+        alt={storyline.name}
+      />
+      {storyline.languageRelated && (
+        <Link
+          href={`/storylines/${storyline.languageRelated}`}
+          passHref
+          legacyBehavior
+        >
+          <LanguageLink color={storyline.color}>
+            {storyline.language === 'de'
+              ? 'This storyline has an English version 🇬🇧 '
+              : 'Diese Geschichte hat eine deutsche Version 🇩🇪'}
+          </LanguageLink>
+        </Link>
+      )}
+      <Description>{storyline.description}</Description>
+      <Confined>
+        <Content color={storyline.color}>
+          {sections?.map((section, i) => (
+            <Section
+              key={i}
+              finished={storyline.finished}
+              id={i === sections.length - 1 ? 'end' : `section-${i}`}
+            >
+              {section}
+            </Section>
+          ))}
+        </Content>
+        {!storyline.finished && (
+          <Annotation>
+            {storyline.language === 'de'
+              ? `Dies Geschichte ist gerade in der Entstehung. Das letzte Kapitel, das farblich hervorgehoben wurde, wurde am
+            ${getFormattedDate(
+              new Date(storyline.end || Date.now())
+            )} erstellt. Demnächst kommen weitere Teile.`
+              : `This is a storyline in the making. The last added chapter, that is
+            hinglighted, was created on
+            ${getFormattedDate(new Date(storyline.end || Date.now()))}. More
+            content will come soon.`}
+          </Annotation>
+        )}
+        {related.length > 0 && (
+          <RelatedBox>
+            <Headline>Related Storyline{related.length > 1 && 's'}</Headline>
+            <Grid>
+              {related.map((s) => (
+                <Article key={s.path} meta={s} />
+              ))}
+            </Grid>
+          </RelatedBox>
+        )}
+        <Hr />
+        <Disclaimer>
+          Released between{' '}
+          {getMonthName(new Date(storyline.start || Date.now()))} and{' '}
+          {getMonthName(new Date(storyline.end || Date.now()))}
+          <br />©{' '}
+          {getYearSpan(
+            new Date(storyline.start || Date.now()),
+            new Date(storyline.end || Date.now())
+          )}{' '}
+          Octahedron World, Matthias Reis
+        </Disclaimer>
+      </Confined>
+    </LayoutMinor>
   );
 };
 
-const Legal = styled('nav', {
-  shouldForwardProp: (prop) => prop !== 'color',
-})<{ color: string }>`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
+const Confined = styled.div`
+  margin: 3rem 5rem;
+`;
 
-  & > * {
-    background: ${colorBackground};
-    padding: 0 1rem;
-    border-radius: 1rem;
+const RelatedBox = styled.div`
+  margin-top: 8rem;
+`;
+
+const Image = styled.img`
+  width: 100%;
+  aspect-ratio: 3 / 2;
+`;
+
+const Content = styled('div', {
+  shouldForwardProp: (prop) => prop !== 'color',
+})<{ color?: string }>`
+  font-family: ${fontStackCopy};
+  line-height: 1.6;
+
+  & blockquote {
+    font-family: ${fontStack};
+    font-size: ${fontSizeSmall};
+    margin: 0;
+    padding: 1rem 2rem;
+    background: ${colorBackgroundWeak};
   }
 
   & a {
-    color: ${({ color }) => color || colorMain};
-    text-decoration: none;
+    color: ${({ color = colorMain }) => color};
+  }
+
+  @media ${mediaMedium} {
+    margin-right: 5rem;
+  }
+  @media ${mediaSmall} {
+    margin-right: 0;
   }
 `;
 
-const Viewport = styled.div<{ bg: string }>`
-  background: ${colorBackgroundWeak};
-  padding: 0;
-  min-height: 100vh;
+const Section = styled('section', {
+  shouldForwardProp: (prop) => prop !== 'finished',
+})<{ finished?: boolean }>`
+  max-width: 34rem;
+  margin: 1rem auto;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid ${colorBackgroundLight};
+  &:last-of-type {
+    border-bottom: none;
+    ${({ finished }) => (finished ? '' : `background: ${colorBackgroundWeak}`)}
+  }
 `;
 
-const Canvas = styled.div`
-  max-width: ${sizeCanvas};
-  position: relative;
-  box-sizing: border-box;
-  margin: 0 auto;
-  background: ${colorBackground};
-  border-radius: 0.25rem;
-  box-shadow: 0 0 4rem #fff4;
+const Annotation = styled.div`
+  max-width: 34rem;
+  background: ${colorBackgroundLight};
+  border-radius: 1rem;
+  padding: 3rem;
+  margin: 5rem auto;
+`;
+
+const Hr = styled.hr`
+  border: none;
+  border-bottom: 2px solid #fff3;
+  width: 30%;
+  margin: 3rem auto;
+`;
+
+const Disclaimer = styled.p`
+  color: #fff8;
+  text-align: center;
+  font-size: 0.9rem;
+  padding-bottom: 5rem;
+`;
+
+const LanguageLink = styled('a', {
+  shouldForwardProp: (prop) => prop !== 'color',
+})<{ color?: string }>`
+  text-align: right;
+  display: block;
+  color: ${({ color = colorMain }) => color};
+  text-decoration: none;
+  margin: 1rem;
+`;
+
+const Description = styled.p`
+  text-align: right;
+  font-size: ${fontSizeReading};
+  color: ${colorTextWeak};
+  margin-left: auto;
+  padding: 1rem;
+  max-width: 30rem;
 `;

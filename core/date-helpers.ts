@@ -23,3 +23,6 @@ export const getYearSpan = (start: Date, end: Date): string => {
     ? start.getFullYear().toFixed()
     : `${start.getFullYear()}-${end.getFullYear()}`;
 };
+export const getFormattedDate = (date: Date): string => {
+  return `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
+};

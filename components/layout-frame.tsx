@@ -70,7 +70,7 @@ const Legal = styled('nav', {
 `;
 
 const Main = styled('div', {
-  shouldForwardProp: (prop) => prop !== 'color',
+  shouldForwardProp: (prop) => prop !== 'bdColor',
 })<{ bdColor: string }>`
   max-width: ${sizeCanvas};
   position: relative;

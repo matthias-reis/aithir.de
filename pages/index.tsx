@@ -5,7 +5,6 @@ import { Section } from '../components/section';
 import { getAllItems, getAllTags } from '../core/data-layer';
 import { ItemMeta, Tag } from '../core/types';
 import { Headline } from '../components/headline';
-import { Pointer } from '../components/pointer';
 import { TagItem, TagList } from '../components/tag';
 import { LayoutMajor } from '../components/layout-major';
 
@@ -18,11 +17,18 @@ const HomePage: NextPage<{
       <Section>
         <Headline>Latest Publications</Headline>
         <Grid>
-          {items.map((item) => (
-            <Item key={item.path}>
-              <Article meta={item} />
-            </Item>
-          ))}
+          {items.map((item) => {
+            console.log(
+              item.title,
+              item.factors!.product,
+              item.factors!.factors
+            );
+            return (
+              <Item key={item.path}>
+                <Article meta={item} />
+              </Item>
+            );
+          })}
         </Grid>
       </Section>
       <Section>
