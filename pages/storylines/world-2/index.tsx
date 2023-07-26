@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import { PageArtDirected } from '../../../components/page-art-directed';
 import text from '../../../_archive/world-2/all.md';
 import { parseMarkdown } from '../../../core/markdown';
 import { ReactElement } from 'react';

@@ -241,3 +241,50 @@ Asimov, and it immediately stopped spitting fire.
 
 For now, the situation seemed to be calmed down, and Peter could take a deep
 breath.
+
+---
+
+On the next day, Asimov approached Peter.
+
+"Hello, Peter!" He waved at him as he rolled in the direction of Peter's drone.
+"I think, I still owe you the second skill that I wanted to show you, remember?"
+
+"Hi Asimov, yes, I almost forgot. So much happened yesterday. I hope everything
+is alright?" "Yes, that happens sometimes. And actually what I want to show you
+is directly connected to that little conflict."
+
+"It didn't seem so little to me. But I'm curious about what you want to show
+me."
+
+"Ok, it's much harder to explain because you don't see it as clearly as the
+robot trick. Well, you may already have wondered what I have in my right hand.
+The activation interface that I showed you on the left could turn things into a
+robot. Look here, it's Grumpy, the stone robot that we created yesterday." Peter
+made a shaking move through his drone and the little bouncing robot answered
+with a funny sound to greet back.
+
+"Now here's my right arm", Asimov continued and showed Peter how another device
+similar to the plug on the left came out of its hand. "I call this one the
+animation interface. It can give consciousness to a robot."
+
+"Consciousness?", asked Peter. "We've talked about this at school and later that
+day in the evening I also asked Dad, but I didn't really understand it, to be
+honest."
+
+"Well, that's because it's probably the most complicated thing I know. Humans
+like you have it, and some animals as well. But robots usually don't. A simple
+definition would be that you know who and what you are. But that is so much
+simpler than reality."
+
+"And you can give consciousness to other robots?"
+
+"Yes, Peter. That is what the animation interface does. Unfortunately, this
+skill is very sensitive. In the past, here on Flora, we had some unpleasant
+events, so I can't show it to you at the moment. But we can continue talking
+tomorrow if you like. Probably in the meantime, you want to find out more about
+consciousness yourself."
+
+As usual, Asimov seemed to know what was going on in Peter's life. As he looked
+at the watch on his pad, he saw that his parents would be home soon, so he
+logged out for the moment. He just had some seconds to think about what he had
+learned today before he heard his parents coming through the entrance door.

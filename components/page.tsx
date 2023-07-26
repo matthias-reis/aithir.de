@@ -1,18 +1,8 @@
 import styled from '@emotion/styled';
 import { FC, ReactNode, useEffect } from 'react';
 import { usePageView } from '../core/tracking';
-import {
-  colorBackground,
-  colorBackgroundWeak,
-  colorMain,
-  mediaLarge,
-  sizeCanvas,
-} from '../core/style';
-import { MajorLayout, MinorLayout } from './layout';
-import { OctahedronNav } from './octahedron-nav';
-import { useRouter } from 'next/router';
+import { colorBackground } from '../core/style';
 import Head from 'next/head';
-import { Main } from 'next/document';
 
 const defaultDescription =
   'Science Fiction, Science Fact and Fantasy in short bits. 1.000 characters, a 30 second read per day';
