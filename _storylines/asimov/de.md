@@ -259,3 +259,57 @@ Asimov und es hörte sofort auf, Feuer zu spucken.
 
 Für den Moment schien die Situation beruhigt zu sein und Peter konnte tief
 durchatmen.
+
+---
+
+Am nächsten Tag ging Asimov auf Peter zu.
+
+"Hallo, Peter!" Er winkte ihm zu, als er in die Richtung von Peters Drohne
+rollte. "Ich glaube, ich schulde dir noch die zweite Fähigkeit, die ich dir
+zeigen wollte, weißt du noch?"
+
+"Hi Asimov, ja, das hätte ich fast vergessen. Gestern ist so viel passiert. Ich
+hoffe, es ist alles in Ordnung?"
+
+"Ja, das kommt manchmal vor. Und eigentlich hängt das, was ich dir erklären
+will, direkt mit diesem kleinen Konflikt zusammen."
+
+"So klein erschien er mir nicht. Aber ich bin neugierig, was du für mich hast."
+
+"Ok, es ist viel schwieriger zu beschreiben, weil du es nicht so deutlich siehst
+wie den Robotertrick. Nun, du hast dich vielleicht schon gefragt, was ich in
+meiner rechten Hand habe. Das Aktivierungsinterface, das ich dir mit links
+gezeigt habe, kann js Dinge in einen Roboter verwandeln. Schau mal, hier ist
+Grumpy, der Steinroboter, den wir gestern erschaffen haben."
+
+Peter machte eine schüttelnde Bewegung mit seiner Drohne und der kleine hüpfende
+Roboter antwortete mit einem lustigen Pieps=Geräusch, um zurück zu grüßen.
+
+"Nun, hier ist mein rechter Arm", fuhr Asimov fort und zeigte Peter, wie ein
+weiteres Gerät, das dem Stecker auf der linken Seite ähnelte, aus seiner Hand
+kam. "Ich nenne das hier das Animationsinterface. Es kann Robotern ein
+Bewusstsein geben."
+
+"Bewusstsein?", fragte Peter. "Wir haben in der Schule darüber gesprochen und
+später am Abend habe ich auch Papa gefragt, aber ich habe es nicht wirklich
+verstanden, um ehrlich zu sein."
+
+"Nun, das liegt daran, dass es wahrscheinlich das Komplizierteste ist, was ich
+kenne. Menschen wie du haben es, und manche Tiere auch. Aber Roboter haben es
+normalerweise nicht. Eine einfache Definition wäre, dass man weiß, wer und was
+man ist. Aber dise Realität is so viel komplexer."
+
+"Und Du kannst anderen Robotern ein Bewusstsein geben?"
+
+"Ja, Peter. Das ist die Aufgabe des Animationsinterface hier. Leider ist diese
+Fähigkeit sehr empfindlich. In der Vergangenheit, hier auf Flora, gab es einige
+unangenehme Ereignisse, deshalb kann ich sie dir im Moment nicht zeigen. Aber
+wir können das Gespräch morgen fortsetzen, wenn Du willst. In der Zwischenzeit
+könntest Du ja etwas recherchieren und selbst mehr über das Bewusstsein
+erfahren."
+
+Wie immer schien Asimov zu wissen, was in Peters Leben vor sich ging. Als er auf
+die Uhr seines Pads schaute, sah er, dass seine Eltern bald nach Hause kommen
+würden, also loggte er sich erstmal aus. Er hatte nur ein paar Sekunden Zeit, um
+darüber nachzudenken, was er heute gelernt hatte, bevor er seine Eltern durch
+die Eingangstür kommen hörte.
