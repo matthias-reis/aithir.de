@@ -9,6 +9,7 @@ type: Shortstory
 start: 2022-11-29
 end: 2023-06-05
 finished: true
+weight: 1
 related:
   - mesh
 tags:
@@ -35,11 +36,9 @@ the Mesh, usually for companies. `R00t` was his developer. She was responsible
 for the core software parts. They met each day. But they had never seen each
 other in real life.
 
----
-
-The gig had been awesome as expected. But he went home in time. No more
-excursions into after-concert clubs today. He lived in what the city knew as the
-left pylon. The pylons had been a hotel project that didn't work out as
+The gig had been awesome as expected. But he went home in time, no more
+excursions into after-concert clubs today. His home was in what the city knew as
+the left pylon. The pylons had been a hotel project that didn't work out as
 expected. The rooms and floors were built into the remains of the once famous,
 huge Köhlbrand-Bridge in the harbour.
 
@@ -49,14 +48,14 @@ contractor company got bankrupt and left the construction site unfinished.
 
 But the squatter community was strong at that time and so the venue got
 inhabited illegally. The infrastructure was excellent as soon as some geeks
-added some DIY effort and maintenance and nobody asked questions as long as the
+added some DIY effort and maintenance. Nobody asked questions as long as the
 ownership was not clear.
 
 Around 20 people lived on Hugo's side. But that day when he came home, he saw
 someone leaving through the elevator, someone he didn't recognize. It was
 suspicious. When he entered his flat and noticed that he had been robbed, the
-shock was not as heavy as you would think. Hugo had expected something like that
-already.
+shock therefore was not as heavy as one would think. Hugo had expected something
+like that already.
 
 ---
 
@@ -94,14 +93,14 @@ one thing was clear. He had to invest some bucks into security equipment. First
 thing tomorrow.
 
 He sat on his chair and finally plugged into the mesh. In his home space on his
-virtual desk, a light was blinking on the old fifties office telephone. A
-message. From local. The thief must have planted it.
+virtual desk, a light was blinking on the old, virtual fifties office telephone.
+A message. From local. The thief must have planted it.
 
 ---
 
 "She's gone. They have her. What should I do? This is so fucked up. What's going
 on?" `B055` had a complete breakdown. He had called Hana into their office space
-in the mesh and didn't stop talking nonsense since she had arrived. She still
+in the Mesh and didn't stop talking nonsense since she had arrived. She still
 couldn't understand a word. He needed a slap in his digital face.
 
 She opened the console and typed. Then a noise was induced into `B055`'s ears.
@@ -131,9 +130,9 @@ will do something for us. You will raid the crypto vault of Credit Cayman. We
 know what you're capable of."
 
 "That is what they sent me", said `B055` to `R00t` in their virtual home base
-after he had visited and looted the given coordinates. "They also gave me some
-additional instructions in an encrypted attachment. Probably the first picking
-test."
+after he had calmed down a bit and came back from visiting and looting the given
+coordinates. "They also gave me some additional instructions in an encrypted
+attachment. Probably the first picking test."
 
 "We're not criminals", answered `R00t` in a slight panic. "At least not that
 type. But Adele, she's in danger and I'm sure they'll finish her if we involve
@@ -156,72 +155,79 @@ came here to think from time to time. And there was a lot to process now.
 
 She thought of the heist. Why them? How should they do it? She also had to think
 of beautiful Adele. Was she safe? And she had to think of `B055`, who was no
-boss at all. She found out his real name, Hugo Niemann. Well, it didn't make
-things less complicated in her head.
+boss at all. She now found out about his real name, Hugo Niemann. Well, it
+didn't make things less complicated in her head.
 
 "Focus", she thought while sitting in the wind on a concrete plateau 100m above
 the red roofs. She went through the heist, every step, looked up things through
 her AR, created small programs, helper dæmons and illegal bridges to quantum
 computing arrays.
 
-Then she saw it in the virtual blueprints. She found their way out. Now there
-was one question left: Should she tell `B055`?
+Then she saw something in the virtual blueprints. She found their way out of
+this mess. Now there was one question left: Should she tell `B055`?
 
 ---
 
 The day of the heist. `B055` and `R00t` prepared themselves. They chose flies as
 their Avatars. `R00t` once came up with that mod. Actually, avatars have to be
-at least 1 unit in height. For today's purpose, a little piece of nothing that
-could defy virtual gravity was a perfect fit.
+at least 1 unit in height, about 1 meter in real life, but she found a creative
+way around this rule. For today's purpose, a little piece of nothing that could
+defy virtual gravity was a perfect fit.
 
-Security in the Mesh is a two-fold topic. There are the virtual mechanics. A
-wall simply can't be passed easily and all objects have a protocoled relation
-towards each other. You can't mess up with those things that easily on the code
-level for example. Important stuff is additionally secured by crypto, the very
-good ones were encrypted on quantum computing level.
+Security in the Mesh is a two-fold topic. There are the virtual mechanics in
+place, a set of rules that define the physics of the system. A wall simply can't
+be passed easily and all objects have a protocoled relation between each other.
+A user can't mess up with those things that easily on the code level for
+example. This first aspects provides a significant level of security already.
+Important stuff, however, is additionally secured by crypto, the very valuable
+assets were encrypted on quantum computing level.
 
 The Credit Cayman vault had both. But as flies, most of the mechanical
-obstacles, entrance, elevators, door locks, were not an obstacle. All the others
-were a task for `R00t`'s AI, that she called Kit. `R00t` Kit, a funny pun only
-she and a handful of really old hackers understood.
+obstacles, entrance, elevators, door locks, were not really an obstacle. All the
+others were a task for `R00t`'s AI, that she called Kit. `R00t` Kit, a funny pun
+only she and a handful of really old hackers understood.
 
-Only minutes later they stood in front of the safe.
+Only minutes later they surpassed the physical security layers and stood in
+front of the safe, back in their normal avatars.
 
 ---
 
 The safe was a different beast. It couldn't be cracked with programming skills.
-That was the task of `B055`, the Operator. Hugo. did not only know most of the
+That was the task of `B055`, the Operator. Hugo did not only know most of the
 security systems by heart, he also had an intuition for the situation and he had
 a bespoke toolkit from `R00t`. So he went to work.
 
 There was a scanner that searched the whole vault for intrusive objects, but it
 took minutes to complete, so they had a window.
 
-First five levels of crypto security. That was the easy part. He established a
-bypass connection to one of the quantum computing arrays and within seconds,
-these front doors were unlocked.
+The first five levels of crypto security. That was an only mildly complicated
+part, simple enough for a digital lockpicker expert. He established a bypass
+connection to one of the quantum computing arrays that `R00t` organized for him
+and within seconds, these front doors were unlocked.
 
 But there was more. For two virtu-physical locks, he could use a tool similar to
-an endoscope for virtual rooms. He looked directly into the mechanics.
+an endoscope for digital rooms. He looked directly into the mechanics and solved
+yet another of the riddles within seconds.
 
-Finally the detector traps. Even being a fly didn't help. They had to find the
-source and replace it. It took awfully long. The scanner would soon detect them.
-Hugo's clock showed 30 seconds when they opened the door to the inner chamber.
+Finally the detector traps. Even being a fly didn't help with that problem. They
+had to find the target and replace it before the scan completed. It took awfully
+long. The scanner would soon detect them. Hugo's clock showed 30 seconds when
+they opened the door to the inner chamber.
 
----
-
-`B055` moved like a robot. This was his world, the crunch time. Twenty seconds
-left on the clock. The time was counting down in his heads-up display. For some
-of the data artefacts, he used ejectors to transfer the raw data. But some of
-them had to be extracted as a whole, the complete virtual objects. The problem:
-This would be discovered within minutes by the securities at Credit Cayman.
+`B055` had moved like a robot. This was his world, the crunch time. Twenty
+seconds left on the clock. The time was counting down in his heads-up display.
+For some of the data artefacts, he used ejectors that could transfer the raw
+data. But some of them had to be extracted as a whole, the complete virtual
+objects. The problem: This would be discovered within minutes by the securities
+at Credit Cayman.
 
 In parallel `R00t` therefore had to take care of covering their traces. She
-scrambled transmissions and dynamically switched VPN chains. And on top, she
-planted evidence, their counter heist. It would be a digital bomb that was
-supposed to detonate six hours later. She placed data packages, that contained
-backtraces to their imposed clients. A risky manoeuvre. That's why she didn't
-tell `B055`.
+scrambled transmissions and dynamically switched VPN chains.
+
+And on top, she planted the evidence, their counter heist. It would be a digital
+bomb that was supposed to detonate six hours later. She placed data packages,
+that contained backtraces to their imposed clients, in carefully selected areas
+of the virtual vault. A risky manoeuvre. That's why she didn't tell `B055`.
 
 Five seconds left.
 
@@ -235,27 +241,27 @@ prepare the loot from the heist. Some of the data packets contained encrypted
 inclusions they had to crack first. Some others were still covered in their
 virtual objects. Paranoid shit.
 
-But finally, they could put their delivery together. They had no idea what it
-was. The data didn't make any sense to them. It was no crypto money. That's the
-only thing they knew. Finally, `B055` pushed the button and sent off the data to
-the vault the kidnappers gave them.
+But finally, they could put their delivery together. They still had no idea what
+it was. The data didn't make any sense to them. It was no crypto money. That's
+the only thing they knew. Finally, `B055` pushed the button and sent off the
+data to the classic email account the kidnappers gave them.
 
-Time was ticking while they waited. `R00t`s virtual bomb that placed the
+Time was ticking while they waited. `R00t`'s virtual bomb that placed the
 evidence was time-based and supposed to detonate in some minutes. After that,
 they might have had another hour until the bank got hold of their kidnappers.
-She permanently looked at the countdown on her watch. Time passed. The bomb went
-off.
+She repeatedly looked at the countdown on her watch. Time passed. The bomb went
+off and `R00t`'s stood still for a while. It didn't work, did it?
 
 A minute later, `B055` received a simple message with a green checkmark emoji
-from an unknown number. Five minutes later, he heard from Adele.
+from an unknown number. Another five minutes later, he heard from Adele.
 
 ---
 
 Three weeks had passed since the heist. Although the first call with Hugo and
 Adele was heartwarming and tears were flowing, Hana felt a change. They barely
-worked together and they met in their real Avatars. At the same time, they were
-closer and more distant to each other. Hana decided that it was time to do
-something. She took the train to Hamburg.
+had gigs together in that time and they met in their real Avatars. At the same
+time, they were closer and more distant to each other. Hana decided that it was
+time to do something. She took the train to Hamburg.
 
 She crushed somewhere in the pylons in one of the abandoned rooms near Hugo's
 place. On the second night, she sat in a bar with him.
@@ -271,8 +277,8 @@ They didn't say much more that night, just sitting in front of their cocktails
 and staring at the opposite wall.
 
 But Hana had to try. On the next morning, she visited Adele and had a long talk.
-Adele wasn't used to that shit. She wasn't made for risky actions on the verge
-of legality, for their life.
+Adele wasn't used to that kind of crazyness. She wasn't made for risky actions
+on the verge of legality. She wasn't made for their life.
 
-And then, also Hana recognized that it takes a while to heal the wounds and took
-the train back to Prague.
+In that moment, also Hana recognized that it takes a while to heal the wounds
+and took the next train back to Prague.
