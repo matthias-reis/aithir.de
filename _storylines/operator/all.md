@@ -9,6 +9,7 @@ type: Shortstory
 start: 2022-11-29
 end: 2023-06-05
 finished: true
+image: operator
 weight: 1
 related:
   - mesh

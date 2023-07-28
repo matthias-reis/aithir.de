@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 const defaultDescription =
   'Science Fiction, Science Fact and Fantasy in short bits. 1.000 characters, a 30 second read per day';
-const defaultImage = 'https://octahedron.world/strips/general.jpg';
+const defaultImage = 'general';
 
 export const Page: FC<{
   title: string;
@@ -19,7 +19,7 @@ export const Page: FC<{
   children,
   title,
   description,
-  image,
+  image = defaultImage,
   bgColor = colorBackground,
   path,
 }) => {
@@ -33,6 +33,8 @@ export const Page: FC<{
 
   const canonicalUrl = `https://octahedron.world${path}`;
 
+  const fullImage = `https://octahedron.world/strips/${image}.jpg`;
+
   return (
     <Viewport bgColor={bgColor}>
       <Head>
@@ -45,8 +47,8 @@ export const Page: FC<{
         <meta name="description" content={description || defaultDescription} />
         <meta name="robots" content="index,follow" />
         <meta property="og:title" content={title} />
-        <meta property="og:image" content={image || defaultImage} />
-        <meta name="twitter:image" content={image || defaultImage} />
+        <meta property="og:image" content={fullImage} />
+        <meta name="twitter:image" content={fullImage} />
         <meta property="og:type" content="article" />
         <meta
           property="og:description"
