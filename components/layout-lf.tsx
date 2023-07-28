@@ -11,9 +11,7 @@ import {
   colorBackgroundLight,
   colorBackgroundWeak,
   colorMain,
-  colorTextLight,
   colorTextWeak,
-  fontSizeMedium,
   fontSizeReading,
   fontSizeSmall,
   fontStack,
@@ -118,6 +116,11 @@ export const LayoutLF: FC<{
 
 const Confined = styled.div`
   margin: 3rem 5rem;
+
+  @media ${mediaSmall} {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 `;
 
 const RelatedBox = styled.div`
@@ -147,9 +150,6 @@ const Content = styled('div', {
     color: ${({ color = colorMain }) => color};
   }
 
-  @media ${mediaMedium} {
-    margin-right: 5rem;
-  }
   @media ${mediaSmall} {
     margin-right: 0;
   }

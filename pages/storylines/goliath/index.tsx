@@ -7,6 +7,7 @@ import styled from '@emotion/styled';
 import { ItemMeta } from '../../../core/types';
 import { getStoryline } from '../../../core/data-layer';
 import { LayoutLFA } from '../../../components/layout-lfa';
+import { fontSizeReading, fontStackCopy } from '../../../core/style';
 
 const parts = text
   .split('---')
@@ -74,6 +75,8 @@ const Post = styled.div`
   max-width: 30rem;
   margin: 1rem auto;
   padding: 0 1rem;
+  font-family: ${fontStackCopy};
+  font-size: ${fontSizeReading};
 `;
 
 const Hr = styled.hr`

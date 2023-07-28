@@ -63,7 +63,7 @@ const Box = styled.div`
 
   @media ${mediaSmall} {
     display: block;
-    margin: 0 2rem 3rem;
+    margin: 0 0 3rem 0;
   }
 `;
 

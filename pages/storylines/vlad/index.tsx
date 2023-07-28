@@ -94,6 +94,7 @@ const SubTitle = styled.h5`
 const Post = styled.div`
   color: #fff;
   margin: 2rem auto;
+  padding: 0 2rem;
   max-width: 40rem;
   font-family: ${fontStackCopy};
   font-size: ${fontSizeReading};

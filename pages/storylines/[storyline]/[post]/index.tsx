@@ -1,11 +1,9 @@
 import type { NextPage } from 'next';
 import { DateLabel } from '../../../../components/date-label';
-import { Page } from '../../../../components/page';
 import { PageSuperTitle, PageTitle } from '../../../../components/page-title';
 import { getAllStorylines } from '../../../../core/data-layer';
 import { parseMarkdown } from '../../../../core/markdown';
 import { PostMeta, StorylineMeta } from '../../../../core/types';
-import { icons } from '../../../../components/icons';
 import styled from '@emotion/styled';
 import Link from 'next/link';
 import {
@@ -179,6 +177,11 @@ export function getServerSideProps({
 
 const Confined = styled.div`
   margin: 3rem 5rem;
+
+  @media ${mediaSmall} {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 `;
 
 const Line = styled.div`
@@ -237,7 +240,7 @@ const Content = styled('div', {
 
 const Meta = styled.div`
   text-align: right;
-  margin-top: 5rem;
+  margin: 5rem 1rem 0 1rem;
 `;
 
 const Navigation = styled('div', {
@@ -246,7 +249,7 @@ const Navigation = styled('div', {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  margin-top: 3rem;
+  margin: 3rem 1rem 0 1rem;
   & a {
     color: ${({ color = colorMain }) => color};
     text-decoration: none;
