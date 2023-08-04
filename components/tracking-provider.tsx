@@ -1,4 +1,4 @@
-import { FC, ReactNode, useEffect } from 'react';
+import { FC, ReactNode } from 'react';
 import PiwikProProvider from '@piwikpro/next-piwik-pro';
 
 export const TrackingProvider: FC<{ children: ReactNode }> = ({ children }) => {

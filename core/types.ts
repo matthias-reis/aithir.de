@@ -1,3 +1,5 @@
+import { PropsWithChildren } from 'react';
+
 export type StorylineMeta = {
   slug: string;
   name: string;
@@ -62,3 +64,5 @@ export type Tag = {
   count?: number;
   items?: ItemMeta[];
 };
+
+export type FCC<P = {}> = React.FC<PropsWithChildren<P>>;

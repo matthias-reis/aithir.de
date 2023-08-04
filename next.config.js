@@ -1,4 +1,4 @@
-const withTM = require('next-transpile-modules')(['@piwikpro/next-piwik-pro']);
+// const withTM = require('next-transpile-modules')(['@piwikpro/next-piwik-pro']);
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -22,4 +22,5 @@ const nextConfig = {
   },
 };
 
-module.exports = withTM(nextConfig);
+// module.exports = withTM(nextConfig);
+module.exports = nextConfig;
