@@ -11,7 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "process": "node -r @swc-node/register ./core/preprocess.ts",
-    "watch": "chokidar ./_active/**/* --command 'yarn process'",
+    "watch": "chokidar ./_content/**/* --command 'yarn process'",
     "svgr": "svgr --out-dir components/icons --no-index --filename-case kebab --typescript resources/storylines"
   },
   "dependencies": {

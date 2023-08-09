@@ -38,11 +38,7 @@ export default function RootLayout<FC>({
 }) {
   return (
     <html lang="en-GB" className={className}>
-      <body className="bg-neutral-200 text-neutral-800">
-        <div className="rounded max-w-5xl mx-auto lg:my-6 bg-neutral-100 pb-5">
-          {children}
-        </div>
-      </body>
+      {children}
     </html>
   );
 }

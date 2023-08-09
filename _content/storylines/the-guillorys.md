@@ -1,21 +1,19 @@
 ---
-name: The Guillorys
-slug: the-guillorys
+title: The Guillorys
 description:
   We are guests at an extraordinary family of mice in theire residence in New
   Orleans, the Guillorys. What's so special about them, you ask? Well, some of
   them have super powers.
 color: '#79857A'
-image: the-guillorys
 language: de
-languageRelated: the-guillorys/de
+ref: the-guillorys/de
 unfinished: true
 type: Children's Story
-start: 2023-03-27
-end: 2023-08-01
+startDate: 2023-03-27
+date: 2023-08-04
 related:
-  - kamina-2
-  - asimov
+  - storylines/kamina-2
+  - storylines/asimov
 tags:
   - Mice
   - Super Hero

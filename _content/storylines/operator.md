@@ -1,18 +1,16 @@
 ---
-name: The Operator
-slug: operator
+superTitle: Shortstory
+title: The Operator
 description:
   The first deep-dive into the cyberpunk world of the Mesh and its inhabitants.
   We follow some hackers in Hamburg on a data heist.
 color: '#E0C2A8'
-type: Shortstory
-start: 2022-11-29
-end: 2023-06-05
+startDate: 2022-11-29
+date: 2023-06-05
 finished: true
-image: operator
 weight: 1
 related:
-  - mesh
+  - storylines/mesh
 tags:
   - Mesh
   - Hamburg

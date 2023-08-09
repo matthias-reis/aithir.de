@@ -1,8 +1,14 @@
 ---
-name: Superpower
-year: 2023
-week: 26
-day: 2
+title: Superpower
+year: 2023-06-27
+description:
+  Marvel, DC, Batman or Hulk. Super human power are the mega trend at cinemas.
+tags:
+  - Archetypes
+  - Tropes
+  - SciFi
+  - Fantasy
+  - Superheros
 ---
 
 Superpowers in SciFi and Fantasy literature come from the wish of us humans to

@@ -1,8 +1,12 @@
 ---
-name: Aliens
-year: 2023
-week: 22
-day: 2
+title: Aliens
+year: 2023-05-30
+description:
+  Extra terrestrial intelligent species are at the heart of many SciFi stories.
+tags:
+  - Archetypes
+  - Tropes
+  - SciFi
 ---
 
 I'm starting with one of the most obvious tropes of all: Aliens. Other

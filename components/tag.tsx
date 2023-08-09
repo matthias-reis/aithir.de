@@ -8,9 +8,9 @@ import {
   colorTextWeak,
   fontBold,
 } from '../core/style';
-import { Tag } from '../core/types';
+import { TagMeta } from '../core/types';
 
-export const TagItem: FC<{ tag: Tag }> = ({ tag }) => (
+export const TagItem: FC<{ tag: TagMeta }> = ({ tag }) => (
   <Link href={`/tags/${tag.slug}`} passHref legacyBehavior>
     <A>
       <Name>#{tag.name}</Name> <Count>{tag.count}</Count>

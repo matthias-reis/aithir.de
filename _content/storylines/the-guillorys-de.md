@@ -1,21 +1,19 @@
 ---
-name: Die Guillorys
-slug: the-guillorys/de
+superTitle: Children's Story
+title: Die Guillorys
 description:
   Wir sind Gäste bei einr außergewöhnlichen Familie, einer Mäusefamilie in ihrer
   Villa in New Orleans. Was ist so außergewöhnlich an den Guillorys, fragst Du
-  Dich sicer? na ja, einige von ihnen haben Superkräfte.
+  Dich sicher? Na ja, einige von ihnen haben Superkräfte.
 color: '#79857A'
-image: the-guillorys
 language: de
-languageRelated: the-guillorys
+ref: the-guillorys
 unfinished: true
-type: Children's Story
-start: 2023-03-27
-end: 2023-08-01
+startDate: 2023-03-27
+date: 2023-08-01
 related:
-  - kamina-2
-  - asimov
+  - storylines/kamina-2-de
+  - storylines/asimov-de
 tags:
   - Mice
   - Super Hero

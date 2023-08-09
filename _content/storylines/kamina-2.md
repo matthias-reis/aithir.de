@@ -1,19 +1,18 @@
 ---
-name: Kamina and the Dragonfly Ship
-slug: kamina-2
+superTitle: Children's Story
+title: Kamina and the Dragonfly Ship
 description:
   Little Kamina is always drawn into phantastic adventures. This time she jumps
   into a steampunk world with a lot of surprises.
 color: '#BD7E84'
 language: en
-languageRelated: kamina-2/de
+ref: storylines/kamina-2-de
 unfinished: true
-type: Children's Story
-start: 2023-01-11
-end: 2023-07-17
+startDate: 2023-01-11
+date: 2023-07-17
 related:
-  - asimov
-  - the-guillorys
+  - storylines/asimov
+  - storylines/the-guillorys
 tags:
   - Kamina
   - Steampunk

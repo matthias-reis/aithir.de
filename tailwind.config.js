@@ -1,4 +1,21 @@
 /** @type {import('tailwindcss').Config} */
+
+const mapHue = (hue, isdimmed) => {
+  const saturation = isdimmed ? 20 : 80;
+  return {
+    100: `hsl(${hue}deg, ${saturation}%, 0%)`,
+    200: `hsl(${hue}deg, ${saturation}%, 6%)`,
+    300: `hsl(${hue}deg, ${saturation}%, 18%)`,
+    400: `hsl(${hue}deg, ${saturation}%, 35%)`,
+    500: `hsl(${hue}deg, ${saturation}%, 50%)`,
+    600: `hsl(${hue}deg, ${saturation}%, 65%)`,
+    700: `hsl(${hue}deg, ${saturation}%, 82%)`,
+    800: `hsl(${hue}deg, ${saturation}%, 94%)`,
+    900: `hsl(${hue}deg, ${saturation}%, 100%)`,
+    950: `hsl(${hue}deg, 100%, 50%)`,
+  };
+};
+
 module.exports = {
   content: [
     './app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -24,18 +41,8 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      neutral: {
-        100: '#000',
-        200: '#111827',
-        300: '#1F2937',
-        400: '#374151',
-        500: '#4B5563',
-        600: '#6B7280',
-        700: '#9CA3AF',
-        800: '#D1D5DB',
-        900: '#F9FAFB',
-      },
-      primary: '#08b9c4',
+      neutral: mapHue(185, true),
+      complementary: mapHue(5, false),
     },
     extend: {},
   },

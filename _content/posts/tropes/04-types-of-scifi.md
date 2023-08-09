@@ -1,8 +1,13 @@
 ---
-name: Types of SciFi
-year: 2023
-week: 31
-day: 2
+title: Types of SciFi
+date: 2023-08-01
+description:
+  Augmentation or catalyst? How do the different types of science fiction work
+  and what about the mixed space between these types?
+tags:
+  - Archetypes
+  - Tropes
+  - SciFi
 ---
 
 Today's topic is neither really a trope nor an archetype, but it anyway seems

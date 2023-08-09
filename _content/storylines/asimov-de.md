@@ -1,24 +1,18 @@
 ---
-name: Asimov
-slug: asimov/de
+superTitile: Kindergeschichte
+title: Asimov
 description:
   Ein Roboter von einem fremden Planeten stellt Kontakt zu einem Jungen auf der
   Erde her und fragt ihn nach Hilfe zu einem delikaten Problem.
 color: '#718D64'
-image: asimov
 language: de
-languageRelated: asimov
+ref: storylines/asimov
 unfinished: true
-type: Children's Story
-start: 2022-12-25
-end: 2023-07-25
+startDate: 2022-12-25
+date: 2023-07-25
 related:
-  - kamina-2
-  - the-guillorys
-tags:
-  - Robot
-  - SciFi
-  - For Children
+  - storylines/kamina-2-de
+  - storylines/the-guillorys-de
 ---
 
 Vor etwa einem Monat wurde Peter elf Jahre alt. Es war ein wundervoller Tag. Er
