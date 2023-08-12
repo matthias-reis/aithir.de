@@ -33,6 +33,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout<FC>({
   children,
+  ...rest
 }: {
   children: React.ReactNode;
 }) {

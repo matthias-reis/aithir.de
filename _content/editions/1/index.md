@@ -5,9 +5,10 @@ description:
   - 'First Edition: a big experiment'
   - 'Veganism: how our food choices affect the planet'
   - 'The Mesh: worldbuilding for a cyberspace universe'
+colorSpace: green
 ---
 
-## Welcome to Edition One
+# Welcome to Edition One
 
 This page has started as a micro fiction experiments. 1.000 characters a day
 that form small chapters of short stories or non fiction essays. But I've notced
@@ -32,7 +33,7 @@ But let's also dive in to the details of edition one.
 
 ## Other Posts
 
-==> posts/tropes/types-of=scifi
+==> posts/tropes/types-of-scifi
 
 ==> posts/predictions/climate-catastrophes
 

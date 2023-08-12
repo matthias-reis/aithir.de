@@ -8,6 +8,7 @@ tags:
   - Archetypes
   - Tropes
   - SciFi
+colorSpace: purple
 ---
 
 Today's topic is neither really a trope nor an archetype, but it anyway seems

@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --hue: 185;
+  --hue-complement: 5;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.pink {
+  --hue: 340;
+  --hue-complement: 160;
+}
+
+.green {
+  --hue: 120;
+  --hue-complement: 280;
 }

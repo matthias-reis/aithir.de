@@ -8,11 +8,11 @@ export const TagList: FCC = ({ children, className }) => (
 
 export const Tag: FC<{ tag: TagMeta }> = ({ tag }) => (
   <Link
-    className="flex gap-3 items-center bg-neutral-300 hover:bg-neutral-400 h-5 rounded-xl text-neutral-600 hover:text-neutral-800 pl-4 pr-2"
+    className="flex gap-3 items-center bg-decent-300 hover:bg-decent-400 h-5 rounded-xl text-decent-600 hover:text-decent-800 pl-4 pr-2"
     href={`/tags/${tag.slug}`}
   >
     <span>{tag.name}</span>{' '}
-    <span className="text-neutral-500 flex bg-neutral-200 px-3 rounded-xl">
+    <span className="text-decent-500 flex bg-decent-200 px-3 rounded-xl">
       {tag.count}
     </span>
   </Link>

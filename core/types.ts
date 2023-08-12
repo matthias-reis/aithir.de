@@ -13,9 +13,7 @@ export type FrontMatter = {
   language?: 'en' | 'de';
   unfinished?: boolean;
   hidden?: boolean;
-  color?: string;
-  bgColor?: string;
-  bdColor?: string;
+  colorSpace: string;
 };
 
 export type ItemMeta = {
@@ -45,3 +43,5 @@ export type TagMeta = {
 export type FCC<P = {}> = React.FC<
   PropsWithChildren<P> & { className?: string }
 >;
+
+export type DynamicPageProps = { params: { slug: string[] } };
