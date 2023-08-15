@@ -16,10 +16,12 @@ export type FrontMatter = {
   colorSpace: string;
 };
 
+export type Sec = string | { type: string; payload?: string | ItemMeta };
+
 export type ItemMeta = {
   slug: string;
   type: 'storyline' | 'post' | 'magazine' | 'addenum' | 'other';
-  sections: string[];
+  sections: Sec[];
   image?: string;
   category?: string;
   edition?: number;

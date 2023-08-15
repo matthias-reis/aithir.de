@@ -6,18 +6,21 @@ description:
   - 'Veganism: how our food choices affect the planet'
   - 'The Mesh: worldbuilding for a cyberspace universe'
 colorSpace: green
+related:
+  - storylines/vlad
 ---
 
 # Welcome to Edition One
 
-This page has started as a micro fiction experiments. 1.000 characters a day
-that form small chapters of short stories or non fiction essays. But I've notced
-that the concept is a bit too restrictiong for vivid storytelling. So I've
-altered the concept a little.
+This page has started as a micro fiction experiment, 1.000 characters a day that
+form small chapters of short stories or non fiction essays. But I've notced that
+the concept is a bit too restrictiong for vivid storytelling. So I've altered
+the concept a little.
 
 Welcome octahedron.world, the magazine. Once a month, I present you one or two
-new long form articles, short stories or longer essays together with all short
-form posts of the month and hopefully one or the other surprise. Let's see.
+new long form posts, like short stories or essays together with all spontaneous
+short form posts of the month and hopefully one or the other surprise. Let's
+see.
 
 But let's also dive in to the details of edition one.
 
@@ -33,25 +36,26 @@ But let's also dive in to the details of edition one.
 
 ## Other Posts
 
-==> posts/tropes/types-of-scifi
+==> posts/tropes/04-types-of-scifi
 
 ==> posts/predictions/climate-catastrophes
 
 ## Preview: Edition Two
 
-I'm looking forward to part two already. THe content is already in preparation.
+I'm looking forward to part two already. The content is already in preparation.
 Among other topics, you'll find
 
-- Transspace: another world building exercise. THis time I've tried to create
-  the surroundings for space opera stories and other SciFi with FTL drives,
-  antigravity and time travelling
-- Kamina: Some of you have probably followed the other Kamina strory over time.
-  There is a predecessor short story, that I will present you in Edition Two as
-  well.
+- **Transspace**: another world building exercise. This time I've tried to
+  create the surroundings for space opera stories and other SciFi with FTL
+  drives, antigravity and time travelling
+- **Kamina**: Some of you have probably followed the other Kamina strory over
+  time. There is a predecessor short story, that I will present you in Edition
+  Two as well.
 
 ## Further Reads
 
-Before you get bored, here you'll find some story suggestion that are already
-published.
+Because it fits so well to the vegan topic. Here's the previously released essay
+about the climate crisis titled "World 2". The article about veganism can be
+considees as a spin off.
 
-==> editions/1/further-reads
+==> storylines/world-2

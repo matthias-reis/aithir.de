@@ -12,9 +12,7 @@ export const LayoutFrame: FCC<{
       <div className={`rounded max-w-5xl mx-auto lg:my-6 bg-decent-100 pb-5`}>
         <Boxed>
           <header
-            className={`flex items-center justify-end py-4 border-decent-400 gap-4 mb-8 text-decent-900 ${
-              withTextLogo && 'border-b'
-            }`}
+            className={`flex items-center justify-end py-4 border-decent-400 gap-4 mb-5 text-decent-900`}
           >
             {withTextLogo && <OctahedronText />}
             <Link href="/" className={`text-main`}>

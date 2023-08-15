@@ -1,5 +1,10 @@
 import type { Metadata } from 'next';
-import { Lora, Euphoria_Script, Source_Sans_3 } from 'next/font/google';
+import {
+  Ruthie,
+  Saira_Semi_Condensed,
+  Saira_Condensed,
+  Lora,
+} from 'next/font/google';
 import './globals.css';
 
 const serifFont = Lora({
@@ -8,13 +13,21 @@ const serifFont = Lora({
   variable: '--font-serif',
   fallback: ['serif'],
 });
-const sansFont = Source_Sans_3({
+const sansFont = Saira_Semi_Condensed({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-sans',
+  weight: ['300', '700'],
   fallback: ['sans-serif'],
 });
-const scriptFont = Euphoria_Script({
+const condensedFont = Saira_Condensed({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-condensed',
+  weight: ['300', '700'],
+  fallback: ['sans-serif'],
+});
+const scriptFont = Ruthie({
   subsets: ['latin'],
   weight: '400',
   display: 'swap',
@@ -22,7 +35,7 @@ const scriptFont = Euphoria_Script({
   fallback: ['cursive'],
 });
 
-const className = [serifFont, sansFont, scriptFont]
+const className = [serifFont, sansFont, condensedFont, scriptFont]
   .map((f) => f.variable)
   .join(' ');
 

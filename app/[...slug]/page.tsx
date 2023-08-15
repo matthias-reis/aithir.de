@@ -2,26 +2,19 @@ import { FC } from 'react';
 import { notFound } from 'next/navigation';
 import { getItem } from '../../core/data-layer';
 import { parseMarkdown } from '../../core/markdown';
-import { DynamicPageProps, FCC } from '../../core/types';
+import { DynamicPageProps, FCC, ItemMeta } from '../../core/types';
+import { Item } from '../../comp/item';
+import { ReactElement } from 'rehype-react/lib';
+import { magazineLayout } from './magazine';
 
-const components: Record<string, FCC> = {
-  h2: ({ children }) => (
-    <h2 className="font-bold text-3xl text-decent-900 mt-7 mb-4">{children}</h2>
-  ),
-  h1: ({ children }) => (
-    <h1 className="font-script font-bold text-7xl text-decent-500">
-      {children}
-    </h1>
-  ),
-  p: ({ children }) => (
-    <p className="text-lg text-decent-700 mb-4">{children}</p>
-  ),
-  ul: ({ children }) => (
-    <ul className="text-lg mb-4 list-outside list-disc text-decent-700">
-      {children}
-    </ul>
-  ),
-  li: ({ children }) => <li className="mb-3 ml-4">{children}</li>,
+export type Layout = {
+  Main: FC<{ item: ItemMeta; sections: ReactElement[] }>;
+  components: Record<string, FCC>;
+};
+
+const layouts: Record<string, Layout> = {
+  magazine: magazineLayout,
+  default: magazineLayout,
 };
 
 const Page: FC<DynamicPageProps> = ({ params }) => {
@@ -29,15 +22,27 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
   const item = getItem(slug);
   if (!item) notFound();
 
-  console.log('page', item);
-  return (
-    <div>
-      {item.sections.map((s, i) => {
-        const md = parseMarkdown(s, components);
-        return <div key={i}>{md}</div>;
-      })}
-    </div>
-  );
+  const { Main, components } = layouts[item.type || 'none'] || layouts.default;
+
+  const sections: ReactElement[] = item.sections.map((section) => {
+    if (typeof section !== 'string' && section.type === 'link') {
+      const sectionSlug = section.payload as string;
+      const sectionMeta = getItem(sectionSlug);
+      if (sectionMeta) {
+        return <Item meta={sectionMeta} key={sectionSlug} />;
+      } else {
+        return (
+          <p className="text-complement" key={sectionSlug}>
+            {sectionSlug}
+          </p>
+        );
+      }
+    } else {
+      return parseMarkdown(section, components);
+    }
+  });
+
+  return <Main item={item} sections={sections} />;
 };
 
 export default Page;

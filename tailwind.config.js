@@ -22,6 +22,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['var(--font-sans)'],
+      condensed: ['var(--font-condensed)'],
       serif: ['var(--font-serif)'],
       script: ['var(--font-script)'],
     },
@@ -42,7 +43,7 @@ module.exports = {
       decent: mapHue(20),
       saturated: mapHue(65),
       main: 'hsl(var(--hue), 75%, 50%)',
-      complement: 'hsl(var(--hue-complement), 75%, 50%)',
+      complement: 'hsl(var(--hue-complement), 50%, 70%)',
     },
     extend: {
       backgroundImage: {

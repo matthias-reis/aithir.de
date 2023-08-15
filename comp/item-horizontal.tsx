@@ -26,7 +26,7 @@ const PostItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
 );
 
 const MagazineItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
-  <article className="grid grid-cols-[3fr_2fr] lg:grid-cols-[2fr_1fr_5fr] items-stretch border-y border-decent-300">
+  <article className="grid grid-cols-[3fr_3fr] lg:grid-cols-[2fr_1fr_3fr] items-stretch border-y border-decent-300">
     <div className="border-r border-decent-300 p-4 lg:row-span-2">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img

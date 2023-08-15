@@ -15,7 +15,7 @@ export default function Page() {
     <LayoutFrame>
       <div className="aspect-[3/1] relative flex items-center justify-center mb-7">
         <div className="text-center py-8 z-10 bg-darkened w-full">
-          <OctahedronText className="text-6xl" />
+          <OctahedronText className="text-4xl md:text-5xl lg:text-6xl" />
           <p className="text-decent-600 text-xl font-light">
             Monthly Magazine for Life, the Universe and Everything.
           </p>
@@ -43,7 +43,7 @@ export default function Page() {
       </Section>
       <Section
         headline="Keywords"
-        subHeadline="Skim through the most featured topics of theis page"
+        subHeadline="Skim through the most featured topics of these pages"
       >
         <TagList className="mt-5">
           {tags.map((tag) => (

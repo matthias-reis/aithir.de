@@ -4,17 +4,10 @@ import { FCC } from '../core/types';
 export const Section: FCC<{
   headline: string;
   subHeadline?: string;
-  script?: boolean;
-}> = ({ children, headline, subHeadline, script }) => (
+}> = ({ children, headline, subHeadline }) => (
   <Boxed Component="section" className="mt-8">
     <div className="pb-6 my-4 text-center">
-      <h2
-        className={`font-bold ${
-          script
-            ? 'text-decent-500 text-8xl font-script'
-            : 'text-decent-900 text-5xl'
-        }`}
-      >
+      <h2 className={`font-bold font-condensed text-decent-900 text-6xl`}>
         {headline}
       </h2>
       {subHeadline && (
@@ -26,13 +19,15 @@ export const Section: FCC<{
 );
 
 export const Grid: FCC = ({ children }) => (
-  <ul className="grid gap-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 bg-decent-300 border-y border-decent-300">
+  <ul className="grid gap-1 grid-cols-6 bg-decent-300 border-y border-decent-300">
     {children}
   </ul>
 );
 
 export const GridItem: FCC = ({ children }) => (
-  <li className="bg-decent-100 flex items-stretch">{children}</li>
+  <li className="bg-decent-100 flex items-stretch col-span-6 sm:col-span-3 lg:col-span-2">
+    {children}
+  </li>
 );
 
 export const Boxed: FCC<{ Component?: JSX.ElementType }> = ({

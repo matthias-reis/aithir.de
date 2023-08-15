@@ -5,7 +5,9 @@ import { fm } from './io';
 import { writeFileSync } from 'fs';
 
 function parseContent(s: string) {
-  s = s.trim().replace(/==> (.*)/g, '\n---\n@@ $1\n---\n');
+  s = s
+    .trim()
+    .replace(/==> (.*)/g, '\n---\n{"type": "link","payload": "$1"}\n---\n');
   const sections = s
     .split('---')
     .map((section) => section.trim())
@@ -23,18 +25,31 @@ function wordCount(sections: string[]) {
 }
 
 function refineMeta(item: Omit<ItemMeta, 'type' | 'words'>): ItemMeta {
+  const words = wordCount(
+    item.sections.filter((s) => typeof s === 'string') as string[]
+  );
+  const sections = item.sections.map((s) => {
+    const section = typeof s === 'string' ? s.trim() : '';
+    if (section.startsWith('{"')) {
+      return JSON.parse(section);
+    } else {
+      return section;
+    }
+  });
+
   if (item.slug.startsWith('storyline')) {
-    return { ...item, type: 'storyline', words: wordCount(item.sections) };
+    return { ...item, sections, type: 'storyline', words };
   }
   if (item.slug.startsWith('post')) {
     const category = item.slug.split('/')[1];
     return {
       ...item,
+      sections,
       type: 'post',
       image: item.image || `posts/${category}`,
       superTitle: 'Post',
       category,
-      words: wordCount(item.sections),
+      words,
     };
   }
   if (item.slug.startsWith('editions')) {
@@ -43,20 +58,22 @@ function refineMeta(item: Omit<ItemMeta, 'type' | 'words'>): ItemMeta {
     if (parts.length === 2) {
       return {
         ...item,
+        sections,
         type: 'magazine',
         edition,
-        words: wordCount(item.sections),
+        words,
       };
     } else {
       return {
         ...item,
+        sections,
         type: 'addenum',
         edition,
-        words: wordCount(item.sections),
+        words,
       };
     }
   } else {
-    return { ...item, type: 'other', words: wordCount(item.sections) };
+    return { ...item, sections, type: 'other', words };
   }
 }
 

@@ -10,9 +10,7 @@ const Layout: FCC<DynamicPageProps> = ({ children, params }) => {
 
   return (
     <LayoutFrame className={colorSpace} withTextLogo>
-      <div className="flex justify-center">
-        <div className="w-3/4">{children}</div>
-      </div>
+      {children}
     </LayoutFrame>
   );
 };
