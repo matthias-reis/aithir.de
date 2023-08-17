@@ -10,7 +10,7 @@ const PostItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
     />
     <div className="mt-5">
       {meta.superTitle && (
-        <p className="font-light uppercase text-decent-600 tracking-wider">
+        <p className="font-light font-sans uppercase text-decent-600 tracking-wider">
           {meta.type === 'post'
             ? `in category ${meta.category}`
             : meta.superTitle}
@@ -18,9 +18,7 @@ const PostItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
       )}
       <h3 className="text-3xl font-bold">{meta.title}</h3>
       {meta.description && (
-        <p className="mt-4 text-sm text-decent-700 font-sans">
-          {meta.description}
-        </p>
+        <p className="mt-4 font-sans text-decent-700">{meta.description}</p>
       )}
       <p className="hidden">{meta.factors?.overall}</p>
     </div>
@@ -40,18 +38,19 @@ const MagazineItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
       className="w-full mb-4 place-self-end"
     />
     <div className="col-span-2 pt-4">
-      <p className="font-light text-decent-600 uppercase tracking-wider">
+      <p className="font-light text-decent-600 uppercase tracking-wider text-lg font-sans">
         Magazine Edition {meta.edition}
       </p>
-      <h3 className="text-3xl font-bold font-sans text-decent-900">
-        {meta.title}
-      </h3>
+      <h3 className="text-3xl font-bold text-decent-800">{meta.title}</h3>
     </div>
   </article>
 );
 
-export const Item: FCC<{ meta: ItemMeta }> = ({ meta }) => (
-  <Link href={`/${meta.slug}`} className="w-full py-6 px-5 hover:bg-decent-200">
+export const Item: FCC<{ meta: ItemMeta; large?: boolean }> = ({ meta }) => (
+  <Link
+    href={`/${meta.slug}`}
+    className="w-full py-6 px-5 hover:bg-decent-200 block"
+  >
     {meta.type === 'magazine' ? (
       <MagazineItem meta={meta} />
     ) : (

@@ -42,7 +42,7 @@ module.exports = {
       current: 'currentColor',
       decent: mapHue(20),
       saturated: mapHue(65),
-      main: 'hsl(var(--hue), 75%, 50%)',
+      main: 'hsl(var(--hue), 60%, 50%)',
       complement: 'hsl(var(--hue-complement), 50%, 70%)',
     },
     extend: {

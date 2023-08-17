@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import {
-  Ruthie,
   Saira_Semi_Condensed,
-  Saira_Condensed,
+  Saira_Extra_Condensed,
   Lora,
+  Splash,
 } from 'next/font/google';
 import './globals.css';
 
@@ -20,14 +20,14 @@ const sansFont = Saira_Semi_Condensed({
   weight: ['300', '700'],
   fallback: ['sans-serif'],
 });
-const condensedFont = Saira_Condensed({
+const condensedFont = Saira_Extra_Condensed({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-condensed',
   weight: ['300', '700'],
   fallback: ['sans-serif'],
 });
-const scriptFont = Ruthie({
+const scriptFont = Splash({
   subsets: ['latin'],
   weight: '400',
   display: 'swap',

@@ -35,3 +35,13 @@ export const Boxed: FCC<{ Component?: JSX.ElementType }> = ({
   className,
   Component = 'div',
 }) => <Component className={`mx-5 md:mx-6 ${className}`}>{children}</Component>;
+
+export const ReadBoxed: FCC<{ Component?: JSX.ElementType }> = ({
+  children,
+  className,
+  Component = 'div',
+}) => (
+  <Component className={`mx-5 sm:mx-8 md:mx-9 ${className}`}>
+    {children}
+  </Component>
+);

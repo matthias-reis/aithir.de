@@ -25,11 +25,15 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
   const { Main, components } = layouts[item.type || 'none'] || layouts.default;
 
   const sections: ReactElement[] = item.sections.map((section) => {
-    if (typeof section !== 'string' && section.type === 'link') {
+    if (typeof section !== 'string') {
       const sectionSlug = section.payload as string;
       const sectionMeta = getItem(sectionSlug);
       if (sectionMeta) {
-        return <Item meta={sectionMeta} key={sectionSlug} />;
+        return (
+          <div className="border-t border-b border-decent-300 my-4">
+            <Item meta={sectionMeta} key={sectionSlug} />
+          </div>
+        );
       } else {
         return (
           <p className="text-complement" key={sectionSlug}>
