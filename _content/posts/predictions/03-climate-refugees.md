@@ -1,8 +1,8 @@
 ---
-name: Climate Refugees
-year: 2023
-week: 16
-day: 4
+title: Climate Refugees
+description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+date: 2023-04-20
+colorSpace: yellow
 tags:
   - climate crisis
   - refugees

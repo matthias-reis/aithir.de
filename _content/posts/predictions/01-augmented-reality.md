@@ -1,8 +1,8 @@
 ---
-name: Augmented Reality
-year: 2023
-week: 1
-day: 1
+title: Augmented Reality
+description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+date: 2023-01-02
+colorSpace: yellow
 tags:
   - ar
   - augmented reality

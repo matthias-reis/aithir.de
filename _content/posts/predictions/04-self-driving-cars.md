@@ -1,8 +1,8 @@
 ---
-name: Self Driving Cars
-year: 2023
-week: 19
-day: 2
+title: Self Driving Cars
+description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+date: 2023-05-02
+colorSpace: yellow
 tags:
   - cars
   - autonomous driving

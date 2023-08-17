@@ -1,8 +1,8 @@
 ---
-name: Job Markets
-year: 2023
-week: 27
-day: 4
+title: Job Markets
+description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+date: 2023-07-06
+colorSpace: yellow
 tags:
   - jobs
 ---

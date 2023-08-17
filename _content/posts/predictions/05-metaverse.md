@@ -1,8 +1,8 @@
 ---
-name: Metaverse
-year: 2023
-week: 24
-day: 1
+title: Metaverse
+description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+date: 2023-06-12
+colorSpace: yellow
 tags:
   - metaverse
   - internet

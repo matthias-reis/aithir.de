@@ -25,3 +25,8 @@ html {
   --hue: 40;
   --hue-complement: 220;
 }
+
+.yellow {
+  --hue: 60;
+  --hue-complement: 240;
+}

@@ -1,8 +1,8 @@
 ---
-name: TV Shows
-year: 2023
-week: 13
-day: 2
+title: TV Shows
+description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+date: 2023-03-28
+colorSpace: yellow
 tags:
   - tv
   - ai
