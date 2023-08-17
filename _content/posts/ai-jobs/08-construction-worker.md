@@ -1,8 +1,13 @@
 ---
-name: Construction Worker
-year: 2022
-week: 52
-day: 4
+title: Construction Worker
+description:
+  But the things you have to build with your bare hands should be dafe, right?
+  Right?
+date: 2022-12-29
+colorSpace: cyan
+tags:
+  - AI
+  - Job Market
 ---
 
 Another candidate for Jobs that will be gone in twenty years or at least look

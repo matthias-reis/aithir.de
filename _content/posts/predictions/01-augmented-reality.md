@@ -1,6 +1,8 @@
 ---
 title: Augmented Reality
-description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+description:
+  A new series about what could happen in the next ten years. Let's start with
+  the cool trending AR headsets
 date: 2023-01-02
 colorSpace: yellow
 tags:

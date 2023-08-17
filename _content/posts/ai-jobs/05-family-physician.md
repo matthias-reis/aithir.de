@@ -1,9 +1,11 @@
 ---
-name: Family Physician
-year: 2022
-week: 44
-day: 2
+title: Family Physician
+description: Yes, also the core of humanity, the doctor will be affected by AI
+date: 2022-11-01
+colorSpace: cyan
 tags:
+  - AI
+  - Job Market
   - Doctors
 ---
 

@@ -1,9 +1,11 @@
 ---
-name: Taxi Drivers
-year: 2022
-week: 26
-day: 2
+title: Taxi Drivers
+description: What's happening to taxi drivers as soon as cars can drive alone?
+date: 2022-06-28
+colorSpace: cyan
 tags:
+  - AI
+  - Job Market
   - Autonomous Driving
 ---
 

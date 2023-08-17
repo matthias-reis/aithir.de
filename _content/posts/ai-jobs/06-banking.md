@@ -1,8 +1,13 @@
 ---
-name: Banking
-year: 2022
-week: 47
-day: 1
+title: Banking
+description:
+  Algorithms rule investment for decades already, so where might the human brain
+  be needed?
+date: 2022-11-21
+colorSpace: cyan
+tags:
+  - AI
+  - Job Market
 ---
 
 Another one from the series of jobs that might or might not exist in ten years

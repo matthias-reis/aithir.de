@@ -1,6 +1,6 @@
 ---
 title: Self Driving Cars
-description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+description: When will I order a car and ask it to drive me to the supermarket?
 date: 2023-05-02
 colorSpace: yellow
 tags:

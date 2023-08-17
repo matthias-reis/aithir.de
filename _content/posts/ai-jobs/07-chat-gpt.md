@@ -1,9 +1,13 @@
 ---
-name: ChatGPT
-year: 2022
-week: 49
-day: 2
+title: ChatGPT
+description:
+  Special topic about the rise of large language models and their impact on
+  writing, marketing and everything else
+date: 2022-12-06
+colorSpace: cyan
 tags:
+  - AI
+  - Job Market
   - Writer
   - Google
   - Stack Overflow

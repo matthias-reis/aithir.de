@@ -1,6 +1,8 @@
 ---
 title: TV Shows
-description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+description:
+  Will there still be TV shows, when AI can produce individual footage for
+  everyone?
 date: 2023-03-28
 colorSpace: yellow
 tags:

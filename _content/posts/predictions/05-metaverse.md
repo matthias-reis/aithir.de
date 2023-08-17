@@ -1,6 +1,8 @@
 ---
 title: Metaverse
-description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+description:
+  Built to fail, Facebooks metaverse. But yet it was the dream of a whole
+  cyberpunk generation, including me.
 date: 2023-06-12
 colorSpace: yellow
 tags:

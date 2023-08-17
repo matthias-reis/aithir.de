@@ -1,9 +1,13 @@
 ---
-name: Developers
-year: 2022
-week: 30
-day: 4
+title: Developers
+description:
+  Are software engineers optimizing themselves away or will they use their
+  freetime for even more coding?
+date: 2022-07-28
+colorSpace: cyan
 tags:
+  - AI
+  - Job Market
   - Github
   - Developers
 ---

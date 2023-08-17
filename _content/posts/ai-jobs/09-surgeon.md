@@ -1,8 +1,14 @@
 ---
-name: Surgeon
-year: 2023
-week: 10
-day: 2
+title: Surgeon
+description:
+  A job that relies on precision? That's worth a look on how a machine could do
+  it better.
+date: 2023-03-07
+colorSpace: cyan
+tags:
+  - AI
+  - Job Market
+  - Doctor
 ---
 
 Some weeks ago, I wrote an article about doctors and AI as their major job

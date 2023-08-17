@@ -1,6 +1,8 @@
 ---
 title: Climate Refugees
-description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+description:
+  Germany is getting dry and wet at the same time. But still central Europe is
+  the place to be in 50 years. For everyone.
 date: 2023-04-20
 colorSpace: yellow
 tags:

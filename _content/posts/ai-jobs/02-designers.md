@@ -1,9 +1,13 @@
 ---
-name: Designers
-year: 2022
-week: 24
-day: 2
+title: Designers
+description:
+  Dall-E and Midjourney take over many art direction tasks already. What does it
+  do with the job of a designer?
+date: 2022-06-14
+colorSpace: cyan
 tags:
+  - AI
+  - Job Market
   - Open AI
   - Dall-E
   - Augmented Reality

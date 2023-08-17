@@ -1,8 +1,15 @@
 ---
-name: Judges
-year: 2023
-week: 15
-day: 2
+title: Judges
+description:
+  Objectivity. A goal that biased humans may never achieve. Will computers be
+  able to fill in?
+date: 2023-04-11
+colorSpace: cyan
+tags:
+  - AI
+  - Job Market
+  - Justice
+  - Court
 ---
 
 Pure Objectivity. The complete lack of bias. Does that exist? We know that

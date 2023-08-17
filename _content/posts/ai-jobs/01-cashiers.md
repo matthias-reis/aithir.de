@@ -1,9 +1,14 @@
 ---
-name: Cashiers
-year: 2022
-week: 23
-day: 1
+title: Cashiers
+description:
+  The checkout in a supermarket is a highly repetitive, tedious and error prone
+  task, already optimized for the cashier. Will the human faactor be removed one
+  day?
+date: 2022-06-06
+colorSpace: cyan
 tags:
+  - AI
+  - Job Market
   - Supermarket
 ---
 

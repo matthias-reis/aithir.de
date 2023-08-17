@@ -1,6 +1,8 @@
 ---
 title: Job Markets
-description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+description:
+  Our society is getting older, jobs offers will be more than the people to fill
+  them. But AI could take many jobs away. What will happen?
 date: 2023-07-06
 colorSpace: yellow
 tags:
