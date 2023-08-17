@@ -20,3 +20,8 @@ html {
   --hue: 120;
   --hue-complement: 280;
 }
+
+.tan {
+  --hue: 40;
+  --hue-complement: 220;
+}

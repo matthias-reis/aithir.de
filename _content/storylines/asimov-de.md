@@ -7,6 +7,7 @@ description:
 color: '#718D64'
 language: de
 ref: storylines/asimov
+image: storylines/asimov
 unfinished: true
 startDate: 2022-12-25
 date: 2023-07-25

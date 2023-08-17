@@ -7,7 +7,8 @@ description:
   Dich sicher? Na ja, einige von ihnen haben Superkräfte.
 color: '#79857A'
 language: de
-ref: the-guillorys
+ref: storylines/the-guillorys
+image: storylines/the-guillorys
 unfinished: true
 startDate: 2023-03-27
 date: 2023-08-01

@@ -1,8 +1,9 @@
 ---
-name: Star Trek Picard
-year: 2023
-week: 17
-day: 3
+title: Star Trek Picard
+description:
+  The third and final season of Picard is over. Time for a little review.
+date: 2023-04-26
+colorSpace: tan
 tags:
   - star trek
 ---

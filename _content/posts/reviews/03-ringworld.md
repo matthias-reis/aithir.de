@@ -1,8 +1,8 @@
 ---
-name: Ringworld
-year: 2023
-week: 21
-day: 2
+title: Ringworld
+description: The 1970 SciFi classic by Larry Niven
+date: 2023-05-23
+colorSpace: tan
 tags:
   - larry niven
 ---

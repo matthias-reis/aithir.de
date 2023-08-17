@@ -8,6 +8,7 @@ description:
 color: '#BD7E84'
 language: de
 ref: storylines/kamina-2
+image: storylines/kamina-2
 unfinished: true
 start: 2023-01-11
 end: 2023-07-17

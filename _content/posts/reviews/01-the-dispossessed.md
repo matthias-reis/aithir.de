@@ -1,8 +1,8 @@
 ---
-name: The Dispossessed
-year: 2023
-week: 16
-day: 1
+title: The Dispossessed
+description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
+date: 2023-04-17
+colorSpace: tan
 tags:
   - ursula k. leguin
   - book
