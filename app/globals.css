@@ -11,6 +11,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.red {
+  --hue: 0;
+  --hue-complement: 200;
+}
 .tan {
   --hue: 40;
   --hue-complement: 220;
@@ -21,6 +25,11 @@ html {
   --hue-complement: 240;
 }
 
+.olive {
+  --hue: 90;
+  --hue-complement: 270;
+}
+
 .green {
   --hue: 120;
   --hue-complement: 280;
@@ -29,6 +38,11 @@ html {
 .cyan {
   --hue: 170;
   --hue-complement: 350;
+}
+
+.blue {
+  --hue: 210;
+  --hue-complement: 30;
 }
 
 .pink {

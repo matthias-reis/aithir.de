@@ -4,7 +4,7 @@ title: Asimov
 description:
   Ein Roboter von einem fremden Planeten stellt Kontakt zu einem Jungen auf der
   Erde her und fragt ihn nach Hilfe zu einem delikaten Problem.
-color: '#718D64'
+colorSpace: olive
 language: de
 ref: storylines/asimov
 image: storylines/asimov

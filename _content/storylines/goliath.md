@@ -1,3 +1,18 @@
+---
+superTitle: Short Story
+title: Goliath
+description:
+  What if we develop an AI with more than human level intelligence? And how
+  powerful can it become? The story in this line is following that thought.
+colorSpace: olive
+startDate: 2022-06-12
+date: 2022-11-14
+tags:
+  - SciFi
+  - AI
+  - Aliens
+---
+
 Goliath is an AI program that is funded by several European states, the US and
 Canada. And it is led by three major IT companies. Its goal is to create an AI,
 that has general intelligence. This is intelligence in all relevant fields that

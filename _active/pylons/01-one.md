@@ -1,7 +1,0 @@
----
-name: The Pylons One
-year: 2023
-week: 25
-day: 1
-placeholder: true
----
