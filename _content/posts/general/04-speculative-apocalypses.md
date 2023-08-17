@@ -1,8 +1,9 @@
 ---
-name: Speculative Apocalypses
-year: 2022
-week: 18
-day: 4
+title: Speculative Apocalypses
+description:
+  We are threatened by many things. But what is the most likely and how many
+  people are actually affected?
+date: 2022-05-05
 tags:
   - Atomic War
   - Climate Crisis

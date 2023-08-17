@@ -1,8 +1,9 @@
 ---
-name: Who is Aithir?
-year: 2022
-week: 17
-day: 4
+title: Who is Aithir?
+description:
+  Where does my alias come from? My handle on social media is Aithir. So what's
+  the reason for that?
+date: 2022-04-27
 tags:
   - Aithir
   - Ether

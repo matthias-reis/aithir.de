@@ -1,8 +1,9 @@
 ---
-name: Political Systems
-year: 2022
-week: 21
-day: 1
+title: Political Systems
+description:
+  There are two main points of view in ideologies. Either the individual in the
+  center or the whole society. Both lead to significantly different systems.
+date: 2022-05-23
 tags:
   - China
   - Capitalism

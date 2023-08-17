@@ -13,7 +13,7 @@ export type FrontMatter = {
   language?: 'en' | 'de';
   unfinished?: boolean;
   hidden?: boolean;
-  colorSpace: string;
+  colorSpace?: string;
 };
 
 export type Sec = string | { type: string; payload?: string | ItemMeta };

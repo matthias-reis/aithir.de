@@ -4,11 +4,17 @@ import { LayoutFrame } from '../comp/layout-frame';
 import { OctahedronText } from '../comp/octahedron-text';
 import { Boxed, Grid, GridItem, Section } from '../comp/sections';
 import { Tag, TagList } from '../comp/tag';
-import { getVisibleItems, getTags, getItem } from '../core/data-layer';
+import {
+  getVisibleItems,
+  getAllItems,
+  getTags,
+  getItem,
+} from '../core/data-layer';
 import type { ItemMeta, TagMeta } from '../core/types';
 
 export default function Page() {
-  const items = getVisibleItems().slice(0, 6);
+  // const items = getVisibleItems().slice(0, 6);
+  const items = getAllItems();
   const m1 = getItem('editions/1');
   const tags = getTags().filter((tag: TagMeta) => (tag.count ?? 0) > 1);
   return (

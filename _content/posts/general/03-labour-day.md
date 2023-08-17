@@ -1,8 +1,9 @@
 ---
-name: Fairness
-year: 2022
-week: 18
-day: 1
+title: Fairness
+description:
+  Some thoughts on May, the first, labour day. Including capitalism and the
+  power of some opinion leaders.
+date: 2022-05-02
 tags:
   - Labour Day
   - Mastodon

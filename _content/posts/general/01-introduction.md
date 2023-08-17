@@ -1,8 +1,7 @@
 ---
-name: The Start Of Something
-year: 2022
-week: 17
-day: 3
+title: The Start Of Something
+description: A new blog, a new start.
+date: 2022-04-27
 tags:
   - Mastodon
   - SciFi
