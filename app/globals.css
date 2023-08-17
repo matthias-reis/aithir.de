@@ -11,6 +11,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.carmine {
+  --hue: 340;
+  --hue-complement: 160;
+}
+
 .red {
   --hue: 0;
   --hue-complement: 200;

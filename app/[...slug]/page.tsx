@@ -30,8 +30,11 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
       const sectionMeta = getItem(sectionSlug);
       if (sectionMeta) {
         return (
-          <div className="border-t border-b border-decent-300 my-4">
-            <Item meta={sectionMeta} key={sectionSlug} />
+          <div
+            key={sectionSlug}
+            className="border-t border-b border-decent-300 my-4"
+          >
+            <Item meta={sectionMeta} />
           </div>
         );
       } else {

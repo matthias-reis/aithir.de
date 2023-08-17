@@ -1,3 +1,18 @@
+---
+superTitle: Two Stories
+title: Tattoos
+description:
+  Just like in Ray Bradbury's "The Illustrated Man", I bring my tattoos to life
+  in this storyline.
+colorSpace: carmine
+startDate: 2022-05-25
+date: 2023-02-13
+tags:
+  - Tattoos
+  - The Illustrated Man
+  - Ray Bradbury
+---
+
 Mr. Hanako was a silent man. Three days a week, he went into the pub in
 Immingham, Middle England. As he didn't talk much, no one of the regulars in the
 pub knew his story. He was a Japanese seaman and somehow, probably because of a
