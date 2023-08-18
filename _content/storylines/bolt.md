@@ -4,7 +4,7 @@ title: Bolt
 description:
   An unexpected announcement reveals the greates surprise in media history and
   starts a race for the truth.
-colorSpace: green
+colorSpace: lime
 unfinished: true
 startDate: 2023-09-01
 date: 2023-09-01

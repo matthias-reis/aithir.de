@@ -4,7 +4,7 @@ title: Simulation Theory
 description:
   Are we living in a simulation? Hard to find proof, but there are a bunch of
   interesting thought ecxperiments out there and even more stories to spin off.
-colorSpace: blue
+colorSpace: sky
 unfinished: true
 startDate: 2022-05-12
 date: 2023-12-12

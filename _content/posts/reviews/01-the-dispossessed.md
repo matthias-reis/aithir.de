@@ -2,7 +2,7 @@
 title: The Dispossessed
 description: Reviewing the 1974 scifi novel by Ursula K. Le Guin
 date: 2023-04-17
-colorSpace: tan
+colorSpace: cyan
 tags:
   - ursula k. leguin
   - book

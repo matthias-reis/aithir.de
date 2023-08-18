@@ -4,7 +4,7 @@ title: The Operator
 description:
   The first deep-dive into the cyberpunk world of the Mesh and its inhabitants.
   We follow some hackers in Hamburg on a data heist.
-color: '#E0C2A8'
+colorSpace: carmine
 startDate: 2022-11-29
 date: 2023-06-05
 finished: true

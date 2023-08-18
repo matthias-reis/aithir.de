@@ -5,7 +5,7 @@ description:
   Wir sind Gäste bei einr außergewöhnlichen Familie, einer Mäusefamilie in ihrer
   Villa in New Orleans. Was ist so außergewöhnlich an den Guillorys, fragst Du
   Dich sicher? Na ja, einige von ihnen haben Superkräfte.
-color: '#79857A'
+colorSpace: tan
 language: de
 ref: storylines/the-guillorys
 image: storylines/the-guillorys

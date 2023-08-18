@@ -4,7 +4,7 @@ description:
   Objectivity. A goal that biased humans may never achieve. Will computers be
   able to fill in?
 date: 2023-04-11
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

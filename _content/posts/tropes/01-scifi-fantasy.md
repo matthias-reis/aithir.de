@@ -9,7 +9,7 @@ tags:
   - Tropes
   - SciFi
   - Fantasy
-colorSpace: purple
+colorSpace: carmine
 ---
 
 Hello there! New topic coming in. In the past, I have shared my worldbuilding

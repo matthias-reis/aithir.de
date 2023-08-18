@@ -4,7 +4,7 @@ title: Goliath
 description:
   What if we develop an AI with more than human level intelligence? And how
   powerful can it become? The story in this line is following that thought.
-colorSpace: olive
+colorSpace: lime
 startDate: 2022-06-12
 date: 2022-11-14
 tags:

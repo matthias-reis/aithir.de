@@ -4,7 +4,7 @@ description:
   Special topic about the rise of large language models and their impact on
   writing, marketing and everything else
 date: 2022-12-06
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

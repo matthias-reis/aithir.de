@@ -5,7 +5,7 @@ description:
   Die kleine Kamina wird immer wieder in phantastische Abenteuer hineingezogen.
   Diesmal gerät sie in eine Steampunk-Welt, in der überraschungen an jeder Ecke
   lauern.
-color: '#BD7E84'
+colorSpace: orange
 language: de
 ref: storylines/kamina-2
 image: storylines/kamina-2

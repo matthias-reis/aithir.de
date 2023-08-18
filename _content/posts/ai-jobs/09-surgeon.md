@@ -4,7 +4,7 @@ description:
   A job that relies on precision? That's worth a look on how a machine could do
   it better.
 date: 2023-03-07
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

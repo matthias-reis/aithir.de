@@ -2,7 +2,7 @@
 title: Ringworld
 description: The 1970 SciFi classic by Larry Niven
 date: 2023-05-23
-colorSpace: tan
+colorSpace: cyan
 tags:
   - larry niven
 ---

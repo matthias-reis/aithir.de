@@ -5,7 +5,7 @@ description:
   task, already optimized for the cashier. Will the human faactor be removed one
   day?
 date: 2022-06-06
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

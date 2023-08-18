@@ -4,7 +4,7 @@ description:
   Dall-E and Midjourney take over many art direction tasks already. What does it
   do with the job of a designer?
 date: 2022-06-14
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

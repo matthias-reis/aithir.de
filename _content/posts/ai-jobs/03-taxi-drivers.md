@@ -2,7 +2,7 @@
 title: Taxi Drivers
 description: What's happening to taxi drivers as soon as cars can drive alone?
 date: 2022-06-28
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

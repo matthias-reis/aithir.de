@@ -4,7 +4,7 @@ title: Asimov
 description:
   A robot from another planet is making contact with a boy on earth and asking
   for his help.
-colorSpace: olive
+colorSpace: wood
 language: en
 ref: storylines/asimov-de
 unfinished: true

@@ -6,6 +6,7 @@ import { DynamicPageProps, FCC, ItemMeta } from '../../core/types';
 import { Item } from '../../comp/item';
 import { ReactElement } from 'rehype-react/lib';
 import { magazineLayout } from './magazine';
+import { defaultLayout } from './default';
 
 export type Layout = {
   Main: FC<{ item: ItemMeta; sections: ReactElement[] }>;
@@ -14,7 +15,7 @@ export type Layout = {
 
 const layouts: Record<string, Layout> = {
   magazine: magazineLayout,
-  default: magazineLayout,
+  default: defaultLayout,
 };
 
 const Page: FC<DynamicPageProps> = ({ params }) => {

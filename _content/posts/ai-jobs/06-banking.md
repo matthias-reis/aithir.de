@@ -4,7 +4,7 @@ description:
   Algorithms rule investment for decades already, so where might the human brain
   be needed?
 date: 2022-11-21
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

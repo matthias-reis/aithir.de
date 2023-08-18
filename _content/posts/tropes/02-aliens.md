@@ -7,7 +7,7 @@ tags:
   - Archetypes
   - Tropes
   - SciFi
-colorSpace: purple
+colorSpace: carmine
 ---
 
 I'm starting with one of the most obvious tropes of all: Aliens. Other

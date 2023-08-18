@@ -4,7 +4,7 @@ title: Kamina and the Dragonfly Ship
 description:
   Little Kamina is always drawn into phantastic adventures. This time she jumps
   into a steampunk world with a lot of surprises.
-color: '#BD7E84'
+colorSpace: orange
 language: en
 ref: storylines/kamina-2-de
 unfinished: true

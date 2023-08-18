@@ -4,7 +4,7 @@ description:
   Are software engineers optimizing themselves away or will they use their
   freetime for even more coding?
 date: 2022-07-28
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

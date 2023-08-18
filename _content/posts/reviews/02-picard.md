@@ -3,7 +3,7 @@ title: Star Trek Picard
 description:
   The third and final season of Picard is over. Time for a little review.
 date: 2023-04-26
-colorSpace: tan
+colorSpace: cyan
 tags:
   - star trek
 ---

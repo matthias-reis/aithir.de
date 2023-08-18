@@ -4,7 +4,7 @@ description:
   We are guests at an extraordinary family of mice in theire residence in New
   Orleans, the Guillorys. What's so special about them, you ask? Well, some of
   them have super powers.
-color: '#79857A'
+colorSpace: tan
 language: de
 ref: the-guillorys/de
 unfinished: true

@@ -9,7 +9,7 @@ tags:
   - SciFi
   - Fantasy
   - Superheros
-colorSpace: purple
+colorSpace: carmine
 ---
 
 Superpowers in SciFi and Fantasy literature come from the wish of us humans to

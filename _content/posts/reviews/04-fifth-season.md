@@ -2,7 +2,7 @@
 title: The Fifth Season
 description: Reviewing the Hugo Award winning novel by N.K. Jemisin
 date: 2023-06-20
-colorSpace: tan
+colorSpace: cyan
 tags:
   - scifi
   - fantasty

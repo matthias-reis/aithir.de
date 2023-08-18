@@ -2,7 +2,7 @@
 title: Family Physician
 description: Yes, also the core of humanity, the doctor will be affected by AI
 date: 2022-11-01
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market

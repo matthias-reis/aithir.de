@@ -4,7 +4,7 @@ description:
   But the things you have to build with your bare hands should be dafe, right?
   Right?
 date: 2022-12-29
-colorSpace: cyan
+colorSpace: none
 tags:
   - AI
   - Job Market
