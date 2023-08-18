@@ -1,3 +1,25 @@
+---
+superTitle: Short Story
+title: Vlad
+subTitle: The Truth About Dracula
+description:
+  Everyone knows that Dracula was a real historic figure. But did you also know
+  that he was a magician? This is the first short in my series around the
+  Hermetic Society.
+colorSpace: red
+startDate: 2022-12-07
+date: 2023-06-23
+related:
+  - storylines/hermetics
+  - storylines/tattoos
+  - storylines/tropes
+tags:
+  - Dracula
+  - Hermetics
+  - Wizards
+  - Transylvania
+---
+
 It is late October 1904. My name is Camil Constantin. I am a chronist at the
 Kronstadt registry and this is aggregation report number 411-1904-101. My
 assignment lies in gathering all available information about the "Drac
