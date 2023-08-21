@@ -1,6 +1,23 @@
-## The Start
-
 ---
+superTitle: Article
+title: World 2
+description:
+  What are the biggest problems of our time and how do we overcome them? This
+  storyline focuses on the complex problems around energy creation and
+  consumption
+colorSpace: lime
+startDate: 2022-08-01
+date: 2023-04-04
+related:
+  - storylines/vegan
+  - storylines/traffic
+tags:
+  - Energy
+  - Climate Crisis
+  - Coal
+---
+
+## The Start
 
 Although this styoryline is not fiction at all, it's anyway about the future.
 What do we have to do to have a future? How can we save our planet? Do we have
@@ -22,11 +39,7 @@ climate catastrophe**. I'd especially like to go into three different streams:
   wars and fraternize with despots to get resources to produce energy. And we're
   ahead of another round of exploitation of the African continent.
 
----
-
 ## Energy
-
----
 
 For [transport](/storylines/traffic) and [agriculture](/storylines/vegan), I
 have created separate storylines. The pure basics of energy production,
@@ -54,11 +67,7 @@ spreading half a year, I had the feeling that the headlines around this copmplex
 were oveertaking each other. War, pipelines, catastrophes, political changes,
 protests, science reports - the topics piled up almost on an hourly basis.
 
----
-
 ## The Problem Chain
-
----
 
 Even if you touch the surface of those building blocks, you already see that any
 of these fields is utterly complex and never black and white. So before I go
@@ -78,11 +87,7 @@ like coal (C) or gas (CH<sub>4</sub>).
 We use the energy coming from there for global wealth, so we can't just stop it
 without losing this wealth.
 
----
-
 ## Dimensions
-
----
 
 A problem that I have with the climate catastrophe lies in the magnitudes of
 numbers. When someone says "this emits 5 kg of CO₂ equivalent", what does that
@@ -102,9 +107,7 @@ zero - carbon neutral - after 2050.
 Divided by 30 and the average expected population of 8,73 billion people, this
 makes 1,6 tons per year for every one of us. This is my new reference.
 
----
-
----
+==> <image> budget
 
 Source:
 [(atmosfair.de)](https://www.atmosfair.de/en/green_travel/annual_climate_budget/)
@@ -113,9 +116,7 @@ Now this is a value we can work with. We have a budget and we can put everything
 in relation to the budget. So I've decided to create a small calculator that
 spits out memes with chart graphics. Here we go.
 
----
-
----
+==> <calculator> budget
 
 Source:
 [(ourworldindata.org)](https://ourworldindata.org/co2-and-greenhouse-gas-emissions#co2-and-greenhouse-gas-emissions-country-profiles)
@@ -129,9 +130,7 @@ this list, who's emissions are rising.
 
 To get used to this metric, let's do some more comparisons.
 
----
-
----
+==> <calculator> coal
 
 Source:
 [Umweltbundesamt](https://www.umweltbundesamt.de/daten/energie/energiebedingte-emissionen#energiebedingte-kohlendioxid-emissionen-durch-stromerzeugung)
@@ -157,9 +156,7 @@ politicians.**
 
 Let's look at another example:
 
----
-
----
+==> <calculator> flights
 
 Sources:
 
@@ -176,11 +173,7 @@ this section:
 
 Our nearest CO₂ sink, the German forest absorbs **46,4%** of our budget.
 
----
-
 ## How Much Do We Have to Save?
-
----
 
 The budget is gone by 2050 or earlier when we continue to live as we're doing
 now. At that point, we are not supposed to emit anything anymore. What is left
@@ -210,11 +203,7 @@ The problem seems to be approached ved in three steps:
   efficient on a principle level rather than the consumer level. We just have to
   want it and facilitate it through a suitable political environment.
 
----
-
 ## Heating
-
----
 
 Another scenario: An average person needs 47,7 m² of living space in Germany. A
 20-year-old house has an average standard of 75 kWh/m²a. If you use gas, this
@@ -245,11 +234,7 @@ heating must me massively extended.
 The current in-house technology is based on water as a carrier, which makes it
 difficult to exchange with more intelligent air conditioning systems.
 
----
-
 ## Savings in the Heating Sector
-
----
 
 The major step here is not the switch of technologies. Especially with our
 bulidings, we can also achieve a lot by saving energy.
@@ -276,11 +261,7 @@ program from the state, that distributes the money to the people and projects
 who need it most, millions of times in the next years. But the sector will
 remain the slowest, also because cars are switched more often than houses.
 
----
-
 ## The End of the World (As We Know It)
-
----
 
 Saving the world from the climate crisis is the most pressing and demanding
 topic of our time. As you have seen, it needs radical restructurings in almost
