@@ -7,6 +7,7 @@ import { writeFileSync } from 'fs';
 function parseContent(s: string) {
   s = s
     .trim()
+    .replace(/==> <(.*)> (.*)/g, '\n---\n{"type": "$1","payload": "$2"}\n---\n')
     .replace(/==> (.*)/g, '\n---\n{"type": "link","payload": "$1"}\n---\n');
   const sections = s
     .split('---')

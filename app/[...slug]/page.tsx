@@ -1,20 +1,31 @@
 import { FC } from 'react';
 import { notFound } from 'next/navigation';
-import { getItem } from '../../core/data-layer';
+import {
+  getItem,
+  getItemsByCategory,
+  getItemsBySlugs,
+} from '../../core/data-layer';
 import { parseMarkdown } from '../../core/markdown';
 import { DynamicPageProps, FCC, ItemMeta } from '../../core/types';
 import { Item } from '../../comp/item';
 import { ReactElement } from 'rehype-react/lib';
 import { magazineLayout } from './magazine';
+import { postLayout } from './post';
 import { defaultLayout } from './default';
 
 export type Layout = {
-  Main: FC<{ item: ItemMeta; sections: ReactElement[] }>;
+  Main: FC<{
+    item: ItemMeta;
+    sections: ReactElement[];
+    categoryItems?: ItemMeta[];
+    relatedItems?: ItemMeta[];
+  }>;
   components: Record<string, FCC>;
 };
 
 const layouts: Record<string, Layout> = {
   magazine: magazineLayout,
+  post: postLayout,
   default: defaultLayout,
 };
 
@@ -25,6 +36,8 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
 
   const { Main, components } = layouts[item.type || 'none'] || layouts.default;
 
+  const relatedItems = getItemsBySlugs(item?.related ?? []);
+  const categoryItems = getItemsByCategory(item?.category);
   const sections: ReactElement[] = item.sections.map((section) => {
     if (typeof section !== 'string') {
       const sectionSlug = section.payload as string;
@@ -49,8 +62,15 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
       return parseMarkdown(section, components);
     }
   });
-
-  return <Main item={item} sections={sections} />;
+  console.log(categoryItems);
+  return (
+    <Main
+      item={item}
+      sections={sections}
+      categoryItems={categoryItems}
+      relatedItems={relatedItems}
+    />
+  );
 };
 
 export default Page;

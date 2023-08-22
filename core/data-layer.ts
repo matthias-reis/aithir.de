@@ -19,9 +19,18 @@ export function getVisibleItems() {
     .filter((i) => (i.language ?? 'en') !== 'de');
 }
 
+export function getPublicItems() {
+  return getAllItems().filter((i) => !i.hidden);
+}
+
 export function getItem(slug: string) {
   return metaData[slug];
 }
+
+export const getItemsBySlugs = (slugs: string[]) => slugs.map(getItem);
+
+export const getItemsByCategory = (category?: string) =>
+  category ? getPublicItems().filter((i) => i.category === category) : [];
 
 export function getTags() {
   const tags = {} as Record<string, ItemMeta[]>;
@@ -45,6 +54,11 @@ export function getTags() {
       };
     })
     .sort((a, b) => b.count - a.count);
+}
+export function getTagsByTagSlugs(tagNames: string[]) {
+  const tags = Object.fromEntries(getTags().map((t) => [t.slug, t]));
+  const slugs = tagNames.map(slugify);
+  return slugs.map((slug) => tags[slug]).filter(Boolean);
 }
 
 function seed(entry: [string, ItemMeta]): [string, ItemMeta] {

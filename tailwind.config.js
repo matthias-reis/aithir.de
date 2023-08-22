@@ -48,7 +48,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         darkened:
-          'linear-gradient(180deg, #0000 0%, #000b 40%, #000b 60%, #0000 100%)',
+          'linear-gradient(180deg, #0000 0%, #000b 30%, #000b 70%, #0000 100%)',
+      },
+      aspectRatio: {
+        wide: '3 / 1',
       },
     },
   },

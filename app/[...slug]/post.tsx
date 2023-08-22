@@ -1,0 +1,115 @@
+import { Item } from '../../comp/item';
+import { Boxed, Grid, GridItem, ReadBoxed, Section } from '../../comp/sections';
+import { Tag, TagList } from '../../comp/tag';
+import { getTagsByTagSlugs } from '../../core/data-layer';
+import { getFormattedDate } from '../../core/date-helpers';
+import type { Layout } from './page';
+
+export const postLayout: Layout = {
+  components: {
+    h1: ({ children }) => (
+      <h1 className="font-condensed font-bold text-5xl md:text-8xl text-decent-900 uppercase mb-3">
+        {children}
+      </h1>
+    ),
+    h2: ({ children }) => (
+      <h2 className="font-bold font-condensed text-4xl md:text-5xl text-decent-900 mt-7 mb-4">
+        {children}
+      </h2>
+    ),
+    p: ({ children }) => (
+      <p className="text-lg font-serif leading-loose text-decent-700 mb-4">
+        {children}
+      </p>
+    ),
+    ul: ({ children }) => (
+      <ul className="font-serif text-lg mb-4 list-outside list-disc text-decent-700">
+        {children}
+      </ul>
+    ),
+    li: ({ children }) => <li className="mb-3 ml-4">{children}</li>,
+  },
+  Main: ({ item, sections, categoryItems, relatedItems }) => (
+    <>
+      <div className="justify-center items-center bg-decent-300 mb-7 aspect-wide relative w-full">
+        <div className="relative flex flex-col justify-center items-center z-10 aspect-wide bg-darkened w-full">
+          <div className="text-decent-600 text-xl font-light uppercase tracking-wider">
+            {item.date && (
+              <span>
+                Posted On{' '}
+                <strong className="font-bold">
+                  {getFormattedDate(new Date(item.date))}
+                </strong>{' '}
+              </span>
+            )}
+            {item.category && (
+              <span>
+                in category{' '}
+                <strong className="font-bold">{item.category}</strong>
+              </span>
+            )}
+          </div>
+          <h1 className="text-4xl md:text-5xl lg:text-9xl font-script">
+            {item.title}
+          </h1>
+          {item.subTitle && (
+            <div className="text-decent-600 text-xl font-light uppercase tracking-wider">
+              {item.subTitle}
+            </div>
+          )}
+        </div>
+        <img
+          src={`/preview/${item.image || item.slug}.jpg`}
+          alt={item.title}
+          className="top-[0] object-contain w-full absolute z-0 max-h-[34rem] shadow-xl shadow-decent-100"
+        />
+      </div>
+      {sections.map((section, i) => (
+        <ReadBoxed key={i}>{section}</ReadBoxed>
+      ))}
+      {item.tags && (
+        <ReadBoxed className="mt-7">
+          <TagList className="mt-5">
+            {getTagsByTagSlugs(item.tags).map((tag) => (
+              <Tag key={tag.slug} tag={tag} />
+            ))}
+          </TagList>
+        </ReadBoxed>
+      )}
+      {categoryItems && categoryItems.length > 1 && (
+        <Section
+          headline={`Other Posts in Category ${item.category?.toUpperCase()}`}
+        >
+          <Grid>
+            {categoryItems.map((item) => (
+              <GridItem key={item.slug}>
+                <Item meta={item} />
+              </GridItem>
+            ))}
+            {Array(3 - (categoryItems.length % 3))
+              .fill('')
+              .map((_, i) => (
+                <GridItem key={i} />
+              ))}
+          </Grid>
+        </Section>
+      )}
+      {relatedItems && relatedItems.length > 0 && (
+        <Section headline="Related Posts">
+          <Grid>
+            {relatedItems.map((item) => (
+              <GridItem key={item.slug}>
+                <Item meta={item} />
+              </GridItem>
+            ))}
+            {Array(3 - (relatedItems.length % 3))
+              .fill('')
+              .map((_, i) => (
+                <GridItem key={i} />
+              ))}
+          </Grid>
+        </Section>
+      )}
+    </>
+  ),
+};

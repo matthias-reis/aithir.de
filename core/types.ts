@@ -3,6 +3,7 @@ import { PropsWithChildren } from 'react';
 export type FrontMatter = {
   title: string;
   superTitle?: string;
+  subTitle?: string;
   description?: string | string[];
   startDate?: string;
   date?: string;

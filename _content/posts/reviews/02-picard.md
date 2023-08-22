@@ -1,11 +1,16 @@
 ---
-title: Star Trek Picard
+title: Picard
+subTitle: The Star Trek Series
 description:
-  The third and final season of Picard is over. Time for a little review.
+  The third and final season of Star Trek Picard is over. Time for a little
+  review.
 date: 2023-04-26
 colorSpace: cyan
 tags:
-  - star trek
+  - Star Trek
+  - TV Show
+  - SciFi
+  - Space Opera
 ---
 
 The third and last episode of Star Trek: Picard, the TV series on Prime, is

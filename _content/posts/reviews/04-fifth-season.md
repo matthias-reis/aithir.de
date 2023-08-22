@@ -1,12 +1,13 @@
 ---
 title: The Fifth Season
+subTitle: N.K. Jemisin
 description: Reviewing the Hugo Award winning novel by N.K. Jemisin
 date: 2023-06-20
 colorSpace: cyan
 tags:
-  - scifi
-  - fantasty
-  - dystopia
+  - SciFi
+  - Fantasy
+  - Dystopia
 ---
 
 One of the most famous SciFi authors, Arthur C. Clark, once said: "Any

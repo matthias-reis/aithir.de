@@ -3,7 +3,7 @@ import {
   Saira_Semi_Condensed,
   Saira_Extra_Condensed,
   Lora,
-  Splash,
+  Sassy_Frass,
 } from 'next/font/google';
 import './globals.css';
 
@@ -27,7 +27,7 @@ const condensedFont = Saira_Extra_Condensed({
   weight: ['300', '700'],
   fallback: ['sans-serif'],
 });
-const scriptFont = Splash({
+const scriptFont = Sassy_Frass({
   subsets: ['latin'],
   weight: '400',
   display: 'swap',
