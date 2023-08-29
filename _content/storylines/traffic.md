@@ -1,6 +1,7 @@
 ---
-superTitle: Article
-title: World 2 Traffic
+superTitle: World 2
+title: Traffic & Transport
+subTitle: Part 3 of the Series About the Climate Crisis
 description:
   Deep-dive into the burning topics of our time - this storyline focuses on
   traffic, transport, travel and their effects on climete and wellness

@@ -52,6 +52,7 @@ module.exports = {
       },
       aspectRatio: {
         wide: '3 / 1',
+        title: '3 / 2',
       },
     },
   },

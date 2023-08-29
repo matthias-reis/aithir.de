@@ -18,11 +18,6 @@ const HomePage: NextPage<{
         <Headline>Latest Publications</Headline>
         <Grid>
           {items.map((item) => {
-            console.log(
-              item.title,
-              item.factors!.product,
-              item.factors!.factors
-            );
             return (
               <Item key={item.path}>
                 <Article meta={item} />

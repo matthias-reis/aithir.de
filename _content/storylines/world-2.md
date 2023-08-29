@@ -1,10 +1,11 @@
 ---
-superTitle: Article
-title: World 2
+superTitle: World 2
+title: Energy & Dimensions
+subTitlle: Part 1 of the Series About the Climate Crisis
 description:
   What are the biggest problems of our time and how do we overcome them? This
   storyline focuses on the complex problems around energy creation and
-  consumption
+  consumption.
 colorSpace: lime
 startDate: 2022-08-01
 date: 2023-04-04

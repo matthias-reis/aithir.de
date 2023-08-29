@@ -9,8 +9,6 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   const slug = requestHeaders.get('x-path');
   const colorSpace = getItem(slug || '')?.colorSpace ?? 'neutral';
 
-  console.log(colorSpace, getItem(slug || '')?.colorSpace, slug);
-
   return (
     <LayoutFrame className={colorSpace} withTextLogo>
       {children}

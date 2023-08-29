@@ -17,7 +17,7 @@ export type FrontMatter = {
   colorSpace?: string;
 };
 
-export type Sec = string | { type: string; payload?: string | ItemMeta };
+export type Sec = string | { type: string; payload?: string };
 
 export type ItemMeta = {
   slug: string;

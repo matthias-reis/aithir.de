@@ -12,6 +12,7 @@ import { ReactElement } from 'rehype-react/lib';
 import { magazineLayout } from './magazine';
 import { postLayout } from './post';
 import { defaultLayout } from './default';
+import { storylineLayout } from './storyline';
 
 export type Layout = {
   Main: FC<{
@@ -20,12 +21,13 @@ export type Layout = {
     categoryItems?: ItemMeta[];
     relatedItems?: ItemMeta[];
   }>;
-  components: Record<string, FCC>;
+  components: Record<string, FCC<{ payload?: string }>>;
 };
 
 const layouts: Record<string, Layout> = {
   magazine: magazineLayout,
   post: postLayout,
+  storyline: storylineLayout,
   default: defaultLayout,
 };
 
@@ -34,27 +36,40 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
   const item = getItem(slug);
   if (!item) notFound();
 
-  const { Main, components } = layouts[item.type || 'none'] || layouts.default;
+  let { Main, components } = layouts[item.type || 'none'] || layouts.default;
+
+  components = {
+    ...components,
+    link: ({ payload }) => {
+      if (!payload) return null;
+      const itemMeta = getItem(payload);
+
+      if (!itemMeta)
+        return (
+          <p className="text-complement text-2xl my-4">
+            Unknown link target: {payload}
+          </p>
+        );
+
+      return (
+        <div className="border-t border-b border-decent-300 my-4">
+          <Item meta={itemMeta} />
+        </div>
+      );
+    },
+  };
 
   const relatedItems = getItemsBySlugs(item?.related ?? []);
   const categoryItems = getItemsByCategory(item?.category);
-  const sections: ReactElement[] = item.sections.map((section) => {
+  const sections: ReactElement[] = item.sections.map((section, i) => {
     if (typeof section !== 'string') {
-      const sectionSlug = section.payload as string;
-      const sectionMeta = getItem(sectionSlug);
-      if (sectionMeta) {
-        return (
-          <div
-            key={sectionSlug}
-            className="border-t border-b border-decent-300 my-4"
-          >
-            <Item meta={sectionMeta} />
-          </div>
-        );
+      if (components[section.type]) {
+        const Comp = components[section.type];
+        return <Comp key={i} payload={section.payload} />;
       } else {
         return (
-          <p className="text-complement" key={sectionSlug}>
-            {sectionSlug}
+          <p key={i} className="text-complement text-2xl my-4">
+            Unknown section type: {section.type}
           </p>
         );
       }
@@ -62,7 +77,6 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
       return parseMarkdown(section, components);
     }
   });
-  console.log(categoryItems);
   return (
     <Main
       item={item}

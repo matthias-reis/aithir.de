@@ -1,10 +1,11 @@
 ---
-superTitle: Article
-title: World 2 Vegan
+superTitle: World 2
+title: Veganism & Agriculture
+subTitle: Part 2 of the Series About the Climate Crisis
 description:
-  Deep-dive into the burning topics of our time - this article focuses on
-  agriculture, food production and the vegan diet (part of the "World 2"
-  series).
+  Deep-diving into the most burning topic of our time in this series of
+  articles, this part focuses on agriculture, food production and the vegan
+  diet.
 colorSpace: yellow
 startDate: 2022-08-18
 date: 2023-03-29
@@ -128,7 +129,7 @@ Time for a small recap session. We found out that meat and dairy have a 14%
 share in climate change. That brings the average German down from 539% of the
 available budget to 464%. Solid but apparently only a part of the equation.
 
-===> <calculator> vegan share
+==> <calculator> vegan share
 
 But this improvement is available right now for everyone. It just has to make
 click in your head.

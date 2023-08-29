@@ -25,36 +25,41 @@ const PostItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
   </article>
 );
 
-const MagazineItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
-  <article className="grid grid-cols-[1fr_1fr] items-center font-condensed">
-    <div className="flex items-center flex-col font-light text-decent-600 ">
-      <div className="uppercase tracking-wider">Edition</div>
-      <div className="text-7xl">1</div>
-    </div>
-    {/* eslint-disable-next-line @next/next/no-img-element */}
-    <img
-      src={`/preview/${meta.slug}.jpg`}
-      alt={`${meta.title} - magazine`}
-      className="w-full mb-4 place-self-end"
-    />
-    <div className="col-span-2 pt-4">
-      <p className="font-light text-decent-600 uppercase tracking-wider text-lg font-sans">
-        Magazine Edition {meta.edition}
-      </p>
-      <h3 className="text-3xl font-bold text-decent-800">{meta.title}</h3>
-    </div>
-  </article>
-);
+const MagazineItem: FCC<{ meta: ItemMeta }> = ({ meta }) => {
+  return (
+    <article className="grid grid-cols-[1fr_1fr] items-center font-condensed">
+      <div className="flex items-center flex-col font-light text-decent-600 ">
+        <div className="uppercase tracking-wider">Edition</div>
+        <div className="text-7xl">1</div>
+      </div>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={`/preview/${meta.slug}.jpg`}
+        alt={`${meta.title} - magazine`}
+        className="w-full mb-4 place-self-end"
+      />
+      <div className="col-span-2 pt-4">
+        <p className="font-light text-decent-600 uppercase tracking-wider text-lg font-sans">
+          Magazine Edition {meta.edition}
+        </p>
+        <h3 className="text-3xl font-bold text-decent-800">{meta.title}</h3>
+      </div>
+    </article>
+  );
+};
 
-export const Item: FCC<{ meta: ItemMeta; large?: boolean }> = ({ meta }) => (
-  <Link
-    href={`/${meta.slug}`}
-    className="w-full py-6 px-5 hover:bg-decent-200 block"
-  >
-    {meta.type === 'magazine' ? (
-      <MagazineItem meta={meta} />
-    ) : (
-      <PostItem meta={meta} />
-    )}
-  </Link>
-);
+export const Item: FCC<{ meta: ItemMeta; large?: boolean }> = ({ meta }) => {
+  if (!meta || typeof meta === 'string') return null;
+  return (
+    <Link
+      href={`/${meta.slug}`}
+      className="w-full py-6 px-5 hover:bg-decent-200 block"
+    >
+      {meta.type === 'magazine' ? (
+        <MagazineItem meta={meta} />
+      ) : (
+        <PostItem meta={meta} />
+      )}
+    </Link>
+  );
+};
