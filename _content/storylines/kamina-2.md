@@ -236,12 +236,3 @@ day before breakfast, while Luke was still trying to breathe.
 
 “But what could we do here?”, she added. “ Let’s find a hiding spot first. We
 must not be seen.”
-
-<!--
-
-City in Victory
-
-Return
-
-Dinner
--->

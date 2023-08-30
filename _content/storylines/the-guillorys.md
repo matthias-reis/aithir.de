@@ -1,12 +1,13 @@
 ---
+superTitle: Children's Story
 title: The Guillorys
 description:
   We are guests at an extraordinary family of mice in theire residence in New
   Orleans, the Guillorys. What's so special about them, you ask? Well, some of
   them have super powers.
 colorSpace: tan
-language: de
-ref: the-guillorys/de
+language: en
+ref: storylines/the-guillorys-de
 unfinished: true
 type: Children's Story
 startDate: 2023-03-27
@@ -103,7 +104,3 @@ couldn't hold focus again.
 Then they moved around each other. Louis also looked from the top. Remy bent
 himself towards Seraphine while she flickered between solid, transparent and
 invisible.
-
----
-
-Next Chapter

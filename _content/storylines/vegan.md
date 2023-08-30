@@ -12,6 +12,7 @@ date: 2023-03-29
 related:
   - storylines/world-2
   - storylines/traffic
+  - editions/1
 tags:
   - Climate Crisis
   - Veganism

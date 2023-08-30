@@ -27,7 +27,8 @@ export function getItem(slug: string) {
   return metaData[slug];
 }
 
-export const getItemsBySlugs = (slugs: string[]) => slugs.map(getItem);
+export const getItemsBySlugs = (slugs: string[]) =>
+  slugs.map(getItem).filter(Boolean);
 
 export const getItemsByCategory = (category?: string) =>
   category ? getPublicItems().filter((i) => i.category === category) : [];

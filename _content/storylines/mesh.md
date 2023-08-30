@@ -9,6 +9,7 @@ date: 2022-12-21
 related:
   - storylines/operator
   - storylines/tattoos
+  - editions/1
 tags:
   - Cyberpunk
   - SciFi

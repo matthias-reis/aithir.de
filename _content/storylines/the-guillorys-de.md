@@ -1,5 +1,5 @@
 ---
-superTitle: Children's Story
+superTitle: Kindergeschichte
 title: Die Guillorys
 description:
   Wir sind Gäste bei einr außergewöhnlichen Familie, einer Mäusefamilie in ihrer
@@ -112,7 +112,3 @@ dünner. Sie konnte sich nicht mehr konzentrieren.
 Dann bewegten sie sich umeinander herum. Auch Louis schaute von oben herab. Remy
 beugte sich zu Seraphine, während sie zwischen festem, durchsichtigem und
 unsichtbarem Zustand hin und her flimmerte.
-
----
-
-Neues Kapitel

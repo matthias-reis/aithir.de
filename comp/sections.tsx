@@ -5,7 +5,7 @@ export const Section: FCC<{
   headline: string;
   subHeadline?: string;
 }> = ({ children, headline, subHeadline }) => (
-  <Boxed Component="section" className="mt-8">
+  <Boxed Component="div" className="mt-8">
     <div className="pb-6 my-4 text-center">
       <h2 className={`font-bold font-condensed text-decent-900 text-6xl`}>
         {headline}
@@ -36,12 +36,13 @@ export const Boxed: FCC<{ Component?: JSX.ElementType }> = ({
   Component = 'div',
 }) => <Component className={`mx-5 md:mx-6 ${className}`}>{children}</Component>;
 
-export const ReadBoxed: FCC<{ Component?: JSX.ElementType }> = ({
+export const ReadBoxed: FCC<{ Component?: JSX.ElementType; id?: string }> = ({
   children,
   className,
   Component = 'div',
+  ...props
 }) => (
-  <Component className={`mx-5 sm:mx-8 md:mx-9 ${className}`}>
+  <Component className={`mx-5 sm:mx-8 md:mx-9 ${className}`} {...props}>
     {children}
   </Component>
 );

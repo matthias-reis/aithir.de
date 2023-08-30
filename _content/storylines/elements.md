@@ -392,16 +392,3 @@ trip right into the mouth of hell.
 
 On that day, they didn't dare to talk to the Dublin headquarters. That could
 wait until the next morning.
-
----
-
-<!--
-Barthel
-Sephys
-The Magister and the holy court
-Vortex To Hell
-
-## Fire
-
-## Air
--->

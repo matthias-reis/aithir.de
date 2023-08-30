@@ -77,6 +77,7 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
       return parseMarkdown(section, components);
     }
   });
+
   return (
     <Main
       item={item}

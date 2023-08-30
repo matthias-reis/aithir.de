@@ -12,7 +12,6 @@ date: 2023-06-23
 related:
   - storylines/hermetics
   - storylines/tattoos
-  - storylines/tropes
 tags:
   - Dracula
   - Hermetics

@@ -1,5 +1,5 @@
 ---
-superTitile: Kindergeschichte
+superTitle: Kindergeschichte
 title: Asimov
 description:
   Ein Roboter von einem fremden Planeten stellt Kontakt zu einem Jungen auf der

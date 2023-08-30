@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Item } from '../../comp/item';
 import { Boxed, Grid, GridItem, ReadBoxed, Section } from '../../comp/sections';
 import { Tag, TagList } from '../../comp/tag';
@@ -32,12 +33,19 @@ export const storylineLayout: Layout = {
       <strong className="font-bold text-decent-900">{children}</strong>
     ),
     li: ({ children }) => <li className="mb-3 ml-4">{children}</li>,
+    blockquote: ({ children }) => (
+      <blockquote className="border-l-2 border-decent-500 pl-4 font-sans text-sm [&_p]:font-sans [&_p]:text-sm">
+        {children}
+      </blockquote>
+    ),
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
     <>
       <div className="text-center mb-5">
         <p className="text-decent-600 text-xl uppercase tracking-wider mb-5">
+          {item.language === 'de' && '🇩🇪  '}
           {item.superTitle}
+          {item.unfinished && ' (in the making)'}
         </p>
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif">
           {item.title}
@@ -56,8 +64,50 @@ export const storylineLayout: Layout = {
         alt={item.title}
         className="object-contain w-full max-w-3xl mx-auto z-0 mt-6 mb-8"
       />
+      {item.language === 'de' && item.ref && (
+        <Boxed className="text-right mb-5">
+          <Link
+            href={`/${item.ref}`}
+            className="text-decent-600 hover:text-decent-700"
+          >
+            🇬🇧 English version available
+          </Link>
+        </Boxed>
+      )}
+      {item.language === 'en' && item.ref && (
+        <Boxed className="text-right mb-5">
+          <Link
+            href={`/${item.ref}`}
+            className="text-decent-600 hover:text-decent-700"
+          >
+            🇩🇪 Deutsche Version verfügbar
+          </Link>
+        </Boxed>
+      )}
+      {item.unfinished && (
+        <Boxed className="text-right">
+          <p className="w-5/12 ml-auto mb-6">
+            This storyline is not yet finished. Some chapters are missing. If
+            you return regularly, you can jump to the{' '}
+            <a
+              href="#end"
+              className="text-decent-600 underline underline-offset-4 hover:text-decent-700"
+            >
+              last&nbsp;part
+            </a>{' '}
+            to see the previously added changes.
+          </p>
+        </Boxed>
+      )}
       {sections.map((section, i) => (
-        <ReadBoxed key={i}>{section}</ReadBoxed>
+        <ReadBoxed
+          key={i}
+          Component="section"
+          id={i === sections.length - 1 ? 'end' : `part-${i}`}
+          className={item.unfinished ? 'last-of-type:bg-decent-300' : ''}
+        >
+          {section}
+        </ReadBoxed>
       ))}
       {item.tags && (
         <ReadBoxed className="mt-7">
@@ -99,13 +149,15 @@ export const storylineLayout: Layout = {
         </Section>
       )}
       {relatedItems && relatedItems.length > 0 && (
-        <Section headline="Related Posts">
+        <Section headline="Related Pages">
           <Grid>
-            {relatedItems.map((item) => (
-              <GridItem key={item.slug}>
-                <Item meta={item} />
-              </GridItem>
-            ))}
+            {relatedItems.map((item) => {
+              return (
+                <GridItem key={item.slug}>
+                  <Item meta={item} />
+                </GridItem>
+              );
+            })}
             {Array(3 - (relatedItems.length % 3))
               .fill('')
               .map((_, i) => (
