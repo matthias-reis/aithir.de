@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { notFound } from 'next/navigation';
+import { redirect } from 'next/navigation';
 import {
   getItem,
   getItemsByCategory,
@@ -13,6 +13,8 @@ import { magazineLayout } from './magazine';
 import { postLayout } from './post';
 import { defaultLayout } from './default';
 import { storylineLayout } from './storyline';
+import { storylineVladLayout } from './storylineVlad';
+import { storylineGoliathLayout } from './storylineGoliath';
 
 export type Layout = {
   Main: FC<{
@@ -27,16 +29,19 @@ export type Layout = {
 const layouts: Record<string, Layout> = {
   magazine: magazineLayout,
   post: postLayout,
+  'storylines/vlad': storylineVladLayout,
+  'storylines/goliath': storylineGoliathLayout,
   storyline: storylineLayout,
   default: defaultLayout,
 };
 
 const Page: FC<DynamicPageProps> = ({ params }) => {
-  const slug = params?.slug.join('/');
+  const slug = (params?.slug ?? []).join('/');
   const item = getItem(slug);
-  if (!item) notFound();
+  if (!item) redirect('/');
 
-  let { Main, components } = layouts[item.type || 'none'] || layouts.default;
+  let { Main, components } =
+    layouts[item.slug] || layouts[item.type || 'none'] || layouts.default;
 
   components = {
     ...components,

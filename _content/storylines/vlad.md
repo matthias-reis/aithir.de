@@ -52,6 +52,8 @@ sure that Stoker will land in front of a Hermetic court and that these
 investigations will bear all evidence for the case. Time will tell if he will be
 convicted or not. I for one promise to be as impartial as possible.
 
+---
+
 I was hoping to stay overnight in Schäßburg before my planned visit. But the
 coach, the road holes and the weather disrupted my plans. Totally exhausted, I
 came to the huge wooden door in one of the city wall towers, the tailor's tower,
@@ -92,6 +94,8 @@ Egmont was a dominant guy. He seemed to have only one assistant at that time and
 in his conclusions, he always was very reluctant. That might be the reason why
 the incidents lasted so long. He must have been involved personally.
 
+---
+
 In the end, it took us five full days to sift through and catalogue the
 material. Nine out of ten resources came from Sir Egmont. So we focused mainly
 on the other ten per cent and the material I brought from outside. That gave us
@@ -107,6 +111,8 @@ aristocratic families that came from all over Europe.
 The core of the scandal around Vlad, however, was something different. He wanted
 to go public. He wanted to break rule number two of the Hermetic Society and
 tell the world who we are. That was why Egmond the Chronist tried to stop Vlad.
+
+---
 
 Thankfully, after this week of dusty research, we had some leads to follow. I
 took Maxim with me, this time on a much longer journey to the archives in
@@ -131,6 +137,8 @@ at that point still unclear. So we had material to speculate while staying over
 night.
 
 It was clear that we needed more time.
+
+---
 
 Twice. We investigated twice in the wrong direction, first Vlad and then this
 Westenra lady. This is not me. Usually, I don't make these kinds of mistakes. I
@@ -166,6 +174,8 @@ after his countless battles. And that is the fabric that Bram Stoker's book is
 made of.
 
 The case was now crystal clear to me. Just in time for the hermetic court.
+
+---
 
 It is July 1905. I am at the Hermetic High Court in London and it is right
 before the start of the trial against the famous Bram Stoker. I just made my
@@ -317,6 +327,8 @@ yet I didn’t sleep very well that night. I was also not really sure what I
 wanted, what verdict I expected. Did I want Stoker in jail? I guess not. After
 all the novel was not so bad, I admitted to myself. I reassured myself that I
 was so neutral, that I didn’t even form an opinion about the accused.
+
+---
 
 The next day, when I entered the court room, Stoker wasn’t late. He already sat
 in his chair next to one of his book characters and I had to think about that

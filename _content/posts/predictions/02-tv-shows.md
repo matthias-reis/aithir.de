@@ -6,8 +6,9 @@ description:
 date: 2023-03-28
 colorSpace: yellow
 tags:
-  - tv
-  - ai
+  - TV Show
+  - Series
+  - AI
 ---
 
 Everyone writes about the rapid progress of AI. Everyone makes experiments with

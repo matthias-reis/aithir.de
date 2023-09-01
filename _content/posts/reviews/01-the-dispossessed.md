@@ -7,6 +7,7 @@ colorSpace: cyan
 tags:
   - Ursula K. Leguin
   - Book
+  - Novel
   - SciFi
 ---
 

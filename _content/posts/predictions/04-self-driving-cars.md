@@ -4,8 +4,8 @@ description: When will I order a car and ask it to drive me to the supermarket?
 date: 2023-05-02
 colorSpace: yellow
 tags:
-  - cars
-  - autonomous driving
+  - Cars
+  - Autonomous Driving
 ---
 
 Traffic is terrible, Jams are annoying, Construction sites are from hell and I

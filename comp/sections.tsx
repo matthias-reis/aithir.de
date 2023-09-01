@@ -42,7 +42,7 @@ export const ReadBoxed: FCC<{ Component?: JSX.ElementType; id?: string }> = ({
   Component = 'div',
   ...props
 }) => (
-  <Component className={`mx-5 sm:mx-8 md:mx-9 ${className}`} {...props}>
+  <Component className={`mx-5 sm:mx-8 md:mx-9 mb-7 ${className}`} {...props}>
     {children}
   </Component>
 );

@@ -6,8 +6,8 @@ description:
 date: 2023-04-20
 colorSpace: yellow
 tags:
-  - climate crisis
-  - refugees
+  - Climate Crisis
+  - Refugees
 ---
 
 Everything can already be seen in the architectural foundation of future

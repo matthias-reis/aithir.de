@@ -6,8 +6,9 @@ description:
 date: 2023-06-12
 colorSpace: yellow
 tags:
-  - metaverse
-  - internet
+  - Metaverse
+  - Meta
+  - Internet
 ---
 
 As a big cyberpunk fan, I am constantly interested in the VR topic. The

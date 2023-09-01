@@ -6,7 +6,9 @@ description:
 date: 2023-07-06
 colorSpace: yellow
 tags:
-  - jobs
+  - Jobs
+  - Job Market
+  - Work
 ---
 
 As long as we can think, work has been at the centre of our existence. These

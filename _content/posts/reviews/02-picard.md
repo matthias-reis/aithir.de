@@ -8,6 +8,7 @@ date: 2023-04-26
 colorSpace: cyan
 tags:
   - Star Trek
+  - Picard
   - TV Show
   - SciFi
   - Space Opera

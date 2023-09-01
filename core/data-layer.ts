@@ -56,6 +56,11 @@ export function getTags() {
     })
     .sort((a, b) => b.count - a.count);
 }
+
+export function getTagByTagSlug(slug: string) {
+  const tags = Object.fromEntries(getTags().map((t) => [t.slug, t]));
+  return tags[slug];
+}
 export function getTagsByTagSlugs(tagNames: string[]) {
   const tags = Object.fromEntries(getTags().map((t) => [t.slug, t]));
   const slugs = tagNames.map(slugify);

@@ -7,6 +7,7 @@ tags:
   - Archetypes
   - Tropes
   - SciFi
+  - Aliens
 colorSpace: carmine
 ---
 

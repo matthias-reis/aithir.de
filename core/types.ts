@@ -47,4 +47,4 @@ export type FCC<P = {}> = React.FC<
   PropsWithChildren<P> & { className?: string }
 >;
 
-export type DynamicPageProps = { params: { slug: string[] } };
+export type DynamicPageProps = { params: { slug?: string[]; tag?: string } };

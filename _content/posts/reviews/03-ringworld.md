@@ -6,8 +6,10 @@ date: 2023-05-23
 colorSpace: cyan
 tags:
   - Larry Niven
+  - Ringworld
   - SciFi
   - Book
+  - Novel
 ---
 
 I'm late to this sci-fi classic: Ringworld by Larry Niven. Niven has, especially

@@ -6,8 +6,10 @@ date: 2023-06-20
 colorSpace: cyan
 tags:
   - SciFi
+  - N.K. Jemisin
   - Fantasy
   - Dystopia
+  - Novel
 ---
 
 One of the most famous SciFi authors, Arthur C. Clark, once said: "Any

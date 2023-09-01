@@ -6,8 +6,8 @@ description:
 date: 2023-01-02
 colorSpace: yellow
 tags:
-  - ar
-  - augmented reality
+  - AR
+  - Augmented Reality
 ---
 
 Hello and happy 2023! I thought I'd start the new year with a new storyline of
