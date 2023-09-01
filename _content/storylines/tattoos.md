@@ -13,6 +13,10 @@ tags:
   - Ray Bradbury
 ---
 
+## Right Arm
+
+### Tsuru
+
 Mr. Hanako was a silent man. Three days a week, he went into the pub in
 Immingham, Middle England. As he didn't talk much, no one of the regulars in the
 pub knew his story. He was a Japanese seaman and somehow, probably because of a
@@ -30,13 +34,13 @@ ready to tell you mine ...".
 
 The whole pub fell silent. Tension was rising and Mr. Hanako started speaking.
 
----
-
 Mr Hanako had all the attention as he started.
 
 "I've been going to the sea for over thirty years", he started. "Mostly on
 smaller commercial merchant vessels. I've seen all the oceans and harbors in
 over a hundred countries.
+
+==> <image> 1
 
 There was one day at sea that changed me. Cranes, we call them Tsuru, are
 usually a symbol of luck, they say. No seaman I know has ever seen one on a
@@ -67,6 +71,8 @@ We couldn't do anything. We sent out the SOS signal at one o'clock. Then we had
 to wait. But it still got worse. We had lost some containers already, but then
 the ship started to capsize and we faced death.
 
+==> <image> 2
+
 The first man, one of the Kazakhs, went overboard at around one thirty. Two more
 lost their balance trying to save the poor man. Ten minutes later the ship
 started to crack. I fell into the water and fainted.
@@ -76,11 +82,15 @@ started to crack. I fell into the water and fainted.
 I remember things. Visions from when I was underwater. After I fainted, I must
 have been drifting around. And I saw things. well, I believe I dreamt of them.
 
+==> <image> 4
+
 First, there was Koromodako. You may know him from his other name, Ctulhu. A
 giant squid, several meters large. I really believe he held me above the water
 with one of his tentacles. We Japanese believe in Yokai, natural spirits, just
 like you believe in Saints. Koromodako didn't speak but I believe he
 communicated with me through his mind.
+
+==> <image> 3
 
 After that, I saw other sea creatures, Heikegani, a giant crab and others. I
 also have memories of skulls drifting on the still stormy sea—presumably my dead
@@ -88,6 +98,8 @@ colleagues.
 
 At last, the Ryu came. The giant sea dragon. The lord of all the other creatures
 that now retreated and stepped back into the shadows where they came from.
+
+==> <image> 5
 
 "Hello Mr. Hanako", said Watatsumi, the Dragon, in a terrifying voice. "You have
 a powerful guardian."
@@ -115,7 +127,9 @@ that story".
 And everything went back to normal. And Mr Hanko sank into his chair and smiled
 slightly.
 
----
+## Left Arm
+
+### Lucy and the Old Owl
 
 Lucy is a designer and design connaisseur. Others would say that she's an
 influencer because, besides her job, she maintains a travel blog. Not for the
@@ -142,6 +156,8 @@ When she finally copied the address and looked it up in the map of the Mesh, she
 was astonished. It was an end-of-the-world location in the middle of nothingness
 with an abundance of pure and unterraformed landscapes around.
 
+==> <image> 6
+
 She took the day off for the trip, plugged in and pasted the coordinates. She
 arrived in an old shed-like room. It was made out of wood and many rusty tools
 and instruments hang on the walls.
@@ -152,14 +168,10 @@ in it. On the other side of the area, some 40 u away she saw another shed. It
 looked like an exact copy. She walked there and saw the sign of a cicada on the
 door.
 
-She entered and found herself in a different world.
-
----
-
-After entering the shed, Lucy stood on the same grass plain. But here, she saw a
-different sky, that looked much more real than the usual Mesh projections.
-Somewhere in the distance, she saw the majestic tree rising in the middle of the
-green sea of grass.
+She went in and found herself in a different world. Lucy stood on the same grass
+plain. But here, she saw a different sky, that looked much more real than the
+usual Mesh projections. Somewhere in the distance, she saw the majestic tree
+rising in the middle of the green sea of grass.
 
 She started walking and with every step, she saw more details and the tree grew
 bigger and bigger. Twigs were dynamically moving on the top of the crown and the
@@ -176,13 +188,13 @@ most perfect Mesh diorama, she had ever seen.
 Then she went on to the trunk that was as wide as a house and began to climb the
 tree of life.
 
----
-
 The tree was not hard to climb. Its bark texture was rough and she found grip
 very easily. Still, it took a while and a short moment of vertigo until Lucy
 reached the first branches of the crown that spanned above her like a giant
 neo-gothic dome. When she found firm ground on a stable fork, she took a moment
 of rest and looked around with amazement.
+
+==> <image> 7
 
 She checked her recording - still seeing the red dot in the corner, when she saw
 something moving in the shadow on the other side of the natural plateau. Unsure
@@ -194,8 +206,6 @@ crafted artwork.
 
 Was she in danger? Was she under attack? That was her second thought while she
 brought tension and readiness into her resting body again.
-
----
 
 Lucy didn't dare to move. She was amazed by the art around her and by the
 caracal, the most beautiful creature she had ever seen in the digital world. But
@@ -210,17 +220,19 @@ sky. It turned into a dark grey and it began to rain slightly. Then she noticed
 that also the leaves themselves had shifted colours. The season was changing. It
 was autumn now, but that was no reason to give up.
 
+==> <image> 8
+
 When it started to snow big, chunky snowflakes, she saw another iconic creature.
 It was a raven shimmering in black and violet. That bird also had cyber
 applications and mechanical parts. It even wore metal eyeglasses.
 
 And it started to talk.
 
----
-
 "A warm welcome, Lucy", started the raven. The bird which was quite large even
 for a raven looked into a gigantic book clad in leather with golden
 applications. The front emblem showed a drawing of an insect, a cicada.
+
+==> <image> 9
 
 "Today is a special day, you know that right?", it continued in a lecturing
 voice. "It's the day of the owl and you are the first who has come this far. But
@@ -235,21 +247,24 @@ fitting into the tree's structure and with stunning Art Deco architecture.
 
 The front door was formed exactly like the logo on the book. It was a cicada.
 Now she remembered that she observed the symbol everywhere along the way. On the
-entrance door, the trunk, the battery pack of the caracal.
+entrance door, the trunk, even the battery pack of the caracal.
 
-She entered.
+She entered and had a cup of tea with the bird that seemed so human in its
+gestures.
 
 ---
 
 The tree and the area were constantly changing. Lucy particularly noticed that
-when she stepped outside the raven's tree house. It was dark. The tree was lit
-by some Japanese lanterns and thousands of small lights that presumably came
-from all those sleeping semi-cyborg inhabitants - yet another iconic photo she
-couldn't take.
+when she stepped outside the raven's tree house again. It was dark although only
+some minutes had passed. The tree was lit by some Japanese lanterns and
+thousands of small lights that presumably came from all those sleeping
+semi-cyborg inhabitants - yet another iconic photo she couldn't take.
 
 The black bird showed her the way as they climbed even further to the top of the
 crown. And finally, she had reached a plateau at the top and could have a look
 outside the roof of leaves.
+
+==> <image> 10
 
 "Hello, Lucy", another darker and calmer voice said. A huge barn owl sat next to
 her, the large moon in its back. "You are this year's winner. Is it what you

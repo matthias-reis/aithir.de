@@ -15,6 +15,7 @@ import { defaultLayout } from './default';
 import { storylineLayout } from './storyline';
 import { storylineVladLayout } from './storylineVlad';
 import { storylineGoliathLayout } from './storylineGoliath';
+import { storylineTattooLayout } from './storylineTattoo';
 
 export type Layout = {
   Main: FC<{
@@ -31,6 +32,7 @@ const layouts: Record<string, Layout> = {
   post: postLayout,
   'storylines/vlad': storylineVladLayout,
   'storylines/goliath': storylineGoliathLayout,
+  'storylines/tattoos': storylineTattooLayout,
   storyline: storylineLayout,
   default: defaultLayout,
 };
