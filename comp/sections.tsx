@@ -1,4 +1,3 @@
-import { ComponentType } from 'react';
 import { FCC } from '../core/types';
 
 export const Section: FCC<{

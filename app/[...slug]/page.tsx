@@ -16,6 +16,7 @@ import { storylineLayout } from './storyline';
 import { storylineVladLayout } from './storylineVlad';
 import { storylineGoliathLayout } from './storylineGoliath';
 import { storylineTattooLayout } from './storylineTattoo';
+import { storylineWorld2Layout } from './storylineWorld2';
 
 export type Layout = {
   Main: FC<{
@@ -33,6 +34,9 @@ const layouts: Record<string, Layout> = {
   'storylines/vlad': storylineVladLayout,
   'storylines/goliath': storylineGoliathLayout,
   'storylines/tattoos': storylineTattooLayout,
+  'storylines/world-2': storylineWorld2Layout,
+  'storylines/vegan': storylineWorld2Layout,
+  'storylines/traffic': storylineWorld2Layout,
   storyline: storylineLayout,
   default: defaultLayout,
 };
@@ -46,6 +50,28 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
     layouts[item.slug] || layouts[item.type || 'none'] || layouts.default;
 
   components = {
+    p: ({ children }) => (
+      <p className="text-lg font-serif leading-loose text-decent-700 mb-4">
+        {children}
+      </p>
+    ),
+    ul: ({ children }) => (
+      <ul className="font-serif text-lg mb-4 list-outside list-disc text-decent-700">
+        {children}
+      </ul>
+    ),
+    li: ({ children }) => (
+      <li className="mb-3 ml-4 leading-loose">{children}</li>
+    ),
+    a: (props) => <a className="underline underline-offset-4" {...props} />,
+    strong: ({ children }) => (
+      <strong className="font-bold text-decent-900">{children}</strong>
+    ),
+    blockquote: ({ children }) => (
+      <blockquote className="border-l-2 border-decent-500 pl-4 font-sans text-sm [&_p]:font-sans [&_p]:text-sm">
+        {children}
+      </blockquote>
+    ),
     ...components,
     link: ({ payload }) => {
       if (!payload) return null;

@@ -1,11 +1,12 @@
 ---
 superTitle: World 2
 title: Traffic & Transport
-subTitle: Part 3 of the Series About the Climate Crisis
+subTitle: Part Three of the Series About the Climate Crisis
 description:
-  Deep-dive into the burning topics of our time - this storyline focuses on
-  traffic, transport, travel and their effects on climete and wellness
-colorSpace: red
+  What are the biggest problems of our time and how do we overcome them? World 2
+  is a deep dive into the climate crisis. Part number three focuses on traffic,
+  transport, travel and their effects on climate and wellness.
+colorSpace: orange
 startDate: 2022-08-09
 date: 2023-03-08
 related:

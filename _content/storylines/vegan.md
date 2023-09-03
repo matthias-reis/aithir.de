@@ -1,12 +1,12 @@
 ---
 superTitle: World 2
 title: Veganism & Agriculture
-subTitle: Part 2 of the Series About the Climate Crisis
+subTitle: Part Two of the Series About the Climate Crisis
 description:
-  Deep-diving into the most burning topic of our time in this series of
-  articles, this part focuses on agriculture, food production and the vegan
-  diet.
-colorSpace: yellow
+  What are the biggest problems of our time and how do we overcome them? World 2
+  is a deep dive into the climate crisis. This second part focuses on
+  agriculture, food production and the vegan diet.
+colorSpace: olive
 startDate: 2022-08-18
 date: 2023-03-29
 related:

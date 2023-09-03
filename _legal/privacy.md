@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-supertitle: Datenschutzerklärung (DE)
+superTitle: Datenschutzerklärung (DE)
 ---
 
 ## 1. Datenschutz auf einen Blick
@@ -94,11 +94,11 @@ USA
 
 ## 3. Allgemeine Hinweise und Pflichtinformationen
 
-### Datenschutz Die Betreiber dieser
+### Datenschutz
 
-Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre
-personenbezogenen Daten vertraulich und entsprechend den gesetzlichen
-Datenschutzvorschriften sowie dieser Datenschutzerklärung.
+Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr
+ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend
+den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.
 
 Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten
 erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich
@@ -346,7 +346,7 @@ Speicherung widersprechen, sofern Ihre Interessen unser berechtigtes Interesse
 
 ## 6. Plugins und Tools
 
-###YouTube mit erweitertem Datenschutz
+### YouTube mit erweitertem Datenschutz
 
 Diese Website bindet Videos der Website YouTube ein. Betreiber der Seiten ist
 die Google Ireland Limited („Google“), Gordon House, Barrow Street, Dublin 4,

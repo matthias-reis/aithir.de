@@ -22,6 +22,25 @@ export const LayoutFrame: FCC<{
         </Boxed>
         {children}
       </div>
+      <nav className="flex gap-5 items-center justify-center mt-6 mb-8">
+        <LegalLink href="/more/about">About</LegalLink>
+        <a
+          className="underline underline-offset-2 text-decent-500 hover:text-decent-700"
+          rel="me"
+          href="https://mstdn.social/@aithir"
+        >
+          Mastodon
+        </a>
+        <LegalLink href="/more/privacy">Privacy Policy</LegalLink>
+        <LegalLink href="/more/imprint">Imprint</LegalLink>
+      </nav>
     </body>
   );
 };
+
+const LegalLink: FCC<{ href: string }> = (props) => (
+  <Link
+    {...props}
+    className="underline underline-offset-2 text-decent-500 hover:text-decent-700"
+  />
+);

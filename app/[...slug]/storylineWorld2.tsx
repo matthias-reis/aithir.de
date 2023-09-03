@@ -6,7 +6,7 @@ import { getTagsByTagSlugs } from '../../core/data-layer';
 import { getMonthName, getYearSpan } from '../../core/date-helpers';
 import type { Layout } from './page';
 
-export const storylineLayout: Layout = {
+export const storylineWorld2Layout: Layout = {
   components: {
     h1: ({ children }) => (
       <h1 className="font-condensed font-bold text-5xl md:text-8xl text-decent-900 uppercase mb-3">
@@ -21,29 +21,29 @@ export const storylineLayout: Layout = {
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
     <>
-      <div className="text-center mb-5">
-        <p className="text-decent-600 text-xl uppercase tracking-wider mb-5">
-          {item.language === 'de' && '🇩🇪  '}
-          {item.superTitle}
-          {item.unfinished && ' (in the making)'}
-        </p>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif">
-          {item.title}
-        </h1>
-        {item.subTitle && (
-          <p className="text-decent-600 text-xl mt-4">{item.subTitle}</p>
-        )}
+      <div className="text-center relative">
+        <img
+          src={`/detail/${item.image || item.slug}.jpg`}
+          alt={item.title}
+          className="object-contain w-full z-0 mt-6 mb-8"
+        />
+        <div className="absolute w-full top-2/3">
+          <p className="text-8xl sm:text-9xl font-script text-decent-900">
+            World 2
+          </p>
+          <h1 className="text-5xl font-condensed font-bold text-decent-700">
+            {item.title}
+          </h1>
+          {item.subTitle && (
+            <p className="text-xl text-decent-700">{item.subTitle}</p>
+          )}
+        </div>
       </div>
-      {item.description && (
-        <p className="text-decent-700 text-lg text-center max-w-xl mx-auto">
-          {item.description}
-        </p>
-      )}
-      <img
-        src={`/detail/${item.image || item.slug}.jpg`}
-        alt={item.title}
-        className="object-contain w-full max-w-3xl mx-auto z-0 mt-6 mb-8"
-      />
+
+      <p className="text-decent-600 text-lg max-w-lg mx-auto mb-7 px-4">
+        {item.description}
+      </p>
+
       {item.language === 'de' && item.ref && (
         <Boxed className="text-right mb-5">
           <Link

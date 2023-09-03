@@ -17,17 +17,6 @@ export const postLayout: Layout = {
         {children}
       </h2>
     ),
-    p: ({ children }) => (
-      <p className="text-lg font-serif leading-loose text-decent-700 mb-4">
-        {children}
-      </p>
-    ),
-    ul: ({ children }) => (
-      <ul className="font-serif text-lg mb-4 list-outside list-disc text-decent-700">
-        {children}
-      </ul>
-    ),
-    li: ({ children }) => <li className="mb-3 ml-4">{children}</li>,
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
     <>

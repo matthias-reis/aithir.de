@@ -18,26 +18,6 @@ export const storylineVladLayout: Layout = {
         {children}
       </h2>
     ),
-    p: ({ children }) => (
-      <p className="text-lg font-serif leading-loose text-decent-700 mb-4">
-        {children}
-      </p>
-    ),
-    ul: ({ children }) => (
-      <ul className="font-serif text-lg mb-4 list-outside list-disc text-decent-700">
-        {children}
-      </ul>
-    ),
-    a: (props) => <a className="underline underline-offset-4" {...props} />,
-    strong: ({ children }) => (
-      <strong className="font-bold text-decent-900">{children}</strong>
-    ),
-    li: ({ children }) => <li className="mb-3 ml-4">{children}</li>,
-    blockquote: ({ children }) => (
-      <blockquote className="border-l-2 border-decent-500 pl-4 font-sans text-sm [&_p]:font-sans [&_p]:text-sm">
-        {children}
-      </blockquote>
-    ),
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
     <>
