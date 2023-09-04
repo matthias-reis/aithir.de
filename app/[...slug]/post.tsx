@@ -38,7 +38,7 @@ export const postLayout: Layout = {
               </span>
             )}
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-9xl font-script">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-script">
             {item.title}
           </h1>
           {item.subTitle && (

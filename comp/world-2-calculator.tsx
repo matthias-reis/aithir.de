@@ -39,6 +39,15 @@ const variants: Record<string, Variant> = {
       { name: 'World', value: 54_590_000_000, reference: 'wo' },
     ],
   },
+  vegan: {
+    title: 'Effect of a Vegan Diet',
+    text: 'This chart compares savings of a vegan diet to giving up your car with surprising results.',
+    lines: [
+      { name: 'Savings No Car', value: 473_600_000, reference: 'eu' },
+      { name: 'Savings Vegan', value: 94_500_000, reference: 'de' },
+      { name: 'German', value: 675_000_000, reference: 'de' },
+    ],
+  },
   coal: {
     title: 'Fossile Energy Sources',
     text: `The single coal plant Niederaußem contributes 36% to the budget of a german citizen but only 0.7% of the overall energy.

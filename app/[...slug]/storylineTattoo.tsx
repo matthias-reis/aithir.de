@@ -22,7 +22,7 @@ export const storylineTattooLayout: Layout = {
       <img
         alt="Tattoo Photography"
         src={`/tattoos/${payload}.jpeg`}
-        className="w-7/12 sm:w-6/12 md:w-5/12 mx-auto sm:float-right"
+        className="w-7/12 sm:w-6/12 md:w-4/12 mx-auto sm:float-right clear-both ml-3 my-4"
       />
     ),
   },

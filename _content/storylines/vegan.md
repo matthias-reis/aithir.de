@@ -127,20 +127,22 @@ proof that it's inevitable.
 ## Let's Set It in Relation
 
 Time for a small recap session. We found out that meat and dairy have a 14%
-share in climate change. That brings the average German down from 539% of the
-available budget to 464%. Solid but apparently only a part of the equation.
+share in climate change.
 
-==> <calculator> vegan share
+==> <calculator> vegan
 
-But this improvement is available right now for everyone. It just has to make
-click in your head.
+The chart shows, that you can shave off 71% from your 500% over-budget emission
+with a vegan diet. In comparison if you get rid of your car
+([average in europe](https://www.destatis.de/Europa/EN/Topic/Transport/Car.html)),
+you can only save 66% of the budget. The improvement is not huge, but it is
+available right now for everyone. It just has to make click in your head.
 
-Mass meat and dairy production on the other hand comes with a much bigger
-footprint in another crisis: Biodiversity. I know. Yet another crisis doesn't
-even fit in our heads anymore. But fighting the climate crisis the right way
-might come with many synergies with stopping the extinction of species, when you
-do it the right way. It will be worth it, because in a climate catastrophe, many
-of us will suffer, but after a biodiversity ELE all humans will be wiped out.
+Mass meat and dairy production, however, come with a much bigger footprint in
+another crisis: **Biodiversity**. I know. Yet another crisis doesn't even fit in
+our heads anymore. But fighting the climate crisis the right way might come with
+many synergies with stopping the extinction of species, when you do it the right
+way. It will be worth it, because in a climate catastrophe, many of us will
+suffer, but after a biodiversity ELE all humans will be wiped out.
 
 ## Pillars of Veganism
 
@@ -157,28 +159,29 @@ It's baked (wrong word, I know, butchered would be better) even into the
 language. In English, you differentiate between cow and beef, calf and veal, pig
 and pork.
 
-Also, meat is an abstraction. A ridiculous argument against vegans is that they
-substitute meat with "identically looking alternatives", while a sausage looks
-nothing at all like the original. With the abstraction, it's wiped from our
-conscious mind.
+Also, meat is an abstraction in itself. A ridiculous argument against vegans is
+that they substitute meat with "identically looking alternatives", while a
+sausage looks nothing at all like the original, too. Together with the
+abstraction, its background wiped from our conscious mind.
 
-People even think that organic meat - where animals have 30 cm more space would
-be less cruel. No. Someone cuts these throats as well in the end.
+People even think that organic meat - where animals have 30 cm more space -
+would be less cruel. No. Someone cuts these throats as well in the end.
 
 The aspect of respecting **animal rights** is the most important part of
-veganism. Two simple narratives from different perspecitves describe the
-situation best. Let's call it cat/cow according to the Yoga position.
+veganism. Two simple narratives from different perspecitves describe very well,
+that animals should have rights just as humans do. Let's call it cat/cow
+according to the Yoga position.
 
-If you've ever lived with a pet, e.g. a cat, you automatically get to know their
-character. I believe there is no way to unsee that the animal has a personality
-that must be protected. They're a friend. They depend on you, speak in their own
-language with you and you understand most of it. They express thoughts, feelings
-and needs.
+- Cat: If you've ever lived with a pet, e.g. a cat, you automatically get to
+  know their character. I believe there is no way to unsee that the animal has a
+  personality that must be protected. They're a friend. They depend on you,
+  speak in their own language with you and you understand most of it. They
+  express thoughts, feelings and needs.
 
-And on the other hand, if you've ever looked into the processes in a
-slaughterhouse (I recommend the documentary "Cowspiracy" for a start), you
-immediately know that it is utterly wrong what's happening there. It will be
-impossible for many people to accept these conditions just for a steak.
+- Cow: And on the other hand, if you've ever looked into the processes of a
+  slaughterhouse (I recommend the documentary "Cowspiracy" for a start), you
+  immediately know that it is utterly wrong what's happening there. It will be
+  impossible for many people to accept these conditions just for a steak.
 
 Even without written law, this will become clear. Animal Rights are not up for
 discussion. There will be cases where it doesn't seem that obvious. So it's also
@@ -208,7 +211,7 @@ not sick, but I felt my veins getting plugged with cholesterol and my metabolism
 getting enriched with poison. And then, one day, I took the decision to stop. At
 that point, I didn't know all the details. But I felt better day by day.
 
-There were 800 significant studies about meat in 1015 already and it's well
+There were 800 significant studies about meat in 2015 already and it's well
 known that animal protein is carcinogenic. The China Study (I also recommend the
 book by T. Colin Campbell) is about a region in China where people were
 coincidentally living vegan and could be examined in all areas of physiology.
@@ -224,9 +227,10 @@ industries.
 
 Veganism is no religion, as many claim. I think it's two things: a set of rules
 that help you easily navigate through the giant stream of consumption. When you
-follow them, you most likely do the right thing for your body, the environment
-and in any case for the animals. And it's a mindset. It's the thought that we
-evolved from other animals and therefore we can't draw a line.
+follow them, you (not always, but) most likely do the right thing for your body,
+the environment and in any case for the animals. And it's also a mindset. It's
+the thought that we evolved from other animals and therefore we can't draw a
+line.
 
 In this article, I've discovered what effects dairy and meat have on us and our
 environment. it is inevitable that the whole human race is more and more

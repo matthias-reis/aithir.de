@@ -30,14 +30,14 @@ export const storylineWorld2Layout: Layout = {
           className="object-contain w-full z-0 mt-6 mb-8"
         />
         <div className="absolute w-full top-2/3">
-          <p className="text-8xl sm:text-9xl font-script text-decent-900">
+          <p className="text-6xl sm:text-7xl font-script text-saturated-600 mb-5">
             World 2
           </p>
-          <h1 className="text-5xl font-condensed font-bold text-decent-700">
+          <h1 className="text-5xl font-condensed font-bold text-decent-900">
             {item.title}
           </h1>
           {item.subTitle && (
-            <p className="text-xl text-decent-700">{item.subTitle}</p>
+            <p className="text-xl text-saturated-600">{item.subTitle}</p>
           )}
         </div>
       </div>
