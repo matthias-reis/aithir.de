@@ -9,6 +9,7 @@ tags:
   - Metaverse
   - Meta
   - Internet
+  - Ten Years From Now
 ---
 
 As a big cyberpunk fan, I am constantly interested in the VR topic. The

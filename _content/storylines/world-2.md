@@ -20,35 +20,39 @@ tags:
 
 ## The Start
 
-Although this styoryline is not fiction at all, it's anyway about the future.
-What do we have to do to have a future? How can we save our planet? Do we have
-to re-invent the world? Is it a re-birth, the second incarnation of world,
-**world 2**, so to say? Or is it actually not that complicated?
+Although this styoryline is not fiction at all, it's anyway about the future and
+it's dystopian, as you could imagine.
+
+What do we have to do to actually have a future? How can we save our planet? Do
+we have to re-invent the world? Is it a re-birth, the second incarnation of
+world, **World 2**, so to say? Or is it actually not that complicated at all?
 
 So it's all about the Seldon'esque crisis we're facing at the moment, **the
-climate catastrophe**. I'd especially like to go into three different streams:
+climate catastrophe**. I'd especially like to spread into three different
+streams:
 
 - **Transport**: Even besides its damage potential to the world climate (and
   this includes traditional cars and EVs), owning and driving so many cars harms
   us in many other ways. So it's worth a look on its own.
 
-- **Diet and agriculture**: Food and food production are one of the big columns
-  of reasons for the climate crisis. Everyone knows that. But it's also the
-  hardest to give up.
+- **Diet and agriculture**: Food and food production are one of the big reasons
+  for the climate crisis. Everyone knows that, almost nobody accepts it, because
+  it's also the hardest to give up.
 
-- **Energy production**: Another topic with hundreds of side effects. We wage
-  wars and fraternize with despots to get resources to produce energy. And we're
-  ahead of another round of exploitation of the African continent.
+- **Energy production**: Did I assume it might be simple? Not really. This is
+  yet another topic with hundreds of side effects. We wage wars and fraternize
+  with despots to get resources for energy production. And we're ahead of
+  another round of exploitation on the African continent.
 
 ## Energy
 
 For [transport](/storylines/traffic) and [agriculture](/storylines/vegan), I
-have created separate storylines. The pure basics of energy production,
+have created separate articles. The pure basics of energy production,
 consumption and management is the part that this article will focus on. So let's
-dive in.
+crunch some numbers.
 
 Energy, on the one hand, is by far the biggest driver of the climate crisis. On
-the other hand, the region of central Europe faces another crisis fired by heat
+the other hand, the region of Central Europe faces another crisis fired by heat
 and drought and by the war in Ukraine and our dependency on Russian gas and oil.
 
 Our energy demand spreads into four more or less distinct sectors:
@@ -60,30 +64,32 @@ Our energy demand spreads into four more or less distinct sectors:
 
 More detailed numbers with sources will follow. The whole climate crisis is much
 more complex than only turning energy management into its green alternatives. It
-entails other more efficient greenhouse gases than CO₂, deforestation and
-tipping points.
+entails other more efficient greenhouse gases than CO₂, deals with deforestation
+and tipping points.
 
-During of the creation of this article in the form of a series of postings
-spreading half a year, I had the feeling that the headlines around this copmplex
-were oveertaking each other. War, pipelines, catastrophes, political changes,
-protests, science reports - the topics piled up almost on an hourly basis.
+The creation of this article in the form of a series of postings spread over
+half a year. During this time, I had the feeling that the headlines around the
+climate complex were oveertaking each other. War, pipelines, natural
+catastrophes, political changes, protests, science reports - the topics piled up
+almost on an hourly basis.
 
 ## The Problem Chain
 
 Even if you touch the surface of those building blocks, you already see that any
 of these fields is utterly complex and never black and white. So before I go
-into more detail on some of them, let's go back to the basic problem.
+into more detail on some of them, let's go back to the problem itself.
 
 Earth thankfully has a greenhouse effect. It would be a
 [cold dead place](https://youtu.be/oLddYrmClQw) of -18°C if it wasn't there.
 This effect is caused by gases in the atmosphere that are transparent in visual
-light and opaque in infrared light. Mainly water vapour (with short term
-effects) and CO₂ (with complex long-term lifecycles).
+light and opaque in infrared light. The gases with the strongest effects are
+water vapour (with short term effects) and CO₂ (with complex long-term
+lifecycles).
 
 We have increased the amount of CO₂ dramatically in the last 100 years - from
-320 to 420 ppm (by 30%) in the last 60 years alone. We have seen that Earth is
-significantly heating up. The CO₂ pollution is caused by burning fossile fuels -
-like coal (C) or gas (CH<sub>4</sub>).
+320 to 420 ppm (by 30%) in the last 60 years alone. We have seen that the Earth
+is significantly heating up. The CO₂ pollution is caused by burning fossil
+fuels - like coal (C) or gas (CH<sub>4</sub>).
 
 We use the energy coming from there for global wealth, so we can't just stop it
 without losing this wealth.
@@ -92,17 +98,18 @@ without losing this wealth.
 
 A problem that I have with the climate catastrophe lies in the magnitudes of
 numbers. When someone says "this emits 5 kg of CO₂ equivalent", what does that
-mean? It's totally abstract.
+mean? It's totally abstract. And that might be the reason why we don't care in a
+way we should.
 
 So I think, we should make it more concrete and comparable. When the
 [IPCC](https://www.ipcc.ch/), the main organisation that tracks climate change,
 released their first reports, they came up with a budget that we have left if we
 want to stay below the 1.5°C. It's **420 billion tons**. This is the amount we
-can emit until the wold heats up by 1,5 degrees. We want to spread this budget
+can emit until the wold heats up by 1.5 degrees. We want to spread this budget
 until 2050.
 
 That was the catchy and easy to remember claim on the Paris climate agreement
-(closed on December 12th, 2015). **1,5 degrees until 2050**. This also means
+(closed on December 12th, 2015). **1.5 degrees until 2050**. This also means
 zero - carbon neutral - after 2050.
 
 Divided by 30 and the average expected population of 8,73 billion people, this
@@ -123,11 +130,11 @@ Source:
 [(ourworldindata.org)](https://ourworldindata.org/co2-and-greenhouse-gas-emissions#co2-and-greenhouse-gas-emissions-country-profiles)
 
 So we're emitting five times as much as we are allowed to. In this scenario of
-thirty years from 2020 to 2050, the overall budget is allready used up by 2026
-for europeans and is about to exceeded right now for Americans. For me, this
-fact was mindblowing as it showed that we must act now, not just in 2030. As a
-side note, it might be worth mentioning, that China is the only candidate in
-this list, who's emissions are rising.
+thirty years from 2020 to 2050, the overall budget is already used up by 2026
+for Europeans. It even is about to exceeded already right now for Americans. For
+me, this fact was mindblowing as it showed that we must act now, not just
+in 2030. As a side note, it might be worth mentioning, that China is the only
+candidate in this list, who's emissions are rising.
 
 To get used to this metric, let's do some more comparisons.
 

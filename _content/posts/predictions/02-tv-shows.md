@@ -9,6 +9,7 @@ tags:
   - TV Show
   - Series
   - AI
+  - Ten Years From Now
 ---
 
 Everyone writes about the rapid progress of AI. Everyone makes experiments with

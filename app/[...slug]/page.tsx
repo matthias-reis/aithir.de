@@ -72,6 +72,7 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
         {children}
       </blockquote>
     ),
+    sub: ({ children }) => <sub className="align-sub">{children}</sub>,
     ...components,
     link: ({ payload }) => {
       if (!payload) return null;

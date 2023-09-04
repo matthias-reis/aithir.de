@@ -9,6 +9,7 @@ tags:
   - Jobs
   - Job Market
   - Work
+  - Ten Years From Now
 ---
 
 As long as we can think, work has been at the centre of our existence. These

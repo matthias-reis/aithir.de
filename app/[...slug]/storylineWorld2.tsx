@@ -5,6 +5,7 @@ import { Tag, TagList } from '../../comp/tag';
 import { getTagsByTagSlugs } from '../../core/data-layer';
 import { getMonthName, getYearSpan } from '../../core/date-helpers';
 import type { Layout } from './page';
+import { World2Calculator } from '../../comp/world-2-calculator';
 
 export const storylineWorld2Layout: Layout = {
   components: {
@@ -18,6 +19,7 @@ export const storylineWorld2Layout: Layout = {
         {children}
       </h2>
     ),
+    calculator: World2Calculator,
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
     <>

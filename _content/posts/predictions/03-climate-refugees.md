@@ -6,8 +6,10 @@ description:
 date: 2023-04-20
 colorSpace: yellow
 tags:
+  - Climate
   - Climate Crisis
   - Refugees
+  - Ten Years From Now
 ---
 
 Everything can already be seen in the architectural foundation of future

@@ -8,6 +8,7 @@ colorSpace: yellow
 tags:
   - AR
   - Augmented Reality
+  - Ten Years From Now
 ---
 
 Hello and happy 2023! I thought I'd start the new year with a new storyline of
