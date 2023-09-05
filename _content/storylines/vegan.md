@@ -59,6 +59,8 @@ It's as cheap as flour, dead simple and the tastiest thing you'll ever eat.
 
 Then they invited us for dinner.
 
+---
+
 The previous thoughts point out the inevitable, the future we're steering to. We
 will develop into a vegan world. It's not an option to choose from in the
 future. It's the opposite. It will be a very expensive option to eat meat, eggs
@@ -168,7 +170,7 @@ People even think that organic meat - where animals have 30 cm more space -
 would be less cruel. No. Someone cuts these throats as well in the end.
 
 The aspect of respecting **animal rights** is the most important part of
-veganism. Two simple narratives from different perspecitves describe very well,
+veganism. Two simple narratives from different perspectives describe very well,
 that animals should have rights just as humans do. Let's call it cat/cow
 according to the Yoga position.
 

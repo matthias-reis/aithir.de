@@ -115,7 +115,7 @@ zero - carbon neutral - after 2050.
 Divided by 30 and the average expected population of 8,73 billion people, this
 makes 1,6 tons per year for every one of us. This is my new reference.
 
-==> <image> budget
+==> <graphics> budget
 
 Source:
 [(atmosfair.de)](https://www.atmosfair.de/en/green_travel/annual_climate_budget/)
@@ -143,7 +143,7 @@ To get used to this metric, let's do some more comparisons.
 Source:
 [Umweltbundesamt](https://www.umweltbundesamt.de/daten/energie/energiebedingte-emissionen#energiebedingte-kohlendioxid-emissionen-durch-stromerzeugung)
 
-You see that coal has a huge impact on our emissions, whis is completely out of
+You see that coal has a huge impact on our emissions, which is completely out of
 proportion compared the the energy it is producing.
 
 The primary energy consumption in 2020 was 143 GJ/Person\*a. The coal power
@@ -230,7 +230,7 @@ share of energy sources is
 - 8% district heating
 - 15% renewable energy
 
-This contains about 70% of fossile energy sources. The renewable part mainly
+This contains about 70% of fossil energy sources. The renewable part mainly
 comes from wood, which also doesn't scale well and also has unwanted short-term
 emissions. So the structural problem is immense and the costs will have to be
 paid by the owners of the buildings.
@@ -245,10 +245,10 @@ difficult to exchange with more intelligent air conditioning systems.
 ## Savings in the Heating Sector
 
 The major step here is not the switch of technologies. Especially with our
-bulidings, we can also achieve a lot by saving energy.
+buildings, we can also achieve a lot by saving energy.
 
 Saving energy in heating does not mean, we have to live in the cold from now on
-and everyone whose livingroom has more than 19 degrees is a climate change
+and everyone whose living room has more than 19 degrees is a climate change
 denier. No. Savings come from better insulation.
 
 At the moment, the range is wide. While a typical old building needs 250
