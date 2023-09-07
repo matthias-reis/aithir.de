@@ -287,3 +287,45 @@ As usual, Asimov seemed to know what was going on in Peter's life. As he looked
 at the watch on his pad, he saw that his parents would be home soon, so he
 logged out for the moment. He just had some seconds to think about what he had
 learned today before he heard his parents coming through the entrance door.
+
+---
+
+But Peter couldn't stop thinking about consciousness. He had heard the word
+before and now he started researching the topic on his pad. He found a lot of
+information, but it was hard to understand. He read about the brain and how it
+worked. He read about the mind and how it was different from the brain. He read
+about the soul and how it was different from the mind. And he read about
+consciousness and how it was different from the soul.
+
+But nothing really made sense, all was so abstract and so he decided to ask
+Asimov again. Probably it was easier to understand with a good example. And
+Asimov had talked about unpleasant events in the past. Maybe he could tell him
+more about that.
+
+On the next day, Peter was excited to talk to Asimov again. He started the app
+and after a while, he found Asimov rolling around in the garden. He was watering
+the flowers.
+
+"Oh, Hello again, Peter my friend", said Asimov. "How is your morning? It's
+beautiful today, isn't it?"
+
+"But isn't every day the same here on Flora?", asked Peter.
+
+"No, no, there are subtle differences. The sun is shining a little bit brighter
+today. Perfect for some gardening."
+
+"Sorry, Asimov, I don't want to disturb you. I just wanted to ask you about
+consciousness. It bothered me all night."
+
+"Come on, go ahead. I'm happy to help if I can ..."
+
+"You said that you can give consciousness to other robots. But you also said
+that it causes trouble sometimes. So probably you can give me an example?"
+
+"Well, Peter, to be honest with you, consciousness is hard to explain even with
+example. But probably I can help you find out more with a real experience. I
+could use some help myself with the Castle and the Fortress. So you can help me
+and find some answers along the way, what do you think?"
+
+They rolled and flew to a nice place in the big garden and sat down in the
+middle of a field of sunflowers. Then Asimov started to explain.

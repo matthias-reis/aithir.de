@@ -308,3 +308,50 @@ die Uhr seines Pads schaute, sah er, dass seine Eltern bald nach Hause kommen
 würden, also loggte er sich erstmal aus. Er hatte nur ein paar Sekunden Zeit, um
 darüber nachzudenken, was er heute gelernt hatte, bevor er seine Eltern durch
 die Eingangstür kommen hörte.
+
+---
+
+Aber Peter konnte nicht aufhören, über Bewusstsein nachzudenken. Er hatte das
+Wort schon Öfter gehört, und nun begann er, das Thema auf seinem Pad zu
+recherchieren. Er fand eine Menge Informationen, aber sie waren schwer zu
+verstehen. Er las über das Gehirn und wie es funktionierte. Er las über den
+Geist und wie er sich vom Gehirn unterscheidet. Er las über die Seele und wie
+sie sich vom Geist unterscheidet. Und er las über das Bewusstsein und wie es
+sich von der Seele unterscheidet.
+
+Aber nichts ergab wirklich einen Sinn, alles war so abstrakt, und so beschloss
+er, Asimov noch einmal zu fragen. Wahrscheinlich war es leichter zu verstehen,
+wenn man ein gutes Beispiel hatte. Und Asimov hatte in der Vergangenheit über
+unangenehme Ereignisse gesprochen. Vielleicht konnte er ihm mehr darüber
+erzählen.
+
+Am nächsten Tag freute sich Peter darauf, wieder mit Asimov zu sprechen. Er
+startete die App und nach einer Weile fand er Asimov im Garten. Er war dabei,
+die Blumen zu gießen.
+
+"Oh, hallo Peter", sagte Asimov. "Wie ist dein Morgen? Es ist wunderschön heute,
+nicht wahr?"
+
+"Aber ist hier auf Flora nicht jeder Tag gleich?", fragte Peter.
+
+"Nein, nein, es gibt feine Unterschiede. Die Sonne scheint heute ein bisschen
+heller. Perfekt für ein wenig Gartenarbeit."
+
+"Entschuldige, Asimov, ich will dich nicht stören. Ich wollte Dich nur nach dem
+Bewusstsein fragen, von dem Du mir gestern erzählt hast. Das hat mich die ganze
+Nacht beschäftigt."
+
+"Komm schon, schieß los. Ich helfe gerne, wenn ich kann ..."
+
+"Du hast gesagt, dass du anderen Robotern Bewusstsein geben kannst. Aber du hast
+auch gesagt, dass das manchmal Probleme verursacht. Kannst du mir vielleicht ein
+Beispiel nennen?"
+
+"Nun, Peter, um ehrlich zu sein, ist Bewusstsein selbst mit einem Beispiel
+schwer zu erklären. Aber vielleicht kann ich dir mit einer echten Erfahrung
+helfen, mehr herauszufinden. Ich könnte selbst etwas Hilfe mit dem Schloss und
+der Festung gebrauchen. Du kannst mich alsu unterstützen und auf dem Weg selbst
+ein paar Antworten finden, was meinst du?"
+
+Sie rollten und flogen zu einem schönen Platz im großen Garten und setzten sich
+mitten in ein Feld voller Sonnenblumen. Dann begann Asimov zu erklären.
