@@ -6,7 +6,7 @@ import {
   Euphoria_Script,
 } from 'next/font/google';
 import './globals.css';
-import { getFormattedTitle, getThemeColor } from '../core/page-meta';
+import { getThemeColor } from '../core/page-meta';
 
 const serifFont = Lora({
   subsets: ['latin'],

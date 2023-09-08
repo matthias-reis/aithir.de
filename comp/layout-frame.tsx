@@ -3,6 +3,7 @@ import { FCC } from '../core/types';
 import Octahedron from './octahedron';
 import { Boxed } from './sections';
 import { OctahedronText } from './octahedron-text';
+import { Tracking } from './tracking';
 
 export const LayoutFrame: FCC<{
   withTextLogo?: boolean;
@@ -34,6 +35,8 @@ export const LayoutFrame: FCC<{
         <LegalLink href="/more/privacy">Privacy Policy</LegalLink>
         <LegalLink href="/more/imprint">Imprint</LegalLink>
       </nav>
+
+      <Tracking />
     </body>
   );
 };
