@@ -1,15 +1,15 @@
+import { Metadata } from 'next';
 import { Item } from '../comp/item';
 import { ItemHorizontal } from '../comp/item-horizontal';
 import { LayoutFrame } from '../comp/layout-frame';
 import { OctahedronText } from '../comp/octahedron-text';
 import { Boxed, Grid, GridItem, Section } from '../comp/sections';
 import { Tag, TagList } from '../comp/tag';
-import { getAllItems, getTags, getItem } from '../core/data-layer';
+import { getTags, getItem, getVisibleItems } from '../core/data-layer';
 import type { ItemMeta, TagMeta } from '../core/types';
 
 export default function Page() {
-  // const items = getVisibleItems().slice(0, 6);
-  const items = getAllItems();
+  const items = getVisibleItems().slice(0, 12);
   const m1 = getItem('editions/1');
   const tags = getTags().filter((tag: TagMeta) => (tag.count ?? 0) > 1);
   return (
@@ -28,6 +28,7 @@ export default function Page() {
         />
       </div>
       <Boxed>
+        <h2 className="hidden">Magazine Editions</h2>
         <ItemHorizontal meta={m1} />
       </Boxed>
       <Section
@@ -55,3 +56,7 @@ export default function Page() {
     </LayoutFrame>
   );
 }
+
+export const metadata: Metadata = {
+  title: 'Welcome to OCTAHEDRON.WORLD',
+};

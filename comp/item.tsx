@@ -7,6 +7,8 @@ const PostItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
     <img
       src={`/preview/${meta.image || meta.slug}.jpg`}
       alt={`${meta.title} - title image`}
+      width="600"
+      height="200"
     />
     <div className="mt-5">
       {meta.superTitle && (
@@ -37,6 +39,8 @@ const MagazineItem: FCC<{ meta: ItemMeta }> = ({ meta }) => {
         src={`/preview/${meta.slug}.jpg`}
         alt={`${meta.title} - magazine`}
         className="w-full mb-4 place-self-end"
+        width="640"
+        height="960"
       />
       <div className="col-span-2 pt-4">
         <p className="font-light text-decent-600 uppercase tracking-wider text-lg font-sans">

@@ -89,6 +89,9 @@ export const storylineLayout: Layout = {
           {section}
         </ReadBoxed>
       ))}
+      <ReadBoxed className="mt-7">
+        <p>{}</p>
+      </ReadBoxed>
       {item.tags && (
         <ReadBoxed className="mt-7">
           <TagList className="mt-5">

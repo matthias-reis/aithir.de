@@ -17,6 +17,7 @@ import { storylineVladLayout } from './storylineVlad';
 import { storylineGoliathLayout } from './storylineGoliath';
 import { storylineTattooLayout } from './storylineTattoo';
 import { storylineWorld2Layout } from './storylineWorld2';
+import { Metadata } from 'next';
 
 export type Layout = {
   Main: FC<{
@@ -123,3 +124,34 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
 };
 
 export default Page;
+
+export async function generateMetadata({
+  params,
+}: DynamicPageProps): Promise<Metadata> {
+  const slug = params?.slug?.join('/') || '';
+  const item = getItem(slug);
+  if (!item) return {};
+
+  const description =
+    typeof item.description === 'string'
+      ? item.description
+      : (item.description || []).join(' | ');
+  return {
+    title: item.title,
+    description,
+    alternates: { canonical: slug },
+    openGraph: {
+      url: slug,
+      title: item.title,
+      type: 'article',
+      description,
+      images: [
+        {
+          url: `/preview/${item.slug}.jpg`,
+          width: 600,
+          height: 200,
+        },
+      ],
+    },
+  };
+}

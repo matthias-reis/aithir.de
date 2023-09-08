@@ -4,6 +4,20 @@ import { redirect } from 'next/navigation';
 import { fm } from '../../../core/io';
 import { Boxed } from '../../../comp/sections';
 import { parseMarkdown } from '../../../core/markdown';
+import { getItem } from '../../../core/data-layer';
+import { getFormattedTitle } from '../../../core/page-meta';
+import { Metadata } from 'next';
+
+export async function generateMetadata({
+  params,
+}: DynamicPageProps): Promise<Metadata> {
+  const slug = params?.slug?.join('/') || '';
+  const item = getItem(slug);
+  if (!item) return {};
+  return {
+    title: getFormattedTitle(item.title),
+  };
+}
 
 export default async function LegalPage({ params }: DynamicPageProps) {
   const slug = params?.slug;
