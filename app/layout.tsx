@@ -7,6 +7,7 @@ import {
 } from 'next/font/google';
 import './globals.css';
 import { getThemeColor } from '../core/page-meta';
+import { TrackingProvider } from '../comp/tracking';
 
 const serifFont = Lora({
   subsets: ['latin'],
@@ -48,7 +49,7 @@ export default function RootLayout<FC>({
 }) {
   return (
     <html lang="en-GB" className={className}>
-      {children}
+      <TrackingProvider>{children}</TrackingProvider>
     </html>
   );
 }
