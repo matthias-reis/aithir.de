@@ -1,3 +1,7 @@
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: false,
+});
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ['@piwikpro/next-piwik-pro'],
@@ -21,4 +25,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = withBundleAnalyzer(nextConfig);

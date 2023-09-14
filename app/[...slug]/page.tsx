@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import type { FC, ReactElement } from 'react';
 import { redirect } from 'next/navigation';
 import {
   getItem,
@@ -8,7 +8,6 @@ import {
 import { parseMarkdown } from '../../core/markdown';
 import { DynamicPageProps, FCC, ItemMeta } from '../../core/types';
 import { Item } from '../../comp/item';
-import { ReactElement } from 'rehype-react/lib';
 import { magazineLayout } from './magazine';
 import { postLayout } from './post';
 import { defaultLayout } from './default';
