@@ -249,3 +249,96 @@ durchzuatmen.
 
 "Aber was können wir hier tun?", fügte sie hinzu. "Suchen wir uns erst einmal
 ein Versteck. Wir dürfen nicht gesehen werden."
+
+---
+
+Einige Minuten später saßen sie hinter einem Stapel von Kisten und Fässern und
+konnten kurz durchatmen. Aber als er in Kaminas Gesicht sah, konnte Luke direkt
+erkennen, dass ihr Gehirn bereits die nächsten Ideen ausarbeitete. In den
+letzten Minuten hatte er mehr mutige Dinge getan als in seinem ganzen bisherigen
+Leben, obwohl er auf einem Kriegsschiff diente. Kamina war dagegen nur ein
+blinder Passagier. Sie wusste nichts über Luftschiffe oder Schlachten. Aber sie
+war diejenige, die die Ideen hatte. Luke folgte ihr nur. Er fühlte den Drang,
+etwas beizutragen.
+
+"Die Auftriebskammern", sagte er, während er über sich selbst überrascht war.
+"Wir können das Luftschiff nach unten sinken lassen."
+
+"Was ist eine Auftriebskammer?", fragte Kamina. Sie hatte offenbar keine Ahnung
+von der Technik hier.
+
+"Die Auftriebskammern sind die großen Ballons, die das Schiff in der Luft
+halten. Wenn wir die Ventile öffnen, verliert das Luftschiff seinen Auftrieb und
+sinkt tiefer. Sie werden von der Brücke aus ferngesteuert. Die eigentlichen
+Ventile könnten also unbeaufsichtigt sein. Das weiß ich von unserem Schiff."
+
+"Luke, du bist brillant. Wir müssen diese Ventil-Dinger finden."
+
+Sie waren bereits an Deck, also konnten sie nicht mehr weit von ihrem Ziel
+entfernt sein. Sie wagten einen Blick Über ihr Versteck hinweg. Etwa fünf
+Matrosen liefen herum und waren mit ihrer Arbeit beschäftigt. Links und rechts
+waren die riesigen Libellenflügel zu sehen, und über ihren Köpfen erstreckten
+sich zwei große Ballonkammern, die wie liegende Regentropfen geformt waren.
+
+"Schau, da sind die Ventile", sagte Luke und zeigte auf das dünne Ende der
+Ballons, wo sie in einem hölzernen Oberdeck mit einer rostigen Eisentür endeten.
+
+"Wir können es ungesehen dorthin schaffen", sagte Kamina. "Wir müssen nur diesen
+Weg überqueren. Und dort können wir uns wieder verstecken und endlich die Tür
+erreichen."
+
+Impulsiv wie sie war, wollte sie sofort aus ihrem Versteck springen. Luke konnte
+sie im letzten Moment zurückhalten, als eine der Wachen an Deck um die Ecke in
+ihre Richtung kam. Kamina lehnte sich zurück, hielt sich die Hand vor den Mund
+und nickte Luke nur bestätigend zu.
+
+Nachdem die Wache wieder verschwunden war, schauten sie sich noch einmal um. Die
+Luft war rein. Also rannten sie los, um sich hinter dem nächsten Stapel zu
+verstecken, und erreichten schließlich ungesehen die Tür.
+
+Luke drehte den Türknauf. Sie war verschlossen.
+
+---
+
+Er sah enttäuscht aus. Aber Kamina wusste was zu tum ist und hatte das Werkzeug
+bereits in ihrem Haar. Sie nahm eine der Klammern, die ihre goldenen Locken
+zurückhielten, und benutzte sie als Dietrich. Sie hatte es einmal in einem Film
+gesehen. Es war schwieriger, als sie dachte. Sie musste sich konzentrieren, um
+den Mechanismus im Inneren ertasten und gleichzeitig darauf achten, dass sie
+nicht entdeckt werden.
+
+Die Zeit verging, sie probierte und probierte. Nach einer Weile hatte sie eine
+ungefähre Vorstellung, was zu tum war.
+
+"Kamina", sagte Luke. "Schneller. Drei Seeleute sind im Anmarsch. Sie sind fast
+um die der Ecke. Hörst du die Schritte?"
+
+"Ja, ich höre sie", antwortete sie genervt. "Ich bin gleich fertig. Nur noch
+eine Sekunde."
+
+Dann klickte und klapperte das Schloss und die Tür sprang auf. Sie sahen die
+Stiefel der Wachen und sprangen schnell ins Innere des dunklen Raums. Das war
+knapp. Ein paar Luftschlitze in der Tür waren die einzige Lichtquelle, die sie
+hatten. Kamina sah die Stiefel der Wachen und atmete tief durch, ganz im
+Einklang mit Luke. Sie sahen sich an, nickten, grinsten und begannen, sich
+umzusehen.
+
+Es war wirklich sehr dunkel. Jetzt war es an Lukes, ein kleines Wunder zu
+vollbringen. Warum sollte es nicht wie in jedem anderen Zimmer auch eine
+Deckenleuchte geben? Er wusste, dass es in Schießpulverräumen nicht erlaubt war,
+aber hier gab es nur mechanische Geräte. Er sah ein etwas helleren, schwingenden
+Gegenstand in der Mitte der Decke. Das musste die Petroleumlaterne sein. Er fand
+auch eine Kiste in der Ecke und benutzte sie, um an die Lampe heranzukommen.
+Sein ureigenes magisches Gerät war ein Feuersteinfeuerzeug. Er hatte es in der
+Küche gebraucht, deshalb befand es sich immer immer in seiner Tasche.
+
+Mit zwei Zündungen mit dem Feuerstein brachte er die Lampe zum leuchten und der
+Raum erstrahlte in einem warmen Orangeton. Sie schauten sich um und sahen das
+komplizierteste mechanische Gerät, das sie je gesehen hatten. Auf jeder Seite
+befanden sich riesige Holzkästen mit Zahnrädern, Ventilen und Hebeln. Oben sahen
+sie zwei Auslässe auf jeder Seite. Einer ging sicherlich in die Ballonkammern.
+Der andere muss der Luftauslass gewesen sein.
+
+"Luke, du bist ein Genie", sagte Kamina.
+
+Jetzt hatten sie alles, was sie für ihren kleinen Sabotageakt brauchten.

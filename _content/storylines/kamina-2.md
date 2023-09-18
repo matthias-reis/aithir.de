@@ -236,3 +236,89 @@ day before breakfast, while Luke was still trying to breathe.
 
 “But what could we do here?”, she added. “ Let’s find a hiding spot first. We
 must not be seen.”
+
+---
+
+Some minutes later they sat behind a pile of crates and barrels and could take a
+deep breath. But looking at Kaminas face, Luke could directly see that her brain
+was working out the next ideas. In the last minutes, he did more brave things
+than in his whole life before although he served on a warship. Kamina was just a
+blind passenger though. She didn't know anything about airships or battles. But
+she was the one who had the ideas. Luke was just following her. He felt the urge
+to contribute something.
+
+"The buoyancy chambers", he said while being surprised about himself. "We can
+let the airship go down."
+
+"What is a boy chamber?", Kamina asked. She apparently didn't have any clue
+about airship tech.
+
+"The buoyancy chambers are the big balloons that keep the ship in the air. If we
+open the valves, the airship will lose its buoyancy and go down. They are
+controlled remotely from the bridge. So the actual valves might be unattended. I
+know that from our ship."
+
+"Luke, you're brilliant. We have to find these valve thingies."
+
+They were already on deck, so they couldn't be far from their destination. They
+dared to take a peek beyond their hiding spot. About five shipmen were running
+around occupied with doing their jobs. Left and right there were the gigantic
+dragonfly wings and what spread above their heads were two huge balloon chambers
+that were formed like raindrops.
+
+"Look, there are the valves", Luke said and pointed to the thin end of the
+balloons, where they ended in a wooden top deck with a rusty iron door.
+
+"We can make it there unseen", Kamina said. "We just have to cross this path.
+And there, we can hide again and finally reach the door."
+
+Impulsive as she was, she wanted to jump out of their hideout right away. Luke
+could hold her back last minute as one of the guards on deck came around the
+corner in their direction. Kamina sat back, held her hand in front of her mouth
+and just nodded confirmingly at Luke.
+
+After the guard was gone again, they took another look. The coast was clear. So
+they started running to hide behind the next staple and then reached the door
+unseen.
+
+Luke turned the door knob. It was locked.
+
+---
+
+He looked disappointed. But Kamina already had the clue in her hair. She took
+one of the clips that held her golden locks back and used it as a lock pick. She
+had seen it in a movie once. It was harder than she thought. She had to feel the
+mechanism in the inside and at the same time they had to take care not to be
+seen.
+
+Time went by, she tried and tried. After a while, she had a rough idea what to
+do.
+
+"Kamina", said Luke. "Quicker. Three seamen are coming. They're almost around
+the corner. DO you hear the footsteps?"
+
+"Yees, I hear them", she answered annoyed. "I'm almost there. Just a second."
+
+Then the lock clicked and clacked and the door sprang open. They saw the boots
+of the guards and quickly jumped inside the dark room. That was close. Some air
+slots in the door were the only light source they had. Kamina saw the boots of
+the guards walking by and took a deep breath perfectly in sync with Luke. The
+looked at each other, nodded, smiled and started to look around.
+
+It was really dark in there. Now it was Luke's turn for a little miracle. Why
+shouldn't there be light just like in any other room? He knew that it was not
+allowed in gunpowder rooms but in here were only mechanical devices. He saw a
+slightly brighter, swinging object in the middle. That must have been the
+petroleum lantern. He also found a crate in the corner and used it to reach the
+lamp. HIs very own magic device was a flint stone lighter. He had needed it in
+the kitchen all the time, so he always has it in his pocket.
+
+With two clicks with the flint he lit the lamp and the room was illuminated in a
+warm orange tone. They looked around and saw the most complicated mechanical
+device they had ever seen. On each side there were huge wooden boxes with gears,
+valves and levers. On the top they saw two outlets on each side. One surely went
+into the balloon chamber. The other must have been the air outlet.
+
+"Luke, you're a genius", Kamina said.
+
+Now they had everything they needed for their little sabotage.
