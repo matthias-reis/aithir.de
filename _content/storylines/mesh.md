@@ -3,7 +3,7 @@ superTitle: Worldbuilding
 title: The Mesh
 description:
   A vision of a hypothetical metaverse-esque three dimensional internet
-colorSpace: wood
+colorSpace: red
 startDate: 2022-05-18
 date: 2022-12-21
 related:
