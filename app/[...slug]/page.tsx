@@ -146,7 +146,7 @@ export async function generateMetadata({
       description,
       images: [
         {
-          url: `/preview/${item.slug}.jpg`,
+          url: `/preview/${item.image || item.slug}.jpg`,
           width: 600,
           height: 200,
         },
