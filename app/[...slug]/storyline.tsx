@@ -103,8 +103,9 @@ export const storylineLayout: Layout = {
       )}
       <hr className="w-1/2 mx-auto my-6 border-decent-300" />
       <Boxed className="text-center text-decent-500">
-        Released between {getMonthName(new Date(item.startDate || Date.now()))}{' '}
-        and {getMonthName(new Date(item.date || Date.now()))}
+        {item.words} words released between{' '}
+        {getMonthName(new Date(item.startDate || Date.now()))} and{' '}
+        {getMonthName(new Date(item.date || Date.now()))}
         <br />©{' '}
         {getYearSpan(
           new Date(item.startDate || Date.now()),

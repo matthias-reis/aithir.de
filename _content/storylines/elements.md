@@ -4,6 +4,7 @@ title: Elements
 description: A dystopian journey to hell and elysium and back.
 colorSpace: orange
 unfinished: true
+visible: false
 startDate: 2022-09-20
 date: 2023-10-01
 tags:
@@ -85,18 +86,22 @@ know that we don't have the resources to feed animals."
 Ruben and his gang were strong and formed an effective force in the defence
 strategies of the clan. They were the police if you will. Nonetheless, they
 ranked below Juliette in the natural hierarchy of the clan. She was the secret
-boss of the pack. That's what everyone thought.
+boss of the pack. That's what everyone thought. She gave the orders and thus
+Ruben's gang stood still after her command.
 
-Ruben was the first to overcome his perplexity.
+Ruben took a second to overcome his perplexity.
 
 "No animal. It's a demon. Look at it!"
 
-Juliette approached cautiously and had a glance through the small slot on the
-side of the cage. She saw a red eye staring at her from the inside and above
-that, an ugly, rounded horn came out of its forehead. It smelled her with a
-deranged nose and moved swiftly towards the slot. Juliette was startled and
-recoiled a step or two. Afraid of the light coming through, the creature crept
-away out of sight.
+"A what?", asked Juliette. "A demon? You must be kiddin' me. There is no such
+thing as demons."
+
+Juliette approached the box they carried cautiously and had a glance through the
+small slot on the side of the cage. She saw a red eye staring at her from the
+inside and above that, an ugly, rounded horn came out of the creature's
+forehead. It smelled with a deranged nose and moved swiftly towards the slot.
+Juliette was startled and recoiled a step or two. Afraid of the light coming
+through, the creature crept away out of sight as well.
 
 "What kind of prank is this?", she asked.
 
@@ -251,6 +256,8 @@ hobbyists and valid captains and joined them on their trip to Hamburg. It took
 them three days. During that time they had permanent radio contact with the
 Dublin HQ, Juliette and with Hamburg.
 
+## Water
+
 After the arrival, they could spend a nice evening with some new faces after all
 these years and went to work on the next day. Ruth obviiously took over. It
 turned out that she was a software engineer before the incident. She knew
@@ -310,8 +317,6 @@ French coast as well.
 They had to hurry. So on the next day, they set sail to Boulogne-sur-mer.
 
 ---
-
-## Water
 
 During the passage from Hamburg to Boulogne, Siobhan controlled the mics and was
 in permanent exchange with Juliette and the other comms in Dublin. It turned out

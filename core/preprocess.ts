@@ -19,7 +19,7 @@ function parseContent(s: string) {
 function wordCount(sections: string[]) {
   return sections.reduce((acc, section) => {
     if (!section.startsWith('@@')) {
-      acc = section.split(' ').length;
+      acc += section.split(' ').length;
     }
     return acc;
   }, 0);
