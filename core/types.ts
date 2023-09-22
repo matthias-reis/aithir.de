@@ -33,6 +33,7 @@ export type ItemMeta = {
     seedFactor: number;
     ageFactor: number;
     typeFactor: number;
+    progressFactor: number;
   };
 } & FrontMatter;
 

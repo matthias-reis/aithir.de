@@ -5,6 +5,7 @@ const metaData = Object.fromEntries(
   Object.entries(rawMetaData as Record<string, ItemMeta>)
     .map(seed)
     .map(factors)
+    .sort((a, b) => (b[1].factors?.overall ?? 1) - (a[1].factors?.overall ?? 1))
 );
 
 export function getAllItems() {
@@ -13,14 +14,13 @@ export function getAllItems() {
   );
 }
 export function getVisibleItems() {
-  return getAllItems()
-    .filter((i) => i.factors?.overall ?? 0 > 0)
-    .filter((i) => !i.hidden)
-    .filter((i) => (i.language ?? 'en') !== 'de');
+  return getPublicItems().filter((i) => i.factors?.overall ?? 0 > 0);
 }
 
 export function getPublicItems() {
-  return getAllItems().filter((i) => !i.hidden);
+  return getAllItems()
+    .filter((i) => !i.hidden)
+    .filter((i) => (i.language ?? 'en') !== 'de');
 }
 
 export function getItem(slug: string) {
@@ -36,7 +36,7 @@ export const getItemsByCategory = (category?: string) =>
 export function getTags() {
   const tags = {} as Record<string, ItemMeta[]>;
 
-  for (const item of Object.values(metaData)) {
+  for (const item of getPublicItems()) {
     for (const tag of item.tags ?? []) {
       if (!tags[tag]) {
         tags[tag] = [];
@@ -82,15 +82,18 @@ function seed(entry: [string, ItemMeta]): [string, ItemMeta] {
 function factors(entry: [string, ItemMeta]): [string, ItemMeta] {
   const seedFactor = entry[1].seed || 0;
 
+  const progressFactor = entry[1].unfinished === true ? 0.5 : 1;
+
   // posts have an age and posts older than 60 days are not shown
   // we consider storylines to be 7 days old
   const age = entry[1].date
     ? (Date.now() - new Date(entry[1].date).getTime()) / (1000 * 60 * 60 * 24)
     : 7;
-  let ageFactor = age > 60 ? 0 : (60 - age) / 60;
+  let ageFactor = 0.95 * Math.pow(Math.E, -0.05 * age) + 0.05;
 
   // certain types are not supposed to be shown at all, others have certain penalties
   let typeFactor = 0.5;
+
   if (entry[1].type === 'storyline') {
     ageFactor = 53 / 60;
     typeFactor = 0.75;
@@ -102,11 +105,15 @@ function factors(entry: [string, ItemMeta]): [string, ItemMeta] {
   if (entry[1].type === 'addenum') {
     typeFactor = 0;
   }
-  const overall = Math.sqrt(seedFactor) * ageFactor * typeFactor;
+  const overall =
+    Math.sqrt(seedFactor) * ageFactor * typeFactor * progressFactor;
 
   return [
     entry[0],
-    { ...entry[1], factors: { overall, seedFactor, ageFactor, typeFactor } },
+    {
+      ...entry[1],
+      factors: { overall, seedFactor, ageFactor, typeFactor, progressFactor },
+    },
   ];
 }
 

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { FCC, ItemMeta } from '../core/types';
+import { Factors } from './factors';
 
 const PostItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
   <article className="font-condensed">
@@ -64,6 +65,7 @@ export const Item: FCC<{ meta: ItemMeta; large?: boolean }> = ({ meta }) => {
       ) : (
         <PostItem meta={meta} />
       )}
+      <Factors meta={meta} />
     </Link>
   );
 };
