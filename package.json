@@ -61,5 +61,8 @@
     "eslint-config-next": "13.4.19",
     "typescript": "5.2.2",
     "vercel": "^32.2.0"
+  },
+  "resolutions": {
+    "next": "13.4.19"
   }
 }
