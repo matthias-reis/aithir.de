@@ -7,7 +7,7 @@
     "dev": "run-p watch next:dev -l",
     "next:dev": "next dev",
     "prebuild": "yarn process",
-    "build": "next build",
+    "build": "__NEXT_PRIVATE_PREBUNDLED_REACT=next next build",
     "start": "next start",
     "lint": "next lint",
     "process": "node -r @swc-node/register ./core/preprocess.ts",
