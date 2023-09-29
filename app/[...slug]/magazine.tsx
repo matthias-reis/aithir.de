@@ -1,4 +1,5 @@
 import { ReadBoxed } from '../../comp/sections';
+import { Subscribe } from '../../comp/subscribe';
 import type { Layout } from './page';
 
 export const magazineLayout: Layout = {
@@ -26,6 +27,14 @@ export const magazineLayout: Layout = {
       {sections.map((section, i) => (
         <ReadBoxed key={i}>{section}</ReadBoxed>
       ))}
+      <div className="text-center text-md">
+        <p>
+          Wanna be informed when the next edition comes out?
+          <br />
+          Then please subscribe to my newsletter
+        </p>
+        <Subscribe />
+      </div>
     </>
   ),
 };
