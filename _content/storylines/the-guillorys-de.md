@@ -90,15 +90,16 @@ genial ist das denn?
 
 ---
 
+Seraphine
+
 Seraphine wusste, dass ihre beiden Brüder nichts Gutes im Schilde führten und
 beschloss, ihr neues Talent zu nutzen, um sie zu beobachten. Sie wollte
 herausfinden, was sie vorhatten. Also machte sie sich unsichtbar und schlich
-sich in einen Bereich in der Wand, wo sie sich normalerweise aufhielten.
+sich in einen Raum in der Wand, in dem sie sich normalerweise aufhielten.
 
-Sie schlich sich in den Raum, kletterte so leise wie möglich über einige der
-Balken und konzentrierte sich auf ihre Unsichtbarkeit. Wenn sie ihre
-Konzentration verloren hätte, so stellte sie fest, wäre sie halb durchsichtig
-geworden wie ein Gespenst.
+Sie kletterte so leise wie möglich über einige der Gitterstäbe und konzentrierte
+sich auf ihre Unsichtbarkeit. Hätte sie ihre Konzentration verloren, so stellte
+sie fest, wäre sie halb durchsichtig geworden wie ein Geist.
 
 Da waren sie. Sie konnte direkt neben ihnen stehen und unbemerkt bleiben. Aber
 was sie dann sah, war eine Überraschung. Louis schwebte einige Zentimeter über
@@ -109,6 +110,138 @@ dünner. Sie konnte sich nicht mehr konzentrieren.
 
 "Was zum Teufel ist hier los?", sagten alle drei fast gleichzeitig.
 
-Dann bewegten sie sich umeinander herum. Auch Louis schaute von oben herab. Remy
-beugte sich zu Seraphine, während sie zwischen festem, durchsichtigem und
-unsichtbarem Zustand hin und her flimmerte.
+Dann bewegten sie sich umeinander herum. Louis schaute auch von oben herab. Remy
+beugte sich mit seinem biegsamen Körper Seraphine entgegen, während sie zwischen
+fest, durchsichtig und unsichtbar flimmerte.
+
+"Gütiges Wiesel", sagte Louis, der nach ein paar langen Sekunden des Schweigens
+der erste war. "Seraphine ist auch eine von uns. Hallo Sera!"
+
+"Hallooooo, Wiesel", antwortete sie mit einem langgezogenen Gruß und einem nicht
+ganz so cleveren Spitznamen, den sie dem Ausruf ihres Bruders entnommen hatte.
+Sie hasste es, dass ihr in diesem Moment nichts cooleres einfiel. Sie war nicht
+gerade die spontanste Maus.
+
+"Hi Sera", fügte Remy hinzu, als wäre nichts geschehen.
+
+Aber dann passierte etwas zwischen den Geschwistern. Sie begannen miteinander zu
+reden und überlegten, was sie tun könnten. Sie fingen an, Pläne zu schmieden,
+alle drei zusammen. In ihren Köpfen hatten sie bereits die Welt erobert, oder
+zumindest das Herrenhaus. Aber das Wichtigste war, dass sie herausfanden, dass
+sie keine Feinde waren. Stattdessen hatten sie gemeinsame Feinde, und sie
+konnten sie benennen.
+
+Da waren die Fontenots aus der Bar im Keller, eine wirklich versnobte Familie.
+Dann gab es noch die "Berüchtigten Sieben", die sieben Eichhörnchen, die ständig
+Essen aus ihren Vorräten stahlen. Und nicht zu vergessen die Katzen, die drei
+Hauskatzen der Villa, die mindestens zwei ihrer Großonkel gefressen hatten.
+Eines Abends hatte Oma ihnen diese Horrorgeschichte erzählt, woraufhin sie zwei
+Tage lang nicht schlafen konnten.
+
+Die Katzen, die Katzen, dachte der junge Remy. Wir sollten etwas gegen diese
+Biester unternehmen.
+
+---
+
+_Louis_
+
+Ich weiß nicht, was ich davon halten soll, dachte Louis. Ich meine Sera, meine
+nervige Schwester. Sie war auch eine von uns? Was würde als Nächstes passieren?
+Mein Dad, der um die Ecke fliegt? Aber na ja, sie ist wahrscheinlich nicht so
+seltsam, wie ich dachte. Oder - haha - wir sind alle so komisch. Wir sind
+Super-Mäuse. Wir sind die Wunderbaren Guillorys. Genau wie in einem der Comics,
+die wir unter dem Dach gefunden haben, als wir unsere Neffen, die Benoits,
+besucht haben.
+
+Diese Gedanken kreisten in Louis' Kopf. Und während er neben seinem kleinen
+Bruder und seiner Zwillingsschwester herging, beobachtete er aufmerksam ihre
+Mimik und wusste, dass sie dasselbe dachten.
+
+"Remy, Remy", sagte er schließlich. Es war vielleicht die längste Zeit in ihrem
+Leben, in der sie kein Wort miteinander gewechselt hatten. Remy schaute auf,
+Sera auch. Sie blieben vor der Treppe in der Wand stehen, die Großvater gebaut
+hatte.
+
+"Ich habe an die Katzen gedacht", sagte Remy plötzlich, als hätte er Louis'
+Gedanken gehört. Was für eine Überraschung, er muss fünf Schritte voraus gewesen
+sein, denn er steckte schon mitten in seinem ersten Abenteuer als "Die
+Wunderbaren Guillorys".
+
+"Okay", fuhr er fort. "Wir kennen drei von ihnen, aber vielleicht gibt es noch
+mehr in den anderen Stockwerken des Herrenhauses, oder? Aber als wir unsere
+Neffen besuchten oder in die Bar gingen, erzählte uns niemand Geschichten über
+andere Katzen. Das einzige, was wir kennen, sind die Gruselgeschichten von
+unserer Oma."
+
+"Da hast du Recht", antwortete ich. "Aber es besteht kein Zweifel, dass sie
+existieren. Wir haben sie schon oft gesehen, und unsere Eltern haben uns
+beigebracht, uns vor ihnen zu verstecken. Da ist die große, mürrische Graue mit
+dem langen Fell. Dann gibt es den eleganten, sportlichen mit den Tupfen und den
+kleinen, flauschigen. Einmal habe ich die Zähne der Mürrischen gesehen. Ihre
+Eckzähne waren so groß wie mein Arm. Das müssen einfach Monster sein, kein
+Zweifel."
+
+Remys Körper zitterte, als Louis ihm die Details erzählte. Seine elastische Form
+ließ es noch komischer aussehen, als es sein sollte, und alle mussten laut
+lachen.
+
+"Hört auf", sagte er dann. "Lasst uns stattdessen mehr herausfinden. Sera von
+den Wonderful Guillorys, vielleicht kann uns Dein Unsichtbarkeitstrick helfen."
+
+"Eine Aufklärungsmission", sagte ich, bevor Seraphine antworten konnte. "Das ist
+eine großartige Idee. Phase eins unserer ersten Mission. So viel herausfinden,
+wie wir können."
+
+"Nun", sagte Sera fürsorglich, "lass mich nachdenken. Ich wollte schon immer
+mehr über diese Biester wissen. Ja, in Ordnung, dann machen wir es. Ich kann
+observieren. Das kann ich am besten. Schnell, lass uns zu unserem Hauptquartier
+zurückkehren und loslegen."
+
+---
+
+_Seraphine_
+
+Sie hatten mehrere Stunden lang Pläne geschmiedet. Seraphine war überrascht,
+dass Remy so gut darin war. Er hatte einen detaillierten Plan von mindestens der
+Hälfte des Stockwerks gezeichnet und mit Katzentatzen-Symbolen markiert, wo die
+drei Riesenfeinde normalerweise zu finden waren.
+
+Louis hingegen war der Logistikexperte. Er hatte alle Arten von Vorräten
+mitgebracht. Unter anderem hatte er ein kleines Notizbuch und eine kleine
+Spiegelscherbe dabei, mit der die Mäuse um Ecken blicken konnten.
+
+Aber Sera brauchte nichts von alledem. Eigentlich konnte sie nicht einmal
+schreiben. Außerdem war nur sie selbst unsichtbar, nicht die Dinge, die sie bei
+sich trug. Es sah ziemlich eigenartig aus, als sie versuchte, als Unsichtbare
+das Notizbuch mit sich zu tragen.
+
+Sie beschlossen, Sera aus der Ferne zu beobachten, während sie die Katzen aus
+nächster Nähe ausspionieren konnte.
+
+Noch komischer als die Tatsache, dass sie sich nicht im Spiegel sehen konnte,
+war der Gedanke, dass sie einfach auf die Katzen zugehen könnte, ohne dass diese
+sie bemerken würden. Das Wort, das sie suchte, war eigentlich nicht komisch,
+sondern beängstigend.
+
+Aber sie musste es tun. Sie musste ihre Angst überwinden. Sie musste die Mutige
+im Team sein. Und so stand sie da, im Wohnzimmer der Villa, zwei Meter vom Kamin
+entfernt und nur einen halben Meter vor dem flauschigen, auf einem Teppich
+schlafenden Ungetüm. Ihr Herz klopfte so laut, dass sie Angst hatte, das
+Katzenmonster könnte es tatsächlich hören.
+
+Sie stand mindestens eine Minute lang so da, bevor sie sich wieder zu bewegen
+wagte. Aber es schien zu funktionieren. Also traute sie sich ein bisschen mehr.
+Zuerst nur ein paar Schritte, dann ein paar mehr, bis sie direkt vor dem
+riesigen geschlossenen Auge direkt neben dem Kopf des Monsters stand. Sie konnte
+das flauschige Fell auf der Wange der Katze sehen. Dann machte sie einen Fehler.
+Versehentlich berührte sie einen der Schnurrhaare, und die Katze öffnete die
+Augen.
+
+Seraphine blickte direkt in die großen grünen Pupillen, die ihr wie riesige
+Scheinwerfer vorkamen. Aber nichts geschah. Die Katze drehte ihren Kopf herum
+und setzte ihr Nickerchen fort. Das war der Moment, in dem sie wieder zu atmen
+begann. Sie muss etwa eine Stunde lang die Luft angehalten haben. Aber in
+Wirklichkeit dauerte alles nur ein paar Sekunden. Das erste Experiment war
+erfolgreich.
+
+Also setzten die Wunderbaren Guillorys ihre Mission fort.

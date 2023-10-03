@@ -83,6 +83,8 @@ that?
 
 ---
 
+_Seraphine_
+
 Seraphine knew that her two brothers were up to no good and decided to use her
 new talent to observe them. She wanted to find out what they were planning. So
 she made herself invisible and sneaked into a space in the wall, where they
@@ -102,5 +104,121 @@ couldn't hold focus again.
 "What the cat is going on?", said all three almost simultaneously.
 
 Then they moved around each other. Louis also looked from the top. Remy bent
-himself towards Seraphine while she flickered between solid, transparent and
-invisible.
+himself with his flexible body towards Seraphine while she flickered between
+solid, transparent and invisible.
+
+"Good weasel," said Louis, who was the first after a few long seconds of
+silence. "Seraphine is one of us, too. Hello Sera!"
+
+"Hell-loo weasel," she replied with a long drawn-out hello and a not-so-clever
+nickname she had pulled from her brother's statement. She hated that she
+couldn't find anything cooler at that moment. She was not the most spontaneous
+mouse.
+
+"Hi Sera," Remy added as if nothing had happened.
+
+But then something happened. They started talking to each other and figured out
+what they could do. They started making plans, all three together. In their
+minds they had already conquered the world, or at least the Mansion. But most
+importantly, they found out that they were not enemies. Instead, they had common
+enemies and they could name them.
+
+There were the Fontenots from the bar in the basement, a truly snobby family.
+There were also the "Notorious Seven", the seven squirrels who were constantly
+stealing food from their supplies. And let's not forget the cats, the Mansion's
+three pet cats, who ate at least two of her great uncles. One evening Granny
+told them this horror story, after which they couldn't sleep for two days.
+
+The cats, the cats, thought young Remy. We should do something about these
+beasts.
+
+---
+
+_Louis_
+
+I don't know what to make of it, thought Louis. I mean Sera, my annoying sister.
+She was one of us too? What would happen next? My dad flying around the corner?
+But well, she's probably not as weird as I thought. Or - haha - we're all that
+weird. We're super mice. We're the Guillorys. Just like in one of the comics we
+found under the roof when we visited our nephews, the Benoits.
+
+The thoughts circled in Louis' head. And while he walked next to his little
+brother and his twin sister, he carefully watched their facial expressions and
+knew that they were thinking the same.
+
+"Remy, Remy," he finally said. It might have been the longest time in their
+lives, where didn't say a word to each other. Remy looked up, Sera, too. They
+stopped in front of the stairs in the wall that Grandpa had built.
+
+"I was thinking about the cats," said Remy suddenly as if he had heard Louis'
+thoughts. What a surprise, he must have been five steps ahead because he was
+already in the middle of his first adventure as "The Wonderful Guillorys".
+
+"Okay," he continued. "We know three of them, but maybe there are more on the
+other floors of the Mansion, right? But when we visited our nephews or went to
+the bar, no one told us any stories about other cats. The only thing we know are
+the scary stories from our grandma."
+
+"You're right about that," I replied. "But there's no doubt that they exist.
+We've seen them many times and our parents trained us to hide from them. There's
+the big, grumpy grey one with the long fur. Then there's the elegant, sporty one
+with the spots and the little fluffy one. Once I saw the teeth of the grumpy
+one. His canines were as big as my arm. They must just be monsters, no doubt."
+
+Remy's body trembled as Louis told him the details. His elastic form made it
+look more comical than it should, and all three of them had to laugh out loud.
+
+"Stop it," he said then. "Let's find out more instead. Sera of the Wonderful
+Guillorys, probably your invisibility trick can help us."
+
+"A recon mission," I said before Seraphine could answer. "That's a great idea.
+Phase one of our first mission. Find out as much as we can."
+
+"Well", said Sera carfully, "let me think. I always wanted to know more about
+these beasts. Yea, all right, let's do it. I can observe. That's what I do best.
+Quickly, let's get back to our headquarters."
+
+---
+
+_Seraphine_
+
+They had made plans for several hours. Seraphine was surprised, that Remy was so
+good at this. He had drawn a detailed plan of at least half of the floor and
+marked with cat paw symbols where the three giant enemies usually could be
+found.
+
+Louis on the other hand was the logistics expert. He had brought all sorts of
+supply. Among other things, he had a small notebook and a little mirror shard
+with which the mice could look around corners.
+
+But Sera needed none of this. In fact, she couldn't even write. And also, only
+she was invisible herself, not the things she carried and it looked pretty
+awkward when she tried to carry the notebook with her.
+
+They decided to observe her from far while she could spy against the cats while
+standing directly in front of them.
+
+Even more awkward than not seeing herself in the mirror was the thought that she
+could just stroll towards the cats and they wouldn't notice her. The word she
+was searching was actually not awkward. It was frightening.
+
+But she had to do it. She had to overcome her fear. She had to be the brave in
+the team. And so there she stood, in the living room of the mansion, 2 meters
+away from the fireplace and only half a meter in front of the fluffy one
+sleeping on a carpet. Her heart was beating so loud that she was afraid that the
+cat monster could actually hear it.
+
+She stood there for at least a minute before she dared to move again. But it
+seemed to work. So she dared a bit more. Some steps first, then some more until
+she stood in front of the huge closed eye directly next to the head of the
+monster. She could see the fluffy fur on the cat's cheek. Then she made a
+mistake. Accidentally, she touched one of the whiskers and the cat opened its
+eyes.
+
+Seraphine looked directly into the big green pupils that looked like gigantic
+headlights in her mind. But nothing happened. The cat turned her head around and
+continued its nap. That was the moment she started to breathe again. She must
+have held her breath for an hour or so. But in reality everything took only a
+couple of seconds. The first experiment was successful.
+
+So the Wonderful Guillorys continued their mission.
