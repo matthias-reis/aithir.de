@@ -92,11 +92,11 @@ function factors(entry: [string, ItemMeta]): [string, ItemMeta] {
   let ageFactor = 0.95 * Math.pow(Math.E, -0.05 * age) + 0.05;
 
   // certain types are not supposed to be shown at all, others have certain penalties
-  let typeFactor = 0.5;
+  let typeFactor = 0.7;
 
   if (entry[1].type === 'storyline') {
     ageFactor = 53 / 60;
-    typeFactor = 0.75;
+    typeFactor = 0.85;
   }
   if (entry[1].type === 'magazine') {
     ageFactor = 53 / 60;

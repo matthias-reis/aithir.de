@@ -3,7 +3,7 @@ title: Mesh Tales
 description:
   "I'm introducing a new set of posts about small anecdotes from my imagined
   worlds, starting off with the Mesh."
-date: 2023-01-02
+date: 2023-10-05
 colorSpace: cyan
 tags:
   - VR
