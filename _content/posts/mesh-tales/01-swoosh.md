@@ -1,5 +1,5 @@
 ---
-title: Mesh Tales
+title: The Swoosh
 description:
   "I'm introducing a new set of posts about small anecdotes from my imagined
   worlds, starting off with the Mesh."
