@@ -33,7 +33,7 @@ const MagazineItem: FCC<{ meta: ItemMeta }> = ({ meta }) => {
     <article className="grid grid-cols-[1fr_1fr] items-center font-condensed">
       <div className="flex items-center flex-col font-light text-decent-600 ">
         <div className="uppercase tracking-wider">Edition</div>
-        <div className="text-7xl">1</div>
+        <div className="text-7xl">{meta.edition || 1}</div>
       </div>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
