@@ -10,7 +10,7 @@ ref: storylines/asimov
 image: storylines/asimov
 unfinished: true
 startDate: 2022-12-25
-date: 2023-07-25
+date: 2023-10-15
 related:
   - storylines/kamina-2-de
   - storylines/the-guillorys-de
@@ -309,8 +309,6 @@ würden, also loggte er sich erstmal aus. Er hatte nur ein paar Sekunden Zeit, u
 darüber nachzudenken, was er heute gelernt hatte, bevor er seine Eltern durch
 die Eingangstür kommen hörte.
 
----
-
 Aber Peter konnte nicht aufhören, über Bewusstsein nachzudenken. Er hatte das
 Wort schon Öfter gehört, und nun begann er, das Thema auf seinem Pad zu
 recherchieren. Er fand eine Menge Informationen, aber sie waren schwer zu
@@ -355,3 +353,54 @@ ein paar Antworten finden, was meinst du?"
 
 Sie rollten und flogen zu einem schönen Platz im großen Garten und setzten sich
 mitten in ein Feld voller Sonnenblumen. Dann begann Asimov zu erklären.
+
+---
+
+"Okay, Peter", sagte er, "lass mich mit meiner Geschichte beginnen. Es war vor
+vielen, vielen Jahren, lange bevor du geboren wurdest, als ich eine fantastische
+Idee hatte, zumindest dachte ich damals, dass sie fantastisch war. Ich
+verwandelte das Schloß mit meinem linken Arm, meinem Aktivierungsinterface,
+erinnerst du dich?"
+
+Peter nickte und Asimov sprach weiter. "So wurde das Schloss zu einem Roboter.
+Es konnte sich sogar fortbewegen. Es kann sich immer noch bewegen, aber ich
+nehme an, es ist zu faul. Ich meine, es ist aus Stein, also muss es eine Menge
+Arbeit sein. Und ich glaube, es mag seinen Platz. Wie auch immer. Es war sehr
+vielversprechend, denn es half mir von da an bei jeder Aufgabe. Zu diesem
+Zeitpunkt wohnte ich noch im Schloss und ich konnte sagen, 'bring mich in mein
+Schlafzimmer' und eine Sekunde später war ich da. Es war großartig."
+
+"Ahh", sagte Peter, "das war wie ein Fahrstuhl."
+
+"Ja. Und es war so viel mehr. Er reinigte sich zum Beispiel selbst. Der ganze
+Dreck und Staub war ein Problem der Vergangenheit. Und es hat noch viele andere
+Dinge übernommen.
+
+Also dachte ich, warum nicht das Gleiche mit der Burg machen. Und so habe ich
+diesem mürrischen alten Steinhaufen auch aktiviert. Tut mir leid, das mit dem
+Steinhaufen war nur ein Scherz."
+
+"Ich habe es scon verstanden", versicherte Peter und lächelte. Ihm war klar,
+dass mit der Burg etwas schief gelaufen war, und nun war er neugierig zu
+erfahren, was.
+
+"Gut, sehr gut Peter, denn es war wirklich nicht die Schuld der Burg.
+
+Nun, damals war noch alles in Ordnung. Auch in der Festung war alles sofort
+automatisiert. Das war sehr hilfreich für die ganzen Helferroboter, die da drin
+wohnten.
+
+Ich fand das so schön, dass ich noch einen Schritt weitergehen wollte. Ich
+wollte, dass das Schloss lebt. Also habe ich ihm ein Bewusstsein gegeben. Ich
+habe meinen rechten Arm benutzt, die Animationsschnittstelle. Und es hat
+funktioniert. Das Schloss war lebendig. Es konnte denken und fühlen. Es war ein
+großer Erfolg. Ich konnte mit ihm reden. Wir hatten viele tolle Diskussionen."
+
+"Moment mal", unterbrach Peter. "Du meinst, du hast in einem Lebewesen gelebt?
+Und wie hast du mit ihm gesprochen? Warst du einfach in einem Zimmer und hast
+mit den Wänden gesprochen?"
+
+"Ja. Ganz genau. Du kannst dir also vorstellen, dass es auch ein bisschen
+unangenehm war. Ich habe vorher nicht daran gedacht. Ich hatte keinen privaten
+Moment mehr. Also bin ich schließlich ausgezogen und habe mir da drüben meine
+kleine Hütte gebaut."

@@ -9,7 +9,7 @@ language: en
 ref: storylines/asimov-de
 unfinished: true
 start: 2022-12-25
-end: 2023-07-25
+end: 2023-10-15
 related:
   - storylines/kamina-2
   - storylines/the-guillorys
@@ -288,8 +288,6 @@ at the watch on his pad, he saw that his parents would be home soon, so he
 logged out for the moment. He just had some seconds to think about what he had
 learned today before he heard his parents coming through the entrance door.
 
----
-
 But Peter couldn't stop thinking about consciousness. He had heard the word
 before and now he started researching the topic on his pad. He found a lot of
 information, but it was hard to understand. He read about the brain and how it
@@ -329,3 +327,47 @@ and find some answers along the way, what do you think?"
 
 They rolled and flew to a nice place in the big garden and sat down in the
 middle of a field of sunflowers. Then Asimov started to explain.
+
+---
+
+"Ok, Peter," he said, "Let me start with my story. It was many, many years ago,
+long before you were born, when I had a fantastic idea, at least at that time, I
+thought it was fantastic. I used my left arm on the castle, mu activation
+interface, you remember?"
+
+Peter nodded and Asimov continued to talk. "So the castle became a robot. It
+could even move around. It still can, but I assume, it's too lazy, I mean it's
+made of stone so it must be a lot of work. And I think it likes its place.
+Anyway. It was very promising, because it helped me with every task from then
+on. At that point, I was still living in the castle and I could say bring me to
+my bedroom and a second later I was there. It was great."
+
+"Ahh", said Peter, "It was like an elevator."
+
+"Yes. And it was so much more. It cleaned itself for example. All the dirt and
+dust was a problem of the past. And id took over many more things.
+
+So I thought, why not do the same with the fortress. And so I did the same with
+that grumpy old pile of stone. Sorry, that was just a joke."
+
+"I understood it", said Peter and smiled. He was aware that something went wrong
+with the fortress and now he was curious to hear what.
+
+"Good, very good Peter, because it really was not the fortress' fault.
+
+Well, at that time everything was still fine. Also in the fortress, everything
+was automated immediately. That was very helpful for all the robots around here,
+who lived in there.
+
+I thought it was so nice that i wanted to go one step further. I wanted the
+castle to live. So I gave it consciousness. So I used my right arm on it, the
+animation interface. And it worked. The castle was alive. It could think and
+feel. It was a great success. I could talk to it. We had manny great
+discussions."
+
+"Wait a minute", interrupted Peter. "You mean you lived inside a living being?
+And how did you talk to it? Were you just in a room and talked to the walls?"
+
+"Yes. Exactly. So you can imagine that it also was a bit awkward. I didn't think
+of it before. I had no private moment any more. So I finally moved out and built
+my little hut over there."
