@@ -39,7 +39,9 @@ const MagazineItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
       <div className="font-light uppercase text-decent-600 tracking-wider">
         Edition
       </div>
-      <div className="font-light text-decent-600 text-7xl">1</div>
+      <div className="font-light text-decent-600 text-7xl">
+        {meta.edition || 1}
+      </div>
     </div>
     <div className="col-span-2 lg:col-span-1 text-sm text-decent-700 p-4 border-t lg:border-t-0 border-decent-300 text-center lg:text-left flex flex-col justify-center">
       <p className="hidden lg:block font-light uppercase text-decent-600 tracking-wider">
