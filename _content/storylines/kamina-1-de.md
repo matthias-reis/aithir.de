@@ -7,11 +7,11 @@ description:
 colorSpace: orange
 language: en
 ref: storylines/kamina-1
-image: storylines-kamina-1
+image: storylines/kamina-1
 unfinished: true
 hidden: true
 startDate: 2019-10-15
-date: 2023-09-23
+date: 2023-11-01
 related:
   - storylines/kamina-2
   - storylines/asimov
