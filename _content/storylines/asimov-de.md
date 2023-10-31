@@ -354,8 +354,6 @@ ein paar Antworten finden, was meinst du?"
 Sie rollten und flogen zu einem schönen Platz im großen Garten und setzten sich
 mitten in ein Feld voller Sonnenblumen. Dann begann Asimov zu erklären.
 
----
-
 "Okay, Peter", sagte er, "lass mich mit meiner Geschichte beginnen. Es war vor
 vielen, vielen Jahren, lange bevor du geboren wurdest, als ich eine fantastische
 Idee hatte, zumindest dachte ich damals, dass sie fantastisch war. Ich
@@ -386,7 +384,7 @@ erfahren, was.
 
 "Gut, sehr gut Peter, denn es war wirklich nicht die Schuld der Burg.
 
-Nun, damals war noch alles in Ordnung. Auch in der Festung war alles sofort
+Nun, damals war noch alles in Ordnung. Auch in der Burg war alles sofort
 automatisiert. Das war sehr hilfreich für die ganzen Helferroboter, die da drin
 wohnten.
 
@@ -404,3 +402,58 @@ mit den Wänden gesprochen?"
 unangenehm war. Ich habe vorher nicht daran gedacht. Ich hatte keinen privaten
 Moment mehr. Also bin ich schließlich ausgezogen und habe mir da drüben meine
 kleine Hütte gebaut."
+
+---
+
+"Nach einer Weile, etwa ein Jahr war vergangen, sah ich, dass die Roboter
+auszogen. Sie blieben draußen und begannen, das Schloss zu meiden", fuhr Asimov
+in seiner Geschichte fort. Peter hörte begierig zu. Er wollte wissen, was da vor
+sich ging. "Mit der Zeit folgten mehr und mehr von ihnen. Sie ruhten sich
+einfach auf den Feldern hier drüben aus, statt zu schlafen. Nach einer Weile war
+das Feld über die Nacht voll mit Robotern, während die Burg, das eigentliche
+Heimat der Roboter, leer war."
+
+"Hast du herausgefunden, warum sie das getan haben?", fragte Peter.
+
+"Ja. Sie haben es mir gesagt. Die Burg war wütend, sagten sie. Sie wollte ihnen
+keine Energie mehr geben und beschädigten offenbar sogar einige ihrer
+Schaltkreise. Ich konnte nicht glauben was ich da gehört habe, Peter. Immerhin
+war es das Schloss, das lebte, und die Festung war immer noch ein lebloser
+Roboter.
+
+Ich musste es selbst ausprobieren. Also beschloß ich, einige Nächte in der
+Festung zu schlafen. Ich wollte näheren Kontakt aufnehmen und sehen was
+passiert."
+
+"Aber, aber", begann Peter, "du hast gesagt, es sei gefährlich. Hattest du keine
+Angst dass dir die Burg Schaden zufügen könnte?"
+
+"Ja, das hatte ich. Ein kleines bisschen. Aber du musst wissen, dass ich die
+Dinge nicht zurücknehmen kann. Sobald Objekte zu Robotern oder Roboter lebendig
+werden, kann ich es nicht mehr rückgängig machen. Es ist getan. Sie bleiben, bis
+sie kaputt gehen oder sterben. Wenn ich also nicht herausfinden würde, was vor
+sich geht. hätte ich die Burg zerstören müssen. Das war die einzige Chance, sie
+zu retten. Aber ich hatte Hilfe."
+
+"Hat dir das Schloss geholfen?", fragte Peter.
+
+"Nein, nein, das ist nichts, was das Schloss tun würde und schließlich war es ja
+wahrscheinlich auch ein Teil des des Problems. Das hätte also nicht
+funktioniert. Nein, ich hatte einen Freund von eurem Planeten. Weißt Du, von
+Zeit zu Zeit habe ich Besucher wie Dich. Du bist nicht der erste. Und zur Zeit
+der großen Krise hatte ich auch Unterstützung."
+
+"Also gab es jemanden wie mich, der mit einer Drohne herumflog?", fragte Peter.
+
+"Ja, so in etwa. Na ja, die Drohne war damals ein kleines rollendes Fahrzeug,
+aber ansonsten hat dieser Mensch die gleiche Erfahrung gemacht wie du. Er war
+neugierig. Ich scheine nur seinen Namen vergessen zu haben. Nun, egal. Es ist
+nicht wichtig für die Geschichte."
+
+Während Peter darüber nachdachte, wie ein so fortschrittliches Wesen wie Asimov
+etwas vergessen konnte, öffnete sich die Tür seines Zimmers zu Hause. Er zuckte
+zusammen und das Pad, mit dem er mit Asimov gesprochen hatte, fiel zu Boden. Er
+hob es schnell auf und schaltete es aus.
+
+"Schlafenszeit, mein Schatz", sagte seine Mutter und schaute durch die Tür.
+"Zähneputzen ub ins Bett."

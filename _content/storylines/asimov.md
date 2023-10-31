@@ -345,7 +345,7 @@ my bedroom and a second later I was there. It was great."
 "Ahh", said Peter, "It was like an elevator."
 
 "Yes. And it was so much more. It cleaned itself for example. All the dirt and
-dust was a problem of the past. And id took over many more things.
+dust was a problem of the past. And it took over many more things.
 
 So I thought, why not do the same with the fortress. And so I did the same with
 that grumpy old pile of stone. Sorry, that was just a joke."
@@ -357,17 +357,67 @@ with the fortress and now he was curious to hear what.
 
 Well, at that time everything was still fine. Also in the fortress, everything
 was automated immediately. That was very helpful for all the robots around here,
-who lived in there.
+who lived over there at that time.
 
-I thought it was so nice that i wanted to go one step further. I wanted the
-castle to live. So I gave it consciousness. So I used my right arm on it, the
-animation interface. And it worked. The castle was alive. It could think and
-feel. It was a great success. I could talk to it. We had manny great
-discussions."
+I thought it had worked out so nicely that I wanted to go one step further. I
+wanted the castle to live. So I gave it consciousness. I used my right arm on
+it, the animation interface, you remember? And it worked. The castle was alive.
+It could think and feel. It was a great success. I could talk to it. We had many
+great discussions."
 
 "Wait a minute", interrupted Peter. "You mean you lived inside a living being?
 And how did you talk to it? Were you just in a room and talked to the walls?"
 
 "Yes. Exactly. So you can imagine that it also was a bit awkward. I didn't think
 of it before. I had no private moment any more. So I finally moved out and built
-my little hut over there."
+my little hut over here."
+
+---
+
+"After a while, a year or so, I saw that robots moved out. They stayed outside
+overnight and started to avoid the castle", continued Asimov his story. Peter
+listened eagerly. He wanted to know what was going on. "Over time, more and more
+followed. They just rested on the fields over here. So after a while the field
+was completely full of robots over night, while the fortress, the designated
+home of the robots was empty."
+
+"Did you find out why they did this?", asked Peter.
+
+"Yes. They told me. The fortress was angry they said. It would not give them
+energy any more and even damaged some of their circuits. I could not believe
+what I've heard, Peter. After all, it was the castle that was alive and the
+fortress was still robotic.
+
+I had to try it out myself. So I started sleeping in the fortress for some
+nights. I wanted to make closer contact."
+
+"But, but", started Peter, "you said it was dangerous. Haven't you been afraid
+that the fortress could do you harm?"
+
+"Well I was. A little bit. But you have to know that I can't take things back.
+As soon as objects become robots or robots become alive, I can't undo it. It's
+settled. They stay until they break or die. So if I didn't find out what was
+going on, I would have to destroy the fortress. it was the only chance to save
+it. But I had help."
+
+"Did the castle help you?", asked Peter.
+
+"No, no, that's nothing the castle would do and after all, it was also a part of
+the problem. So that wouldn't help. I had a friend from your planet. You know,
+from time to time, I have visitors just like you. And at the time of the grand
+crisis I also had support."
+
+"So there was someone like me flying around with a drone?", asked Peter.
+
+"Yeah, sort of. Well the drone was a little rolling vehicle at that time, but
+other than that this human has made the same experience as you. He was curious.
+I just seem to have forgotten his name. Well, never mind. It's not important for
+the story."
+
+While Peter was thinking, how such an advanced creature like Asimov could forget
+anything, the door of his room at home opened. He winced and the pad that he
+used to talk to Asimov fell to the ground. He quickly picked it up and turned it
+off.
+
+"Time to sleep, precious", said his mother looking through the door. "Clean your
+teeth and then off to bed."
