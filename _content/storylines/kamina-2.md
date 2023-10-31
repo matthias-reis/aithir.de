@@ -281,21 +281,17 @@ After the guard was gone again, they took another look. The coast was clear. So
 they started running to hide behind the next staple and then reached the door
 unseen.
 
-Luke turned the door knob. It was locked.
-
----
-
-He looked disappointed. But Kamina already had the clue in her hair. She took
-one of the clips that held her golden locks back and used it as a lock pick. She
-had seen it in a movie once. It was harder than she thought. She had to feel the
-mechanism in the inside and at the same time they had to take care not to be
-seen.
+Luke turned the door knob. It was locked. He looked disappointed. But Kamina
+already had the clue in her hair. She took one of the clips that held her golden
+locks back and used it as a lock pick. She had seen it in a movie once. It was
+harder than she thought. She had to feel the mechanism in the inside and at the
+same time they had to take care not to be seen.
 
 Time went by, she tried and tried. After a while, she had a rough idea what to
 do.
 
 "Kamina", said Luke. "Quicker. Three seamen are coming. They're almost around
-the corner. DO you hear the footsteps?"
+the corner. Do you hear the footsteps?"
 
 "Yees, I hear them", she answered annoyed. "I'm almost there. Just a second."
 
@@ -310,10 +306,10 @@ shouldn't there be light just like in any other room? He knew that it was not
 allowed in gunpowder rooms but in here were only mechanical devices. He saw a
 slightly brighter, swinging object in the middle. That must have been the
 petroleum lantern. He also found a crate in the corner and used it to reach the
-lamp. HIs very own magic device was a flint stone lighter. He had needed it in
-the kitchen all the time, so he always has it in his pocket.
+lamp. His very own magic device was a flint stone lighter. He had needed it in
+the kitchen all the time, so he always kept it in his pocket.
 
-With two clicks with the flint he lit the lamp and the room was illuminated in a
+Two clicks with the flint and he lit the lamp and the room was illuminated in a
 warm orange tone. They looked around and saw the most complicated mechanical
 device they had ever seen. On each side there were huge wooden boxes with gears,
 valves and levers. On the top they saw two outlets on each side. One surely went
@@ -322,3 +318,36 @@ into the balloon chamber. The other must have been the air outlet.
 "Luke, you're a genius", Kamina said.
 
 Now they had everything they needed for their little sabotage.
+
+---
+
+Kamina inspected the left side very closely. She went over its design. Touched
+all of the valves and levers without really pushing any button. She just had to
+feel the machine in a way. She was thinking and stood there for seconds. Luke
+could only watch.
+
+"Luke", she finally said. We have to do it synchronously Otherwise the ship goes
+down uncontrolled to the sea level and we sink with it."
+
+Luke anxiously walked to the other gear box and looked at it in awe. He could do
+that. He said this to himself several times in a row. He could do that. But what
+if they were sinking and drowning?
+
+Kamina on the other hand was already deep in action. "Ready, boy?", she said.
+
+"Boy?", Luke said. Did she just call him boy? But it seemed to be what he
+needed. He was distracted and could finally focus on the task.
+
+"Just kidding", Kamina said. "Let's do it. This is gonna be fun. Now pull the
+left lever down. This should give you manual control over all the other gizmos."
+
+Luke did as he was told. Kamina followed up with several other commands he
+executed in perfect sync. One of the last ones actually had an effect and opened
+some sort of valve. It became very loud in the cabin.
+
+"Cool, Let's take one last breath", Kamina shouted and then paused and watched
+Luke for a second. "Now take the left red knob and turn it 90 degrees to the
+right on three."
+
+Both were standing there in full tension for the count. "One, two", Kamina
+yelled, "aaand three".

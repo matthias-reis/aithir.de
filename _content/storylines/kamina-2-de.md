@@ -296,16 +296,12 @@ Nachdem die Wache wieder verschwunden war, schauten sie sich noch einmal um. Die
 Luft war rein. Also rannten sie los, um sich hinter dem nächsten Stapel zu
 verstecken, und erreichten schließlich ungesehen die Tür.
 
-Luke drehte den Türknauf. Sie war verschlossen.
-
----
-
-Er sah enttäuscht aus. Aber Kamina wusste was zu tum ist und hatte das Werkzeug
-bereits in ihrem Haar. Sie nahm eine der Klammern, die ihre goldenen Locken
-zurückhielten, und benutzte sie als Dietrich. Sie hatte es einmal in einem Film
-gesehen. Es war schwieriger, als sie dachte. Sie musste sich konzentrieren, um
-den Mechanismus im Inneren ertasten und gleichzeitig darauf achten, dass sie
-nicht entdeckt werden.
+Luke drehte den Türknauf. Sie war verschlossen. Er sah enttäuscht aus. Aber
+Kamina wusste was zu tum ist und hatte das Werkzeug bereits in ihrem Haar. Sie
+nahm eine der Klammern, die ihre goldenen Locken zurückhielten, und benutzte sie
+als Dietrich. Sie hatte es einmal in einem Film gesehen. Es war schwieriger, als
+sie dachte. Sie musste sich konzentrieren, um den Mechanismus im Inneren
+ertasten und gleichzeitig darauf achten, dass sie nicht entdeckt werden.
 
 Die Zeit verging, sie probierte und probierte. Nach einer Weile hatte sie eine
 ungefähre Vorstellung, was zu tum war.
@@ -342,3 +338,40 @@ Der andere muss der Luftauslass gewesen sein.
 "Luke, du bist ein Genie", sagte Kamina.
 
 Jetzt hatten sie alles, was sie für ihren kleinen Sabotageakt brauchten.
+
+---
+
+Kamina untersuchte die linke Seite sehr genau. Sie ging durch alle Details,
+berührte alle Ventile und Hebel an, ohne wirklich einen Knopf zu drücken. Sie
+musste einfach irgendwie die Maschine fühlen. Sie dachte nach und stand
+sekundenlang da. Luke konnte nur zusehen.
+
+"Luke", sagte sie schließlich. Wir müssen es exakt gleichzeitig machen, sonst
+fällt das Schiff unkontrolliert auf die Meeresoberfläche und wir sinken mit
+ihm."
+
+Luke ging leicht verängstigt zu dem anderen Getriebe und betrachtete es
+staunend. Er schaffte das. Das sagte er sich mehrere Male hintereinander. Er
+würde es schaffen. Aber was wenn sie sinken und ertrinken würden?
+
+Kamina hingegen war schon voll in Aktion. "Fertig, Junge?", sagte sie.
+
+"Junge?", sagte Luke. Hatte sie ihn gerade Junge genannt? Aber es schien genau
+das zu sein, was er gerade brauchen. Er war abgelenkt und konnte sich endlich
+auf die Aufgabe konzentrieren.
+
+"War nur ein Scherz", sagte Kamina. "Lass es uns tun. Das wird ein Spaß. Jetzt
+zieh den linken Hebel nach unten. Damit kannst du alle anderen Teile manuell
+steuern."
+
+Luke tat, was ihm gesagt wurde. Kamina folgte mit mehreren weiteren Befehlen,
+die er in perfekter Synchronisation ausführte. Einer der letzten hatte
+tatsächlich eine spürbare Wirkung und öffnete eine Art Ventil. Es wurde sehr
+laut in der Kabine.
+
+"Cool, lass uns einen letzten Atemzug nehmen", rief Kamina, hielt dann inne und
+beobachtete Lukas einen Moment lang. "Jetzt nimm den linken roten Knopf und
+drehe ihn um 90 Grad nach rechts. Auf drei."
+
+Beide standen da und warteten gespannt auf den Countdown. "Eins, zwei", schrie
+Kamina, "uuuund drei".
