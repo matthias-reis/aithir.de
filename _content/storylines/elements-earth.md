@@ -14,6 +14,7 @@ tags:
   - Dystopia
   - Cataclysm
   - Dublin
+  - Urban Fantasy
 related:
   - storylines/elements-water
 ---
@@ -436,7 +437,7 @@ depend on it. They had to do fieldwork. They had to find out what caused the
 appearance of demons, where they came from and finally how to close that gate to
 hell or whatever it was again before these creatures gained more power. It had
 to happen as soon as possible. The first destination was Hamburg, where the
-other crew with the direct connection to the satellites lived.
+other team with the direct connection to the satellites lived.
 
 Juliette herself, pregnant, seventh month, could not go. But within only one day
 she put a formidable crew together. The main reason why Ruth was not in the lead
@@ -469,6 +470,6 @@ Siobhan installed and set up a radio communication system on the yacht that
 ensured permanent contact with Dublin and Hamburg.
 
 After everything was prepared and they had their last lunch onshore, Ron
-commanded all of them to the yacht. And at two o'clock, adter the obligatory
+commanded all of them to the yacht. And at two o'clock, after the obligatory
 briefing, the expedition started and Ron steered them with the help of the
 auxiliary motor towards the open Irish Sea.

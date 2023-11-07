@@ -10,6 +10,12 @@ end: 2022-11-14
 related:
   - storylines/vlad
   - storylines/octahedra
+tags:
+  - Fantasy
+  - Magic
+  - Magicians
+  - Secret Societies
+  - Urban Fantasy
 ---
 
 Some years ago, my wife [Anne](https://cardamonchai.com) and I have managed to

@@ -17,20 +17,56 @@ tags:
   - Cataclysm
   - Hamburg
   - London
+  - Urban Fantasy
 related:
   - storylines/elements-earth
 ---
 
 ## Water
 
+_Paul_
+
+Paul was impatient. It was ten years ago when they had their last visitor. Paul
+and five other survivors maintained a radio station in Hamburg. All of the five
+were very skilled with all the lo-fi radio tech and two of them, Paul himself
+and Marta were also good entertainers and Music lovers. Thus next to maintaining
+the radio transmission technology, they had also set up a small studio and ran a
+little show for two hours a day.
+
+Additionally, they kept contact with as many frequencies and locations all over
+Europe as possible. Not many were left. Even fewer could keep radio receivers
+and only a handful were capable of transmitting. Dublin was the most active
+partner for exchange for them. There were scholars over there who could retain
+quite an amount of knowledge and were always open for exchange.
+
+When they asked for a visit two weeks ago, everyone at the Hamburg studio,
+that's how they called their refuge, was excited. They stayed in contact with
+the Dublin base station and a sailing yacht that was on the way to Hamburg. The
+yacht was supposed to arrive today, so they prepared for a little welcome party
+and a good dinner.
+
+<!-- Bis hier -->
+
+_Ruth_
+
+"Hey Juliette, do you copy?", yelled Ruth into a weird looking d.i.y. microphone
+in the comm room in Hamburg. It was the day after their arrival.
+
+"Ruth", Juliettes voice came crackling out of an old and dusty speaker. "I'm
+here, yes. How are you? Ho is Hamburg?"
+
+"We had an amazing evening yesterday. The people here are so nice and friendly.
+It's really a pity that you couldn't join. We had the best dinner in years, I
+swear", Ruth looked into the round. Paul and Marta were there as well as
+
 After the arrival, they could spend a nice evening with some new faces after all
-these years and went to work on the next day. Ruth obviiously took over. It
+these years and went to work on the next day. Ruth obviously took over. It
 turned out that she was a software engineer before the incident. She knew
 everything about computers and the system they had in Hamburg was a bliss as
 soon as she sat in front of it rather than triggering some remote commands.
 
 After some minutes, they had proper footage from a set of weather satellites.
-The reslolution was amazing. They could zoom down and even see trees. After half
+The resolution was amazing. They could zoom down and even see trees. After half
 an hour, Ruth found out how to move the satellites into new positions. She sent
 the commands. Now they had to wait.
 
