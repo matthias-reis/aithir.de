@@ -339,8 +339,6 @@ Der andere muss der Luftauslass gewesen sein.
 
 Jetzt hatten sie alles, was sie für ihren kleinen Sabotageakt brauchten.
 
----
-
 Kamina untersuchte die linke Seite sehr genau. Sie ging durch alle Details,
 berührte alle Ventile und Hebel an, ohne wirklich einen Knopf zu drücken. Sie
 musste einfach irgendwie die Maschine fühlen. Sie dachte nach und stand
@@ -375,3 +373,55 @@ drehe ihn um 90 Grad nach rechts. Auf drei."
 
 Beide standen da und warteten gespannt auf den Countdown. "Eins, zwei", schrie
 Kamina, "uuuund drei".
+
+---
+
+Luke und Kamina waren vollständig synchron. Sie drehten die Knöpfe genau zur
+gleichen Zeit. Aber es schien nichts zu passieren. Sie standen wie angewurzelt
+auf der Stelle und wagten es nicht sich zu bewegen. Es fühlte sich wie Stunden
+an, aber es vergingen nur ein paar Sekunden, bis endlich etwas passierte. Luft
+strömte durch die Ventile des Systems. Am Anfang war es einfach nicht genug, so
+dass sie es nicht bemerkten. Aber jetzt wurde es immer mehr.
+
+Es war schon sehr laut in der Kabine, so als ob ein großer Fön laufen würde.
+Dann begann das Luftschiff ein wenig zu wackeln. Es verlor an Höhe.
+
+"Luke, wir haben es geschafft", rief Kamina. "Wir haben es geschafft. Wir
+stürzen ab. Wir müssen raus hier. Schnell."
+
+Sie rannten hinaus. Sie machten sich nicht einmal mehr die Mühe, die Wachen im
+Auge zu behalten. Auf dem Schiff schien nun ohnehin alles in Alarmbereitschaft
+zu sein. Es sollte nur einen Moment dauern, bis jemand vorbeikam. Also rannten
+sie einfach so schnell sie konnten. Kamina hatte ihren Plan im Kopf, also war
+sie vorne und gab die Richtung vor. Sie rannte auf den Bug des Schiffes zu. Luke
+folgte ihr. Sie mussten zur Galionsfigur gelangen. Sie mussten zurückzur Phoenix
+springen, bevor es zu spät war. Jetzt kam es nur noch auf das richtige Timing
+an.
+
+Sie kletterten auf eine Stange vor der Galionsfigur und beobachteten die
+Situation. Das feindliche Luftschiff, auf dem sie sich befanden, drehte seine
+Nase in Richtung der Phoenix. Aber es verlor auch schon ein wenig an Höhe.
+Zwischen ihnen und einer sicheren Zielplattform auf der Phoenix lagen noch etwa
+zehn Meter. Aber der Abstand wurde immer kleiner. Immer noch zu viel, um zu
+springen.
+
+Die Wachen sahen sie und begannen, ebenfalls auf den Bug des Schiffes
+zuzulaufen. Einige von ihnen hatten Bajonett-Gewehre, die sie eilig schussbereit
+machten. Noch vier Meter zwischen der Phoenix und ihrem Schiff. Kamina duckte
+sich und Luke folgte ihr. Sie sahen nun, dass sie auch etwas nach oben springen
+mussten, um die Plattform zu erreichen, da sie schon weiter gesunken waren. Noch
+zwei Meter. Eine der Wachen war bereit zu schießen und drückte ab.
+
+In diesem Moment geschahen drei Dinge genau zur gleichen Zeit. Kamina begann zu
+springen, während sie Lukes Hand hielt. So sprang er automatisch mit ihr.
+Während sie buchstäblich zwischen den beiden Luftschiffen flogen, traf die Kugel
+des einen Matrosen die Galionsfigur, die sich einige Meter hinter ihnen befand.
+Der linke Flügel des Holzvogels explodierte und fiel ab. Der Schuss schien nicht
+sehr präzise gewesen zu sein. Und drittens sackte das feindliche Luftschiff
+plötzlich mehrere Meter in die Tiefe und die anderen Schützen konnten sich nicht
+mehr auf den Beinen halten. Sie verloren alle das Gleichgewicht und fielen
+synchron zu Boden, als wäre es ein eingeprobtes Balletstück gewesen.
+
+Nach der Landung lagen Kamina und Luke auf der Plattform der Phoenix. Sie
+schüttelten den Staub ab, sahen sich kurz an, begannen zu lachen und gaben sich
+ein High Five.

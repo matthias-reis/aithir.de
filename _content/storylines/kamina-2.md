@@ -319,8 +319,6 @@ into the balloon chamber. The other must have been the air outlet.
 
 Now they had everything they needed for their little sabotage.
 
----
-
 Kamina inspected the left side very closely. She went over its design. Touched
 all of the valves and levers without really pushing any button. She just had to
 feel the machine in a way. She was thinking and stood there for seconds. Luke
@@ -351,3 +349,49 @@ right on three."
 
 Both were standing there in full tension for the count. "One, two", Kamina
 yelled, "aaand three".
+
+---
+
+Luke and Kamina were very synchronous. They turned the knobs at the exact same
+time. But nothing seemed to happen. They were standing there rooted to the spot
+and couldn't move. It felt like hours but it was only seconds until something
+finally happened. Air blew through the valves of the system. In the beginning it
+just was not enough so they didn't notice. But now it became more and more.
+
+It was already very loud in the cabin, as if a big hair dryer was running. Then
+the airship started to shake a little. It started losing altitude.
+
+"Luke, we did it", Kamina shouted. "We did it. We're going down. We have to get
+off. Fast."
+
+They ran out. They didn't bother to look at the guards any more. Everything on
+the ship seemed to be in alert anyway. It should take only a moment until
+someone came around. So they just ran as fast as they could. Kamina had a plan,
+so she was in front showing the direction. She was running towards the bow of
+the ship. Luke was following her. They had to get to the figurehead. They had to
+jump back before it was too late. It was all about timing now.
+
+They climbed onto a bar beyond the figurehead and monitored the situation. The
+enemy's airship they were on rotated its nose towards the Phoenix. But it also
+lost height a little already. There were ten meters between them and a safe
+platform on the Phoenix. But the distance became smaller and smaller. Still too
+much to jump.
+
+The guards saw them and started to run towards the ship's bow as well. Some of
+them had bayonet rifles, that the hastily made ready to shoot. Four metres left.
+Kamina ducked and Luke followed her. They saw now that they would have to jump
+upwards to reach the platform. Two metres left. One of the guards was ready to
+shoot and pulled the trigger.
+
+In that moment three things happened at exactly the same time. Kamina started to
+jump while holding Luke's hand. So he automatically jumped with her. While
+literally flying between the two airships, the bullet hit the figurehead, that
+was several metres behind them. The wooden bird's left wing exploded and fell
+off. The shot didn't seem to be very precise. And thirdly, the enemy airship
+suddenly sank down for several metres and the other shooters weren't able to
+stay on their feet. They all lost their balance and fell to the floor in sync as
+if it was a dance move.
+
+After the landing, Kamina and Luke were lying on the platform of the Phoenix.
+They shook off the dust, looked at each other, started laughing and exchanged a
+high five.
