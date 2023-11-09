@@ -429,3 +429,45 @@ eagerly awaiting the moment when he could turn on the pad again.
 
 "I'm finished", he said to his mother. "Can I go to my room and play with my
 pad?"
+
+"OK, but only for half an hour. You sit in front of that screen for too long.",
+answered his mother.
+
+"Fine", said Peter wit a slightly sad tone and quickly ran upstairs. He turned
+on the pad and started the app.
+
+"Peter, Peter, there you are", greeted Asimov who seemed to have been in a
+hurry. "Quick, you have to help me with the fortress."
+
+"What's going on?", asked Peter.
+
+"It's the same as always, Peter. But now it seems to happen more often. The
+fortress is mad at the castle and spits fire at it. The castle is unimpressed,
+but I'm afraid for the robots who do their work in that area. They might be in
+danger."
+
+"But how could I help? I don't even know what's going on."
+
+"Time to meet the castle, I think. I will take you there. And then I'll take
+over the angry fortress for now."
+
+It took about ten minutes until Peter's drone and Asimov reached the castle's
+draw bridge.
+
+"Good luck", said Asimov hastily. "I'm driving to the castle now. Just fly over
+the walls and say hello. I hope I'll come back soon."
+
+"But what about the fire?", asked Peter. But Asimov was already gone. But he was
+not really afraid. Asimov could probably replace the drone easily, if it got
+damaged.
+
+So Peter poked around a bit, flew to the right and to the left around the thick
+stone walls behind the castle moat. Nothing to see. He didn't get the least hint
+of anything alive, just massive stone.
+
+He finally gained a bit of height and steered the dron over the big arc with the
+entrance gate. To the left and the right there were beautiful watchtowers. He
+also passed them and finally saw the square and the garden area in front of the
+beautiful palace. The garden had black dots. That must have been the impact
+craters of the little firebombs from the fortress. But there were still gardener
+robots, that worked on restoring the lawn and the flower beds.

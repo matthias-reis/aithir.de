@@ -401,11 +401,9 @@ mit den Wänden gesprochen?"
 "Ja. Ganz genau. Du kannst dir also vorstellen, dass es auch ein bisschen
 unangenehm war. Ich habe vorher nicht daran gedacht. Ich hatte keinen privaten
 Moment mehr. Also bin ich schließlich ausgezogen und habe mir da drüben meine
-kleine Hütte gebaut."
+kleine Hütte gebaut.
 
----
-
-"Nach einer Weile, etwa ein Jahr war vergangen, sah ich, dass die Roboter
+Nach einer Weile, etwa ein Jahr war vergangen, sah ich, dass die Roboter
 auszogen. Sie blieben draußen und begannen, das Schloss zu meiden", fuhr Asimov
 in seiner Geschichte fort. Peter hörte begierig zu. Er wollte wissen, was da vor
 sich ging. "Mit der Zeit folgten mehr und mehr von ihnen. Sie ruhten sich
@@ -457,3 +455,57 @@ hob es schnell auf und schaltete es aus.
 
 "Schlafenszeit, mein Schatz", sagte seine Mutter und schaute durch die Tür.
 "Zähneputzen ub ins Bett."
+
+---
+
+Peter dachte am nächsten Tag beim Frühstücken und in der Schule die ganze Zeit
+über Asimovs Geschichte nach. Er war neugierig, den Rest zu hören. Er hatte
+Fragen. Er erledigte seine Hausaufgaben an diesem Tag schneller und
+unkonzentrierter als sonst, denn er wartete sehnsüchtig auf den Moment, an dem
+er sein Pad wieder einschalten konnte.
+
+"Ich bin fertig", sagte er zu seiner Mutter. "Kann ich in mein Zimmer gehen und
+mit meinem Pad spielen?"
+
+"OK, aber nur für eine halbe Stunde. Du sitzt zu lange vor dem Bildschirm",
+antwortete sie.
+
+"Gut", sagte Peter mit einem leicht traurigen Ton und lief schnell nach oben. Er
+schaltete das Gerät ein und startete die App.
+
+"Peter, Peter, da bist du ja", grüßte Asimov, der es eilig gehabt zu haben
+schien. "Schnell, du musst mir mit der Festung helfen."
+
+"Was ist denn los?", fragte Peter.
+
+"Es ist das Gleiche wie immer, Peter. Aber jetzt scheint es öfter zu passieren.
+Die Burg ist wütend auf das Schloß und bespuckt es mit Feuerbällen. Das Schloss
+ist davon unbeeindruckt, aber ich habe Angst um die Roboter, die in diesem
+Gebiet ihre Arbeit erledigen. Sie könnten in Gefahr sein."
+
+"Aber wie kann ich helfen? Ich weiß doch gar nicht, was hier los ist."
+
+"Ich denke, es ist Zeit, das Schloss aufzusuchen. Ich werde dich dorthin
+bringen. Und dann übernehme ich erst einmal die wütende Festung."
+
+Es dauerte etwa zehn Minuten, bis Peters Drohne und Asimov die Zugbrücke des
+Schlosses erreichten.
+
+"Viel Glück", sagte Asimov hastig. "Ich fahre jetzt zur Burg. Flieg einfach über
+die Mauern und sag Hallo. Ich hoffe, ich komme bald wieder."
+
+"Aber was ist mit den Feuerbällen?", fragte Peter. Aber Asimov war schon weg.
+Peter hatte nicht wirklich Angst. Asimov konnte seine Drohne wahrscheinlich
+leicht ersetzen, wenn sie beschädigt wurde.
+
+Also stöberte er ein wenig herum, flog nach rechts und links um die dicken
+Steinmauern hinter dem Burggraben herum. Es war nichts zu sehen. Er konnte nicht
+den geringsten Hinweis auf etwas Lebendiges entdecken, nur massiven Stein.
+
+Schließlich gewann er ein wenig an Höhe und steuerte die Drohne über den großen
+Bogen mit dem Eingangstor. Links und rechts davon standen schöne Wachtürme. Er
+passierte auch sie und sah schließlich den Platz und die Gartenanlage vor dem
+prächtigen Palastgebäude. Der Garten was allerdings übersät mit schwarze
+Punkten. Das mussten die Einschlagskrater der kleinen Brandbomben von der Burg.
+Aber es gab dort immer noch Gärtnerroboter, die daran arbeiteten, die
+Rasenflächen und Blumenbeete zu reparieren.
