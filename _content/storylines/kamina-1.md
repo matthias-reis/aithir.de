@@ -2,13 +2,11 @@
 superTitle: Children's Story
 title: Kamina and the Water Spirits
 description:
-  Little Kamina is always drawn into phantastic adventures. This time she jumps
-  into a steampunk world with a lot of surprises.
-colorSpace: orange
+  Just like Alice, the little Kamina is drawn into a rabbit hole and experiences
+  a fantastic adventure ... under water.
+colorSpace: red
 language: en
 ref: storylines/kamina-1-de
-unfinished: true
-hidden: true
 startDate: 2019-10-15
 date: 2023-11-01
 related:
@@ -22,515 +20,539 @@ tags:
   - For Children
 ---
 
-Kamina ran as fast as she could. She was furious. Because she had been arguing
-with her brother again. He had taken away her beautiful music box. When it was
-opened, a little unicorn danced to a charming melody, the name of which she had
+Kamina ran as fast as she could. She was angry because she once again argued
+with her brother Yoko. He'd taken away her beautiful music box. When she opened
+it, a little unicorn started dancing to an enchanting tune whose name she had
 unfortunately forgotten. The colorful wooden box with the dancing unicorn was
 the dearest thing she owned.
 
-Yoko, her brother, was two years older than her. He had taken the watch from her
-before. She remembered exactly. It had been on her last birthday, when she
-turned six. Yoko had even broken off a small corner of the dainty box with the
-dancing unicorn inside. This time she was prepared. She immediately snatched the
-watch out of his hand, kicked him in the shin, and ran off as fast as she could.
-That served him well!
+Yoko was two years older than her. He had taken the musical clock away from her
+once before. She remembered it clearly. It'd been on her last birthday when she
+turned six. Back then, Yoko had even broken a small corner off the dainty little
+box with the dancing unicorn inside. But this time, she was prepared. She
+snatched the clock right back out of his hand, kicked him in the shins, and ran
+as fast as she could. It served him right!
 
-You have just been on holiday at a campsite by the sea. Actually, the
-six‐year‐old liked it here very much. Everything was green and covered with
-bushes. What she particularly liked was that there were holes everywhere where
-rabbits lived. She had already encountered them twice this year.
+They were just on vacation at a campsite by the sea. The six-year-old liked it
+here very much. Everything was green, covered with fuzzy shrubs. The girl
+especially liked that there were plenty of rabbit holes everywhere. She'd
+already met some of them this year.
 
-Whenever it was nice, her brother has to come and destroy everything. It was
-exactly the same on her birthday. In anger, the girl ran on and on. In the
-meantime they had already left behind two of the long dark hedges that grew here
-between the meadows. She passed the last tents on the edge of the campsite.
+Whenever something was beautiful, her brother got wind of it quickly, got it out
+of her hands, and destroyed it. It was just the same on her birthday. In her
+anger, Kamina ran on and on. In the meantime, they'd already left behind two of
+the long, dark hedges that grew between the meadows.
 
-She had almost reached the stairs leading down to the beach when she saw someone
-hopping on the floor in front of her. It was one of the rabbits. It must have
-been particularly trusting, for Kamina had never come so close to any of them.
-Although her footsteps made quite a noise, she didn't seem to be afraid of her
-at all. The girl paused for a moment to pause.
+She was already passing the last tents at the edge of the campsite, and she'd
+almost reached the stairs leading down to the beach when she saw someone hopping
+on the ground in front of her. It was one of the rabbits! It must have been
+particularly trusting: Kamina had never been this close to one of them ever
+before. Although her footsteps made quite a noise, it didn't seem to be afraid
+of her at all. The girl stopped to rest and breathe for a moment and decided to
+creep cautiously from now on. She wanted to get closer to the little animal and
+felt the instant urge to pet it. It hopped away and finally stopped in front of
+the next hedge. Kamina was amazed. The rabbit seemed to be waiting for her!
 
-She decided to sneak carefully from now on in order to be able to get a little
-closer to the little animal. She just wanted to pet it too much. It hopped away
-and finally stopped in front of the next hedge. Kamina was puzzled. The rabbit
-seemed to be waiting for them.
+The shrubs in the hedges were so thorny and dense that she couldn't squeeze
+through. But the animals that lived here had made sure that there were a few
+trails. Kamina knew them pretty well by now. It was already her third time here.
 
-The shrubs in the hedges were so thorny and dense that you couldn't just squeeze
-through. However, the animals that lived here had made sure that there were a
-few beaten paths. Kamina knew her pretty well by now. This is your third time
-here.
+It was strange, but suddenly, a passageway had formed out of the roots and
+branches of the hedge where the rabbit was sitting now. It almost seemed like a
+small door.
 
-Where the rabbit was now sitting, a passage had formed from the roots and
-branches of the hedge. It almost looked like a small door.
+"The perfect entrance for a rabbit hole,"
 
-"The perfect entrance to a rabbit hole," Kamina thought to herself. Or had she
-said it? She wasn't quite sure. And what was even stranger: the rabbit had
-answered her! Or had she misheard? Now the rodent repeated its words.
+Kamina thought to herself. Or had she pronounced it? She wasn't quite sure. And
+what was even stranger was that the rabbit had answered her! Or had she
+misheard? Now, the rodent repeated its words.
 
-"Come with me!" it said loud and clear. "Yes, you there. You and your friend,"
-the rabbit added.
+"Come along!" it said loud and clear. "Yes, you there. You and your friend," the
+rabbit added.
 
-"What friend?" replied Kamina, perplexed. She couldn't believe she was talking
-to a rabbit. Until now, she had only known something like this from stories. At
-that moment, there was also a knock.
+"What friend?" replied Kamina, perplexed. She couldn't believe that she was
+talking to a rabbit. She'd only heard such things in stories. At that moment,
+there was also a knock.
 
-"Knock, knock" - What could that be again? That's when she noticed that the
-knocking sounds were coming from her music box. She opened the lid of the wooden
-box, but this time no music came out. Of course, her brother immediately came
-back to her mind.
+"Knock, knock."
 
-"This time he broke my watch for good," she thought. But then she heard another
-voice.
+What could that be now? Then she realized that the knocking sound was coming
+from her music box. She opened the lid of the wooden box, but this time, no
+music came out. Of course, her brother immediately came back to her mind.
 
-"Hello Kamina, I'm Flox," it sounded softly in Kamina's ears. She couldn't
-believe her eyes. The voice seemed to come from the little unicorn in the clock.
+"This time, he broke my clock for good," she thought. But then she heard another
+voice that sounded very softly.
 
-"You're alive and you can talk?" Kamina asked in a trembling tone. She was
-overwhelmed. First a rabbit talked to her and now her favorite toy.
+"Hello Kamina, I'm Flox,"
+
+The girl didn't want to believe her eyes. The voice seemed to come from the
+little unicorn inside her clock.
+
+"You are alive, and you can speak?"
+
+Kamina asked in a trembling tone. She was stunned. First, a rabbit talked to
+her, and now it became even stranger: Her favorite toy seemed to be a living
+being!
 
 "Yes, Kamina. I'm here to take care of you."
 
-"But, but." Kamina faltered. All of a sudden, she had so many questions. "But
-how can that be?"
+"But how can that be?"
 
-"I've always taken care of you, my darling," said the colorful unicorn. "And I
-can do a lot more than just talk. Watch out."
+Kamina had so many questions.
 
-With these words, the horse reared up briefly. His fur glistened and his horn
-began to glow in all the colors of the rainbow. Then, suddenly, it seemed to get
-bigger and bigger. Kamina felt dizzy as she watched.
+"I've always been looking out for you, my darling,"
 
-Suddenly, she noticed something even stranger: the unicorn wasn't growing at
-all. She herself was getting smaller and smaller. At some point, she was barely
-bigger than the rabbit. The next moment she was already passing through the
-passage through which it had come out of the hedge. The unicorn was now standing
-beside her. It was the size of a small pony, but with the graceful elegance of a
-noble white horse.
+the colorful unicorn said to her.
 
-"Well, what do you think, Kamina?" said Flox. The unicorn's voice sounded much
-deeper and stronger now than the first time.
+"And I can do much more than just talk. Watch me."
 
-"It scares me a little," Kamina replied. "You made me small. How am I ever going
-to get out of here?"
+With these words, the little fairy tale horse reared up briefly. Its fur started
+to glisten, and its horn shone in all rainbow colors. Then suddenly, it seemed
+to grow bigger and bigger. Kamina felt dizzy as she watched.
 
-"Don't be afraid, Kamina," Flox reassured the girl. "I'm always there for you. I
-promise you that nothing will happen to you and that you will be back in time
-for lunch."
+Suddenly, she noticed something even stranger: The unicorn wasn't growing at
+all. Instead, she seemed to be getting smaller and smaller. At some point, she
+was even barely taller than the rabbit! The next moment, she already fit through
+the passage through which it had come out of the hedge. The unicorn was now
+standing next to her. It was the size of a small pony but the graceful elegance
+of a noble gray horse.
 
-"You know, we need your help," Flox added as they walked down a shady, narrow
-passageway among the thorny bushes. "The mermaids are in danger."
+"Well, what do you think of that, Kamina?" said Flox. The unicorn's voice
+sounded much more profound and robust than the first time Kamina heard it.
 
-"The mermaids?" asked Kamina, dumbfounded.
+"To be honest, it scares me a little,"
 
-Kamina had always dreamed of mermaids when they were here on vacation. So they
-really seemed to exist? Judging by the crazy things that had already happened to
-her today, that had to be true, of course. She couldn't believe her luck. She
-might meet some real mermaids soon.
+Kamina replied shakily.
 
-Flox began to talk about the inhabitants of the sea. He reported on the
-conversations that the colorful fish had with each other. Of the turtles and the
-big whales. Finally, he told of Queen Neptunia the Second. That was the name of
-the ruler of the water spirits and mermaids.
+"Did you make me small? How will I ever get out of here?"
 
-After a long walk with many bends and turns, and over steps carved into the
-cliff rocks, they reached the sea. The water splashed in small glittering waves
-against the bright sandy beach.
+Flox reassured the girl:
 
-Kamina had the feeling that they had been on the road for a very long time. When
-she looked up, she had to rub her eyes. She almost couldn't believe what she saw
-in front of her in the bright sunlight.
+"Don't be afraid, Kamina! I'll always be here for you. I promise you that
+nothing will happen to you and that you will be back in time for lunch."
 
-The three hikers found themselves in the middle of a shimmering pink sea.
-Thousands of flamingos stood row after row in the shallow water. They pecked at
-fish and plucked their feathers.
+As they walked along a shady, narrow passage between the thorny shrubs, he
+added:
 
-One of the front rows had a strange hat on his head. It looked like a helmet,
-but it seemed to be made of some kind of leather. In addition, the bird wore
-glasses on its forehead. I guess he didn't need them right now. Kamina thought
-that maybe the animal put them on so that insects wouldn't fly into its eyes as
-it flew.
+"You know, we need your help. The mermaids are in danger!"
 
-"What a weird flamingo," she thought. As if she had asked him about it, he spoke
-to her.
+"The mermaids?"
+
+Kamina asked, puzzled.
+
+She'd always dreamed of mermaids when they were on their vacation here. So, now
+everything pointed to the fact that they really existed? Judging by the crazy
+things that had already happened to her today, of course, it had to be true! She
+could hardly believe her luck. She might soon meet some real mermaids!
+
+Flox began to tell her about the inhabitants of the sea. He talked about the
+conversations the colorful fish had with each other, about the turtles and the
+giant whales. Finally, he recounted about Queen Neptunia the Second. Kamina
+learned he was the ruler of the water spirits and mermaids!
+
+After a long walk with many twists and turns and upsteps carved into the cliff
+rocks, they reached the sea. The water lapped in small glittering waves against
+the bright sandy beach.
+
+Kamina had the feeling that they had been walking for a very long time. When she
+looked up, she had to rub her eyes. She almost didn't believe what she saw in
+the sunlight.
+
+The three hikers were in the middle of a shimmering pink sea. Thousands of
+flamingos stood row upon row in the shallow water. They were pecking at fish and
+plucking their feathers.
+
+One of them, standing in the front row, had a strange hat on his head. It looked
+like a helmet but seemed to be made of some leather. The long-legged bird also
+wore glasses on his forehead. At the moment, it probably didn't need them.
+Kamina thought that perhaps the animal put them on to keep insects from flying
+into its eyes while flying.
+
+"What a funny flamingo," she thought. As if she had asked them about it, the
+pink fluffy flamingo spoke to her.
 
 "My name is River. I am the guardian of the great sea city, and these are my
-guards. Who are you and what do you want?" he added in 11 imperious tones.
+guards. Who are you, and what do you want?" he added in a commanding-sounding
+tone.
 
-Since they had shrunk, the waterfowl was more than three times the size of the
-child. Flox nudged Kamina with his nostrils. At the same time, the unicorn was
-asking her to say something and making her understand that it was still keeping
-him safe.
+Having shrunk, the water bird was more than three times the child's size. Flox
+nudged Kamina with his nostrils. With that, the unicorn simultaneously prompted
+her to say something, letting her know it still cared for its safety.
 
-"My name is Kamina Sommerspitz," she stuttered.
+"My name is Kamina Sommerspitz,"
 
-"And I'm Flox," the unicorn quickly added. "We are already awaited by Queen
-Neptunia, the Second. We're here to offer our help."
+she stammered.
 
-"Is that so?" River replied incredulously. "So that's you?"
+"And I am Flox," the unicorn quickly added. "We are already expected by Queen
+Neptunia the Second. We are here to offer our help."
 
-He made some strange head movements to the second flamingo behind him. He
-immediately leaned back with his long neck and whispered something in the ear of
-one of the other birds. And so it went on. Through the silent mail, the news
-soon reached the farthest flamingos and the game turned around. After a few
-seconds of awkward silence, the second finally leaned over to River and
-whispered an answer to him.
+"Is that so?" replied River incredulously. "So it's you guys?"
 
-"You're allowed to pass," he said after a moment's thought. The flock of
-flamingos split in the middle, clearing a path that led directly into the sea.
+He made some quizzical head movements to the second flamingo behind him. The
+latter immediately bent his long neck further back and whispered something in
+the ear of one of the other birds. So it went on. Via the silent mail, the news
+had soon reached the rearmost flamingos, and the game turned around. After a few
+seconds of awed silence, the second finally leaned over to River and whispered a
+reply.
 
-"Don't worry," Flox said to Kamina. "If I or one of the water spirits is around,
-you can breathe normally underwater."
+"You may pass," the flamingo king said after some consideration. The flock
+parted in the middle, clearing a path leading directly into the sea.
 
-For a brief moment, Kamina was overcome with fear again. She couldn't help but
-think of her parents and the time that had passed since she had spotted the
-rabbit upstairs. It had to be quite late. Surely lunch had already begun. I'm
-sure her family was already worried.
+"Don't be afraid," Flox told Kamina. "If I or one of the water spirits is
+nearby, you can breathe normally underwater."
+
+For a brief moment, Kamina was overcome with fear again. She had to think of her
+parents and the time that had already passed since she had discovered the rabbit
+upstairs. It had to be quite late. Surely, lunch had started long ago, and her
+family was already worried.
 
 But she decided to be brave. What was happening here was just too exciting.
-There was no way she could miss this adventure.
+There was no way she was going to miss out on this adventure.
 
-So she took her first steps into the sea. Surprisingly, the water didn't seem
-cold at all. If they had gone swimming here until now, it had always taken quite
-a long time before she had dared to go all the way in.
+So, she took the first steps into the sea. Surprisingly, the water didn't seem
+cold to her at all. When they'd gone swimming here until now, it had always
+taken quite a long time until she had dared to go in completely.
 
-On the way to the sea city, Flox and River, who accompanied her, told the girl
+On the way to the sea city, Flox and River, who accompanied them, told the girl
 about the problems in the underwater world.
 
-"More and more plastic waste is accumulating in the houses and caves of the
-water spirits," Flox explained. "The bags and bottles and fishing nets are a
-great danger. Last week, even the tower in the city center collapsed. A net just
-wrapped itself around him and he was swept away by the current."
+"More and more plastic waste is cramping the houses and caves of the water
+spirits," Flox explained.
 
-"But what can I do?" asked Kamina, who really wanted to help.
+"The bags and bottles and fishing nets are a big danger. Last week, even the
+tower in the center of town collapsed. A net wrapped around it, and the current
+swept it away."
+
+"But what can I do?" asked Kamina. She had decided that she wanted to help—more
+than anything in the world.
 
 "Queen Neptunia will tell you," River replied. His voice sounded muffled because
 his head was still above water. Kamina could only see his red legs at the
-moment. The flamingo only dipped its head under it sometimes to check on them.
+moment. The flamingo only dipped its head under sometimes to check on them.
 
-Only then did she notice that the rabbit was no longer there. It had followed
-them to the beach. Now it seemed to have run back to its burrow. Funny. Kamina
-hadn't even noticed how it had gone. Would she hit it again? She would have
-liked to talk to him a little longer. After all, it was her favorite animal that
-lived in her favorite place.
+Only now did she notice that the rabbit was no longer there. It had followed
+them to the beach. Now, it seemed to have run back to its burrow. Strange.
+Kamina had not noticed how it had said goodbye. Would she meet it again? She
+would have liked to talk with it a little longer. After all, it was her favorite
+animal, living in her favorite place.
 
 The adventurers were now standing in front of a mighty wooden gate. It was
 magnificently decorated and painted in all the colors of the sea. River dived
-under one more dive and tapped the gate three times with his beak. The gate
-opened slowly. They entered the kingdom of the water spirits.
+under once more and knocked briefly on the gate three times with his beak. The
+gate opened slowly. They entered the kingdom of the water spirits.
 
-Kamina was astonished. They were standing at the entrance of a huge city.
-Hundreds of mermaids were buzzing around everywhere. With their long fish fins,
-they were the best swimmers she had ever seen.
+Kamina was amazed. They were standing at the entrance of a giant city. Hundreds
+of mermaids were buzzing around everywhere. With their long fish fins, they were
+the best swimmers she had ever seen.
 
-Adults and children swam behind each other, next to and on top of each other.
-They went about their business. Some of the children had toys with them, just
-like her. Kamina was thrilled. Immediately, she, too, tried to dive around so
-happily. But she soon realized that she couldn't be quite as fast and agile with
-her human legs - although she wasn't as clumsy as she thought. Mrs. Pütz, your
-swimming instructor would certainly have been proud of her.
+Adults and children swam around behind, beside, and on top of each other. They
+were going about their business. Some of the children had toys with them, just
+like she did. Kamina was thrilled. Immediately, she too tried to dive around as
+happily. But she soon discovered she couldn't be so fast and agile with her
+human legs—although she didn't think she was that clumsy. Mrs. Pütz, her
+swimming teacher, would undoubtedly have been proud of her.
 
-After the short time she was now under the surface of the water, it worked out
-perfectly with the locomotion. Poor Flox continued to trot along the ground. You
-could see that this wasn't his world. Suddenly, Kamina saw a group of four young
-mermaids swimming towards her.
+Even after this short time, she had been under the water's surface, her
+locomotion was going well. Poor Flox continued to trot along the bottom. You
+could tell that this was not his world. Suddenly Kamina saw a group of four
+young mermaids swimming towards her.
 
-"Hello, who are you?" the first child whispered somewhat dismissively.
+"Hello, who are you?" the first child whispered disparagingly.
 
-"I'm Neria," a greenish mermaid chimed in in a much more polite tone. She must
-have noticed that the girl was a bit intimidated.
+"I'm Neria," a shimmering green mermaid interjected in a much more polite tone.
+She had probably noticed that the girl was a bit intimidated.
 
-"This is my sister Xiope and my brother Filipe. My brother Merlin over here has
-already greeted you."
+"This here is my sister Xiope and my brother Filipe. My brother Merlin over here
+has already greeted you."
 
-"Hello," Kamina whispered. Her breath caught with admiration. "My name is
-Kamina, Kamina Sommerspitz. I'm a human being and I was brought here by my
-friend Flox." Kamina gestured to the rear.
+"Hello," Kamina whispered. Her breath caught in admiration. "My name is Kamina,
+Kamina Sommerspitz. I'm human, and I was brought here by my friend Flox." Kamina
+pointed backward.
 
-Under water, you can't make as much progress on the ground, so the unicorn was
-still a bit away.
+You can't move that fast on the ground underwater, so the unicorn was still some
+distance away.
 
-"Oh, good old Flox," Neria said.
+"Ah, good old Flox," Neria said.
 
-"You already know him?" asked Kamina, surprised.
+"You know him already?" asked Kamina in surprise.
 
-"Yes, of course! Everyone here knows Flox. He has helped us so many times. He's
-also a good friend of our mother."
+"Yes, of course! Everyone here knows Flox. He has helped us so many times.
+Besides, he's a good friend of our mother's."
 
-"Oh, that's right! I've only known him for a few hours, even though he's been
-living in my music box for a few years."
+"I see. I've only known Flox for a few hours, even though he's lived in my music
+box for years."
 
-"What? I don't understand. You'll have to tell me more about that soon. But for
-now, let's talk about us. We are four siblings, as you already know. Our mother
-is the queen here."
+"This sounds funny. You need to tell me about that sometime soon! But for now,
+let's talk about us. We are four siblings, as you already know. Our mother is
+the queen here."
 
-It seemed important to the mermaid to introduce them all.
+The mermaid seemed to think it was necessary to introduce everyone in detail.
 
-"Ah," said Kamina. "Queen Neptunia is your mother?"
+"Oh," Kamina replied. "Queen Neptunia is your mother?"
 
-"Yes, exactly! We are all water spirits. Also called mermaids, or mermaids. But
-that's a very old-fashioned term. We like ghosts better. That sounds a lot
-wilder. How do you know our mother?"
+"That's right! We are all water spirits. They also call us mermaids or mermaids.
+But that's a very old-fashioned term. We like ghosts better. That sounds much
+wilder. So how do you know our mother?"
 
-"Flox and River, the flamingo, told me about her on the way here. I think they
+"Flox and River the Flamingo told me about her on the way here. I think they
 want to take me to her."
 
-Kamina told her story. She tries to summarize everything that had happened to
-her so far on that strange day. She got along so well with the four water
-spirits that she lost track of time and immersed herself in the games and
-stories they had in store.
+Kamina told her story. She tried to sum up everything that had happened to her
+on that strange day. She got along so well with the four water spirits that she
+forgot about time and became engrossed in the games and the stories they had in
+store.
 
-Eventually, Flox appeared behind them. One of the adult water spirits was also
-there.
+At some point, Flox appeared behind them. One of the adult water spirits was
+also there.
 
-"Kamina, where have you been for so long," Flox neighed, who was quite out of
-breath. "I've been looking for you for ages. We wanted to see the queen. Don't
-forget your task, my darling!"
+"Kamina, what took you so long?" neighed Flox, who was quite out of breath.
+"I've been looking for you for half an eternity. We were going to the queen,
+weren't we? Don't forget your task, my darling!"
 
-Kamina had a guilty conscience. Of course, the task! How could she forget them?
-She wanted to go on an adventure and help the inhabitants of the sea with their
-problem with plastic waste.
+Kamina felt guilty. Of course, the task! How could she forget it? She wanted to
+go on an adventure and help the sea inhabitants with their plastic waste
+problem.
 
-"Come on, we'll go with you," Neria suggested without further ado. "Let's pay
-Mom a visit. I'm sure she doesn't mind," she told her siblings.
+"Come on, we'll go with you," Neria suggested. "Let's pay mom a visit. I'm sure
+she won't mind," she told her siblings.
 
-And so the group of six made their way to the Royal Palace in the middle of the
-city. On the way there, they also passed a pile of rubble.
+And so the group of six set off for the royal palace in the city's center. On
+the way, they also passed a pile of rubble.
 
-"This is where the big tower stood," Neria said. Kamina got a real fright. It
-was a sad sight.
+"This is where the great tower used to stand," Neria reported. Kamina got a
+proper fright. It was a sad sight.
 
-The magnificent houses of the underwater city quickly calmed her down. They were
-even more beautiful than she had imagined. The girl was especially enthusiastic
-about the queen's grand palace. When they reached him, their eyes were shining.
-She had never in her life seen such a magnificently sparkling mansion as the
-Underwater Palace.
+The magnificent houses of the underwater city quickly reassured her. They were
+even more beautiful than she had imagined. The girl was especially thrilled by
+the grand palace of the queen. When they reached it, her eyes sparkled. She had
+never seen such a magnificent sparkling estate as the underwater palace.
 
 "This is where we live," Neria said.
 
-"Awesome," Kamina marveled. They were now accompanied by the palace guards.
+"This is incredible!" Kamina marveled. The palace guards now accompanied them.
 
-"I'll never find my way back on my own," Kamina thought. They had swum through a
-maze of corridors, halls, and adjoining rooms, and had just arrived at the
+"I'll never find my way back alone," Kamina thought. They had swum through a
+veritable maze of corridors, halls, and side rooms and had just arrived at the
 queen's throne room. The path through the palace and the alleys of the
 underwater city back to the beach and through the bushes to the campsite seemed
-insurmountable to her at that moment.
+impossible to her at that moment.
 
-But she quickly forgot those thoughts. Their surroundings were just too
-beautiful to worry about. The hall was so big that she could have fit in even
-her normal size without hitting her head.
+But she had quickly forgotten these thoughts. Her surroundings were just too
+beautiful to worry about. The hall was so large that even at her average height,
+she would have fit in without bumping her head.
 
-"Come closer," she heard a warm, pleasant voice echo from the other side of the
-room. The echo bounced off all the walls.
+"Step closer," she heard a warm, pleasant voice echo from across the hall.
 
 Kamina took a few steps in the direction from which she had heard the words. As
-she approached, she saw a woman with short white hair sitting on the throne. It
-had to be Queen Neptunia, Nerias, Xiope, Filipe, and Merlin's mother. She looked
-like a real majesty. Kamina could already see it in her posture. She was
-beautiful and her age could only be guessed at. She had long, white hair, which
-was held in place by a fine coral headband. She wore a white robe, from which
-the magnificent caudal fin, shimmering in all shades of blue and green, peeked
-out.
+she got closer, she saw a woman with short white hair sitting on the throne. It
+had to be Queen Neptunia, Neria's, Xiope's, Filipe's, and Merlin's mother. She
+looked like an absolute majesty. Kamina could see it in her posture. She was
+stunningly beautiful. The girl could only guess her age. She had tied her long
+white hair with a delicate coral hairband. Her white robe from which peeked out
+her magnificent tail fin, shimmering in all shades of blue and green.
 
-"Hello Mom," the cheeky Merlin called. He had already swum ahead.
+"Hello, mama," called cheeky Merlin. He had already swum ahead.
 
-"Well, who did you bring me?" asked the Queen in a motherly tone. It wasn't
-until the group got closer that Neptunia was able to see the straggler.
+"Well, who have you brought me?" asked the queen in a motherly tone. Only as the
+group drew closer could Neptunia see the straggler.
 
 "Flox, my old friend," she greeted the unicorn enthusiastically. She rose from
-her throne and swam to meet him. "It's a great pleasure to see you!"
+her throne and swam toward him. "It is my great pleasure to see you!"
 
-The two whispered a little to each other. Kamina couldn't understand what they
-were saying. Eventually, they approached her as well.
+The two whispered a little among themselves. Kamina could not understand what
+they were saying. Finally, they came up to her, too.
 
-"That's Kamina, Kamina Sommerspitz from the people," Flox introduced her. In a
-fairy tale movie, Kamina had once seen that people made a curtsy when they met a
+"This is Kamina, Kamina Sommerspitz of the humans," Flox introduced her. In a
+fairy tale movie once, Kamina had seen people do a yard curtsy when they met a
 queen. Of course, this wasn't a fairy tale, but she thought it was the right
 thing to do. The queen began to laugh.
 
-"We have been refraining from such polite phrases down here for many millennia.
-Do they still do that with you humans up there? A Knix? It's best to just come
-here. I welcome you to my castle! I see you've already met my children? I
-suppose they've already shown you around?"
+"We have dispensed with such courtesies down here for many millennia. Do they
+still do it with you humans up there? A Knix? It's best if you just come here. I
+welcome you to my castle! I see you have already met my children. I suppose
+they've already shown you around?"
 
-"Yes," Kamina answered. "They are very nice to me."
+"Yes," Kamina replied. "They are very kind to me."
 
-"I am glad to hear that, my dear," replied the Queen. "Flox has already told me
+"That pleases me to hear, my dear," replied the queen. "Flox has already told me
 a lot about you."
 
-Kamina looked at the unicorn, who nodded his head reassuringly and
+Kamina looked to the unicorn, who nodded her head reassuringly and
 affirmatively.
 
 "Only the best," Flox neighed softly.
 
-"I don't know if I can help you," Kamina finally blurted out. She'd wanted to
-ask them all along.
+"I don't know if I can help you," the question finally blurted out of Kamina.
+She had wanted to ask it all along.
 
-"Hahaha," the queen laughed in her friendly and funny way. "And if you can,
-Kamina!" she answered. "You have the gift of it. Flox told me weeks ago and now
-I see it with my own eyes. You just have to believe in yourself. Come with me, I
-have something to show you."
+"Hahaha," the queen laughed in her friendly and funny way. "You bet you can,
+Kamina!" she replied. "You have the gift. Flox told me weeks ago, and now I see
+it with my eyes. You have to believe in yourself. Come with me; I have to show
+you something."
 
-Without hesitation, Queen Neptunia took Kamina aside. They swam to a quieter
-side of the room and sat down on a bench made of shells. Flox followed them. The
-young water spirits continued to play in front of their mother's throne. They
-had discovered a few toys there, which they must have left there on their last
-visit to the hall.
+Without much hesitation, Queen Neptunia took Kamina aside. They swam to a
+quieter side area of the hall and took a seat on a bench made of shells. Flox
+followed them. The young water spirits continued playing in front of their
+mother's throne. They had discovered some toys there, which they had indeed left
+during their last visit to the hall.
 
-"Think of any toy," said the Queen.
+"Think of some toy," said the queen.
 
-Kamina couldn't think of anything else but her brother's old beach ball.
-Suddenly, he landed right in her lap. She looked around, startled, and searched
-the corners for her brother. But there was nothing to see.
+Kamina couldn't think of anything other than her brother's old beach ball.
+Suddenly, it landed right in her lap. She looked around, startled, and searched
+the corners for her brother. There was nothing to be seen, however.
 
-"Try again. Take a piece of jewelry this time."
+Kamina could think of nothing but her brother's old beach ball. Suddenly, it
+landed right in her lap. She looked around, startled, and searched the corners
+for her brother. There was nothing to be seen, however.
 
-With these words, Queen Neptunia took the ball from the girl and let it rise
-towards the ceiling with a powerful jerk. Kamina felt something cold around her
-neck and recognized the silver chain with the small amulet in which the pictures
-of her parents were tucked. Although she was sure she hadn't even taken it with
-her on vacation, suddenly it was here.
+"Try it again. Take a gem this time."
 
-"How do you do that?" she asked the queen in astonishment.
+With these words, Queen Neptunia took the ball from the girl and, with a strong
+jolt, let it rise toward the ceiling. Kamina felt something cold around her neck
+and recognized the silver chain with the small amulet containing her parents'
+pictures. Although she was sure she hadn't even taken it on vacation, it was
+suddenly here.
+
+"How do you do that?" she asked the queen in amazement.
 
 "Oh, I don't do anything," Neptunia replied. "It's all coming from you. You
-carry the rare gift of imagination within you. You can make things come true
+carry within you the rare gift of imagination. You can make things come true
 from your thoughts. You've always been able to do it, but the older you get, the
-better you'll be able to concentrate and the better it will work."
+better you can concentrate and the better it will work."
 
-"Flox has already shown you what has happened to our beautiful city. The large
-tower, which once rose to the surface of the sea, has recently collapsed. He got
-caught in a huge fishing net. But that's only a small part of the problem. The
-whole city is struggling with people's plastic waste. The fish outside our city
-walls and the whole beach are also affected. In fact, some of us water spirits
-and many other sea creatures have died from it."
+"Flox has already shown you what happened to our beautiful city. The great tower
+that once rose to the sea's surface has recently collapsed. It got caught in a
+huge fishing net. But that's only a small part of the problem. The whole city is
+struggling with people's plastic waste. Even the fish outside our city walls and
+the whole beach are affected. It's even killed some of us water spirits and
+several other sea creatures."
 
 Kamina was affected. She desperately needed to protect this beautiful world she
-had just discovered. It could not be lost.
+had just discovered. She had to do everything to preserve it.
 
-"All the residents of the city are ready to help. But we still need more
-protection. You can help us with your imagination. The task is simple and
-complicated at the same time. Come up with something that keeps the garbage out
-of our city, but doesn't harm the inhabitants of the sea. We've tried nets
-before, but unfortunately fish got caught in them. It was too dangerous for us."
+"All the townspeople are ready to help. But we need even more protection. You
+can help us with your imagination. The task is simple and complicated at the
+same time. Think of something that will keep the garbage away from our city but
+will not harm the inhabitants of the sea. We tried it before with nets, but
+unfortunately, fish got caught in them. It was too dangerous for us."
 
-Kamina closed her eyes and thought. She couldn't help but think of her dolls.
-She had a very special doll that could grasp with her hands. In addition, she
-had recently been given a small excavator that could extend its gripper arm. Her
-imagination worked like never before. She thought of the doll's arms fishing the
-trash out of the current. Flox and the Queen watched Kamina. They both smiled.
-It almost looked as if they could see what was going on in the six-year-old's
-head. When Kamina opened her eyes again, she told them about her idea.
+Kamina closed her eyes and thought. She immediately thought of her dolls. She
+had an exceptional one that she could grasp with her hands. She had also
+recently gotten a small excavator that could extend its gripping arm. Her
+imagination was working like never before. She thought of the doll's arms
+fishing trash out of the current. Flox and the queen watched Kamina. They were
+both smiling. It almost looked like they could see what was happening in the
+six-year-old's mind. When Kamina opened her eyes again, she told them both about
+her idea.
 
-When they all swam back outside together, the whole city was already on its way.
-Everyone wanted to lend a hand and free the underwater world and the beach from
-garbage. Kamina swam with Neria, Queen Neptunia, Felipe, Xiope, Merlin, and some
-of the guards to the outskirts of the city.
+When they all swam back outside together, the whole town was already out.
+Everyone wanted to pitch in and help clear the underwater world and the beach of
+trash. Kamina swam with Neria, Queen Neptunia, Felipe, Xiope, Merlin, and some
+of the guards to the outer areas of the city.
 
-They were in the ocean current and were not so easy to reach. In order to keep
-up with the pace of the sea creatures, she was allowed to ride a large Napoleon
-fish together with the unicorn. This was a lot of fun and Kamina squealed a few
-times with joy.
+They were in the ocean current and were challenging to reach. To keep up with
+the pace of the sea creatures, she was allowed to ride a large Napoleon fish
+along with the unicorn. It was delightful, and Kamina squealed with delight a
+few times.
 
-She didn't even think about the time anymore. She much preferred to think about
-all the things she wanted to build to help the creatures underwater.
+In the meantime, she didn't even think about the time. She much preferred to
+think about all the things she was going to build to help the creatures
+underwater.
 
-The Napoleon fish set them down on a flat rock. Once there, Kamina closed his
-eyes again and continued to think. Neria and the others stood beside her,
-amazed.
+The Napoleon fish set her down on a flat rock. Once there, Kamina closed her
+eyes again and continued to think. Neria and the others stood beside her and
+marveled.
 
-Among all the helpers from the city who were diving around and picking up
-garbage, large, encrusted arms suddenly appeared out of nowhere like moray eels
-from the bottom of the sea. There were strong hands on them that could grasp
-anything, no matter how heavy it was. They kept reaching for nets, plastic
-bottles and bags. They even snatched an old piece of a ship from the sea.
+Among all the helpers from the city who were diving around and picking up trash,
+large, encrusted arms like moray eels suddenly emerged from the bottom of the
+sea out of nowhere. On them were strong hands that could grab anything, no
+matter how heavy it was. They kept holding nets, plastic bottles, and bags. They
+even pulled out an old piece of a ship from the ocean's ground.
 
-Over time, there were more and more poor people. There were so many of them, and
-they were so long and strong that they could reach the whole underwater city and
-the entire beach. The gripper arms worked faster and faster. The mountain of
-garbage grew.
+As time went on, there were more and more arms. There were so many, and they
+were so long and strong that they could reach the whole underwater city and
+beach. The grabbing arms worked faster and faster. The mountain of garbage grew.
 
-After everything was clean, Kamina was exhausted. Flox noticed and took care of
-the brave girl. The unicorn called for departure and so everyone made their way
-back to the sea city.
+After everything was clean, Kamina was exhausted. Flox noticed it and took care
+of the brave girl. The unicorn called for departure, and so they all headed back
+to the sea city.
 
-Kamina was truly surprised when they passed the huge mountain of garbage on the
-beach that her fantastic gripper arms had piled up. She quickly realized that he
-couldn't stay here like this, and so she remembered with the last of her
-strength a hairy, orange caterpillar she had once seen. The little creature had
-been very voracious and had eaten a very large, green leaf before her eyes.
+Kamina was surprised when they passed the massive pile of garbage on the beach
+that her fantastic grasping arms had piled up. She quickly realized that it
+couldn't stay here like this, so with the last of her strength, she remembered a
+hairy, orange caterpillar she had once seen. The little animal had been greedy
+and had eaten a substantial green leaf before her eyes.
 
-She closed her eyes once more, and a moment later, a huge horde of hungry
-caterpillars scrambled over the mountain to devour it with great appetite. When
-the caterpillars had eaten everything, it became very quiet around them. Their
-color changed. A rich orange turned dark brown and her previously shiny coat
-disappeared. Instead, they were now covered in a leathery skin. They had
-pupated. A moment later, life suddenly returned to the pupated caterpillars. Due
-to her now thinning skin, a closer look could be seen as legs and wings that
-seemed to move faster and faster. Six legs and two wings in each doll.
+She closed her eyes once more, and just a short moment later, a huge horde of
+hungry caterpillars descended on the mountain to eat it with great appetite.
+When the caterpillars had eaten everything, it became hushed around her. Their
+color changed. A rich orange became dark brown, and their previously shiny fur
+disappeared. Instead, they were now covered in leathery skin. They had pupated.
+Again, a moment later, life suddenly returned to the pupated caterpillars.
+Through their thinning skin, a closer look revealed little legs and wings that
+seemed to move faster and faster: six legs and two wings in each pupa.
 
-Suddenly, the time had come. Hundreds of butterflies flew up. One more beautiful
-than the other. They shimmered in the brightest colors.
+Suddenly, the time had come. Hundreds of butterflies flew up: One more beautiful
+than the other. They shimmered in the most brilliant colors.
 
 "Kamina," said Neptunia, the second, when they finally arrived back at the great
-castle gate. "You saved our city. How can we ever thank You for this heroic
+castle gate. "You saved our city. How can we ever thank you for that heroic
 deed?"
 
 "May I come back sometime?" asked Kamina.
 
-"You are always as welcome as my own children," replied the Queen with her
+"You are as welcome with us anytime as my children," replied the queen with
 flowing white hair.
 
-Kamina looked at Neria and they blinked at each other. As she slowly strolled
-back to the beach with Flox after an exuberant farewell to the royal family, she
-was startled once again. She saw her brother splashing in the water in the
-distance. When she looked more closely, she noticed that he wasn't splashing
-around at all.
+Kamina looked at Neria, and they blinked at each other. As she strolled slowly
+back to the beach with Flox after an exuberant farewell in the royal house, she
+was startled once more. She saw her brother splashing in the water in the
+distance. When she looked closer, she realized that he wasn't splashing at all.
 
-He got his foot stuck in something. He must have gotten caught in a fishing net.
-Had the grabbers forgotten? Kamina could feel his fear. She quickly summoned
-some of the water spirits. They had already been busy smoothing the seaweed on
-which the mountain of garbage had stood.
+He was stuck with his foot in something. He must have gotten caught in a fishing
+net. Have the grapplers forgotten about it? Kamina could sense his fear. She
+quickly summoned some of the water spirits. They had already been busy neatly
+smoothing out the seaweed on which the pile of trash had been standing.
 
 Compared to her brother, Kamina and the water spirits were tiny. The boy kicked
-desperately. But instead of loosening, his shackles only tightened tighter and
-tighter. The water spirits set to work to loosen the fishing net with a few
-sharp shell shards. They had to be careful not to injure Kamina's brother Yoko's
-skin.
+desperately. But instead of loosening, his bonds only tightened. The water
+spirits began to loosen the fishing net with a few sharp shell shards. They had
+to be careful not to damage the skin of Kamina's brother Yoko.
 
-Eventually, they managed to free him and he was finally able to swim normally
-again. When he looked around and looked into his sister's eyes, he shook his
-head in disbelief.
+Eventually, they managed to free him, and he could finally continue swimming.
+When he looked around and saw his sister's eyes, he shook his head in disbelief.
 
-To him, it was just like a fleeting moment when something tickled his foot. But
-he had seen something. Was that really Kamina? Why was it so small? And were
-there colorful figures next to her in the water? He must have been wrong. There
-was no way that could be.
+To him, it was just, like a fleeting moment, something tickling his foot. But
+something he had seen. Was that really Kamina? Why was she so small? And were
+there colorful figures beside her in the water? He started to rub his eyes.
+There was no way that could be.
 
-He had gotten caught in something while romping in the water and got a fright.
-He blamed it on his brief confusion, turned his head away, and swam on.
+He had gotten caught in something while frolicking in the water and was
+frightened. Blaming it on his brief confusion, he turned his head away and kept
+swimming.
 
-"The climb to the campsite is exhausting," said Flox, who was now standing next
-to her on the beach again, shaking out his mane. "But not if you're as tall as a
-human."
+"The climb up to the campsite is strenuous," said Flox, who was now back on the
+beach beside her, shaking out his mane. "Not when you're as tall as a human,
+though."
 
-"Yes, that's right," Kamina answered. "Can you make me grow up again?"
+"Yes, that's true," Kamina replied. "Can you let me grow tall again, then?"
 
-It didn't take a minute for Kamina to grow to her usual size.
+It didn't take a minute, and Kamina had grown back to her usual size.
 
-"You must have thought you'd been gone all day, didn't you?" the unicorn asked.
-"But there's one thing you need to know: When you're small, time passes more
-slowly. In reality, only half an hour has passed since I downsized you."
+"You must have thought you were gone all day, didn't you?" asked the unicorn.
+"But you must know one thing: When you're small, time passes more slowly. Only
+half an hour has passed since I made you smaller."
 
-Completely exhausted, but overjoyed, Kamina strolled back to the campsite, which
-didn't seem so long to her now.
+Completely exhausted but overjoyed, Kamina strolled back down the path to the
+campsite, which now didn't seem so long to her.
 
-"Well, where are you from?" she greeted her mother. "We'll have lunch in a few
-minutes, you're all wet and dirty. Let's jump in the shower first, honey."
+"Well, where did you come from?" she greeted her mother. "Lunch will be in a few
+minutes; you're all wet and dirty. Let's jump in the shower first, sweetheart."
 
-When Kamina and her mother came back from the shower house, the food was already
-on the table. Her father had cooked a delicious stew.
+When Kamina and her mother returned from the shower house, lunch was already on
+the table. Her father had cooked a delicious stew.
 
-In the meantime, Yoko had also returned from the beach. Kamina glanced over at
-her brother for a moment and winked at him. Yoko was a little confused, but he
-understood what she was trying to say and nodded back at her with a grin.
+Meanwhile, Yoko had also returned from the beach. Kamina briefly looked over at
+her brother and winked at him. Yoko was a little confused, but he understood
+what she was trying to say and nodded back at her with a grin.

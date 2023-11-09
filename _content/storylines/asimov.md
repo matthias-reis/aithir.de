@@ -370,11 +370,9 @@ And how did you talk to it? Were you just in a room and talked to the walls?"
 
 "Yes. Exactly. So you can imagine that it also was a bit awkward. I didn't think
 of it before. I had no private moment any more. So I finally moved out and built
-my little hut over here."
+my little hut over here.
 
----
-
-"After a while, a year or so, I saw that robots moved out. They stayed outside
+After a while, a year or so, I saw that robots moved out. They stayed outside
 overnight and started to avoid the castle", continued Asimov his story. Peter
 listened eagerly. He wanted to know what was going on. "Over time, more and more
 followed. They just rested on the fields over here. So after a while the field
@@ -421,3 +419,13 @@ off.
 
 "Time to sleep, precious", said his mother looking through the door. "Clean your
 teeth and then off to bed."
+
+---
+
+Peter was thinking about Asimov's story during the next day in the morning and
+at school. He was curious to hear the rest. He had questions. He was doing his
+homework quicker and less concentrated than usual on that day, because he was
+eagerly awaiting the moment when he could turn on the pad again.
+
+"I'm finished", he said to his mother. "Can I go to my room and play with my
+pad?"
