@@ -12,6 +12,7 @@ image: storylines/kamina-2
 start: 2023-01-11
 end: 2023-11-21
 related:
+  - storylines/kamina-1-de
   - storylines/asimov-de
   - storylines/the-guillorys-de
 ---

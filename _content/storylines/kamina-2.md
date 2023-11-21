@@ -10,6 +10,7 @@ ref: storylines/kamina-2-de
 startDate: 2023-01-11
 date: 2023-11-21
 related:
+  - storylines/kamina-1
   - storylines/asimov
   - storylines/the-guillorys
 tags:
