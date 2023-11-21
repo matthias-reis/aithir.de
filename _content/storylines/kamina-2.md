@@ -7,9 +7,8 @@ description:
 colorSpace: orange
 language: en
 ref: storylines/kamina-2-de
-unfinished: true
 startDate: 2023-01-11
-date: 2023-09-18
+date: 2023-11-21
 related:
   - storylines/asimov
   - storylines/the-guillorys
@@ -350,8 +349,6 @@ right on three."
 Both were standing there in full tension for the count. "One, two", Kamina
 yelled, "aaand three".
 
----
-
 Luke and Kamina were very synchronous. They turned the knobs at the exact same
 time. But nothing seemed to happen. They were standing there rooted to the spot
 and couldn't move. It felt like hours but it was only seconds until something
@@ -395,3 +392,137 @@ if it was a dance move.
 After the landing, Kamina and Luke were lying on the platform of the Phoenix.
 They shook off the dust, looked at each other, started laughing and exchanged a
 high five.
+
+---
+
+Two of the Phoenix guards arrived within seconds to capture the intruders, but
+luckily one of them recognized Luke.
+
+"Wait a second", he said. "Aren't you the kitchen boy?"
+
+But in that moment, the enemy ship sank down about ten metres at once and the
+even further.
+
+"What did you do?", asked the other guard in a rather astonished voice.
+
+"I guess we've won the battle for you", Kamina said proudly.
+
+"You two come with us", the two guards said almost simultaneously.
+
+Kamina and Luke were brought in front of Sir Tesla and were able to tell their
+story. Of course, the captain didn't believe a word they said.
+
+"We have sent them to the brick", he said to one of the officers nearby. "What
+kind of nonsense is this?"
+
+"Sir, the brick has a hole on the outside, Sir", responded the officer. "They
+might have escaped, Sir."
+
+"To the other ship? Are you kidding, officer?"
+
+"Sir , no, Sir. Err yes, Sir. We know that the other ship is sinking and we
+didn't hit it, Sir."
+
+"Are you telling me that their story might be true?"
+
+"Sir, yes, Sir. It could be."
+
+Sir Tesla turned to the kids again. Kamina was already a bit angry, because that
+grey old boss didn't believe them. But in the moment when she even started those
+thoughts, his face had turned. Only great men can change their opinion, Kamina's
+father once said to here. Probably Sir Tesla was not such a bad person after
+all.
+
+"Right the kids", he said and turned around to the crew again. "Officer, target
+the other ship, two cannons, full power. Bring it down."
+
+"And you two are coming with me", he said to Kamina and Luke.
+
+Sir Tesla left the bridge while his officers knew how to deal with the battle
+situation. They had won. Today at least. Kamina and Luke followed the captain.
+They went two decks down and to the other side, the aft of the Phoenix. They
+were sent back to the galley, thought Luke immediately, his workplace. But Sir
+Tesla moved on. He turned to Chief Pulley, the chef on the ship and Lukes boss.
+
+"Chief", he started. "These two are the heroes of the day. They have saved our
+ship. You get them everything they want and don't you dare to delegate this task
+to anyone else. Clear?"
+
+"Yes, sir", the chef answered while looking at his kitchen boy and a girl. What
+is a girl doing on their ship, he thought. And what did Luke do now again?
+
+"They will have dinner with me and the other officers tonight. Prepare something
+special. Actually, for the whole crew. Do you have enough food left for a
+feast?"
+
+"I believe so, Sir", the chef answered. "We have just raided that other ship of
+the Iron Baron, Sir. They had good stuff on board."
+
+"Very well then. 1900 it is then. And don't forget the children."
+
+Sir Tesla left the galley and went back to the bridge. The chef turned to the
+kids and thought about how to do two things at the same time. Preparing a gala
+dinner for one hundred people and taking care of two kids.
+
+"No worries, Sir", Luke said as if he knew what was going on in Chief Pulley's
+head. "We can help you. We know how to peel potatoes."
+
+And so they did. The whole kitchen crew plus Kamina were preparing the greates
+party they could imagine. For Kamina and Luke, it was actually the best possible
+way to come down again and not think too much about their incredible adventure.
+
+---
+
+After a full clean up and fixing the worst damages, the crew of the Phoenix also
+had calmed down and everyone, well everyone except the kitchen crew, appeared
+for dinner to get their well deserved meal.
+
+Kamina and Luke were allowed to sit at the captain's table in the officer's mess
+together with the highest ranking shipmen of the Phoenix.
+
+Sir Tesla was the last to come in and took his seat directly next to Kamina. The
+noise level in the room was not high but noticeable. Everyone was involved into
+a bit of smalltalk with their neighbours until the captain stood up. The room
+immediately fell silent, except Kamina whispering some nonsense into Luke's ear.
+Sir Tesla looked sharply at her and she immediately sat still as well. He
+started to smile in a pleased way.
+
+"Ladies and Gentlemen", he said. "Today we have won a battle against the Iron
+Baron. We brought down our enemy's biggest flagship. You should be proud of
+yourselves as I am proud of you, too. But there are two people who deserve our
+gratitude. Two kids, they are sitting right here at this table. Come on, please
+stand up for a moment."
+
+Kamina and Luke stood up and the whole room started to applaud for minutes - and
+that although everyone was very hungry. Kamina at least heard her stomach, and
+Lukes. But she also felt very proud. She had never been applauded before. So she
+almost cried, but could hold it.
+
+Neither her nor Luke could say a word, so they slowly sat down again, just like
+all the others.
+
+"I think, we deserve some food now", Sir Tesla said and everyone applauded again
+while Chief Pulley and his crew came in with the first course, some exotic
+vegetables that even Luke hadn't seen before. But they tasted heavenly
+delicious.
+
+Everyone was well fed and happy after the dessert, the fourth course of the
+evening. Kamina even could barely get the last piece of chocolate cake into her
+mouth. That probably had never happened before. It was so delicious, but she was
+full.
+
+"Children", said Sir Tesla finally. "Thank you for your help today. I still
+don't know how you managed it, but it was very brave. We have prepared two noble
+officer's cabins for you. You can stay here for the night and we will bring you
+back to Etheria tomorrow."
+
+---
+
+What a day, thought Kamina finally alone in her cabin. She absolutely likes the
+trouble and the hustle and bustle. But she also loves to calm down after an
+adventure.
+
+But while she stared at the mirror next to her bed, she felt a force that drew
+her in. She knew that it was the call back home. She touched the mirror and her
+finger sank in like it was a water surface. Then she stepped through and
+appeared in her room at home again.

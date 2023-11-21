@@ -3,15 +3,14 @@ superTitle: Kindergeschichte
 title: Kamina und das Libellenschiff
 description:
   Die kleine Kamina wird immer wieder in phantastische Abenteuer hineingezogen.
-  Diesmal gerät sie in eine Steampunk-Welt, in der überraschungen an jeder Ecke
+  Diesmal gerät sie in eine Steampunk-Welt, in der Überraschungen an jeder Ecke
   lauern.
 colorSpace: orange
 language: de
 ref: storylines/kamina-2
 image: storylines/kamina-2
-unfinished: true
 start: 2023-01-11
-end: 2023-09-18
+end: 2023-11-21
 related:
   - storylines/asimov-de
   - storylines/the-guillorys-de
@@ -374,8 +373,6 @@ drehe ihn um 90 Grad nach rechts. Auf drei."
 Beide standen da und warteten gespannt auf den Countdown. "Eins, zwei", schrie
 Kamina, "uuuund drei".
 
----
-
 Luke und Kamina waren vollständig synchron. Sie drehten die Knöpfe genau zur
 gleichen Zeit. Aber es schien nichts zu passieren. Sie standen wie angewurzelt
 auf der Stelle und wagten es nicht sich zu bewegen. Es fühlte sich wie Stunden
@@ -425,3 +422,146 @@ synchron zu Boden, als wäre es ein eingeprobtes Balletstück gewesen.
 Nach der Landung lagen Kamina und Luke auf der Plattform der Phoenix. Sie
 schüttelten den Staub ab, sahen sich kurz an, begannen zu lachen und gaben sich
 ein High Five.
+
+---
+
+Nur Sekunden später trafen zwei der Phoenix-Wachen ein, um die Eindringlinge
+festzunehmen, aber zum Glück erkannte einer von ihnen Luke.
+
+"Warte mal kurz", sagte er. "Bist du nicht der Küchenjunge?"
+
+Doch in diesem Moment sank das feindliche Schiff auf einmal um etwa zehn Meter
+weiter nach unten und sank danach immer tiefer.
+
+"Was habt ihr getan?", fragte der andere Wachmann mit ziemlich erstaunter
+Stimme.
+
+"Ich schätze, wir haben die Schlacht für euch gewonnen", sagte Kamina stolz.
+
+"Ihr zwei kommt mit uns", sagten die beiden Wachen fast gleichzeitig.
+
+Kamina und Luke wurden vor Sir Tesla gebracht und konnten ihre Geschichte
+erzählen. Natürlich glaubte der Kapitän ihnen kein einziges Wort.
+
+"Wir hatten sie doch in die Brigg gesteckt", sagte er zu einem der Offiziere in
+der Nähe. "Was ist das denn für ein Unsinn?"
+
+"Sir, die Brigg hat ein Loch an der Außenseite, Sir", antwortete der Offizier.
+"Sie könnten eventuell entkommen sein, Sir."
+
+"Zu dem anderen Schiff? Machen Sie Witze, Offizier?"
+
+"Sir, nein, Sir. Äh, ja, Sir. Wir wissen, dass das andere Schiff sinkt und dass
+wir es nicht getroffen haben, Sir."
+
+"Wollen Sie damit sagen, dass deren Geschichte wahr sein könnte?"
+
+"Sir, ja, Sir. Es könnte sein."
+
+Sir Tesla wandte sich wieder an die Kinder. Kamina war schon ein bisschen
+wütend, weil der graue alte Kapitän ihnen nicht glaubte. Aber in dem Moment, als
+sie diesen Gedanken hatte, hatte sich sein Gesicht schon verändert. Nur große
+Männer können ihre Meinung ändern, hatte Kaminas Vater einmal zu ihr gesagt.
+Wahrscheinlich war Sir Tesla doch kein so schlechter Mensch.
+
+"Richtig, Kinder", sagte er und wandte sich schon wieder an die Mannschaft.
+"Offiziere, zielen Sie auf das andere Schiff, zwei Kanonen, volle Kraft. Holt es
+endgültig runter."
+
+"Und ihr zwei kommt mit mir", sagte er zu Kamina und Luke.
+
+Sir Tesla verließ die Brücke, während seine Offiziere wussten, wie sie mit der
+Kampfsituation umgehen sollten. Sie hatten gewonnen, wenigstens heute. Kamina
+und Luke folgten dem Kapitän. Sie gingen zwei Decks tiefer und auf die andere
+Seite, das Heck der Phoenix. Man schickte sie zurück in die Kombüse, dachte Luke
+sofort, an seinen Arbeitsplatz. Aber Sir Tesla ging weiter. Er wandte sich an
+Chief Pulley, den Chefkoch des Schiffes und Lukes Vorgesetzten.
+
+"Chief", begann er. "Diese beiden sind die Helden des Tages. Sie haben unser
+Schiff gerettet. Sie besorgen ihnen alles, was sie wollen, und wagen Sie es
+nicht, diese Aufgabe an jemand anderen zu delegieren. Verstanden?"
+
+"Jawohl, Sir", antwortete der Koch und sah seinen Küchenjungen und das Mädchen
+verwundert an. Was machte ein Mädchen auf ihrem Schiff, dachte er. Und was hatte
+Luke jetzt schon wieder angestellt?
+
+"Sie werden heute Abend mit mir und den anderen Offizieren zu Abend essen.
+Bereiten Sie etwas Besonderes vor. Eigentlich für die ganze Besatzung. Haben Sie
+genug Essen für ein Festmahl übrig?"
+
+"Ich glaube schon, Sir", antwortete der Koch. "Wir haben gerade das andere
+Schiff des Eisernen Barons geplündert, Sir. Die hatten gute Vorräte an Bord."
+
+"Nun gut. Dann also 1900. Und vergessen Sie die Kinder nicht."
+
+Sir Tesla verließ die Kombüse und ging zurück auf die Brücke. Der Koch wandte
+sich den Kindern zu und überlegte, wie er zwei Dinge gleichzeitig tun konnte,
+ein Gala-Dinner für hundert Personen zubereiten und sich um zwei Kinder kümmern.
+
+"Keine Sorge, Sir", sagte Luke, als wüsste er, was in Chief Pulleys Kopf vor
+sich ging. "Wir können Ihnen helfen. Wir wissen, wie man Kartoffeln schält."
+
+Und das taten sie auch. Die gesamte Küchencrew und Kamina bereiteten die tollste
+Party vor, die sie sich vorstellen konnten. Für Kamina und Luke war es
+eigentlich die beste Möglichkeit, wieder herunterzukommen und nicht zu sehr an
+ihr unglaubliches Abenteuer zu denken.
+
+---
+
+Nach einer umfassenden Aufräumaktion und der Beseitigung der schlimmsten Schäden
+hatte sich auch die Besatzung der Phoenix beruhigt und alle, bis auf die
+Küchencrew, erschienen zum Abendessen, um ihre wohlverdiente Mahlzeit zu
+bekommen.
+
+Kamina und Luke durften in der Offiziersmesse am Tisch des Kapitäns sitzen
+zusammen mit den ranghöchsten Schiffsleuten der Phoenix sitzen.
+
+Sir Tesla kam als letzter herein und nahm direkt neben Kamina Platz. Der
+Lärmpegel im Raum war nicht hoch, aber spürbar. Jeder war in einen Smalltalk mit
+seinen Nachbarn verwickelt, bis der Kapitän aufstand. Der Raum wurde sofort
+still, außer Kamina, die Luke irgendeinen Unsinn ins Ohr flüsterte. Sir Tesla
+schaute sie scharf an, und auch sie hörte sofort auf zu reden. Er lächelte
+sichtlich erfreut.
+
+"Meine Damen und Herren", sagte er. "Heute haben wir eine bedeutende Schlacht
+gegen den Eisernen Baron gewonnen. Wir haben das größte Flaggschiff unseres
+Feindes zu Fall gebracht. Sie sollten alle stolz auf sich sein, genauso wie ich
+auch besonders stolz auf Sie bin. Aber es gibt zwei Personen, die unseren
+speziellen Dank verdienen. Zwei Kinder, die genau hier an diesem Tisch sitzen.
+Kommt schon, bitte steht einen Moment auf."
+
+Kamina und Luke standen auf und der ganze Raum begann minutenlang zu
+applaudieren - und und das, obwohl alle sehr hungrig waren. Kamina hörte
+zumindest ihren eigenen Magen knurren - und Lukes. Aber sie fühlte sich auch
+sehr stolz. Sie war noch nie zuvor beklatscht worden. Und so hätte sie fast
+geweint, konnte es aber zurückhalten.
+
+Weder sie noch Luke konnten ein Wort herausbringen, also setzten sie sich
+langsam wieder hin, genau wie alle anderen.
+
+"Ich glaube, wir haben uns jetzt etwas zu essen verdient", sagte Sir Tesla, der
+nun wieder als Einziger stand. Alle applaudierten erneut, während der Koch Chief
+Pulley und seine Crew den ersten Gang brachten, ein exotisches Gemüse, das
+selbst Luke noch nie gesehen hatte. Aber sie schmeckten himmlisch köstlich.
+
+Nach dem Dessert, dem vierten Gang des Abends, waren alle satt und zufrieden.
+Kamina brachte das letzte Stück Schokoladenkuchen kaum in den Mund, schaffte es
+dann aber doch. Das war ihr wahrscheinlich noch nie passiert. Er war so lecker,
+aber sie war voll.
+
+"Kinder", sagte Sir Tesla schließlich. "Ich danke euch für eure Hilfe heute. Ich
+weiß immer noch nicht, wie ihr das geschafft habt, aber es war sehr mutig. Wir
+haben für euch zwei edle Offizierskabinen vorbereitet. Ihr könnt hier
+übernachten und wir bringen Euch morgen zurück nach Etheria."
+
+---
+
+Was für ein Tag, dachte Kamina, endlich allein in ihrer Kabine. Sie mag den
+Ärger und das den Trubel und die Betriebsamkeit. Aber sie liebt es auch, sich
+nach einem Abenteuer entspannt ins Bell legen zu können. Ihr Schlaf ist dann
+immer besonders tief und Ihre Träume von weiteren Abenteuern besonders schön.
+
+Doch während sie kurz in den Spiegel neben ihrem Bett starrte, spürte sie eine
+Kraft, die sie sie anzog. Sie wusste, dass es der Ruf nach Hause war. Sie
+berührte den Spiegel und ihr Finger sank ein, als wäre es eine Wasseroberfläche.
+Dann schritt sie hindurch und erschien wieder in ihrem Zimmer zu Hause.
