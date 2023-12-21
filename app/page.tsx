@@ -12,6 +12,7 @@ export default function Page() {
   const items = getVisibleItems().slice(0, 12);
   const m1 = getItem('editions/1');
   const m2 = getItem('editions/2');
+  const m3 = getItem('editions/3');
   const tags = getTags().filter((tag: TagMeta) => (tag.count ?? 0) > 1);
   return (
     <LayoutFrame>
@@ -30,6 +31,7 @@ export default function Page() {
       </div>
       <Section headline="Magazine Editions">
         <h2 className="hidden">Magazine Editions</h2>
+        <ItemHorizontal meta={m3} />
         <ItemHorizontal meta={m2} />
         <ItemHorizontal meta={m1} />
       </Section>
