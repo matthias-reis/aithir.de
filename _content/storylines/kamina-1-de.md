@@ -65,17 +65,23 @@ ziemlich gut. Sie sind nun schon zum dritten Mal hier.
 Dort, wo das Kaninchen jetzt saß, hatte sich aus den Wurzeln und Ästen der Hecke
 ein Durchgang gebildet. Er wirkte fast wie eine kleine Tür.
 
-„Der perfekte Eingang für einen Kaninchenbau“, dachte Kamina bei sich. Oder
-hatte sie es ausgesprochen? Sie war sich nicht ganz sicher. Und was noch viel
-merkwürdiger war: Das Kaninchen hatte ihr geantwortet! Oder hatte sie sich
-verhört? Jetzt wiederholte das Nagetier seine Worte.
+„Der perfekte Eingang für einen Kaninchenbau“,
 
-„Komm mit!“, sagte es laut und deutlich. „Ja, Du da. Du und Dein Freund“, fügte
-das Kaninchen hinzu.
+dachte Kamina bei sich. Oder hatte sie es ausgesprochen? Sie war sich nicht ganz
+sicher. Und was noch viel merkwürdiger war: Das Kaninchen hatte ihr geantwortet!
+Oder hatte sie sich verhört? Jetzt wiederholte das Nagetier seine Worte.
 
-„Welcher Freund?“, antwortete Kamina perplex. Sie konnte gar nicht glauben, dass
-sie mit einem Kaninchen sprach. So was kannte sie bis jetzt nur aus Geschichten.
-In diesem Moment klopfte es auch noch.
+„Komm mit!“
+
+sagte es laut und deutlich.
+
+„Ja, Du da. Du und Dein Freund“, fügte das Kaninchen hinzu.
+
+„Welcher Freund?“
+
+antwortete Kamina perplex. Sie konnte gar nicht glauben, dass sie mit einem
+Kaninchen sprach. So was kannte sie bis jetzt nur aus Geschichten. In diesem
+Moment klopfte es auch noch.
 
 „Klopf, klopf.“
 
@@ -83,24 +89,33 @@ Was mochte das nun schon wieder sein? Da bemerkte sie, dass die Klopfgeräusche
 aus ihrer Spieluhr kam. Sie öffnete den Deckel der Holzschachtel, doch diesmal
 kam keine Musik heraus. Natürlich kam ihr sofort wieder ihr Bruder in den Sinn.
 
-„Dieses Mal hat er meine Uhr endgültig zerstört“, dachte sie. Doch da hörte sie
-eine weitere Stimme.
+„Dieses Mal hat er meine Uhr endgültig zerstört“,
 
-„Hallo Kamina, ich bin Flox“, klang es leise in Kaminas Ohren. Sie wollte ihren
-Augen nicht trauen. Die Stimme schien von dem kleinen Einhorn in der Uhr zu
-kommen.
+dachte sie. Doch da hörte sie eine weitere Stimme.
 
-„Du bist am Leben und Du kannst sprechen?“, fragte Kamina mit zitterndem Ton.
-Sie war überwältigt. Erst redete ein Kaninchen mit ihr und nun auch noch ihr
-Lieblingsspielzeug.
+„Hallo Kamina, ich bin Flox“,
+
+klang es leise in Kaminas Ohren. Sie wollte ihren Augen nicht trauen. Die Stimme
+schien von dem kleinen Einhorn in der Uhr zu kommen.
+
+„Du bist am Leben und Du kannst sprechen?“
+
+fragte Kamina mit zitterndem Ton. Sie war überwältigt. Erst redete ein Kaninchen
+mit ihr und nun auch noch ihr Lieblingsspielzeug.
 
 „Ja, Kamina. Ich bin hier, um auf Dich aufzupassen.“
 
-„Aber, aber.“ Kamina stockte. Sie hatte plötzlich so viele Fragen. „Aber wie
-kann das denn sein?“
+„Aber, aber.“
 
-„Ich habe schon immer auf Dich aufgepasst, mein Schatz“, sagte das bunte
-Einhorn. „Und ich kann noch viel mehr, als nur reden. Pass mal auf.“
+Kamina stockte. Sie hatte plötzlich so viele Fragen.
+
+„Aber wie kann das denn sein?“
+
+„Ich habe schon immer auf Dich aufgepasst, mein Schatz“,
+
+sagte das bunte Einhorn.
+
+„Und ich kann noch viel mehr, als nur reden. Pass mal auf.“
 
 Mit diesen Worten bäumte sich das Pferdchen kurz auf. Sein Fell glitzerte und
 sein Horn begann in allen Regenbogenfarben zu leuchten. Dann schien es plötzlich
@@ -112,21 +127,33 @@ Kaninchen. Im nächsten Moment passte sie schon durch den Durchgang, durch den e
 aus der Hecke gekommen war. Das Einhorn stand jetzt neben ihr. Es hatte die
 Größe eines kleinen Ponys, aber die grazile Eleganz eines edlen Schimmels.
 
-„Na, wie findest Du das, Kamina?“, sagte Flox. Die Stimme des Einhorns klang
-jetzt viel tiefer und kräftiger als beim ersten Mal.
+„Na, wie findest Du das, Kamina?“
 
-„Es macht mir ein bisschen Angst“, antwortete Kamina. „Du hast mich klein
-gemacht. Wie komme ich denn hier jemals wieder raus?“
+fragte Flox. Die Stimme des Einhorns klang jetzt viel tiefer und kräftiger als
+beim ersten Mal.
 
-„Hab keine Angst, Kamina!“, beruhigte Flox das Mädchen. „Ich bin immer für Dich
-da. Ich verspreche Dir, dass Dir nichts passieren wird und Du rechtzeitig zum
-Mittagessen wieder zurück bist.“
+„Es macht mir ein bisschen Angst“,
 
-„Weißt Du, wir brauchen Deine Hilfe“, ergänzte Flox, während sie einen
-schattigen, engen Durchgang zwischen den dornigen Büschen entlangliefen. „Die
-Meerjungfrauen sind in Gefahr.“
+antwortete Kamina.
 
-„Die Meerjungfrauen?“, fragte Kamina verblüfft.
+„Du hast mich klein gemacht. Wie komme ich denn hier jemals wieder raus?“
+
+„Hab keine Angst, Kamina!“
+
+beruhigte Flox das Mädchen. „Ich bin immer für Dich da. Ich verspreche Dir, dass
+Dir nichts passieren wird und Du rechtzeitig zum Mittagessen wieder zurück
+bist.“
+
+„Weißt Du, wir brauchen Deine Hilfe“,
+
+ergänzte Flox, während sie einen schattigen, engen Durchgang zwischen den
+dornigen Büschen entlangliefen.
+
+„Die Meerjungfrauen sind in Gefahr.“
+
+„Die Meerjungfrauen?“
+
+fragte Kamina verblüfft.
 
 Kamina hatte immer von Meerjungfrauen geträumt, wenn sie hier im Urlaub waren.
 Es schien sie also wirklich zu geben? Gemessen an den verrückten Dingen, die ihr
@@ -158,25 +185,36 @@ Vogel eine Brille auf der Stirn. Momentan brauchte er sie wohl nicht. Kamina
 dachte, dass das Tier sie vielleicht aufsetzte, damit ihm beim Fliegen keine
 Insekten in die Augen flogen.
 
-„Was für ein komischer Flamingo“, dachte sie. Als hätte sie ihn danach gefragt,
-sprach dieser zu ihr.
+„Was für ein komischer Flamingo“,
+
+dachte sie. Als hätte sie ihn danach gefragt, sprach dieser zu ihr.
 
 „Mein Name ist River. Ich bin der Wächter der großen Meeresstadt und das hier
-sind meine Wachen. Wer seid Ihr und was wollt ihr?“, fügte er in gebieterischem
-Ton hinzu.
+sind meine Wachen. Wer seid Ihr und was wollt ihr?“
+
+fügte er in gebieterischem Ton hinzu.
 
 Da sie geschrumpft waren, war der Wasservogel mehr als dreimal so groß wie das
 Kind. Flox stupste Kamina mit seinen Nüstern an. Das Einhorn forderte sie damit
 gleichzeitig dazu auf, etwas zu sagen, und gab ihr zu verstehen, dass es nach
 wie vor für seine Sicherheit sorgte.
 
-„Mein Name ist Kamina Sommerspitz“, stotterte sie.
+„Mein Name ist Kamina Sommerspitz“,
 
-„Und ich bin Flox“, fügte das Einhorn schnell hinzu. „Wir werden schon von
-Königin Neptunia, der Zweiten, erwartet. Wir sind hier, um unsere Hilfe
-anzubieten.“
+stotterte sie.
 
-„Ist das so?“, entgegnete River ungläubig. „Ihr seid das also?“
+„Und ich bin Flox“,
+
+fügte das Einhorn schnell hinzu.
+
+„Wir werden schon von Königin Neptunia, der Zweiten, erwartet. Wir sind hier, um
+unsere Hilfe anzubieten.“
+
+„Ist das so?“
+
+entgegnete River ungläubig.
+
+„Ihr seid das also?“
 
 Er machte einige komische Kopfbewegungen zu dem zweiten Flamingo hinter ihm.
 Dieser beugte sich sogleich mit seinem langen Hals weiter zurück und flüsterte
@@ -185,11 +223,17 @@ hatte die Nachricht bald die hintersten Flamingos erreicht und das Spiel drehte
 sich um. Nach einigen Sekunden betretenen Schweigens beugte sich der flauschige,
 pinkfarbene Flamingo schließlich zu River vor und flüsterte ihm eine Antwort zu.
 
-„Ihr dürft passieren“, sagte er nach kurzer Überlegung. Die Schar der Flamingos
-teilte sich in der Mitte und machte einen Weg frei, der direkt ins Meer führte.
+„Ihr dürft passieren“,
 
-„Keine Angst“, sagte Flox zu Kamina. „Wenn ich oder einer der Wassergeister in
-der Nähe ist, kannst Du unter Wasser ganz normal atmen.“
+sagte er nach kurzer Überlegung. Die Schar der Flamingos teilte sich in der
+Mitte und machte einen Weg frei, der direkt ins Meer führte.
+
+„Keine Angst“,
+
+sagte Flox zu Kamina.
+
+„Wenn ich oder einer der Wassergeister in der Nähe ist, kannst Du unter Wasser
+ganz normal atmen.“
 
 Für einen kurzen Moment überkam Kamina wieder die Angst. Sie musste an ihre
 Eltern denken und die Zeit, die schon verstrichen war, seit sie oben das
@@ -207,18 +251,22 @@ Auf dem Weg zur Meeresstadt erzählten Flox und River, der sie begleitete, dem
 Mädchen von den Problemen in der Unterwasserwelt.
 
 „In den Häusern und Höhlen der Wassergeister sammelt sich immer mehr
-Plastikmüll“, erklärte Flox. „Die Tüten und Flaschen und Fischernetze sind eine
-große Gefahr. Vergangene Woche ist sogar der Turm im Stadtzentrum eingestürzt.
-Ein Netz hat sich einfach so um ihn herumgewickelt und er wurde von der Strömung
-davon gerissen.“
+Plastikmüll“,
 
-„Aber was kann ich denn da tun?“, fragte Kamina, die wirklich gerne helfen
-wollte.
+erklärte Flox. „Die Tüten und Flaschen und Fischernetze sind eine große Gefahr.
+Vergangene Woche ist sogar der Turm im Stadtzentrum eingestürzt. Ein Netz hat
+sich einfach so um ihn herumgewickelt und er wurde von der Strömung davon
+gerissen.“
 
-„Königin Neptunia wird es Dir erzählen“, antwortete River. Seine Stimme klang
-dumpf, weil sich sein Kopf noch über Wasser befand. Kamina konnte im Moment nur
-seine roten Beine sehen. Der Flamingo tauchte den Kopf nur manchmal unter, um
-nach ihnen zu sehen.
+„Aber was kann ich denn da tun?“
+
+fragte Kamina, die wirklich gerne helfen wollte.
+
+„Königin Neptunia wird es Dir erzählen“,
+
+antwortete River. Seine Stimme klang dumpf, weil sich sein Kopf noch über Wasser
+befand. Kamina konnte im Moment nur seine roten Beine sehen. Der Flamingo
+tauchte den Kopf nur manchmal unter, um nach ihnen zu sehen.
 
 Erst jetzt fiel ihr auf, dass das Kaninchen nicht mehr da war. Bis zum Strand
 war es ihnen noch gefolgt. Nun schien es wieder zu seinem Bau zurückgelaufen zu
@@ -249,25 +297,36 @@ klappte es mit der Fortbewegung bestens. Der arme Flox trabte weiterhin am Boden
 entlang. Man konnte es ihm ansehen, dass das hier nicht seine Welt war. Auf
 einmal sah Kamina eine Vierergruppe junger Meerjungfrauen auf sie zu schwimmen.
 
-„Hallo, wer bist Du denn?“, wisperte das erste Kind etwas abschätzig.
+„Hallo, wer bist Du denn?“
 
-„Ich bin Neria“, mischte sich eine grünlich schimmernde Meerjungfrau in einem
-deutlich höflicheren Ton ein. Sie hatte wohl bemerkt, dass das Mädchen etwas
+wisperte das erste Kind etwas abschätzig.
+
+„Ich bin Neria“,
+
+mischte sich eine grünlich schimmernde Meerjungfrau in einem deutlich
+höflicheren Ton ein. Sie hatte wohl bemerkt, dass das Mädchen etwas
 eingeschüchtert war.
 
 „Das hier sind meine Schwester Xiope und mein Bruder Filipe. Mein Bruder Merlin
 hier drüben hat Dich ja schon begrüßt.“
 
-„Hallo“, flüsterte Kamina. Ihr stockte der Atem vor Bewunderung. „Mein Name ist
-Kamina, Kamina Sommerspitz. Ich bin ein Mensch und wurde von meinem Freund Flox
-hier hergebracht.“ Kamina deutete nach hinten.
+„Hallo“,
+
+flüsterte Kamina. Ihr stockte der Atem vor Bewunderung.
+
+„Mein Name ist Kamina, Kamina Sommerspitz. Ich bin ein Mensch und wurde von
+meinem Freund Flox hier hergebracht.“ Kamina deutete nach hinten.
 
 Unter Wasser kommt man auf dem Boden nicht so schnell voran, deshalb befand sich
 das Einhorn noch etwas entfernt.
 
-„Ach, der gute alte Flox“, sagte Neria.
+„Ach, der gute alte Flox“,
 
-„Du kennst ihn schon?“, fragte Kamina überrascht.
+sagte Neria.
+
+„Du kennst ihn schon?“
+
+fragte Kamina überrascht.
 
 „Ja natürlich! Jeder hier kennt Flox. Er hat uns schon so oft geholfen. Außerdem
 ist er ein enger Freund unserer Mutter.“
@@ -281,7 +340,11 @@ Unsere Mutter ist hier die Königin.“
 
 Der Nixe schien es wichtig zu sein, alle genau vorzustellen.
 
-„Ach“, entgegnete Kamina. „Königin Neptunia ist Eure Mutter?“
+„Ach“,
+
+entgegnete Kamina.
+
+„Königin Neptunia ist Eure Mutter?“
 
 „Ja genau! Wir alle sind Wassergeister. Auch Nixen genannt, oder Meerjungfrauen.
 Aber das ist ein sehr altmodischer Begriff. Wir mögen Geister lieber. Das klingt
@@ -298,23 +361,31 @@ die Geschichten vertiefte, die sie auf Lager hatten.
 Irgendwann tauchten Flox hinter ihnen auf. Einer der erwachsenen Wassergeister
 war auch dabei.
 
-„Kamina, wo warst Du denn so lange“, wieherte Flox, der ziemlich aus der Puste
-war. „Ich suche Dich schon seit einer halben Ewigkeit. Wir wollten doch zur
-Königin. Vergiss Deine Aufgabe nicht, mein Schatz!“
+„Kamina, wo warst Du denn so lange“,
+
+wieherte Flox, der ziemlich aus der Puste war.
+
+„Ich suche Dich schon seit einer halben Ewigkeit. Wir wollten doch zur Königin.
+Vergiss Deine Aufgabe nicht, mein Schatz!“
 
 Kamina hatte ein schlechtes Gewissen. Natürlich, die Aufgabe! Wie konnte sie die
 nur vergessen? Sie wollte doch ein Abenteuer bestehen und den Bewohnern des
 Meeres bei ihrem Problem mit dem Plastikmüll helfen.
 
-„Komm, wir begleiten Dich“, schlug Neria kurzerhand vor. „Lasst uns Mama einen
-Besuch abstatten. Sie hat sicher nichts dagegen“, sagte sie zu ihren
-Geschwistern.
+„Komm, wir begleiten Dich“,
+
+schlug Neria kurzerhand vor.
+
+„Lasst uns Mama einen Besuch abstatten. Sie hat sicher nichts dagegen“, sagte
+sie zu ihren Geschwistern.
 
 Und so machte sich die Sechsergruppe auf den Weg zum Königspalast in der Mitte
 der Stadt. Auf dem Weg dorthin kamen sie auch an einem Trümmerhaufen vorbei.
 
-„Hier hat der große Turm gestanden“, berichtete Neria. Kamina bekam einen
-gehörigen Schrecken. Das war ein trauriger Anblick.
+„Hier hat der große Turm gestanden“,
+
+berichtete Neria. Kamina bekam einen gehörigen Schrecken. Das war ein trauriger
+Anblick.
 
 Die prächtigen Häuser der Unterwasserstadt beruhigten sie schnell wieder. Sie
 waren noch schöner, als sie sie sich vorgestellt hatte. Besonders begeistert war
@@ -322,23 +393,30 @@ das Mädchen vom großen Palast der Königin. Als sie ihn erreichten, strahlten
 ihre Augen. Sie hatte noch nie in ihrem Leben ein so prächtig funkelndes Anwesen
 gesehen wie den Unterwasser-Palast.
 
-„Hier wohnen wir“, sagte Neria.
+„Hier wohnen wir“,
 
-„Das ist traumhaft!“, staunte Kamina. Sie wurden jetzt von den Palastwachen
-begleitet.
+sagte Neria.
 
-„Allein finde ich nie wieder zurück“, dachte Kamina. Sie waren durch ein wahres
-Gewirr aus Gängen, Sälen und Nebenzimmern geschwommen und eben im Thronsaal der
-Königin angekommen. Der Weg durch den Palast und die Gassen der Unterwasserstadt
-zurück an den Strand und durch die Gebüsche bis zum Campingplatz schien ihr in
-diesem Moment unüberwindbar.
+„Das ist traumhaft!“
+
+staunte Kamina. Sie wurden jetzt von den Palastwachen begleitet.
+
+„Allein finde ich nie wieder zurück“,
+
+dachte Kamina. Sie waren durch ein wahres Gewirr aus Gängen, Sälen und
+Nebenzimmern geschwommen und eben im Thronsaal der Königin angekommen. Der Weg
+durch den Palast und die Gassen der Unterwasserstadt zurück an den Strand und
+durch die Gebüsche bis zum Campingplatz schien ihr in diesem Moment
+unüberwindbar.
 
 Doch diese Gedanken hatte sie schnell wieder vergessen. Ihre Umgebung war
 einfach zu schön, um sich Sorgen zu machen. Der Saal war so groß, dass sie sogar
 in ihrer normalen Größe hineingepasst hätte, ohne sich den Kopf zu stoßen.
 
-„Tretet näher“, hörte sie eine warme, angenehme Stimme von der anderen Seite des
-Saals herüber hallen. Das Echo wurde von allen Wänden zurückgeworfen.
+„Tretet näher“,
+
+hörte sie eine warme, angenehme Stimme von der anderen Seite des Saals herüber
+hallen. Das Echo wurde von allen Wänden zurückgeworfen.
 
 Kamina ging ein paar Schritte in die Richtung, aus der sie die Worte gehört
 hatte. Als sie näherkam, sah sie eine Frau mit kurzem weißem Haar auf dem Thron
@@ -349,23 +427,29 @@ langes weißes Haar, das von einem zarten Korallenhaarreif gehalten wurde. Sie
 trug ein weißes Gewand, aus dem die prächtige, in allen Blau- und Grüntönen
 schimmernde Schwanzflosse herausschaute.
 
-„Hallo, Mama“, rief der freche Merlin. Er war schon voraus geschwommen.
+„Hallo, Mama“,
 
-„Na, wen habt Ihr mir denn da mitgebracht?“, fragte die Königin in mütterlichem
-Ton. Erst als die Gruppe näher herankam, konnte Neptunia den Nachzügler sehen.
+rief der freche Merlin. Er war schon voraus geschwommen.
 
-„Flox, mein alter Freund“, begrüßte sie das Einhorn begeistert. Sie stand von
-ihrem Thron auf und schwamm ihm entgegen. „Es ist mir eine große Freude, Dich zu
-sehen!“
+„Na, wen habt Ihr mir denn da mitgebracht?“
+
+fragte die Königin in mütterlichem Ton. Erst als die Gruppe näher herankam,
+konnte Neptunia den Nachzügler sehen.
+
+„Flox, mein alter Freund“,
+
+begrüßte sie das Einhorn begeistert. Sie stand von ihrem Thron auf und schwamm
+ihm entgegen. „Es ist mir eine große Freude, Dich zu sehen!“
 
 Die beiden tuschelten ein wenig untereinander. Kamina konnte nicht verstehen,
 was sie sagten. Schließlich kamen sie auch auf sie zu.
 
-„Das ist Kamina, Kamina Sommerspitz von den Menschen“, stellte Flox sie vor. In
-einem Märchenfilm hatte Kamina einmal gesehen, dass die Leute einen Knicks
-machten, wenn sie einer Königin begegneten. Natürlich war das hier kein Märchen,
-aber sie hielt es für das Richtige, es auch zu tun. Die Königin begann zu
-lachen.
+„Das ist Kamina, Kamina Sommerspitz von den Menschen“,
+
+stellte Flox sie vor. In einem Märchenfilm hatte Kamina einmal gesehen, dass die
+Leute einen Knicks machten, wenn sie einer Königin begegneten. Natürlich war das
+hier kein Märchen, aber sie hielt es für das Richtige, es auch zu tun. Die
+Königin begann zu lachen.
 
 „Auf solche Höflichkeitsfloskeln verzichten wir hier unten schon seit vielen
 Jahrtausenden. Macht man das bei Euch Menschen da oben immer noch? Einen Knicks?
@@ -373,23 +457,41 @@ Komm am besten einfach her. Ich heiße Dich herzlich willkommen in meinem
 Schloss! Wie ich sehe, hast Du meine Kinder bereits kennengelernt? Ich nehme an,
 sie haben Dich schon herumgeführt?“
 
-„Ja“, antwortete Kamina. „Sie sind sehr nett zu mir.“
+„Ja“,
 
-„Das freut mich zu hören, meine Liebe“, antwortete die Königin. „Flox hat mir
-schon viel von Dir erzählt.“
+antwortete Kamina.
+
+„Sie sind sehr nett zu mir.“
+
+„Das freut mich zu hören, meine Liebe“,
+
+antwortete die Königin.
+
+„Flox hat mir schon viel von Dir erzählt.“
 
 Kamina schaute zu dem Einhorn, das beruhigend und bestätigend mit dem Kopf
 nickte.
 
-„Nur das Beste“, wieherte Flox leise.
+„Nur das Beste“,
 
-„Ich weiß nicht, ob ich Euch helfen kann“, platzte die Frage schließlich aus
-Kamina heraus. Sie hatte sie schon die ganze Zeit stellen wollen.
+wieherte Flox leise.
 
-„Hahaha“, lachte die Königin auf ihre freundliche und lustige Art. „Und ob Du
-das kannst, Kamina!“, antwortete sie. „Du hast die Gabe dazu. Flox hat es mir
-schon vor Wochen erzählt und jetzt sehe ich es mit eigenen Augen. Du musst nur
-an Dich glauben. Komm mal mit, ich muss Dir etwas zeigen.“
+„Ich weiß nicht, ob ich Euch helfen kann“,
+
+platzte die Frage schließlich aus Kamina heraus. Sie hatte sie schon die ganze
+Zeit stellen wollen.
+
+„Hahaha“,
+
+lachte die Königin auf ihre freundliche und lustige Art.
+
+„Und ob Du das kannst, Kamina!“
+
+antwortete sie.
+
+„Du hast die Gabe dazu. Flox hat es mir schon vor Wochen erzählt und jetzt sehe
+ich es mit eigenen Augen. Du musst nur an Dich glauben. Komm mal mit, ich muss
+Dir etwas zeigen.“
 
 Ohne lange zu zögern, nahm Königin Neptunia Kamina zur Seite. Sie schwammen in
 einen ruhigeren Seitenbereich des Saals und nahmen auf einer Bank aus Muscheln
@@ -397,7 +499,9 @@ Platz. Flox folgte ihnen. Die jungen Wassergeister spielten vor dem Thron ihrer
 Mutter weiter. Sie hatten dort ein paar Spielsachen entdeckt, die sie sicher bei
 ihrem letzten Besuch im Saal dort liegen gelassen hatten.
 
-„Denke an irgendein Spielzeug“, sagte die Königin.
+„Denke an irgendein Spielzeug“,
+
+sagte die Königin.
 
 Kamina fiel nichts anderes ein, als der alte Wasserball ihres Bruders. Plötzlich
 landete er direkt in ihrem Schoß. Sie sah sich erschrocken um und suchte die
@@ -411,13 +515,18 @@ ihren Hals und erkannte die Silberkette mit dem kleinen Amulett, in dem die
 Bilder ihrer Eltern steckten. Obwohl sie sich sicher war, dass sie es nicht mal
 mit in den Urlaub genommen hatte, war es plötzlich hier.
 
-„Wie machst Du das?“, fragte sie die Königin erstaunt.
+„Wie machst Du das?“
 
-„Oh, ich mache gar nichts“, entgegnete Neptunia. „Das kommt alles von Dir. Du
-trägst die seltene Gabe der Fantasie in Dir. Du kannst die Dinge aus Deinen
-Gedanken wahr werden lassen. Du konntest es schon immer, aber je älter du wirst,
-desto besser kannst Du Dich konzentrieren und desto besser wird es
-funktionieren.“
+fragte sie die Königin erstaunt.
+
+„Oh, ich mache gar nichts“,
+
+entgegnete Neptunia.
+
+„Das kommt alles von Dir. Du trägst die seltene Gabe der Fantasie in Dir. Du
+kannst die Dinge aus Deinen Gedanken wahr werden lassen. Du konntest es schon
+immer, aber je älter du wirst, desto besser kannst Du Dich konzentrieren und
+desto besser wird es funktionieren.“
 
 „Flox hat Dir ja schon gezeigt, was mit unserer schönen Stadt passiert ist. Der
 große Turm, der einst bis zur Meeresoberfläche ragte, ist vor Kurzem
@@ -500,13 +609,18 @@ und zwei Flügel in jeder Puppe.
 Plötzlich war es so weit: Hunderte Schmetterlinge flogen auf. Einer schöner als
 der andere. Sie schimmerten in den buntesten Farben.
 
-„Kamina“, sagte Neptunia, die Zweite, als sie schließlich wieder am großen
-Schlosstor angekommen waren. „Du hast unsere Stadt gerettet. Wie können wir Dir
-nur jemals für diese Heldentat danken?“
+„Kamina“,
 
-„Darf ich irgendwann einmal wiederkommen?“, fragte Kamina.
+sagte Neptunia, die Zweite, als sie schließlich wieder am großen Schlosstor
+angekommen waren. „Du hast unsere Stadt gerettet. Wie können wir Dir nur jemals
+für diese Heldentat danken?“
+
+„Darf ich irgendwann einmal wiederkommen?“
+
+fragte Kamina.
 
 „Du bist bei uns jederzeit genauso willkommen, wie meine eigenen Kinder“,
+
 antwortete die Königin mit ihrem wallenden, weißen Haar.
 
 Kamina blickte zu Neria und sie blinzelten einander zu. Als sie nach einem
@@ -540,27 +654,37 @@ Er hatte sich beim Toben im Wasser in etwas verfangen und einen Schrecken
 bekommen. Er schob es auf seine kurze Verwirrung, drehte seinen Kopf weg und
 schwamm weiter.
 
-„Der Aufstieg zum Campingplatz ist anstrengend“, sagte Flox, der nun am Strand
-wieder neben ihr stand und seine Mähne ausschüttelte. „Allerdings nicht, wenn
-man so groß ist wie ein Mensch.“
+„Der Aufstieg zum Campingplatz ist anstrengend“,
 
-„Ja, das stimmt“, antwortete Kamina. „Kannst Du mich denn wieder groß werden
-lassen?“
+sagte Flox, der nun am Strand wieder neben ihr stand und seine Mähne
+ausschüttelte. „Allerdings nicht, wenn man so groß ist wie ein Mensch.“
+
+„Ja, das stimmt“,
+
+antwortete Kamina.
+
+„Kannst Du mich denn wieder groß werden lassen?“
 
 Es dauerte keine Minute und Kamina war wieder zu ihrer gewohnten Größe
 herangewachsen.
 
-„Du hast sicher gedacht, dass du den ganzen Tag weg warst, oder?“, fragte das
-Einhorn. „Doch Du musst eine Sache wissen: Wenn man klein ist, vergeht die Zeit
+„Du hast sicher gedacht, dass du den ganzen Tag weg warst, oder?“
+
+fragte das Einhorn.
+
+„Doch Du musst eine Sache wissen: Wenn man klein ist, vergeht die Zeit
 langsamer. In Wirklichkeit ist erst eine halbe Stunde vergangen, seitdem ich
 Dich verkleinert habe.“
 
 Vollkommen erledigt, aber überglücklich schlenderte Kamina den Weg zum
 Campingplatz zurück, der ihr jetzt gar nicht mehr so lang vorkam.
 
-„Na, wo kommst Du denn her?“, begrüßte sie ihre Mutter. „In ein paar Minuten
-gibt es Mittagessen, Du bist ja ganz nass und dreckig. Lass uns am besten erst
-noch kurz unter die Dusche springen, mein Schatz.“
+„Na, wo kommst Du denn her?“
+
+begrüßte sie ihre Mutter.
+
+„In ein paar Minuten gibt es Mittagessen, Du bist ja ganz nass und dreckig. Lass
+uns am besten erst noch kurz unter die Dusche springen, mein Schatz.“
 
 Als Kamina und ihre Mutter vom Duschhaus zurückkamen, stand das Essen schon auf
 dem Tisch. Ihr Vater hatte einen leckeren Eintopf gekocht.
