@@ -3,7 +3,6 @@ superTitle: Elements, Part 1
 title: Earth
 description: The start of a dystopian journey to hell and elysium and back.
 colorSpace: tan
-hidden: true
 startDate: 2022-09-20
 date: 2023-10-31
 tags:
@@ -238,11 +237,11 @@ The clan's camp had occupied four neighbouring buildings in the centre of
 Kinsale. So Juliette, quick with decisions, gave order to carry the surprise
 gift back and summon the elders.
 
-Juliette always refers to them as the elders, but Ruth, Paul and of course
-Wheezle, the clan's official leaders are not actually wise. They have a lot of
-street knowledge and they had proper jobs in their former lives, the one before
-the earth stood still. They brought the O'Clares through hard times and made
-everyone keep their faith.
+Juliette always refers to them as the elders, but Ruth, Dirty Frank and of
+course Wheezle, the clan's official leaders are not actually wise. They have a
+lot of street knowledge and they had proper jobs in their former lives, the one
+before the earth stood still. They brought the O'Clares through hard times and
+made everyone keep their faith.
 
 Now the clan's three leaders were sitting in a circle around that box together
 with Juliette, Ruben, Thom and Bantry. The cage was shaking from time to time
@@ -316,8 +315,8 @@ Two of them pulled a small wagon with the box on it and drove it to the podium
 area that was lit by a suitably dimmed but still bright enough spotlight.
 
 The O'Clares slowly calmed down. They formed a semi-circle around the box. Only
-Juliette, Ruth and Paul stood directly next to the dirty, wooden cube. Paul
-opened some locks and fiddled with the fixing mechanism for a while like a
+Juliette, Ruth and Frank stood directly next to the dirty, wooden cube. Dirty
+Frank opened some locks and fiddled with the fixing mechanism for a while like a
 magician preparing his trick. The audience reacted with tensioning silence. The
 scholars on one side and the wild bunch on the other.
 
@@ -348,7 +347,7 @@ There were many of them. As soon as the O'Clares had found out how and where to
 look, they've seen more. Probably they were also attracted by Scrooge, the one
 creature that they had captured.
 
-Finally also the Theologist found words again. He showed of a blurry image of
+Finally also the Theologist found words again. He showed off a blurry image of
 satellite footage on the big screen behind him. "We have seen them, too", he
 said. "But until now there were only speculations. This image is from England."
 
@@ -377,9 +376,9 @@ better than nothing. At least they had proof that the satellites were still out
 there.
 
 The Comms also maintained a radio relay station. But there was barely others out
-there who heard their calls. The only exception was a German station, with whom
-the had a monthly call. Otherwise, it's astonishingly calm for a communication
-centre.
+there who heard their calls. The only larger exception was a German station,
+with whom the had a monthly call. Otherwise, it's astonishingly calm for a
+communication centre.
 
 But now, they had visitors. The dean, the Theologist, Juliette and Ruth O'Clare
 stood behind them at the desks with a giant wall of monitors, all off. Only a

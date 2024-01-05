@@ -7,7 +7,7 @@ description:
 colorSpace: purple
 unfinished: true
 startDate: 2021-11-15
-date: 2023-09-01
+date: 2024-01-02
 related:
   - storylines/transspace
   - storylines/kret
@@ -24,60 +24,78 @@ Marla had been a gifted child. She graduated at age 13, got her master's degree
 at 15 and wrote an already groundbreaking piece as her PhD Thesis when she
 was 20. That was in the year 2089.
 
-But that was not the end. She was not obsessed with going deeper into one field.
-She wanted to go broader. She wanted to have an explanation for the universe as
-a whole. And she was very good at some really helpful things along the way.
-Thinking outside the box like her role model Albert Einstein. Working with AI in
-terms of training and giving them the right kind of work at the right time. It
-was some kind of symbiosis. But she also had a good portion of realism and an
-understanding of economy and psychology.
+But it was not the end of her career. She was not obsessed with going deeper
+into one field. She wanted to go broader. She wanted to have an explanation for
+the universe as a whole. And some of her broad traits helped her in other
+situations as well. She was the literal multitalent of the third millenium.
+Thinking outside the box like her role model and genious of the second millenium
+Albert Einstein.
 
-At age 26, in 2095, she published her groundbreaking paper "A Theory of
-Transspace". A paper that was supposed to change the world more radically than
-the Theory of Relativity or Darwin's Origin of Species.
+One of her interests was in data science. She was working with AI in terms of
+training and giving them the right kind of work at the right time. It turned out
+to be some kind of symbiosis.
 
-But also that was just the start.
+Her second side trait was good portion of realism and an understanding of
+economy and psychology. So she also was a natural leader and entrepreneur.
 
----
+The real breakthrough in her main field of work had happened at age 26. In 2095,
+she published her groundbreaking paper "A Theory of Transspace". A paper that
+was supposed to change the world of science and the world itself more radically
+than the Theory of Relativity or Darwin's Origin of Species.
 
-Later on, Marla became more famous than Einstein, but not only because of her
-groundbreaking papers that changed physics. After that, she organized the think
-tank "Enclave" and gathered the most brilliant minds for years to deepen her
-theories.
+But also that was just the start. Marla was supposed to become more famous than
+Einstein, not only because of her groundbreaking papers that changed physics. It
+was her entrepreneurial spirit, that she added to her work as a scientist. This
+lead her to form a think tank to bring her scientific work to the next level and
+into reality. In that project, she gathered many leading scientists and
+engineers together for some years to develop viable spin offs and ideas from her
+Transspace theory. THe project was called "Enclave", because she brought
+everyone in there to collaborate closely and work in a gated and controlled
+environment. Neither speculations nor premature thoughts went out of that
+circle.
 
-Yet another step increased her fame and that is the fact that she made money out
-of her discoveries. So much that she became the third richest person in the
-solar system with her megacorp Zodiac.
+The results were the game changer. They presented a Faster Than Light drive that
+made humanity ready to conquer the solar system. As a side result, the presented
+anti gravity technology that also changed the life on earth immediately by
+providing safe and fast transportation and an infinite amount of tools.
+
+But yet another step increased her fame after the Enclave project published
+their results and that is the fact that she made money out of her discoveries,
+so much that she became the third richest person in the solar system with her
+megacorp Zodiac.
 
 At that time there were already four other global players, who were not so
-global anymore. They made their money by mining asteroids, running space station
-chains and interplanetary transport. All of them were eager to use the new tech.
-But Marla and Zodiac owned many of the patents and had the talent and skills.
+global anymore. They made their money in space by mining asteroids, running
+space station chains and interplanetary transport. All of them were eager to use
+the new tech, that could bring more people and goods to and from their real
+estate. But Marla and Zodiac owned many of the patents and had the talent and
+skills to use them. They were soon involved in all of these profitable
+businesses.
 
 Even the name was wisely chosen as two of the other corporations were called
 Sagittarius and Scorpio. Zodiac for them might have sounded like a declaration
 of war, but at the same time, they needed access to that groundbreaking
 technology.
 
----
-
-Fifty years later, the solar system was split between huge corporations with
-more financial power than any state on earth. The Dublin drive, invented by
-Zodiac, was the dominant spaceship technology. So the company became number two,
-so huge that it could buy number three, Sagittarius. But the possibilities to
-grow didn't end there.
+Fifty years later, Marla retired from the company's chair at age 80. The solar
+system was split between three corporations with more financial power than any
+state on earth. The Dublin drive, invented by Zodiac, was the dominant spaceship
+technology. So the company became number two unde Marla, so huge that it could
+buy number three, Sagittarius. Bigger than any terrestrial nation, no authority
+was there to prevent them from doing so. It was the corporate wild west. But the
+possibilities to grow didn't end at the borders of the solar system.
 
 After Marla Lay, Chi Feng became chairman. He came up with the idea to put his
 claim on other star systems. He was a diplomat and cultivated good relations
-with the other Megacorps and managed to form a consortium with five of his
-competitors. Their project: sending discovery drones into the universe.
+with the other Megacorps. He managed to form a consortium with his competitors.
+Their project: sending a series discovery drones into the universe.
 
 Already two years later, the first pair of drones launched from the facilities
-at Zodiac station. Project Gemini started to Alpha Centauri and Barnard's Star.
-The drones were built to find habitable planets and valuable asteroids and acted
-as communication phalanxes for the probes they carried in their bodies.
-
----
+at Zodiac station circling the Saturn moon Titan. Project Gemini - of course it
+was named after a zodiac sign and as it was a pair of rockets, the choice was
+obvious - started to Alpha Centauri and Barnard's Star. The drones were built to
+find habitable planets and valuable asteroids autonomously and acted as
+communication phalanxes for the probes they carried in their bodies.
 
 ## Marie
 
@@ -243,9 +261,16 @@ speculations began.
 
 ---
 
+## Mylar
+
 <!--
 Center of the universe
 Hyperion
+-->
+
+## Marisol
+
+<!--
 Time Travel, A Failure
 600 Generations
 The first Men
