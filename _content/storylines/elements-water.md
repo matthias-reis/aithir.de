@@ -358,30 +358,116 @@ also looked weak. Others were strong enough to fight against the current and the
 blackness below.
 
 After the crossed the vortex, they turned around and headed home. There was
-nothing more that they could do. The flight back was even more opressively quiet
-that the flight to London, if that was even possible. Ruth couldn't stop staring
-at the footage and now that she saw the scene in live, she discovered even more
-details on the satellite footage.
+nothing more that they could do. The flight back was even more oppressively
+quiet than the flight to London, if that was even possible. Ruth couldn't stop
+staring at the footage and now that she had seen the scene with her own eyes,
+she discovered even more details on the satellite feed.
 
 _The Theologist_
 
-Back in France, they took the whole evening to find out what to do next. Could
-this invasion be stopped? Were they doomed? They, humanity? The group had to do
-something against it. The Theologist and Ruben came out with it almost at the
-same time.
+"What a weird world", said the Theologist into the big round. "Whatever I've
+learned about god, heaven, hell, angels and demons seems to be coming true. I
+mean, I believed in god all my live, but still I thought of all of the tales and
+stories in the bible and in the other tests as metaphors, mythology just like
+Odin, Jupiter or Shiva."
 
-"We should take the boat", they said. The coincidence of saying it together made
-it a bit less awkward. What they suggested was a Kamikaze journey, an Orphean
-trip right into the mouth of hell.
+Five days had passed since the flight. In the meantime, the party was on its
+next quest. They were on the boat again, heading towards the vortex. They just
+passed the former city center of London on the thames.
 
-On that day, they didn't dare to talk to the Dublin headquarters. That could
-wait until the next morning.
+Pierre wanted to stay in France to help defending their home land against the
+rising demon menace on the coast and to be ready with a plane in case he was
+needed for a rescue mission. So it was the old gang of eight again. Ruben,
+Bantry and Ruth from the O'Clare clan, Siobhan and Hannah, Skipper Ron, Johann
+from Hamburg and the Theologist himself.
+
+Ron said that they had wind from the east and the yacht made good pace running
+only on sails at the moment. He also said that eastern winds were rather
+unusual. Was the wind blowing towards the vortex just like the water did or was
+it a coincidence? The would have had to sail around the whole crater lake to
+find the answer to that question but the decided to go for the more important
+questions for now.
+
+After another hour they had sight of what the Theologist had titled Purgatory
+Island. Ruth was still mastering all incoming footage and for the first time,
+they could see themselves, their own boat on the satellite stream. They
+approached the biggest island under her navigation.
+
+"Do you know the story about Purgatory Island?", asked the Theologist. "It's
+also called St. Patrick's Purgatory. A place of pilgrimage in Donegal."
+
+"I've heard of it", said Ruth. "A priest in our community told me about it. He
+said we should visit that place one day with the clan. But Donegal is in the
+north and we never made it there. Some years later, he died. He was already very
+old."
+
+"Oh. Then do you see the parallels, too? All of this", he responded and pointed
+towards the growing island in front of them. "All of it reminds me of that
+story. There was supposed to be a cave on that island and in that cave was an
+entrance to hell."
+
+"Didn't come to my mind yet", said Ruth. "But before Ruben came up with a living
+specimen, I didn't believe in demons either."
+
+"Fair point", said the Theologist. "So what I'm saying is, that we should be
+prepared. Probably we really enter the Purgatory in some minutes."
+
+_Bantry_
+
+Bantry hated it. Whenever the others talked, they referred to him as the kid. He
+was eighteen, large and stronger than anyone else in his clan, let alone the
+group of eight that was on the mission to hell.
+
+Tey also underestimated his intelligence and observation skills. He had spent
+most of his youth together with the old father John O'Clare, listened to his
+stories and read all the books that had remained in the clan's possession. So he
+also had a good deal of knowledge about all of the religious things that
+happened to them now in real life and learned even a bit of Latin. He knew
+almost as much about the Purgatory as the Theologist.
+
+Now they stood on the pier of a weird island with the most beautiful and not-of
+this-world architecture he had ever seen. He had seen pictures of roman and
+greek temples, french cathedrals and gigantic modern steel and glass buildings.
+The buildings here were made out of white marble. Some of it looked antique,
+like the many columns, other parts were as clear as the Bauhaus style. The
+mixture and overall impression was uncanny.
+
+An old man stood in front of them and introduced himself as Cato. As usual the
+two leaders of the group, the Theologist and Ruth, stood upfront to introduce
+themselves. But Bantry knew this name from somewhere. It sounded familiar.
+
+Then he remembered. Cato is a character from Dante's divine comedy, the gate
+keeper of Purgatory. How could this be a coincidence? He pulled over the
+Theologist while Ruth was talking to Cato.
+
+"Hey, Theologist", he whispered. "You know Cato, don't you?"
+
+"No, of course not", he answered. "I've never been here before. What do you
+mean?"
+
+"Cato, the Divine Comedy. Cato was the guy at the entrance of Purgatory or
+something."
+
+"Wait, what?", the Theologist was confused. "Bantry, Bantry, where do you know
+all that from. You're so right. And now we stand of a real person on an island
+that I coined Purgatory Island. What the hell is going on here?"
+
+"So either Dante was really here, too - some hundred years ago. Or", started
+Bantry a sentence.
+
+"Or what?", asked the Theologist. "Or all of that is an imagination? Human tales
+are manifesting in the real world?"
+
+"Perhaps", said Bantry. "Are we in a dream?"
+
+"Or in a nightmare", said the Theologist. "I don't know. But I'm impressed by
+you, Bantry. You would be my best student if I was still a teacher."
 
 <!--
-Back to Boulogne
-Starting with the boat again
 Visiting purgatory island - it's getting fantastic
   https://de.wikipedia.org/wiki/Purgatorium_des_heiligen_Patrick_(Wallfahrtsort)
+
+Cato guardian of the entrance to purgatory (icon of moral and integrity - stoicist, prototype of a vulcan)
 Barthel and Sephys
 the Magister - from the angel caste of judges
 the holy court
