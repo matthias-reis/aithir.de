@@ -268,94 +268,235 @@ worked together with the Sociologists on studies about settlements and derived
 potential social structures that could give them hints about the character of
 "their" aliens. For now, they called them "the Rana'ans".
 
-<!-- BIS HIER -->
+---
 
 Arriving in the Rana system was less spectacular than Martin thought. The
 blackness of the space there followed the blackness between the systems. The
 only difference was a star that shone a bit brighter than usual. They still had
-two days until they were supposed to reach the orbit.
+two days until they were supposed to reach the designated orbit.
 
 Martin also knew that it was not planned to meet the aliens directly after their
-arrival. The plan was a detailed half-year observation mission before first
-contact. But it was a change for good for the surprisingly impatient diplomat.
+arrival. So even when they arrived, they had plenty of time to acclimatise and
+get acquainted to the situation. The plan was a detailed half-year observation
+mission before going into the next phase, the first contact. But at least,
+arriving was a change for good for the surprisingly impatient diplomat.
 
-He was not the mission lead, but in the council and so he had enough to do,
-enough to think. They reached the orbit of Rana 3 and Martin's mood immediately
-changed. Actually, everyone on the ship turned from impatient waiting mode to
-planned activity. Probes were prepared. Camouflage surveillance drones were sent
-to the ground. Translator systems were set up. Teams started to make theories.
-And Martin absorbed the information for his first contact strategy.
+He was not the mission lead, but in the council and so he had enough to do and
+enough to think. During the two days of impatience. As soon as the ship reached
+the orbit of Rana 3, Martin's mood immediately changed. Hiw work mode switched
+from stand-by to alertness. He noticed that on the whole ship. Everyone woke up
+from inactivity as if they were kept in sleep chambers all the time like they
+did in old sci-fi stories. Besides the rumors that spread in the canteen and the
+bar, also several work protocols seemed to autostart. The plans were detailed
+end everyone on the ship including him and his team knew what to do.
+
+Probes were prepared. Camouflage surveillance drones were sent to the ground.
+Translator systems were set up for learning mode. Science Teams started to make
+theories. And Martin absorbed all the information for his first contact
+strategy.
+
+The following weeks brought an inflation of knowledge. The probes on the surface
+of Rana 3 worked perfectly. The translator AI learned the new languages within a
+week. In the same week, the crew had already gathered a lot of geographical and
+sociological data. As soon as the translation matrix was ready for processing,
+the working teams augmented their observations with footage from the aliens.
+
+MArtin had learned the name 'Kret' for the first time two weeks after the
+arrival. It was their name. That's how the aliens called themselves. The Kret.
+It appeared to become an important milestone. Later on, Martin thought that it
+became the moment where they turned from an interesting phenomenon into his
+aliens, his life project.
+
+Martin was concentrated, meticulous and became more and more obsessed with the
+details the found out about the Kret. Within three more weeks, he and his team
+had learned a good deal about the Krets' history, preferences and habits.
+
+Most of the plan for the first contact had been worked out back on Earth
+already, many philosophical and psychological principles were defined and a
+universal guide for meeting alien species for the first time was developed. But
+the information that they collected now would be crucial for the choice of
+strategy and the details of the first contact. It was his call to make.
+
+Which landing place would they choose? Which people would they pick for
+interviews? The things that mattered most, was what he would say, what would be
+the first words. A truly giant leap for mankind, but also for Martin himself.
+
+Now, a team of seven plus pilot and copilot was sitting in a shuttle waiting to
+be transported to the first contact. Another phase of impatience started for
+Martin. Four of the crew were dressed like the Kret. They wore long robes and
+lightweight fabrics in natural colors with a lot of white and black. Martin had
+selected the tallest people in the whole crew, those who resembled the Kret
+most, to act as pickers.
+
+"Are you ready?", repeated Martin impatiently. "Let's go through the mission one
+last time. Today, we pick the informers. These are the people close to the
+leaders we want to make contact with. Fortran, Alyssa, Peter and Renata, you
+know the dossiers of your contact persons?"
+
+A yes or a nod came from everyone.
+
+"Good. Our Light Shuttles will bring yo to your destinations. You have twelve
+hours to make contact. Team two and myself will meet the other group of Kret,
+the politicians. You know that we expect an outdoor gathering in three hours.
+That is a unique opportunity. We must be there in time."
+
+They had gone through that protocol dozens of times. So after the landing,
+everything went smoothly. Everyone of team one left for their solo mission. And
+now team two and Martin saw, how their target group appeared at the designated
+place. It was time.
+
+All of the observation systems reported a good safety level, so Martin dared to
+step out of his hideout.
+
+"Ashea, ashea", he drew attention to himself by using the Kret language. He had
+learned some words, but the translation engine would take over soon.
+
+The group of seven Kret who had gathered here in a beautiful outdoor camp looked
+surprised around as they saw the alien on their planet. Martin had expected
+exactly that reaction.
+
+"I am Martin Adebayo", he said. "I am here to meet you."
 
 ---
 
-The following weeks brought inflation of knowledge. The probes on the surface of
-Rana 3 worked perfectly. The translator AI learned the new languages within a
-week. In the same week, the crew gathered geographical and sociological data.
-After that, the working teams augmented their observations with statements from
-the aliens.
+On the inofficial day of first contact everything went according to plan. Team
+one successfully made contact with the planet's leaders and team two had a good
+conversation with the group of Kret that had gathered in the camp. Martin was
+happy with the results. Especially there was no sign of aggression or fear. All
+Kret were very curious and open minded. Actually that was something that made
+him think and later that week, he brought it up to the philosophers in the crew
+for an interesting red wine discussion.
 
-They learned that they called themselves the Kret. Martin was concentrated.
-Within three weeks, he and his team had to learn about the Krets' history,
-preferences and habits. Those were the remaining bits that went into the grand
-plan to get in contact.
+Now it was time for the official first contact. The Mission was about tho meet
+the leaders of Kret. The political system was significantly different from
+earths countries and corporations model. The Kret lived in clans of 40 to 80
+people. Most decisions were made inside those clan structures. Nine of those
+clans, however, were there to take the lead and coordinate higher level topics.
 
-All the rest was already worked out on Earth and during the long trip. Which
-landing place they would choose, which people they would pick, all of that was
-well known. But the things that mattered most, what he would say, was Martins's
-decision alone. A truly giant leap for mankind, but also himself.
+The official fist contact was supposed to be a formal event with around thirty
+selected crew members and the matriarchs and patriarachs of the nine clans. It
+was a banquet in one of the most beautiful venues Martin has ever seen. The
+food, that originally had been predicted as a potential blunder, was a safe bet
+after the drones had analysed the kitchen and diet on Kret. But the actual meal
+was not only acceptable. It was 'extraordinaire', as one of the French
+crewmembers coined it. It turned out that almost everything the Kret crafted was
+somehow brought to perfection.
 
-Now, a team of seven was sitting in a shuttle waiting to be transported to the
-first contact.
+The following months were the actual new ground. While every single minute until
+the first contact was well planned by hundreds of experts, the time after that
+was the challenge that Martin had been searching for. Working groups with
+members of the Kret and the Humans were founded to work on detailed exchange in
+the fields of history, culture, science and technology.
 
----
+Martin finally became the first ambassador of Earth. He represented the whole
+planet here on Kret, while at home, the nations and corporations were still if
+political, economic and physical war with each other. At the end of the mission,
+he decided to take a permanent residence on Kret while most of the crew went
+back to earth. Also a permanent shuttle connection was established that brought
+people from and to Kret once a month.
 
-For Martin, the first contact was a life-changing moment, but the weeks, months
-and years after that were the most work-intensive. He became the first
-ambassador representing Earth as a whole while over there on his old home planet
-they still thought in dimensions of states and corporations.
+One evening, he and his friends, Kret and Humans alike were sitting together as
+they often did and discussing things from philosophy to daily business. Amanda,
+the chief biologist of the crew usually joined as well, but today she and her
+team worked longer.
 
-In the beginning, he organised a team that took care of the contacts, the
-announcements and the events on the planet and he quickly became the face of
-humanity for the Kret people. Later, the team became an office as more
-terrestrial ships arrived and later Kret and Humans together created a beautiful
-building for the representation of earth in the Rana star system.
+Suddenly she jumped into the room and shouted: "You are no aliens!" pointing at
+Mesa and No'o, two of the Kret in the round.
 
-The whole administration consisted of 50% humans and 50% Kret. There were
-permanent representatives of all major Kret clans involved, but also many
-helpers, craftsmen and counselors.
+They looked at each other. No'o was part of the grop of the first contact, one
+of the first to see Humans for the first time. And now he had the exact same
+surprised facial expression as in that moment.
 
-Martin was famous on two planets and he was very proud of that. But he also
-stayed humble throughout the years just as every diplomat should.
+"Wait, what?", asked Martin.
 
----
+"We are related", said Amanda. "We are genetically related. We don't know every
+detail yet. But we've found human DNA in your genome. Actually that shouldn't be
+too much of a surprise, right? I mean look at us. Martin, No'o your physiology
+is so similar."
 
-Martin and the other leads of the first contact crew regularly spent their
-evenings together with dinner and discussions since the launch of the mission.
-One day, about four months after the first contact, Amanda, the chief biologist,
-came out of nowhere with a topic. "These are no aliens", she said and got the
-attention of everyone in the room.
+"But how", asked No'o with only half of a sentence while his brain clearly
+needed time to process.
 
-The Kret were so similar to us in their phsiology, that people speculated from
-the beginning. But now, Amanda said, there was proof.
+"As I said, more details will follow. But we are pretty sure that the split is
+around 100.00 to 200.000 years old."
 
-"We have the results now", she continued. "we are gentically related. We don't
-know every detail yet, but we are pretty sure that the split could have happened
-about 100 to 200 thousand years ago."
+"But there were still Neanderthals on Earth at that time", said Martin.
 
-The others had stopped eating and stared at her in a jaw-dropping way. It took
-Martin a full minute to recover and ask his first question.
+"Our history", responded Mesa, "goes back very long."
+
+They continued discussing the topic for hours. Throughout the evening also the
+other biologists joined and shared more details.
+
+At the end of the day, it was No'o who summarised the discovery perfectly.
 
 "What do you think happened one hundred thousand years ago?", he asked and the
 speculations began.
 
----
+## Mesa
 
-## Mylar
+Mesa had an adventurous life. Her Arra, the clan she was born in, was one of the
+Arram Mas. They were wealthy and influential in politics and large scale topics.
+In her early twenties, before the humans came, she had the opportunity to be
+appointed into several councils that debated the present and future of the Kret.
+She was a good speaker, listener and negotiator.
 
-<!--
-Center of the universe
-Hyperion
--->
+When the humans came, she was lucky to be part of the group that made first
+contact. She used this opportunity and kept contact, stayed open for
+opportunities and was one of the first Kret to learn the human language. But
+above all, she was curious. She was eager to exploit the knowledge that
+naturally comes when you make friends with a new species. A whole cornucopia of
+new ideas and concepts was laid out in front of her.
+
+Later on she became a natural choice for the Hyperion project. Kret and Humans
+wanted to build the center of the Universe together, a space station almost
+exactly in the middle between the two home planets. The project was gigantic.
+The Kret provided their craftsmanship and the Humans their technology and the
+money and resources of the mega corps.
+
+Mega corps and capitalism overall were concepts that were hard to grasp for
+Mesa. It took her almost a decade to understand the mechanics and subtle rules,
+schemes and conspiracies below the surface.
+
+Now she was standing in Hyperions great hall, a huge lobby with more than a
+hundred meteres of length and a large glass front. From many benches and
+lounges, you could look at the Keid star system. The planet they were orbiting
+was Nava, named after the origin of everything in the Kret mythology.
+
+She watched how the star Keid B was rising and immersed the thin atmosphere of
+Nava into thousands of shades of red and orange. This event only happened about
+once a week and the hall was full of spectators.
+
+"There's a funny story about Keid", said Rich, who stood behind her. Rich was
+her Human colleague and friend.
+
+"Keid", he continued in a mic drop way, "is the sun of Vulcan."
+
+"What is that supposed to mean?", asked Mesa.
+
+"Well there was an ancient story on earth, actually it was a famous show, that
+was broadcasted. And it predicted the first contact with an alien species called
+the Vulcans. And the planet Vulcan was placed here in the Keid system. At that
+point, some 200 years ago, that was just a wild guess. We hadn't even discovered
+planets on other star systems. But isn't that a coincidence? Us standing here
+now looking at Vulcan."
+
+"Well, if you say so", said Mesa. "I also have a story for you, Rich. You know
+about transspace, right?"
+
+"Yea, who deosn't. I'm a scientist. Why do you ask?"
+
+"Yesterday, I received some news from one of the collaboration teams, you
+remember them? They made a transspace discovery regarding time travel. It's just
+theoretical stuff, but it made me think. What if time travelling was the reason
+for us to exist? Some starship travels back 100.000 years colonizes a planet.
+ANd that little colony develops into us, the Kret?"
+
+"But then why don't you have all that technology?", asked Rich. "You Kret are
+very sophisticated and educated, but you have a lack of at least three or four
+distuptive tech discoveries. You should have had all of them from the beginning,
+right?"
+
+"Yeah, you're right of course. I was just thinking."
 
 ## Marisol
 

@@ -463,11 +463,44 @@ are manifesting in the real world?"
 "Or in a nightmare", said the Theologist. "I don't know. But I'm impressed by
 you, Bantry. You would be my best student if I was still a teacher."
 
+But then Bantry saw a girl coming over from a big place towards the quay. The
+group was still standing there with the old man, who called himself Cato. When
+only a handful of humans are left on earth and you are the only being of your
+age, it's only natural to get excited by a girl. But she was objectively
+beautiful, thought Bantry. Long dark hair, bright skin, a white toga-like dress.
+And she approached the group.
+
+"There she is", said Cato turning around to her. "Ladies and gentlemen, this is
+Sephys, my granddaughter and here comes Bartholomew or Barthel, her younger
+brother. Don't be blended by their youth. They both are more than a thousand
+years old. They will show you around and discuss your matters with you."
+
+Bantry must have missed at least half of the conversation before. Did Cato just
+say 'a thousand years old'? But anyway. He was excited, he could spend some time
+with Sephys, so he was as excited as probably never before.
+
+After some more introduction, where again Ruth and the Theologist took the lead,
+the two siblings showed them around their beautiful small island. Sephys and
+Barthel showed them the gardens with tropical plants and ferns as big as trees.
+They also showed them the houses or better villas where the community lived each
+of which connected to an illuminated water system where you could take baths.
+Then they went into the library with hundreds of thousands of books and scrolls.
+
+Along the way, Bantry and Sephys had some time to talk. But Bantry didn't dare
+to ask personal things. He also was too curious about where they were and what
+the world had become. But Sephys very often responded with a heartwarming smile.
+
+Finally they went to the agora in the center of the representative area with
+even classier buildings and architectural highlights. They approached a group of
+benches and tables on the agora and took a seat right in front of the most
+splendid building. It had two rows of ionic columns in the entrance followed by
+a cupola and several five or six storey buildings surrounding it each topped by
+a roof terrace where plans and trees grew.
+
 <!--
 Visiting purgatory island - it's getting fantastic
   https://de.wikipedia.org/wiki/Purgatorium_des_heiligen_Patrick_(Wallfahrtsort)
 
-Cato guardian of the entrance to purgatory (icon of moral and integrity - stoicist, prototype of a vulcan)
 Barthel and Sephys
 the Magister - from the angel caste of judges
 the holy court
