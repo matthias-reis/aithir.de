@@ -483,25 +483,239 @@ now looking at Vulcan."
 "Well, if you say so", said Mesa. "I also have a story for you, Rich. You know
 about transspace, right?"
 
-"Yea, who deosn't. I'm a scientist. Why do you ask?"
+"Yea, who dosn't? I'm a scientist, of course I know Marla Lay. Why do you ask?"
 
 "Yesterday, I received some news from one of the collaboration teams, you
 remember them? They made a transspace discovery regarding time travel. It's just
 theoretical stuff, but it made me think. What if time travelling was the reason
-for us to exist? Some starship travels back 100.000 years colonizes a planet.
-ANd that little colony develops into us, the Kret?"
+for us to exist? Some starship travels back 100.000 years and colonizes a
+planet. And that little colony develops into us, the Kret?"
 
 "But then why don't you have all that technology?", asked Rich. "You Kret are
 very sophisticated and educated, but you have a lack of at least three or four
-distuptive tech discoveries. You should have had all of them from the beginning,
+disruptive tech discoveries. You should have had all of them from the beginning,
 right?"
 
 "Yeah, you're right of course. I was just thinking."
 
+But the topic continued bothering Mesa. She was not a scientist, but she treated
+that topic in a scientific way. She became obsessed with it, but in a positive,
+non-destructive way. After reading all available papers about it, she discussed
+the matter in detail. First with her biologist friends, then with the physicists
+she knew. And as a last step, she started publishing articles about it. At the
+peek of her obsession, she wrote the famous book "3000 Generations of Humans",
+where she enrolled all the details of her research and the progress that had
+been made in science since her topic started forming in her head.
+
 ## Marisol
 
-<!--
-Time Travel, A Failure
-600 Generations
-The first Men
--->
+The year 2195 was a special year for Marisol. Tt was the 100th anniversary of
+the transspace theory, that was sitting in the heart of her life - privately and
+professionally. Marisol was a physicist and worked as a navigator in the
+Hyperion science fleet. She served on a ship called "Kret 3".
+
+The science vessel was a rather large ship with more than 200 crew members
+consisting of Kret and Humans alike. Marisol was from Earth, Madrid to be
+precise. But she was at home in space. As the navigator, she knew all the stars
+by heart, but she was also very capable with the AI and the transspace
+algorithms that were used to travel between them.
+
+After the Gemini missions had ended with mission 144, the known universe had
+become huge and the opportunities, especially for science projects were vast.
+Besides the main worlds, Earth, Kret, Proxima Centauri 3 and Hyperion, there
+were 18 outposts, 40 space stations and four big terraforming projects ongoing.
+All of them needed supplies of knowledge and technology.
+
+Additionally there were countless missions into uncharted territories or
+unexploited resources like asteroid fields and gas clouds. The science fleet was
+organizing all that demand.
+
+During the celebrations of the anniversary, Marisol and the crew of Kret 3 were
+on a mission to a micro black hole. One of the high res telescope arrays, that
+were stationed on the outer borders of the known space had discovered this
+anomaly, that was about sixty lightyears away from earth.
+
+The celebration ceremony was transmitted via ultra fast transspace arrays to all
+science and engineering vessels of the fleet and the Kret 3 crew threw a big
+party.
+
+"I heard we've just arrived officially in the Nightshade system", said Alex, one
+of the probe engineers to Marisol. The star system had been named after their
+mission, 'Nightshade', which was a great honour. Everyone wore their mission
+badge with even more pride than usual.
+
+"You're absolutely right", answered Marisol with a glass of Spanish red wine in
+her hand. "My calculations show that we crossed the Oort cloud of the star
+system about an hour ago."
+
+"That's cool. So we arrive some hours ahead of time?"
+
+"No, not really. THe captain gave out the strategy to be cautious with
+approaching the little black beast. So we will fall out of transspace sooner and
+travel the rest of the way with normal speed. That will cost us three days."
+
+"Oh I see. But also good, more time to recover from the party, isn't there?"
+
+"Haha", laughed Marisol. "Yes. But I don't know if we should overachieve on that
+goal."
+
+26 hours later, this ship was scheduled to drop out of transspace. That was
+usually not a big event. But this time many interested scientists and engineers
+came to the bridge to watch. Right after the drop, the high-res telescope
+phalanx would be focused on the black hole and everyone was eager to watch the
+first live footage of the anomaly.
+
+"One minute to go", announced Marisol in her role as the chief navigator.
+
+"Everyone, prepare for a little shake", said Captain Dars after some more
+seconds.
+
+THen the screen turned white and the ship went through some turbulences, more
+than expected. THen the screen turned black and then white again. It was
+flickering.
+
+"Gordon, what are we seeing here?", asked the captain.
+
+"Nothing", answered the technician hesitantly. "Sir, I don't know what else to
+say. I see no error messages from the telescope feed. What we see is what the
+telescope sees. I think". The last part, the 'I think' was not very convincing
+it was more like a question, but to himself or rather the system he was
+operating on.
+
+"That can't be", said Dars. "Drone C4 to the gazebo."
+
+THe gazebo was the go-to leisure spot on the ship. There was a bar, that served
+food and drinks. But mainly it was famous for its large windows. The only real
+windows on the ship.
+
+Twenty seconds later, the front screen of the bridge streamed the footage of the
+drone. They saw the gazebo, but on the outside the sky turned black and white
+just like on the telescope feed before.
+
+"No, That can't be", repeated Dars. "Marisol, what's going on? Where are we?"
+
+"Sir, I don't know. I've checked the navigation sensors. They don't catch any
+stars for calibration anymore. Even when the sky is not white, there are no
+visible stars. So I can't say where we are. It must be the influence of the
+black hole."
+
+In the moment, she spoke it out, the shaking got stronger and the flickering of
+the sky increased. Everyone on the bridge was trying th get a seat or at least a
+grip on the wall. The first gravitation systems started beeping, which meant
+that they could not balance out the external forces anymore. The ship was out of
+control, while all the sensors showed Marisol that it was not moving at all.
+
+And then it stopped. No shaking, no flickering. The stars were back. Everything
+went back to normal.
+
+"Can I have some damage reports", said Captain Dars immediately. "Gordon,
+Marisol, what's up?"
+
+"It seems like the Dublin drive is broken", said Gordon. "I can't get it online
+anymore. It died. Ionic engines are running and electricity and life support
+within normal range."
+
+The Dublin drive was the facility that created the tunnel into Transspace.
+
+"How about the comms?"
+
+"Transspace Microtunnels for communication seem to be intact", answered Gordon.
+
+"OK. Fine. We're stranded, but we can contact the community. That's good.
+Marisol? Where are we exactly? Any surprises?"
+
+"I have bad news", she answered. "Look!"
+
+She pushed some buttons on her workstation and the feed she had seen also
+appeared on the big screen. It said 'rear view' and it showed a planet filling
+half of the screen that looked habitable.
+
+"That is unexpected indeed", said Dars. "So what's this?"
+
+"THat's the bad news. I don't know. I interpolated the navigation data and could
+not identify our position."
+
+"What exactly do you mean?", he asked and added a command. "Comupter, please
+show us the front view again. Look at this. There's Orion down here. ANd the
+Plejadis."
+
+"I know. But they look off, especially when you measure with nav precision."
+
+"Kret", said Fela looking into one of the side screens. She was one of the Kret
+scientists. "This is Kret."
+
+"Rear camera back on main screen", said the captain. Dars was also a Kret, but
+the Kret didn't grow up with aerial views of their planet. So he didn't notice
+in the few seconds, the planet had been on screen. But now, he clearly saw the
+silhouettes of the continents.
+
+"This is really bad news. So we're back at the start of or mission? Traveled
+there within a minute. Who's joke is this? We are pranked, fellows."
+
+"I don't think so", said Marisol. "Look at the C4 Drone. It clearly shows the
+planet through the windows."
+
+"Ok. Gordan, could you please open a channel to the headquarters? And the rest
+of us, we go to the gazebo."
+
+While Gordon typed and gestured busily on his workstation, the rest of the
+group, around twelve people including Marisol and the captain went to the
+Gazebo. The view was beautiful as usual. A brightly shining planet, a red
+shimmer where night and day had met and a clear and starry sky. It was just not
+the place they expected to be.
+
+"Sir, I can't reach anyone", said Gordon through the intercom. "None from the
+headquarters, none from Rana station or from the planet."
+
+"But you said the comms were working", said Dars and it looked like speaking to
+the ceiling.
+
+"Yes Sir, I double checked this as well. They are working. I just don't reach
+anybody."
+
+"That can't be", said Dars more to himself and then went on to the group
+"Allright, back to the bridge. Everyone to their workplaces. Marisol, can you
+set a course to Rana Station, please? If they don't answer the phone, we have to
+pay a visit."
+
+Back on the bridge, Marisol plotted the course by using the planet Kret and the
+sun Rana as navigation points because the stars were not a reliable source
+anymore. The ship ignited its ionic drive.
+
+Four hours later they appeared at the place where the station was supposed to
+be. But it was not there. The station was gone.
+
+"Sorry Sir", said Marisol, "I'm 99% sure that we are at the right place. I have
+no explanation for this."
+
+"Hey all", said Fela the Kret loudly to the whole room. "Look at Kret. It's
+green and all looks right, but our city structures are not there. Here, west of
+the mountains between the river deltas. There should be housings of a million
+arras or more. That is where I come from. But where is it?"
+
+"Oh no", said Marisol, "oh no. Do you know the book '3000 Generations of
+Humans'?"
+
+"Everyone knows that book", said Dars. "It's a classic. What do you want to
+say?"
+
+"Wait, let me check something. You might not want to hear that."
+
+She turned to her workstation and let the AI run a quick simulation. Then her
+face turned from a glimpse of approving pride to a deep frown.
+
+"You remember that I told you, the stars are off, right?", the others nodded
+waiting for the punch line. "They are not. THey are absolutely correct. But it's
+not the stars of the year 2195.
+
+The closer star constellations are off by some arc seconds only. Everything
+points to constellations how they existed 100.000 years ago.
+
+We ask ourselves why there is no space station? Well, because it does not yet
+exist. We ask ourselves why there is no visible city structure on Kret? That's
+because the Kret don't even exist yet.
+
+And If I may have a guess, then that we are, this crew is the origin of the
+Kret. We are the first humans that colonized or better will colonize this
+planet. We are the first of the 3000 generations in Mesas famous book that will
+follow."
