@@ -5,9 +5,8 @@ description:
   The great mash up between the transspace story and the study of my first alien
   race, the Kret.
 colorSpace: purple
-unfinished: true
 startDate: 2021-11-15
-date: 2024-01-02
+date: 2024-02-02
 related:
   - storylines/transspace
   - storylines/kret
@@ -15,6 +14,7 @@ tags:
   - Aliens
   - Space Opera
   - Space Travel
+  - Time Travel
   - SciFi
 ---
 
@@ -26,34 +26,35 @@ she was 20. That was in the year 2089.
 
 But it was not the end of her career. She was not obsessed with going deeper
 into one field. She wanted to go broader. She wanted to have an explanation for
-the universe as a whole. And some of her broad traits helped her in other
-situations as well. She was the literal multi talent of the third millennium,
-thinking outside the box like her role model and genius of the second millennium
-Albert Einstein.
+the universe as a whole. And some of her broad skills helped her in other
+situations as well. She was the one exceptional multi talent of the third
+millennium, thinking outside the box like her role model and genius of the
+second millennium, Albert Einstein.
 
 One of her interests was in data science. She was working with AI in terms of
 training and giving them the right kind of work at the right time. It turned out
 to be some kind of symbiosis.
 
-Her second side trait was good portion of realism and an understanding of
+Her second side trait was a good portion of realism and an understanding of
 economy and psychology. So she also was a natural leader and entrepreneur.
 
-The real breakthrough in her main field of work had happened at age 26. In 2095,
-she published her paper "A Theory of Transspace", a paper that was supposed to
-change the world of science and the world itself more radically than the Theory
-of Relativity or Darwin's Origin of Species.
+The real breakthrough in her main field of work, physics, had happened at
+age 26. In 2095, she published her paper 'A Theory of Transspace', a paper that
+was supposed to change the world of science and the world itself more radically
+than the Theory of Relativity and Darwin's Origin of Species together.
 
-But also that was just the start. Marla was supposed to become more famous than
-Einstein, not only because of her groundbreaking papers that changed physics. It
-was her entrepreneurial spirit, that she added to her work as a scientist. This
-instinct led her to form a think tank to bring her scientific work to the next
-level and into reality.
+But even that was just the start. Marla was supposed to become more famous than
+Einstein, not only because of her groundbreaking papers that changed physics.
+She added her entrepreneurial spirit to her work as a physicist. This instinct
+led her to the decision to form a think tank to bring her scientific work to the
+next level and into reality.
 
-In that project, she gathered many leading scientists and engineers together for
-some years to develop viable spin offs and ideas from her Transspace theory. The
-project was called "Enclave", because she brought everyone in there to
-collaborate closely and work in a gated and controlled environment. Neither
-speculations nor premature thoughts went out of that circle.
+In that project, she gathered many other leading scientists and engineers
+together for some years to develop viable spin offs and ideas from her
+Transspace theory. The project was called "Enclave", because she brought
+everyone in there to collaborate closely and work in a gated and controlled
+environment. Neither speculations nor premature thoughts went out of that
+circle.
 
 The results were disruptive to say the least. The team presented a Faster Than
 Light drive that made humanity ready to conquer the solar system. As a side
@@ -70,13 +71,13 @@ At that time there were already four other global players, who were not so
 global anymore. They made their money in space by mining asteroids, running
 space station chains and controlled interplanetary transport. All of them were
 eager to use the new tech, that could bring more people and goods to and from
-their real estate. But Marla and Zodiac owned many of the patents and had the
-talent and skills to use them. They were soon involved in all of these
-profitable businesses.
+their real estate in a shorter time. But Marla and Zodiac owned many of the
+patents and had the talent and skills to use them. They were soon involved in
+all of these profitable businesses.
 
 Even the name was wisely chosen as two of the other corporations were called
 Sagittarius and Scorpio. Zodiac for them might have sounded like a declaration
-of war, but at the same time, they needed access to that groundbreaking
+of war. But at the same time, they needed access to that groundbreaking
 technology.
 
 Fifty years later, Marla retired from the company's chair at age 80. The solar
@@ -106,24 +107,25 @@ possible. It had two lounges with top class bar tenders for only a few
 exclusively selected people. Everything was posh. But Marie was used to
 travelling this way.
 
-Her destination, the station circled Titan, which circled Saturn, which in turn
-circled our Sun. That's what she thought sitting among the 15 other suits who
-prepared for the docking maneuver at the end of their comfortable flight. All of
-them, Marie included, were representatives of the wealthiest corporations of the
-solar system. This was the most exclusive funding event she ever attended.
+Her destination - the station - circled Titan, which circled Saturn, which in
+turn circled our Sun. That was what she thought sitting among the 15 other suits
+who prepared for the docking maneuver at the end of their comfortable flight.
+All of them, Marie included, were representatives of the wealthiest corporations
+of the solar system. This was the most exclusive funding event she ever
+attended.
 
 Before she could finish her thought, the impressive station appeared on Titan's
 Horizon. It was huge and perfectly symmetrical. The famous space architect Zoe
 Zass had designed it. Actually it was the first piece of space construction that
-was designed and not only engineered - although it was a gigantic wharf, and
-industrial site.
+was designed and not only engineered. It was iconic although it was a gigantic
+wharf, and industrial site.
 
 On both sides, you could see the half-finished ships, the twins from the Gemini
 project. Their characteristic star form with five arms coming from the
-specifications of the so called Dublin drive could already be seen. The twins
-were already bigger than the shuttle they were in despite they were not even
-half as big as they would finally become and despite the fact that they were
-drones that wouldn't even carry a living space crew.
+specifications of the Dublin drive could be seen. The twins were already bigger
+than the shuttle they were in. But they were not yet even half as big as they
+would finally become - and not to forget the fact the fact that they were drones
+that wouldn't even carry a living space crew.
 
 On additional parallel platforms, the manufactories were assembled. They would
 be put into the belly of the drone ships when the mission started. These engines
@@ -144,11 +146,11 @@ planet whether it was habitable or not - or not yet. The manufactories could
 build reliable housing, energy cells as well as terraforming gear on a large
 scale.
 
-For Marie, the presentation on that day was impressive. At that point, half of
+For Marie, the presentation on this day was impressive. At that point, half of
 her company had been involved in the project already but the investor show and
 the disclosure of their plans and mission goals was the last missing bit to
 convince her boss. After contributing technology he also bought ten percent of
-the project shares two years before their first launch.
+the project shares two years ahead of their first launch.
 
 ---
 
@@ -170,52 +172,52 @@ transmission module and didn't deliver any results.
 
 Marie had reached her goal already. Almost nobody would have expected such a
 good outcome anyway. Alpha Centauri became a gold mine and Marie in turn was
-appointed to CFO. ForceForge was given the license for the construction and real
-estate of the first extrasolar dwellings of mankind. It was the start of an
-exclusive holiday and migration business, the best time to build hotels on
-Proxima Centauri 3.
+appointed to CFO. ForceForge was given the licenses for the construction work
+and real estate management of the first extrasolar dwellings of mankind. It was
+the start of an exclusive holiday and migration business, the best time to build
+hotels on Proxima Centauri 3.
 
-The Twins project and Marie's involvement were not finished at that time. The
-company decided to reinvest their profits continuously. Every six months, Zodiac
-was ready with another pair of probes and sent them on their way to the stars in
-our neighbourhood. They visited twenty destinations within five years and almost
-each of them with at least a small financial success. Some companies profited
-from mining, others started terraforming and creating settlements. Dozens of
-adventurous communities wanted to start a new way of living and be the founders
-of a society on a new planet.
+The Twins project and Marie's involvement even continued after she became CFO.
+The company decided to reinvest their profits continuously. Every six months,
+Zodiac was ready with another pair of probes and sent them on their way to the
+stars in our neighbourhood. They visited twenty destinations within five years
+and almost each of them with at least a small financial success. Some companies
+profited from mining, others started terraforming and creating settlements.
+Dozens of adventurous communities wanted to start a new way of living and be the
+founders of a fresh society on a new planet.
 
-ForgeForce had the technology to build all necessary infrastructure and also
-made a lot of money with licensing their technology to the new settlements.
+ForgeForce had the knowledge to build all necessary infrastructure and also made
+a lot of money with licensing their technology to the new settlements.
 
 In the sixth year, something big happened. One of the probes reported the
 discovery of intelligent life.
 
 ## Martin
 
-Mission 23 of the Gemini project targeted the Rana system. Rana was about 30
-light years away from the sun. For a long time, it had been considered a rather
-uninteresting system. Some scientists have claimed that there wouldn't be
-planets at all. Mission 18 however brought us closer and the manufactory had
-produced a large telescope that transmitted footage from its host system, but
-also from surrounding stars. It became clear that Rana showed interesting
-anomalies.
+Mission 23 of the Gemini project targeted the Rana system. Rana was a star with
+about 30 light years of distance from the sun. For a long time, it had been
+considered a rather uninteresting system. Some scientists have claimed that
+there wouldn't be planets at all. Mission 18 however brought us closer and the
+Gemini probe's manufactory had produced a large telescope that transmitted
+footage from its host system, but also from surrounding stars. It became clear
+that Rana showed thought-provoking anomalies.
 
 The Gemini project had already found life on mission 12 and 17. It discovered
-one planet with a funghi like species that rendered pretty much inhabitable and
-thus useless, but yet interesting for scientists. The other one was a planet
-with an almost breathable atmosphere and grass-like plants. It was the most
-interesting candidate for a short term terraforming project, that could produce
-a second Earth within a century.
+one planet with a fungi like species that rendered the planet pretty much
+inhabitable and thus useless, but yet interesting for scientists. The other one
+was a planet with an almost breathable atmosphere and grass-like plants. It was
+the most promising candidate for a short term terraforming project, that could
+produce a second Earth within a century.
 
 But Rana turned out to be different. When the Gemini probe approached the
 system, the first detailed stereoscopic screenings showed clear signs of life
-and activity. The Gemini headquarters immediately sent orders for visual
-observation, so the probe started manufacturing a series of drones with
-hi-resolution optics.
+and activity. The Gemini headquarters on Earth immediately sent orders for
+visual observation, so the probe started manufacturing a series of planetary
+micro drones with hi-resolution optics.
 
 One month into the project, the drones produced footage of the planet's surface.
 There were settlements and humanoid lifeforms. The next step was immediately
-clear to everyone at the Gemini headquarters. A mission was planned.
+clear to everyone at the Gemini headquarters. A manned mission was planned.
 
 The various wharves around Titan and in the Jupiter orbit had a lot of
 experience in building bespoke space ships in a short amount of time. Within one
@@ -232,18 +234,18 @@ was only natural that the organisers of the Rana mission asked him to join as
 lead diplomat.
 
 What that meant was not immediately clear to him at the moment they approached
-him. Only in the night, when he was lying awake in his bed, he realised that tis
-meant something historic. He could be the first human to meet an alien, standing
-in one line with Neil Armstrong, the first man on the moon, Jennifer Woo, the
-first woman on Mars and Mathieu Valinort, the first man on Proxima Centauri 3.
-After realising that, he could not sleep at all anymore that night. He heard his
-heart beating for six hours, then he stood up, took a shower and signed up for
-the job.
+him. Only in the night, when he was lying awake in his bed, he realised that
+this meant something historic. He could be the first human to meet an alien,
+standing in one line with Neil Armstrong, the first man on the moon, Jennifer
+Woo, the first woman on Mars and Mathieu Valinort, the first man on Proxima
+Centauri 3. After realising that, he could not sleep at all anymore that night.
+He heard his heart beating for six hours, then he stood up, took a shower and
+signed up for the job.
 
 The staff selection for the Rana mission continued while the training for the
 crew members that were already appointed started. Next to actual training
 sessions, Martin took part in strategy meetings together with some of the
-brightest minds in philosophy and anthropology that could be found on earth.
+brightest minds in philosophy and anthropology that could be found on Earth.
 
 The whole crew of the mission consisted of sociologists, linguists, biologists,
 engineers and a handful of reporters next to the diplomatic corps of seven
@@ -256,17 +258,18 @@ and dozens of cameras transmitted these moments to over eight billion people who
 watched the event in the live stream.
 
 But there was still a lot to achieve until the actual first contact. So he
-quickly calmed down again and got distracted by the routines that followed. Only
-an hour later, the Captain gave the order for departure and the engines ignited.
-Another five minutes later, they passed into Transspace. The 30-ly journey would
-take them one year, one year of further preparation on board.
+quickly calmed down again and got himself distracted by the routines that
+followed. Only an hour later, the Captain gave the order for departure and the
+engines ignited. Another five minutes later, they passed into Transspace. The
+30-ly journey would take them one year, one year of further preparation on
+board.
 
 Martin's crew and the other departments had a tight schedule. Physicists
 analysed the available data from the probe's information stream from the Rana
 system. Martin's diplomats and negotiators went through all their strategies and
 worked together with the Sociologists on studies about settlements and derived
 potential social structures that could give them hints about the character of
-"their" aliens. For now, they called them "the Rana'ans".
+their aliens. For now, they called them 'the Rana'ans'.
 
 ---
 
@@ -282,13 +285,13 @@ mission before going into the next phase, the first contact. But at least,
 arriving was a change for good for the surprisingly impatient diplomat.
 
 He was not the mission lead, but in the council and so he had enough to do and
-enough to think. During the two days of impatience. As soon as the ship reached
-the orbit of Rana 3, Martin's mood immediately changed. Hiw work mode switched
+enough to think during the two days of impatience. As soon as the ship reached
+the orbit of Rana 3, Martin's mood immediately changed. His work mode switched
 from stand-by to alertness. He noticed that on the whole ship. Everyone woke up
 from inactivity as if they were kept in sleep chambers all the time like they
 did in old sci-fi stories. Besides the rumors that spread in the canteen and the
 bar, also several work protocols seemed to autostart. The plans were detailed
-end everyone on the ship including him and his team knew what to do.
+and so everyone on the ship including him and his team knew what to do.
 
 Probes were prepared. Camouflage surveillance drones were sent to the ground.
 Translator systems were set up for learning mode. Science Teams started to make
@@ -299,13 +302,14 @@ The following weeks brought an inflation of knowledge. The probes on the surface
 of Rana 3 worked perfectly. The translator AI learned the new languages within a
 week. In the same week, the crew had already gathered a lot of geographical and
 sociological data. As soon as the translation matrix was ready for processing,
-the working teams augmented their observations with footage from the aliens.
+the working teams augmented their observations with spoken footage from the
+aliens.
 
-MArtin had learned the name 'Kret' for the first time two weeks after the
-arrival. It was their name. That's how the aliens called themselves. The Kret.
-It appeared to become an important milestone. Later on, Martin thought that it
-became the moment where they turned from an interesting phenomenon into his
-aliens, his life project.
+Martin had learned the name 'Kret' for the first time two weeks after the
+arrival. It was their name. That's how the aliens called themselves - the Kret.
+It became an important milestone. Later on, Martin thought that it was the
+moment where the Kret turned from an interesting phenomenon into his aliens, his
+life project.
 
 Martin was concentrated, meticulous and became more and more obsessed with the
 details the found out about the Kret. Within three more weeks, he and his team
@@ -318,10 +322,10 @@ the information that they collected now would be crucial for the choice of
 strategy and the details of the first contact. It was his call to make.
 
 Which landing place would they choose? Which people would they pick for
-interviews? The things that mattered most, was what he would say, what would be
+interviews? The things that mattered most was what he would say, what would be
 the first words. A truly giant leap for mankind, but also for Martin himself.
 
-Now, a team of seven plus pilot and copilot was sitting in a shuttle waiting to
+Now, a team of seven plus pilot and copilot were sitting in a shuttle waiting to
 be transported to the first contact. Another phase of impatience started for
 Martin. Four of the crew were dressed like the Kret. They wore long robes and
 lightweight fabrics in natural colors with a lot of white and black. Martin had
@@ -342,38 +346,38 @@ That is a unique opportunity. We must be there in time."
 
 They had gone through that protocol dozens of times. So after the landing,
 everything went smoothly. Everyone of team one left for their solo mission. And
-now team two and Martin saw, how their target group appeared at the designated
-place. It was time.
+now team two and Martin observed, how their target group appeared at the
+designated place. It was time.
 
-All of the observation systems reported a good safety level, so Martin dared to
+All of the monitoring systems reported a good safety level, so Martin dared to
 step out of his hideout.
 
 "Ashea, ashea", he drew attention to himself by using the Kret language. He had
 learned some words, but the translation engine would take over soon.
 
 The group of seven Kret who had gathered here in a beautiful outdoor camp looked
-surprised around as they saw the alien on their planet. Martin had expected
-exactly that reaction.
+surprised as they saw the alien. Martin had expected exactly that reaction.
 
 "I am Martin Adebayo", he said. "I am here to meet you."
 
 ---
 
 On the inofficial day of first contact everything went according to plan. Team
-one successfully made contact with the planet's leaders and team two had a good
-conversation with the group of Kret that had gathered in the camp. Martin was
-happy with the results. Especially there was no sign of aggression or fear. All
-Kret were very curious and open minded. Actually that was something that made
-him think and later that week, he brought it up to the philosophers in the crew
-for an interesting red wine discussion.
+one successfully made indirect contact with the planet's leaders and team two
+had a good conversation with the group of Kret that had gathered in the camp.
+Martin was happy with the results. Especially there was no sign of aggression or
+fear. All Kret were very curious and open minded. Actually that was something
+that made him think and later that week, he brought it up to the philosophers in
+the crew for an interesting red wine discussion.
 
-Now it was time for the official first contact. The Mission was about tho meet
-the leaders of Kret. The political system was significantly different from
-earths countries and corporations model. The Kret lived in clans of 40 to 80
-people. Most decisions were made inside those clan structures. Nine of those
-clans, however, were there to take the lead and coordinate higher level topics.
+Now it was time for the official first contact. The mission was about to meet
+the leaders of Kret for the first time. The political system was significantly
+different from earths countries and corporations model. The Kret lived in clans
+of 40 to 80 people. Most decisions were made inside those clan structures. Nine
+of those clans, however, were there to take the lead and coordinate higher level
+topics.
 
-The official fist contact was supposed to be a formal event with around thirty
+The official first contact was supposed to be a formal event with around thirty
 selected crew members and the matriarchs and patriarachs of the nine clans. It
 was a banquet in one of the most beautiful venues Martin has ever seen. The
 food, that originally had been predicted as a potential blunder, was a safe bet
@@ -389,14 +393,14 @@ members of the Kret and the Humans were founded to work on detailed exchange in
 the fields of history, culture, science and technology.
 
 Martin finally became the first ambassador of Earth. He represented the whole
-planet here on Kret, while at home, the nations and corporations were still if
+planet here on Kret, while at home, the nations and corporations were still in
 political, economic and physical war with each other. At the end of the mission,
 he decided to take a permanent residence on Kret while most of the crew went
 back to earth. Also a permanent shuttle connection was established that brought
 people from and to Kret once a month.
 
 One evening, he and his friends, Kret and Humans alike were sitting together as
-they often did and discussing things from philosophy to daily business. Amanda,
+they often did and discussing topics from philosophy to daily business. Amanda,
 the chief biologist of the crew usually joined as well, but today she and her
 team worked longer.
 
@@ -414,8 +418,8 @@ detail yet. But we've found human DNA in your genome. Actually that shouldn't be
 too much of a surprise, right? I mean look at us. Martin, No'o your physiology
 is so similar."
 
-"But how", asked No'o with only half of a sentence while his brain clearly
-needed time to process.
+"But how?", asked No'o in only half of a sentence while his brain clearly needed
+time to process.
 
 "As I said, more details will follow. But we are pretty sure that the split is
 around 100.00 to 200.000 years old."
@@ -505,11 +509,11 @@ the matter in detail. First with her biologist friends, then with the physicists
 she knew. And as a last step, she started publishing articles about it. At the
 peek of her obsession, she wrote the famous book "3000 Generations of Humans",
 where she enrolled all the details of her research and the progress that had
-been made in science since her topic started forming in her head.
+been made in science since the topic started forming in her head.
 
 ## Marisol
 
-The year 2195 was a special year for Marisol. Tt was the 100th anniversary of
+The year 2195 was a special year for Marisol. It was the 100th anniversary of
 the transspace theory, that was sitting in the heart of her life - privately and
 professionally. Marisol was a physicist and worked as a navigator in the
 Hyperion science fleet. She served on a ship called "Kret 3".
@@ -550,7 +554,7 @@ system about an hour ago."
 
 "That's cool. So we arrive some hours ahead of time?"
 
-"No, not really. THe captain gave out the strategy to be cautious with
+"No, not really. The captain gave out the strategy to be cautious with
 approaching the little black beast. So we will fall out of transspace sooner and
 travel the rest of the way with normal speed. That will cost us three days."
 
@@ -570,8 +574,8 @@ first live footage of the anomaly.
 "Everyone, prepare for a little shake", said Captain Dars after some more
 seconds.
 
-THen the screen turned white and the ship went through some turbulences, more
-than expected. THen the screen turned black and then white again. It was
+Then the screen turned white and the ship went through some turbulences, more
+than expected. Then the screen turned black and then white again. It was
 flickering.
 
 "Gordon, what are we seeing here?", asked the captain.
@@ -584,7 +588,7 @@ operating on.
 
 "That can't be", said Dars. "Drone C4 to the gazebo."
 
-THe gazebo was the go-to leisure spot on the ship. There was a bar, that served
+The gazebo was the go-to leisure spot on the ship. There was a bar, that served
 food and drinks. But mainly it was famous for its large windows. The only real
 windows on the ship.
 
@@ -592,7 +596,7 @@ Twenty seconds later, the front screen of the bridge streamed the footage of the
 drone. They saw the gazebo, but on the outside the sky turned black and white
 just like on the telescope feed before.
 
-"No, That can't be", repeated Dars. "Marisol, what's going on? Where are we?"
+"No, that can't be", repeated Dars. "Marisol, what's going on? Where are we?"
 
 "Sir, I don't know. I've checked the navigation sensors. They don't catch any
 stars for calibration anymore. Even when the sky is not white, there are no
@@ -600,7 +604,7 @@ visible stars. So I can't say where we are. It must be the influence of the
 black hole."
 
 In the moment, she spoke it out, the shaking got stronger and the flickering of
-the sky increased. Everyone on the bridge was trying th get a seat or at least a
+the sky increased. Everyone on the bridge was trying to get a seat or at least a
 grip on the wall. The first gravitation systems started beeping, which meant
 that they could not balance out the external forces anymore. The ship was out of
 control, while all the sensors showed Marisol that it was not moving at all.
@@ -615,7 +619,8 @@ Marisol, what's up?"
 anymore. It died. Ionic engines are running and electricity and life support
 within normal range."
 
-The Dublin drive was the facility that created the tunnel into Transspace.
+The Dublin drive was the facility that created the tunnel into Transspace and
+therefore the possibility to get home again. So the situation was concerning.
 
 "How about the comms?"
 
@@ -627,16 +632,16 @@ Marisol? Where are we exactly? Any surprises?"
 "I have bad news", she answered. "Look!"
 
 She pushed some buttons on her workstation and the feed she had seen also
-appeared on the big screen. It said 'rear view' and it showed a planet filling
-half of the screen that looked habitable.
+appeared on the big screen. It was labelled 'rear view' and it showed a planet
+filling half of the screen that looked habitable.
 
 "That is unexpected indeed", said Dars. "So what's this?"
 
-"THat's the bad news. I don't know. I interpolated the navigation data and could
+"That's the bad news. I don't know. I interpolated the navigation data and could
 not identify our position."
 
 "What exactly do you mean?", he asked and added a command. "Comupter, please
-show us the front view again. Look at this. There's Orion down here. ANd the
+show us the front view again. Look at this. There's Orion down here. And the
 Plejadis."
 
 "I know. But they look off, especially when you measure with nav precision."
@@ -655,7 +660,7 @@ there within a minute. Who's joke is this? We are pranked, fellows."
 "I don't think so", said Marisol. "Look at the C4 Drone. It clearly shows the
 planet through the windows."
 
-"Ok. Gordan, could you please open a channel to the headquarters? And the rest
+"Ok. Gordon, could you please open a channel to the headquarters? And the rest
 of us, we go to the gazebo."
 
 While Gordon typed and gestured busily on his workstation, the rest of the
@@ -673,10 +678,10 @@ the ceiling.
 "Yes Sir, I double checked this as well. They are working. I just don't reach
 anybody."
 
-"That can't be", said Dars more to himself and then went on to the group
-"Allright, back to the bridge. Everyone to their workplaces. Marisol, can you
-set a course to Rana Station, please? If they don't answer the phone, we have to
-pay a visit."
+"That can't be", said Dars more to himself and then he went on to the group "All
+right, back to the bridge. Everyone to their workplaces. Marisol, can you set a
+course to Rana Station, please? If they don't answer the phone, we have to pay a
+visit."
 
 Back on the bridge, Marisol plotted the course by using the planet Kret and the
 sun Rana as navigation points because the stars were not a reliable source
@@ -705,7 +710,7 @@ She turned to her workstation and let the AI run a quick simulation. Then her
 face turned from a glimpse of approving pride to a deep frown.
 
 "You remember that I told you, the stars are off, right?", the others nodded
-waiting for the punch line. "They are not. THey are absolutely correct. But it's
+waiting for the punch line. "They are not. They are absolutely correct. But it's
 not the stars of the year 2195.
 
 The closer star constellations are off by some arc seconds only. Everything
@@ -715,7 +720,7 @@ We ask ourselves why there is no space station? Well, because it does not yet
 exist. We ask ourselves why there is no visible city structure on Kret? That's
 because the Kret don't even exist yet.
 
-And If I may have a guess, then that we are, this crew is the origin of the
+And If I may have a guess, then that we are ... this crew is the origin of the
 Kret. We are the first humans that colonized or better will colonize this
 planet. We are the first of the 3000 generations in Mesas famous book that will
 follow."
