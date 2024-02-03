@@ -4,7 +4,7 @@ title: The Bond
 description:
   The great mash up between the transspace story and the study of my first alien
   race, the Kret.
-colorSpace: purple
+colorSpace: cyan
 startDate: 2021-11-15
 date: 2024-02-02
 related:
