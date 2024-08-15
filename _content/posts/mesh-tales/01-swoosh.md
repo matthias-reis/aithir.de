@@ -1,8 +1,6 @@
 ---
 title: The Swoosh
-description:
-  "I'm introducing a new set of posts about small anecdotes from my imagined
-  worlds, starting off with the Mesh."
+description: Tales from the Mesh, starting off with the Mesh Logo
 date: 2023-10-05
 colorSpace: cyan
 tags:

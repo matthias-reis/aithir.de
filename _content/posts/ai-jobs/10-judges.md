@@ -1,8 +1,7 @@
 ---
 title: Judges
 description:
-  Objectivity. A goal that biased humans may never achieve. Will computers be
-  able to fill in?
+  Objectivity. A goal that notoriously biased humans may never achieve.
 date: 2023-04-11
 colorSpace: none
 tags:

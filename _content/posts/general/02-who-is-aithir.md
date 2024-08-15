@@ -1,8 +1,6 @@
 ---
 title: Who is Aithir?
-description:
-  Where does my alias come from? My handle on social media is Aithir. So what's
-  the reason for that?
+description: Where does my alias come from?
 date: 2022-04-27
 tags:
   - Aithir

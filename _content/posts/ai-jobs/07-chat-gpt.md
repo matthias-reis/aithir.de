@@ -1,8 +1,7 @@
 ---
 title: ChatGPT
 description:
-  Special topic about the rise of large language models and their impact on
-  writing, marketing and everything else
+  Special topic about the rise of large language models and their impact
 date: 2022-12-06
 colorSpace: none
 tags:

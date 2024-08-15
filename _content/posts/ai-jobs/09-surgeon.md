@@ -1,8 +1,8 @@
 ---
 title: Surgeon
 description:
-  A job that relies on precision? That's worth a look on how a machine could do
-  it better.
+  A job that relies on precision? That's worth a look from machine's
+  perspective.
 date: 2023-03-07
 colorSpace: none
 tags:

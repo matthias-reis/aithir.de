@@ -1,8 +1,7 @@
 ---
 title: Political Systems
 description:
-  There are two main points of view in ideologies. Either the individual in the
-  center or the whole society. Both lead to significantly different systems.
+  There are two main points of view in ideologies. Individual vs State.
 date: 2022-05-23
 tags:
   - China

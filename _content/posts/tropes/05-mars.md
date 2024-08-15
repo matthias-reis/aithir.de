@@ -2,8 +2,8 @@
 title: Mars
 date: 2023-09-22
 description:
-  Our neighbour planet Mars is always worth a visit, at least for our beloved
-  sci-fi writers.
+  Our neighbour planet Mars is always worth a visit, at least for our sci-fi
+  writers.
 tags:
   - Archetypes
   - Tropes

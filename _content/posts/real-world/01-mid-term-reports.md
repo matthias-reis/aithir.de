@@ -1,8 +1,7 @@
 ---
 title: Mid Term Reports
 description:
-  Elections in important German regions with catastrophic results. So it might
-  be time to look at bigger stages and their current shape.
+  Mid 2023. Elections in important German regions with catastrophic results.
 date: 2023-10-09
 colorSpace: orange
 tags:

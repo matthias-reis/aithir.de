@@ -1,8 +1,8 @@
 ---
 title: Metaverse
 description:
-  Built to fail, Facebooks metaverse. But yet it was the dream of a whole
-  cyberpunk generation, including me.
+  Built to fail, Facebooks metaverse. Yet it was the dream of a whole cyberpunk
+  generation.
 date: 2023-06-12
 colorSpace: yellow
 tags:

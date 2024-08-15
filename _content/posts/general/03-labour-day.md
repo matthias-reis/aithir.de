@@ -1,8 +1,6 @@
 ---
 title: Fairness
-description:
-  Some thoughts on May, the first, labour day. Including capitalism and the
-  power of some opinion leaders.
+description: Some thoughts on May, the first, labour day.
 date: 2022-05-02
 tags:
   - Labour Day

@@ -1,6 +1,6 @@
 ---
 title: Superpower
-year: 2023-06-27
+date: 2023-06-27
 description:
   Marvel, DC, Batman or Hulk. Super human power are the mega trend at cinemas.
 tags:

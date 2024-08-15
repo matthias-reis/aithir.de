@@ -1,8 +1,6 @@
 ---
 title: Designers
-description:
-  Dall-E and Midjourney take over many art direction tasks already. What does it
-  do with the job of a designer?
+description: Dall-E and Midjourney take over many art direction tasks already.
 date: 2022-06-14
 colorSpace: none
 tags:

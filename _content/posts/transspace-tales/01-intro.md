@@ -1,8 +1,7 @@
 ---
 title: Intro to Transspace Tales
 description:
-  More anecdotes, this time about transspace, my oconcept for faster than light
-  travel and other space operas.
+  More anecdotes, this time about transspace, my concept for space operas
 date: 2023-12-21
 colorSpace: cyan
 tags:

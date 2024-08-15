@@ -1,8 +1,7 @@
 ---
 title: Speculative Apocalypses
 description:
-  We are threatened by many things. But what is the most likely and how many
-  people are actually affected?
+  What is the most likely extinction e vent and how many are actually affected?
 date: 2022-05-05
 tags:
   - Atomic War

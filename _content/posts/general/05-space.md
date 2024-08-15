@@ -1,8 +1,6 @@
 ---
 title: Space
-description:
-  Some early thoughts about how fictional stories can pass the vast emptiness of
-  space.
+description: How fictional stories can pass the vast emptiness of space.
 date: 2022-05-10
 tags:
   - SciFi

@@ -3,7 +3,7 @@ title: The Moon is a Harsh Mistress
 subTitle: Robert Heinlein
 description:
   The 1966 novel about the mechanics of a revolution is one of the classics of
-  science fiction.
+  sci-fi.
 date: 2023-10-16
 colorSpace: cyan
 tags:

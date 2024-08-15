@@ -1,8 +1,8 @@
 ---
 title: Banking
 description:
-  Algorithms rule investment for decades already, so where might the human brain
-  be needed?
+  Algorithms rule investment for decades already, so where's the place for human
+  brain?
 date: 2022-11-21
 colorSpace: none
 tags:

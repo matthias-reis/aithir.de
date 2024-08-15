@@ -1,8 +1,8 @@
 ---
 title: Aliens
-year: 2023-05-30
+date: 2023-05-30
 description:
-  Extra terrestrial intelligent species are at the heart of many SciFi stories.
+  Extra terrestrial intelligent species are at the heart of many sci-fi stories.
 tags:
   - Archetypes
   - Tropes

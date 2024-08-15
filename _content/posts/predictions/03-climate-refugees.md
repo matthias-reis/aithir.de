@@ -1,8 +1,6 @@
 ---
 title: Climate Refugees
-description:
-  Germany is getting dry and wet at the same time. But still central Europe is
-  the place to be in 50 years. For everyone.
+description: Central Europe is the place to be in 50 years. For everyone.
 date: 2023-04-20
 colorSpace: yellow
 tags:

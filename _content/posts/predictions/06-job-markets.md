@@ -1,8 +1,6 @@
 ---
 title: Job Markets
-description:
-  Our society is getting older, jobs offers will be more than the people to fill
-  them. But AI could take many jobs away. What will happen?
+description: Automation vs. Demographic Change. Who will win?
 date: 2023-07-06
 colorSpace: yellow
 tags:

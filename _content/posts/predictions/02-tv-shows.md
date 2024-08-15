@@ -1,7 +1,7 @@
 ---
 title: TV Shows
 description:
-  Will there still be TV shows, when AI can produce individual footage for
+  Will there still be TV shows, when AI can produce bespoke content for
   everyone?
 date: 2023-03-28
 colorSpace: yellow

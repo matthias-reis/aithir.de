@@ -1,8 +1,7 @@
 ---
 title: Augmented Reality
 description:
-  A new series about what could happen in the next ten years. Let's start with
-  the cool trending AR headsets
+  What could happen in the next ten years. Let's start with AR headsets
 date: 2023-01-02
 colorSpace: yellow
 tags:

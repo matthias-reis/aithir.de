@@ -2,8 +2,6 @@
 title: Natural Catastrophes
 description:
   We are already facing superlatives of natural catastrophes on a monthly basis.
-  FIres hunt floods hunt storms hunt draughts. But this is just the start. How
-  will it look like in ten years?
 date: 2023-09-04
 colorSpace: yellow
 tags:

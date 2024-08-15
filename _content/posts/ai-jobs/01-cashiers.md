@@ -1,9 +1,7 @@
 ---
 title: Cashiers
 description:
-  The checkout in a supermarket is a highly repetitive, tedious and error prone
-  task, already optimized for the cashier. Will the human faactor be removed one
-  day?
+  Will the human factor be removed one day from the supermarket checkout?
 date: 2022-06-06
 colorSpace: none
 tags:

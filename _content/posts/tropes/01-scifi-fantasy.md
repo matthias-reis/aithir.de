@@ -1,9 +1,7 @@
 ---
 title: SciFi & Fantasy - A Journey
-year: 2023-05-18
-description:
-  Let's dive into the commonalities in speculative fiction stories. From
-  characters to typical topics and tropes.
+date: 2023-05-18
+description: From typical characters to shared topics and tropes.
 tags:
   - Archetypes
   - Tropes

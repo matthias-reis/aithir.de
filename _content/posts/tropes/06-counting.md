@@ -1,9 +1,7 @@
 ---
 title: Counting
 date: 2023-12-22
-description:
-  Tension and suspense in stories is an important ingredient. The simplest way
-  to achieve this is counting down a list. Ten to one.
+description: How to achieve tension? Count down. Ten to one.
 tags:
   - Archetypes
   - Tropes
