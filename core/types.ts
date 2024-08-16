@@ -21,7 +21,7 @@ export type Sec = string | { type: string; payload?: string };
 
 export type ItemMeta = {
   slug: string;
-  type: 'storyline' | 'post' | 'magazine' | 'addenum' | 'other';
+  type: 'storyline' | 'post' | 'magazine' | 'photo' | 'addenum';
   sections: Sec[];
   image?: string;
   category?: string;

@@ -13,6 +13,19 @@ export function getAllItems() {
     (a, b) => (b.factors?.overall ?? 1) - (a.factors?.overall ?? 1)
   );
 }
+
+export function getStories() {
+  return getPublicItems().filter((i) => i.type === 'storyline');
+}
+
+export function getTextPosts() {
+  return getPublicItems().filter((i) => i.type === 'storyline');
+}
+
+export function getPhotoPosts() {
+  return getPublicItems().filter((i) => i.type === 'photo');
+}
+
 export function getVisibleItems() {
   return getPublicItems().filter((i) => i.factors?.overall ?? 0 > 0);
 }
@@ -21,6 +34,15 @@ export function getPublicItems() {
   return getAllItems()
     .filter((i) => !i.hidden)
     .filter((i) => (i.language ?? 'en') !== 'de');
+}
+
+export function getPosts() {
+  return getPublicItems()
+    .filter((i) => i.type !== 'storyline')
+    .sort(
+      (a, b) =>
+        new Date(b.date ?? '').getTime() - new Date(a.date ?? '').getTime()
+    );
 }
 
 export function getItem(slug: string) {

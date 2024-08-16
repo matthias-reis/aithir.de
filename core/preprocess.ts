@@ -53,6 +53,18 @@ function refineMeta(item: Omit<ItemMeta, 'type' | 'words'>): ItemMeta {
       words,
     };
   }
+  if (item.slug.startsWith('photo')) {
+    const category = item.slug.split('/')[1];
+    return {
+      ...item,
+      sections,
+      type: 'photo',
+      image: item.image,
+      superTitle: 'Images',
+      category,
+      words,
+    };
+  }
   if (item.slug.startsWith('editions')) {
     const parts = item.slug.split('/');
     const edition = parseInt(parts[1]);
@@ -74,7 +86,8 @@ function refineMeta(item: Omit<ItemMeta, 'type' | 'words'>): ItemMeta {
       };
     }
   } else {
-    return { ...item, sections, type: 'other', words };
+    //should not happen
+    return { ...item, sections, type: 'post', words };
   }
 }
 

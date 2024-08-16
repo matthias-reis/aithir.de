@@ -3,9 +3,10 @@ import { FCC } from '../core/types';
 export const Section: FCC<{
   headline: string;
   subHeadline?: string;
-}> = ({ children, headline, subHeadline }) => (
-  <Boxed Component="div" className="mt-8">
-    <div className="pb-6 my-4 text-center">
+  className?: string;
+}> = ({ children, headline, subHeadline, className }) => (
+  <Boxed Component="div" className={className}>
+    <div className="pb-4 my-3 text-center">
       <h2 className={`font-bold font-condensed text-decent-900 text-6xl`}>
         {headline}
       </h2>
@@ -33,7 +34,7 @@ export const Boxed: FCC<{ Component?: JSX.ElementType }> = ({
   children,
   className,
   Component = 'div',
-}) => <Component className={`mx-5 md:mx-6 ${className}`}>{children}</Component>;
+}) => <Component className={`mx-3 md:mx-4 ${className}`}>{children}</Component>;
 
 export const ReadBoxed: FCC<{ Component?: JSX.ElementType; id?: string }> = ({
   children,
