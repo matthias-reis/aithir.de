@@ -29,15 +29,8 @@ const condensedFont = Saira_Extra_Condensed({
   weight: ['300', '700'],
   fallback: ['sans-serif'],
 });
-const scriptFont = Euphoria_Script({
-  subsets: ['latin'],
-  weight: '400',
-  display: 'swap',
-  variable: '--font-script',
-  fallback: ['cursive'],
-});
 
-const className = [serifFont, sansFont, condensedFont, scriptFont]
+const className = [serifFont, sansFont, condensedFont]
   .map((f) => f.variable)
   .join(' ');
 

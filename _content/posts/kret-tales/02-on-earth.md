@@ -16,11 +16,18 @@ intrigues and complications surrounding the big corporations or the futile
 efforts of the states to regain control were forgotten.
 
 "The Council" took over. That's what the news providers called it. An expert
-panel composed of top people from Sagittarius and other corporations, as well as
-some chief diplomats and on top of that, the stars of the show, five experts.
+panel composed of top people from the Gemini Project, Zodiac and other
+corporations, as well as some chief diplomats and on top of that, the stars of
+the show, five experts.
 
 The experts were perfectly and skillfully chosen. Eloquent, wise, visionary, and
 above all, "likeable". They had the potential to become media heroes (mainly
 because they were also media experts). They could explain all the complex
-processe in a simple way, not so much the technical ones, but especially the
+processes in a simple way, not so much the technical ones, but especially the
 sociological issues and implications.
+
+Further reads:
+
+- [The Bond, a Short Story with all details around the corporations](/storylines/the-bond)
+- [The Kret (World Building)](/storylines/kret)
+- [Transspace (World Building)](/storylines/transspace)

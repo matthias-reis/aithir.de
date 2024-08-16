@@ -25,7 +25,6 @@ export const postLayout: Layout = {
           <div className="text-decent-600 text-xl font-light uppercase tracking-wider">
             {item.date && (
               <span>
-                Posted On{' '}
                 <strong className="font-bold">
                   {getFormattedDate(new Date(item.date))}
                 </strong>{' '}
@@ -38,7 +37,7 @@ export const postLayout: Layout = {
               </span>
             )}
           </div>
-          <h1 className="text-3xl md:text-5xl lg:text-7xl font-script">
+          <h1 className="text-2xl md:text-3xl lg:text-6xl font-condensed font-bold">
             {item.title}
           </h1>
           {item.subTitle && (
@@ -72,7 +71,7 @@ export const postLayout: Layout = {
           <Grid>
             {categoryItems.map((item) => (
               <GridItem key={item.slug}>
-                <Item meta={item} />
+                <Item meta={item} date />
               </GridItem>
             ))}
             {Array(3 - (categoryItems.length % 3))

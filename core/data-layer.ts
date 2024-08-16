@@ -50,10 +50,23 @@ export function getItem(slug: string) {
 }
 
 export const getItemsBySlugs = (slugs: string[]) =>
-  slugs.map(getItem).filter(Boolean);
+  slugs
+    .map(getItem)
+    .filter(Boolean)
+    .sort(
+      (a, b) =>
+        new Date(b.date ?? '').getTime() - new Date(a.date ?? '').getTime()
+    );
 
 export const getItemsByCategory = (category?: string) =>
-  category ? getPublicItems().filter((i) => i.category === category) : [];
+  category
+    ? getPublicItems()
+        .filter((i) => i.category === category)
+        .sort(
+          (a, b) =>
+            new Date(b.date ?? '').getTime() - new Date(a.date ?? '').getTime()
+        )
+    : [];
 
 export function getTags() {
   const tags = {} as Record<string, ItemMeta[]>;
