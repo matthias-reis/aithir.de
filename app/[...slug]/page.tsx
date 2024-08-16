@@ -8,7 +8,6 @@ import {
 import { parseMarkdown } from '../../core/markdown';
 import { DynamicPageProps, FCC, ItemMeta } from '../../core/types';
 import { Item } from '../../comp/item';
-import { magazineLayout } from './magazine';
 import { postLayout } from './post';
 import { defaultLayout } from './default';
 import { storylineLayout } from './storyline';
@@ -29,7 +28,6 @@ export type Layout = {
 };
 
 const layouts: Record<string, Layout> = {
-  magazine: magazineLayout,
   post: postLayout,
   'storylines/vlad': storylineVladLayout,
   'storylines/goliath': storylineGoliathLayout,
