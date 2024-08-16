@@ -65,9 +65,7 @@ export const postLayout: Layout = {
         </ReadBoxed>
       )}
       {categoryItems && categoryItems.length > 1 && (
-        <Section
-          headline={`Other Posts in Category ${item.category?.toUpperCase()}`}
-        >
+        <Section headline={`Posts in Category ${item.category?.toUpperCase()}`}>
           <Grid>
             {categoryItems.map((item) => (
               <GridItem key={item.slug}>
