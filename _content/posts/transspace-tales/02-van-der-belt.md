@@ -36,7 +36,7 @@ them a full day until they dared to approach it and investigate what it was.
 But that was not the end. It happened three more times. Then they found out that
 it had to be a form of communication. Every communication with an alien life
 form would start with mirroring or copying what could be observed. So that was
-it. Aliens on their planet. Native inhabitants.
+it. Aliens on their planet. No, native inhabitants.
 
 It continued without consequences. Every few weeks, a new lifeless mannequin
 appeared. After a while, the crew collected some of their precious resources and
