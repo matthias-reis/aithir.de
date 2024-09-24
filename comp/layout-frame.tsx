@@ -26,10 +26,11 @@ export const LayoutFrame: FCC<{
       </div>
       <nav className="flex gap-5 items-center justify-center mt-6 mb-8">
         <LegalLink href="/more/about">About</LegalLink>
+
         <a
           className="underline underline-offset-2 text-decent-500 hover:text-decent-700"
           rel="me"
-          href="https://mstdn.social/@aithir"
+          href="https://norden.social/@matzee"
         >
           Mastodon
         </a>
