@@ -11,10 +11,9 @@ import { Item } from '../../comp/item';
 import { postLayout } from './post';
 import { defaultLayout } from './default';
 import { storylineLayout } from './storyline';
-import { storylineVladLayout } from './storylineVlad';
-import { storylineGoliathLayout } from './storylineGoliath';
 import { storylineTattooLayout } from './storylineTattoo';
 import { storylineWorld2Layout } from './storylineWorld2';
+import { imageLayout } from './image';
 import { Metadata } from 'next';
 
 export type Layout = {
@@ -29,12 +28,11 @@ export type Layout = {
 
 const layouts: Record<string, Layout> = {
   post: postLayout,
-  'storylines/vlad': storylineVladLayout,
-  'storylines/goliath': storylineGoliathLayout,
   'storylines/tattoos': storylineTattooLayout,
   'storylines/world-2': storylineWorld2Layout,
   'storylines/vegan': storylineWorld2Layout,
   'storylines/traffic': storylineWorld2Layout,
+  image: imageLayout,
   storyline: storylineLayout,
   default: defaultLayout,
 };

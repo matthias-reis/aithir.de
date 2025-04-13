@@ -18,6 +18,8 @@ tags:
   - Veganism
   - Diet
   - Agriculture
+  - Storyline
+  - Essay
 ---
 
 People usually don't believe that our current food consumption is a major player

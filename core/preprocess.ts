@@ -1,5 +1,5 @@
 import { glob } from 'glob';
-import { join } from 'path';
+import { join, parse } from 'path';
 import { FrontMatter, ItemMeta } from './types';
 import { fm } from './io';
 import { writeFileSync } from 'fs';
@@ -25,7 +25,7 @@ function wordCount(sections: string[]) {
   }, 0);
 }
 
-function refineMeta(item: Omit<ItemMeta, 'type' | 'words'>): ItemMeta {
+function refineMeta(item: Omit<ItemMeta, 'words'>): ItemMeta {
   const words = wordCount(
     item.sections.filter((s) => typeof s === 'string') as string[]
   );
@@ -38,53 +38,26 @@ function refineMeta(item: Omit<ItemMeta, 'type' | 'words'>): ItemMeta {
     }
   });
 
-  if (item.slug.startsWith('storyline')) {
-    return { ...item, sections, type: 'storyline', words };
+  if (item.type === 'storyline') {
+    return { ...item, sections, words };
   }
-  if (item.slug.startsWith('post')) {
-    const category = item.slug.split('/')[1];
+  if (item.type === 'post') {
     return {
       ...item,
       sections,
-      type: 'post',
-      image: item.image || `posts/${category}`,
+      image: item.image || `posts/${slugify(item.category || 'General')}`,
       superTitle: 'Post',
-      category,
       words,
     };
   }
-  if (item.slug.startsWith('photo')) {
-    const category = item.slug.split('/')[1];
+  if (item.type === 'image') {
     return {
       ...item,
       sections,
-      type: 'photo',
-      image: item.image,
-      superTitle: 'Images',
-      category,
+      image: item.slug,
+      superTitle: item.category || 'Image',
       words,
     };
-  }
-  if (item.slug.startsWith('editions')) {
-    const parts = item.slug.split('/');
-    const edition = parseInt(parts[1]);
-    if (parts.length === 2) {
-      return {
-        ...item,
-        sections,
-        type: 'magazine',
-        edition,
-        words,
-      };
-    } else {
-      return {
-        ...item,
-        sections,
-        type: 'addenum',
-        edition,
-        words,
-      };
-    }
   } else {
     //should not happen
     return { ...item, sections, type: 'post', words };
@@ -105,12 +78,22 @@ async function getMetaData(): Promise<Record<string, ItemMeta>> {
     const slug = file
       .replace(process.cwd() + '/_content/', '')
       .replace('.md', '')
-      .replace('/index', '');
+      .replace('/index', '')
+      .replace('_', '');
 
+    const name = parse(file).name;
+    const hidden = name.startsWith('_');
+    const type = slug.split('/').at(0)?.slice(0, -1) as
+      | 'storyline'
+      | 'post'
+      | 'image';
     const frontmatter = await fm<FrontMatter>(file);
-    const unrefinedMeta: Omit<ItemMeta, 'type' | 'words'> = {
+    const unrefinedMeta: Omit<ItemMeta, 'words'> = {
       ...frontmatter.attributes,
       slug,
+      name: name.replace('_', ''),
+      type,
+      hidden,
       sections: parseContent(frontmatter.body),
     };
     const meta = refineMeta(unrefinedMeta);
@@ -128,6 +111,10 @@ async function run() {
   const json = JSON.stringify(metadata, null, 2);
   writeFileSync(join(__dirname, 'data-layer.json'), json);
   console.log('[PRE] done');
+}
+
+function slugify(s: string) {
+  return s.toLowerCase().replace(/ /g, '-');
 }
 
 run();

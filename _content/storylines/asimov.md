@@ -16,6 +16,8 @@ tags:
   - Robot
   - SciFi
   - For Children
+  - Short Story
+  - Storyline
 ---
 
 About a month ago Peter turned eleven. It was an amazing day. He got a lot of

@@ -16,4 +16,7 @@ tags:
   - Cyberspace
   - Cyberpunk
   - SciFi
+  - Short Story
+  - Mesh
+  - Storyline
 ---

@@ -16,6 +16,8 @@ tags:
   - Magicians
   - Secret Societies
   - Urban Fantasy
+  - Worldbuilding
+  - Storyline
 ---
 
 Some years ago, my wife [Anne](https://cardamonchai.com) and I have managed to

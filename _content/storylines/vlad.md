@@ -17,6 +17,8 @@ tags:
   - Hermetics
   - Wizards
   - Transylvania
+  - Storyline
+  - Short Story
 ---
 
 It is late October 1904. My name is Camil Constantin. I am a chronist at the

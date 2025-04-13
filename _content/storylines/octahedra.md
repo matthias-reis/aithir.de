@@ -17,6 +17,8 @@ tags:
   - Time
   - SciFi
   - Fantasy
+  - Short Story
+  - Storyline
 ---
 
 Udin found a stone. At first, it was fully covered with dirt. She only saw its

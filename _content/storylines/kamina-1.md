@@ -18,6 +18,8 @@ tags:
   - Fairytale
   - Fantasy
   - For Children
+  - Short Story
+  - Storyline
 ---
 
 Kamina ran as fast as she could. She was angry because she once again argued

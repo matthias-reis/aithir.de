@@ -19,9 +19,7 @@ export const Section: FCC<{
 );
 
 export const Grid: FCC = ({ children }) => (
-  <ul className="grid gap-1 grid-cols-6 bg-decent-300 border-y border-decent-300">
-    {children}
-  </ul>
+  <ul className="grid gap-2 grid-cols-6">{children}</ul>
 );
 
 export const GridItem: FCC = ({ children }) => (

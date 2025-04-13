@@ -21,20 +21,14 @@ export type Sec = string | { type: string; payload?: string };
 
 export type ItemMeta = {
   slug: string;
-  type: 'storyline' | 'post' | 'magazine' | 'photo' | 'addenum';
+  name: string;
+  type: 'storyline' | 'post' | 'image';
   sections: Sec[];
   image?: string;
   category?: string;
   edition?: number;
   words: number;
   seed?: number;
-  factors?: {
-    overall: number;
-    seedFactor: number;
-    ageFactor: number;
-    typeFactor: number;
-    progressFactor: number;
-  };
 } & FrontMatter;
 
 export type TagMeta = {

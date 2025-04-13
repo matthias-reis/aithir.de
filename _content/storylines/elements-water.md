@@ -17,6 +17,9 @@ tags:
   - Hamburg
   - London
   - Urban Fantasy
+  - Short Story
+  - Elements
+  - Storyline
 related:
   - storylines/elements-earth
 ---

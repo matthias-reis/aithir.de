@@ -11,6 +11,8 @@ tags:
   - Tattoos
   - The Illustrated Man
   - Ray Bradbury
+  - Short Story
+  - Storyline
 ---
 
 ## Right Arm

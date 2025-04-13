@@ -16,6 +16,8 @@ tags:
   - Space Travel
   - Time Travel
   - SciFi
+  - Short Story
+  - Storyline
 ---
 
 ## Marla

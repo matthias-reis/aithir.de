@@ -15,6 +15,7 @@ tags:
   - Simulation Theory
   - AI
   - Metaverse
+  - Storyline
 ---
 
 There is an interesting thought experiment, I want to tell you about.

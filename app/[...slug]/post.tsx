@@ -1,4 +1,5 @@
 import { Item } from '../../comp/item';
+import { LayoutFrame } from '../../comp/layout-frame';
 import { Boxed, Grid, GridItem, ReadBoxed, Section } from '../../comp/sections';
 import { Tag, TagList } from '../../comp/tag';
 import { getTagsByTagSlugs } from '../../core/data-layer';
@@ -19,10 +20,10 @@ export const postLayout: Layout = {
     ),
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
-    <>
+    <LayoutFrame className={item.colorSpace} withTextLogo>
       <div className="justify-center items-center bg-decent-300 mb-7 aspect-wide relative w-full">
         <div className="relative flex flex-col justify-center items-center z-10 aspect-wide bg-darkened w-full">
-          <div className="text-decent-600 text-xl font-light uppercase tracking-wider">
+          <div className="text-decent-600 text-xl font-light font-condensed uppercase tracking-wider">
             {item.date && (
               <span>
                 <strong className="font-bold">
@@ -47,7 +48,7 @@ export const postLayout: Layout = {
           )}
         </div>
         <img
-          src={`/preview/${item.image || item.slug}.jpg`}
+          src={`/img/${item.image}-l.jpg`}
           alt={item.title}
           className="top-[0] object-contain w-full absolute z-0 max-h-[34rem] shadow-xl shadow-decent-100"
         />
@@ -69,7 +70,7 @@ export const postLayout: Layout = {
           <Grid>
             {categoryItems.map((item) => (
               <GridItem key={item.slug}>
-                <Item meta={item} date />
+                <Item meta={item} />
               </GridItem>
             ))}
             {Array(3 - (categoryItems.length % 3))
@@ -96,6 +97,6 @@ export const postLayout: Layout = {
           </Grid>
         </Section>
       )}
-    </>
+    </LayoutFrame>
   ),
 };

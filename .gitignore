@@ -2,6 +2,7 @@
 
 # data layer is dynamically created
 /core/data-layer.json
+/public/img
 
 # dependencies
 /node_modules

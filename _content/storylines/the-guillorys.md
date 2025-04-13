@@ -20,6 +20,9 @@ tags:
   - Super Hero
   - For Children
   - Fantasy
+  - Storyline
+  - Short Story
+  - SciFi
 ---
 
 _Louis_

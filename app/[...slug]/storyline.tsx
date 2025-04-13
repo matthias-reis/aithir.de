@@ -5,6 +5,7 @@ import { Tag, TagList } from '../../comp/tag';
 import { getTagsByTagSlugs } from '../../core/data-layer';
 import { getMonthName, getYearSpan } from '../../core/date-helpers';
 import type { Layout } from './page';
+import { LayoutFrame } from '../../comp/layout-frame';
 
 export const storylineLayout: Layout = {
   components: {
@@ -20,7 +21,7 @@ export const storylineLayout: Layout = {
     ),
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
-    <>
+    <LayoutFrame className={item.colorSpace} withTextLogo>
       <div className="text-center mb-5">
         <p className="text-decent-600 text-xl uppercase tracking-wider mb-5">
           {item.language === 'de' && '🇩🇪  '}
@@ -40,7 +41,7 @@ export const storylineLayout: Layout = {
         </p>
       )}
       <img
-        src={`/detail/${item.image || item.slug}.jpg`}
+        src={`/img/${item.image || item.slug}-l.jpg`}
         alt={item.title}
         className="object-contain w-full max-w-3xl mx-auto z-0 mt-6 mb-8"
       />
@@ -150,6 +151,6 @@ export const storylineLayout: Layout = {
           </Grid>
         </Section>
       )}
-    </>
+    </LayoutFrame>
   ),
 };

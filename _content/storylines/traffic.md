@@ -17,6 +17,8 @@ tags:
   - Climate Crisis
   - Transport
   - Travel
+  - Storyline
+  - Essay
 ---
 
 During Corona, many of us were bound to our homes. From time to time, we had to

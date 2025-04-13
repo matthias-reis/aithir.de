@@ -6,6 +6,10 @@ import type { DynamicPageProps, ItemMeta, TagMeta } from '../../../core/types';
 export default function Page({ params }: DynamicPageProps) {
   const tagSlug = params.tag || '';
   const { name, count, items } = getTagByTagSlug(tagSlug);
+  const storylineItems = items.filter((i) => i.type === 'storyline');
+  const imageItems = items.filter((i) => i.type === 'image');
+  const postItems = items.filter((i) => i.type === 'post');
+
   return (
     <>
       <div className="aspect-[3/1] relative flex items-center justify-center mb-7">
@@ -23,18 +27,51 @@ export default function Page({ params }: DynamicPageProps) {
       </div>
 
       <Boxed>
-        <Grid>
-          {items.map((item: ItemMeta) => (
-            <GridItem key={item.slug}>
-              <Item meta={item} />
-            </GridItem>
-          ))}
-          {Array(3 - (items.length % 3))
-            .fill('')
-            .map((_, i) => (
-              <GridItem key={i} />
-            ))}
-        </Grid>
+        {storylineItems.length > 0 && (
+          <>
+            <h2 className="text-5xl mb-4 mt-8 font-bold font-condensed">
+              {storylineItems.length} Storyline
+              {storylineItems.length !== 1 ? 's' : ''}
+            </h2>
+            <Grid>
+              {storylineItems.map((item: ItemMeta) => (
+                <GridItem key={item.slug}>
+                  <Item meta={item} />
+                </GridItem>
+              ))}
+            </Grid>
+          </>
+        )}
+        {imageItems.length > 0 && (
+          <>
+            <h2 className="text-5xl mb-4 mt-8 font-bold font-condensed">
+              {imageItems.length} Image
+              {imageItems.length !== 1 ? 's' : ''}
+            </h2>
+            <Grid>
+              {imageItems.map((item: ItemMeta) => (
+                <GridItem key={item.slug}>
+                  <Item meta={item} />
+                </GridItem>
+              ))}
+            </Grid>
+          </>
+        )}
+        {postItems.length > 0 && (
+          <>
+            <h2 className="text-5xl mb-4 mt-8 font-bold font-condensed">
+              {postItems.length} Post
+              {postItems.length !== 1 ? 's' : ''}
+            </h2>
+            <Grid>
+              {postItems.map((item: ItemMeta) => (
+                <GridItem key={item.slug}>
+                  <Item meta={item} />
+                </GridItem>
+              ))}
+            </Grid>
+          </>
+        )}
       </Boxed>
     </>
   );

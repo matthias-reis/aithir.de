@@ -16,6 +16,8 @@ tags:
   - Energy
   - Climate Crisis
   - Coal
+  - Essay
+  - Storyline
 ---
 
 ## The Start

@@ -1,58 +1,105 @@
 import Link from 'next/link';
 import { FCC, ItemMeta } from '../core/types';
-import { Factors } from './factors';
+import { cx } from '../core/cx';
 
-const PostItem: FCC<{ meta: ItemMeta; date: boolean }> = ({ meta, date }) => (
+const PostItem: FCC<{ meta: ItemMeta }> = ({ meta }) => (
   <article className="font-condensed">
     {/* eslint-disable-next-line @next/next/no-img-element */}
+    <p className="font-light text-sm uppercase text-decent-600 tracking-wider text-right mb-1">
+      {meta.category}
+    </p>
     <img
-      src={`/preview/${meta.image || meta.slug}.jpg`}
+      src={`/img/posts/${slugify(meta.category || 'general')}-s.jpg`}
       alt={`${meta.title} - title image`}
       width="600"
       height="200"
     />
-    <div className="mt-4">
-      {meta.superTitle && (
-        <p className="font-light uppercase text-decent-600 tracking-wider">
-          {meta.type !== 'storyline'
-            ? `in category ${meta.category}`
-            : meta.superTitle}
-        </p>
-      )}
-      <h3 className="text-3xl font-bold">{meta.title}</h3>
-      {meta.description && (
-        <p className="mt-3 font-sans text-decent-700">{meta.description}</p>
-      )}
-      {date && meta.date && (
-        <p className="font-sans text-sm text-decent-500 mt-3 text-right">
-          [{formatDate(new Date(meta.date))}]
-        </p>
-      )}
-      <p className="hidden">{meta.factors?.overall}</p>
-    </div>
+    <h3 className="text-2xl font-bold mt-4">{meta.title}</h3>
+    {meta.description && (
+      <p className="mt-1 font-sans text-sm text-decent-700">
+        {meta.description}
+      </p>
+    )}
   </article>
 );
 
-export const Item: FCC<{ meta: ItemMeta; date?: boolean }> = ({
+const StorylineItem: FCC<{ meta: ItemMeta; size: 1 | 2 | 3 }> = ({
   meta,
-  date = false,
+  size,
+}) => (
+  <article className="font-condensed">
+    <p className="font-light uppercase text-decent-600 tracking-wider text-center">
+      {meta.superTitle || meta.category}
+    </p>
+    <h3
+      className={cx(
+        'font-bold text-center mb-3',
+        size != 1 && 'text-5xl',
+        size === 1 && 'text-3xl'
+      )}
+    >
+      {meta.title}
+    </h3>
+    <img
+      src={`/img/${meta.image || meta.slug}-s.jpg`}
+      alt={`${meta.title} - Title Image`}
+      className="aspect-storyline"
+      width="600"
+      height="400"
+    />
+    {meta.description && (
+      <p className="mt-3 text-sm text-center font-sans text-decent-700">
+        {meta.description}
+      </p>
+    )}
+  </article>
+);
+
+const ImageItem: FCC<{ meta: ItemMeta; size: 1 | 2 | 3 }> = ({
+  meta,
+  size,
+}) => (
+  <article className="font-condensed flex flex-col justify-center h-full p-4">
+    <img
+      src={`/img/${meta.image}-s.jpg`}
+      alt={`${meta.description}`}
+      width="600"
+      height="200"
+      className="border-4 border-decent-900"
+    />
+    <h3
+      className={cx(
+        'font-light mt-1 text-center uppercase tracking-wider text-decent-900',
+        size === 1 && 'text-md',
+        size === 2 && 'text-md',
+        size === 3 && 'text-xl'
+      )}
+    >
+      {meta.title}
+    </h3>
+    <p className="font-light text-xs text-center uppercase text-decent-600 tracking-wider">
+      {meta.category}
+    </p>
+  </article>
+);
+
+export const Item: FCC<{ meta: ItemMeta; size?: 1 | 2 | 3 }> = ({
+  meta,
+  size = 1,
 }) => {
   if (!meta || typeof meta === 'string') return null;
   return (
     <Link
       href={`/${meta.slug}`}
-      className="w-full py-6 px-5 hover:bg-decent-200 block"
+      className="w-full h-full p-3 hover:bg-decent-300 block"
     >
-      <PostItem meta={meta} date={date} />
-      <Factors meta={meta} />
+      {meta.type === 'post' && <PostItem meta={meta} />}
+      {meta.type === 'storyline' && <StorylineItem meta={meta} size={size} />}
+      {meta.type === 'image' && <ImageItem meta={meta} size={size} />}
     </Link>
   );
 };
 
-function formatDate(date: Date) {
-  return `${date.getFullYear()}-${(date.getMonth() + 1)
-    .toString()
-    .padStart(2, '0')}-${date.getDate().toString().padStart(2, '0')}`;
+function slugify(s: string) {
+  return s.toLowerCase().replace(/ /g, '-');
 }
-
-function pad(s: string, n: number) {}

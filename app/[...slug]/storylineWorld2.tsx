@@ -6,6 +6,7 @@ import { getTagsByTagSlugs } from '../../core/data-layer';
 import { getMonthName, getYearSpan } from '../../core/date-helpers';
 import type { Layout } from './page';
 import { World2Calculator } from '../../comp/world-2-calculator';
+import { LayoutFrame } from '../../comp/layout-frame';
 
 export const storylineWorld2Layout: Layout = {
   components: {
@@ -50,10 +51,10 @@ export const storylineWorld2Layout: Layout = {
     ),
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
-    <>
+    <LayoutFrame className={item.colorSpace} withTextLogo>
       <div className="text-center relative">
         <img
-          src={`/detail/${item.image || item.slug}.jpg`}
+          src={`/img/${item.image || item.slug}-l.jpg`}
           alt={item.title}
           className="object-contain w-full z-0 mt-6 mb-8"
         />
@@ -176,6 +177,6 @@ export const storylineWorld2Layout: Layout = {
           </Grid>
         </Section>
       )}
-    </>
+    </LayoutFrame>
   ),
 };

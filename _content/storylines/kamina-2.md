@@ -18,6 +18,8 @@ tags:
   - Steampunk
   - Fantasy
   - For Children
+  - Short Story
+  - Storyline
 ---
 
 Kamina was eleven. Her parents always told her that she had an exuberant

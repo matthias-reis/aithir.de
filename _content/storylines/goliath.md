@@ -11,6 +11,8 @@ tags:
   - SciFi
   - AI
   - Aliens
+  - Short Story
+  - Storyline
 ---
 
 ## Part 1: The Goliath Reports
