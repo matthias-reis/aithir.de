@@ -64,7 +64,7 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
       <strong className="font-bold text-decent-900">{children}</strong>
     ),
     blockquote: ({ children }) => (
-      <blockquote className="border-l-2 border-decent-500 pl-4 font-sans text-sm [&_p]:font-sans [&_p]:text-sm">
+      <blockquote className="border-l-2 border-decent-500 pl-4 font-sans text-sm [&_p]:font-sans [&_p]:text-sm [&_p]:leading-relaxed w-3/4">
         {children}
       </blockquote>
     ),
