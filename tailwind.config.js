@@ -25,6 +25,7 @@ module.exports = {
       condensed: ['var(--font-condensed)'],
       serif: ['var(--font-serif)'],
       script: ['var(--font-script)'],
+      mono: ['Menlo', 'monospace'],
     },
     spacing: {
       1: '0.1rem',

@@ -56,6 +56,9 @@ const Page: FC<DynamicPageProps> = ({ params }) => {
         {children}
       </ul>
     ),
+    code: ({ children }) => (
+      <code className="font-mono text-md text-main">{children}</code>
+    ),
     li: ({ children }) => (
       <li className="mb-3 ml-4 leading-loose">{children}</li>
     ),

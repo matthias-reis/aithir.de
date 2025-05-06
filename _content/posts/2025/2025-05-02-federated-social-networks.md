@@ -34,22 +34,22 @@ On the one hand, there is **Activity Pub**, a protocol based on W3C standards
 developed by the Social Working Group, finalised around 2018 and used by many
 Fediverse services like Mastodon, Pixelfed or Pleroma.
 
-On the other hand we have the one-company driven **AT Protocol**. published in
-2022 (first draft) and developed together and for Bluesky (by the company
+On the other hand we have the one-company driven **AT Protocol**, published in
+2022 (first draft) and developed together with and for Bluesky (by the company
 Bluesky PBC from former Twitter boss Jack Dorsey).
 
-In this article I want to dive a little bit deeper into both of them, dive into
-the primitives, building blocks and principles behind the protocols on an
-architectural level.
+In this article - just out of curiosity - I want to dive a step deeper into both
+of them, dive into the primitives, building blocks and principles behind the
+protocols on an architectural level.
 
 So as I said, politics and business aside. We dive into some technicalities
 here.
 
-Just one sidenote: I will not go deeply into technical details. The flight level
-is supposed to be rather high in order to compare the effects. Also to find out
-how the protocols work, we don’t have to look deeply into how they are used at
-the time of writing. So don’t expect too much speculation on how central Bluesky
-is for a federated system etc.
+> **Just one sidenote:** I will not go extremely deep into technical details.
+> The flight level is supposed to be rather high in order to allow comparing the
+> effects. Additionally, to find out how the protocols work, we don’t have to
+> look deeply into how they are used at the time of writing. So don’t expect too
+> much speculation on how centralized Bluesky is for a federated system etc.
 
 ## AT Protocol
 
@@ -60,24 +60,24 @@ bone communication layer.
 The general setup consists of the following acting entities:
 
 - `PDS`es (Personal Data Servers) host the content that is being shared, your
-  posts, images, interactions etc. together with their rich metadata
+  posts, images, interactions etc. together with their rich metadata.
 - `Repo` s are quite similar to git repositories. A PDS hosts a repo for every
   user on that instance. They hold the emitted data of the user in an always
   consistent way. They are portable, i.e transferrable to other PDSes.
 - `Relay`s collect and bundle information from all the PDSes and expose a huge
-  single point of truth stream of data called `Firehose`
+  single-point-of-truth stream of data called `Firehose`
 - `Labeler` s are the moderation entity (marking NSFW, handling complaints
   etc.). They consume the firehose and expose additional metadata for the posts.
   What’s important is, that the original content is never being altered except
   by the owners themselves. Therefore Labelers emit additional datasets that can
-  be included in the frontends.
+  be included in the frontends/App Views.
 - `Feed Generator`s are also consuming all information from the firehose. They
   are filtering incoming information, curate it, bring it in order and expose
   just a set of IDs - nothing more.
 - `App View`s are the frontend applications. They usually consume the
   information of feeds, enrich the data - e.g. resolve the information behind
-  the id and display a feed and all the other domains like profiles as you would
-  expect from a social network.
+  the id from the Feed Generators and display that feed and all the other view
+  domains like profiles as you would expect from a social network.
 
 One key design principle seems to be that abstraction layers are created in
 front of everything. On top of a PDS, there is a Relay, for example. But this is
@@ -88,7 +88,7 @@ information about its resolver, not unlike web URLs. DID resolution is in theory
 very similar to DNS.
 
 But not DIDs are shared as visible idenitifers for profiles. It’s the more
-legible `handle`s you might be familiar with. That means you can easily change
+legible `Handle`s you might be familiar with. That means you can easily change
 your handle and still maintain the exact same personal repository. On the other
 hand only the broker that resolves identifiers needs to know where your repo is
 hosted. So also your data can move around different PDSes and still be resolved
@@ -107,9 +107,9 @@ analysable or even forkable. This is just one example of its modularity.
 
 I won’t go too much into implementation details on how efficiently those modules
 are built and on which technology they are based as it’s not really important.
-There are some obvious downsides, because the design includes single points of
-failure. One of them is the Relay, the big firehose, which is a stream that
-contains all change sets of all users.
+There are some obvious downsides, because the design of the protocol alone
+includes single points of failure. One of them is the Relay, the big firehose,
+which is a stream that contains all change sets of all users.
 
 When you build a feed generator for example, you have to parse all incoming data
 (which appears to be about 2000 items per second at the moment). This can
@@ -118,16 +118,16 @@ strategies).
 
 I have a second example. As everybody owns their own data in form of a repo,
 others need a way to receive that data and socialise with it. So the chain goes
-through a discovery process (what is the actual Http URL to receive the contents
+through a discovery process (what is the actual HTTP URL to receive the contents
 of a post with ID xyz) which is also a single point of truth and failure and can
 only scale with extensive caching over time - the DID resolution.
 
 The last interesting aspect of AT that is worth having a look should probably
 have been the first. It’s about the `Lexicon`. A lexicon is a way to define the
-shape/type a piece of data is allowed to have. It’s the way how all endpoints
-and all data structures propagated by the AT Proto are defined, i.e. the truth
-that every developer has to adhere to when building their own implementation of
-a module within the ecosystem.
+shape/type a piece of data is allowed to have. It’s the language in whch all
+endpoints and all data structures propagated by the AT Proto are defined, i.e.
+the truth that every developer has to adhere to when building their own
+implementation of a module within the ecosystem.
 
 A lexicon is using a JSON based DSL to describe data structures not unlike JSON
 Schema. It just adds some standardised metadata. More or less only two basic
@@ -176,38 +176,39 @@ The protocol does not offer standardised ways to propagate content to everyone
 Probably the important aspect of the protocol is how federation works. Other
 than one might expect from a decentralised system, it’s based on a push
 principle rather than pull. For example if user A on server 1 follows user B on
-server 2, then server 2 starts to push content of user B to server 1. and from
-then on it’s part of the server’s inventory and can and will be displayed to
-others (on Mastodon for example in the federated timeline).
+server 2, then server 2 starts to push content of user B to server 1. From then
+on it’s part of the server’s inventory and can and will be displayed to others
+(on Mastodon for example in the federated timeline).
 
 That means that connections are made by users and those connections only
 exchange requested (followed) content, not all the content from the server.
 
 Another aspect worth mentioning is how addresses (e.g. users) are resolved. The
 protocol is using WebFinger. The identifying handle, for example
-@username@example.social itself holds the information where to find all the data
-of that account. As you might have noticed, this is one level lower in terms of
-abstraction in comparison to the AT protocols DIDs. So one effect is that a user
-and their posts are bound to an instance or at least it’s technically relatively
-complicated to move.
+`@username@example.social` itself holds the information where to find all the
+data of that account. As you might have noticed, this is one level lower in
+terms of abstraction in comparison to the AT protocols DIDs. So one effect is
+that a user and their posts are bound to an instance or at least it is
+technically relatively complicated to move.
 
 A last aspect concerns the objects (posts) that are exchanged. These are defined
 in a separate protocol called Activity Streams which itself is based on JSON-LD.
 Activity Streams defines some low level standard types (Note, Article, Image,
 Video, …), but the definition regarding the actual content is rather loose. The
-content of an article can be marked up as HTML for example or as Markdown and
-it’s on the client to interpret it correctly.
+content of an article can be marked up as HTML for example or as Markdown or
+Plain Text and it’s up to the client to interpret it correctly.
 
 The types can be extended or augmented by own types but the Fediverse is diverse
 and the likelihood that other clients can’t interpret the content and thus just
-ignore the post is high and therefore the likelihood that more complex types
-appear is rather low. But still a Mastodon client can be used to browse Pixelfed
+ignore the post is high. Therefore the likelihood that more complex types appear
+is rather low. But still a Mastodon client can be used to browse Pixelfed
 content with acceptable and functional UX.
 
-A “one more thing” thought comes from a feature that Activity Pub does not have.
-Presenting curated content in a feed or a set of feeds is not described in the
-protocol and therefore local as well. This has led to very rudimentary discovery
-experiences for example in Mastodon. There are basically four types of feeds:
+A “one more thing” kind of thought comes from a feature that Activity Pub does
+not have. Presenting curated content in a feed or a set of feeds is not
+described in the protocol and therefore strictly local as well. This has led to
+very rudimentary discovery experiences for example in Mastodon. There are
+basically four types of feeds:
 
 - The `Home` view shows everything you follow sorted by time
 - The `Local` view shows everything that is published on one node (and therefore
@@ -226,25 +227,25 @@ Abstraction and Modularity.
 
 Abstraction is a clear advantage, I would say. It’s probably in the long run the
 core feature to really own your own content. With this, you’re free to move your
-posts around and still keep it discoverable by others.
+posts around and still keep them discoverable by others.
 
 Modularity on the other hand has pros and cons. For example that content in a AT
 Proto PDS is split into self contained User repos is a good architecture choice.
-Also the possibility to curate content through Feed Generators is positive, but
-it also implies single points of failure like the one firehose to rule them all.
-In that case the more decentralised and more homogenous approach of Activity Pub
-pays off.
+Also the possibility to curate content through independent Feed Generators is
+positive, but it also implies single points of failure like the one firehose to
+rule them all. In that case the more decentralised and more homogenous approach
+of Activity Pub pays off.
 
 Comparing the protocols alone gives you an indicator of how the real world
 networks are most likely being used and where they are developing to. While the
 AT Protocol provides modules that encourage wider spread, it fosters a bigger
-global network while Activity pub stays centered to the node you’re on / to the
+global network while Activity pub stays centered to the node you’re on or to the
 cozy community you belong to with limited options to see other content.
 
-One trade-off has to be mentioned that is inherent to federated content and
-therefore affects both protocols. The system does not forget. You can’t get rid
-of something that is public. You can delete posts in your instance but it is not
-guaranteed that it’s deleted everywhere it had been federated to.
+One final trade-off has to be mentioned that is inherent to federated content
+and therefore affects both protocols. The system does not forget. You can’t get
+rid of something that is public. You can delete posts in your instance but it is
+not guaranteed that it’s deleted everywhere it had been federated to.
 
 ## The Real World
 
@@ -259,6 +260,12 @@ to get a feeling about the activity on the networks)
   - Total Users: ~2 billion
   - Weekly Active Users (WAU): ~1.4 billion (est.)
   - Daily Active Users (DAU): ~400 million (est.)
+
+- **TikTok**:
+
+  - Total Users: ~1.58 billion
+  - Weekly Active Users (WAU): ~1.1 billion (est.)
+  - Daily Active Users (DAU): ~700 million (est.)
 
 - **X (formerly Twitter)**:
 
