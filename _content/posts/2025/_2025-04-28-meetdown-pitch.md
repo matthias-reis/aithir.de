@@ -4,7 +4,7 @@ category: Social Networks
 description:
   Probably the first piece of SciFi is a story written by Johannes Kepler in the
   early 17th century.
-date: 2025-04-22
+date: 2025-04-28
 colorSpace: cyan
 tags:
   - Meetup
@@ -142,3 +142,13 @@ free time:
 
 Let’s return the power of community into the hands of the people. Join us today
 and help shape the future of community connection and growth.
+
+## Contact
+
+Want to hear more or get into discussion?
+
+Ping me:
+
+- on Matrix: `@octahedron.world:matrix.org`
+- on bluesky: `@octahedron.bsky.social`
+- on Mastodon: `@matzee@norden.social`
