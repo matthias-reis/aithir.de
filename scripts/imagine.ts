@@ -59,7 +59,7 @@ async function run() {
         force: true,
       });
     await imageSmall.toFile(newImageSmallName);
-    console.log(name, folders);
+    console.log('[IMG]', folders, name);
   }
   console.log('[IMG] done');
 }
