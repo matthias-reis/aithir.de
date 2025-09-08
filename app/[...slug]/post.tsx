@@ -2,7 +2,7 @@ import { Item } from '../../comp/item';
 import { LayoutFrame } from '../../comp/layout-frame';
 import { Boxed, Grid, GridItem, ReadBoxed, Section } from '../../comp/sections';
 import { Tag, TagList } from '../../comp/tag';
-import { getTagsByTagSlugs } from '../../core/data-layer';
+import { getItem, getTagsByTagSlugs } from '../../core/data-layer';
 import { getFormattedDate } from '../../core/date-helpers';
 import type { Layout } from './page';
 
@@ -23,6 +23,10 @@ export const postLayout: Layout = {
         {children}
       </h2>
     ),
+    item: ({ payload }) => {
+      const other = getItem(payload || '');
+      return <Item meta={other} />;
+    },
   },
   Main: ({ item, sections, categoryItems, relatedItems }) => (
     <LayoutFrame className={item.colorSpace} withTextLogo>
