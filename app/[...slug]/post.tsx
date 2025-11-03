@@ -9,17 +9,17 @@ import type { Layout } from './page';
 export const postLayout: Layout = {
   components: {
     h1: ({ children }) => (
-      <h1 className="font-condensed font-bold text-5xl md:text-6xl text-decent-900 uppercase mt-7 mb-4">
+      <h1 className="font-condensed font-bold text-5xl md:text-6xl text-decent-900 uppercase mt-8 mb-6">
         {children}
       </h1>
     ),
     h2: ({ children }) => (
-      <h2 className="font-bold font-condensed text-4xl md:text-3xl text-decent-900 mt-5 mb-2">
+      <h2 className="font-bold font-condensed text-4xl md:text-3xl text-decent-900 mt-6 mb-4">
         {children}
       </h2>
     ),
     h3: ({ children }) => (
-      <h2 className="font-bold font-condensed text-4xl md:text-xl text-decent-900 mt-4 mb-2">
+      <h2 className="font-bold font-condensed text-4xl md:text-xl text-decent-900 mt-4 mb-4">
         {children}
       </h2>
     ),

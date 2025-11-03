@@ -25,7 +25,7 @@ tags:
 # On Networking
 
 Let's create some context first. **Networking**, the term, gives me vibes of
-overhyped modern business exchanges or influencer migling (hello, LinkedIn). It
+overhyped modern business exchanges or influencer mingling (hello, LinkedIn). It
 appears to be about creating connections rather than maintainig them. But of
 course that's not at all what it is and should be in the core. We should rather
 see it as the vital social interactions we all need extended by the
@@ -42,19 +42,19 @@ same space and activity level, while a creator on TikTok has a big and rather
 anonymous crowd on the opposite side. Also consuming versus interacting plays a
 big role in social networks.
 
-I have come up with two criteria to describe networking practices to be able to
-take a more analytical look:
+I wanted to see these Aspects play together and refined those two criteria to
+describe current networking practices to be able to take a more analytical look:
 
 - **Create/Consume Ratio**: How much does everyone actively contribute vs. how
   much do you listen and digest? Are a few content creators opposing millions of
-  consumers or is everyone together playing a board game?
+  consumers or is everyone in a group actively involved in playing a board game?
 - **Proximity**: How close are the members of a community to each other? This
   includes both physically and mentally. On the internet the distance is huge
   while e.g. in a maker community people might work closely hands on together
   and in a family, all members are close even if they are thousands of
   kilometers apart.
 
-If you now plot those criteria on two axis, something interesting happens.
+If you now plot those criteria on two axes, something interesting happens.
 
 ![Networking Context](/img/posts/2025/meetdown-network-matrix-l.jpg)
 
@@ -67,10 +67,10 @@ the more interactive text networks like Bluesky, Mastodon or X.
 
 On the very opposite side, however, there is instant messaging. The people in
 those conversations are usually very close to each other and the exchange is on
-eye level. But those media usually don't have functionalities to get in contact.
-You can only chat if you know the other side already.
+eye level. But those media usually don't have functionalities to make contact.
+You can (with some exceptions) only chat if you know the other side already.
 
-The Aha momet lies in the big empty space between those worlds, the region of
+The aha moment lies in the big empty space between those worlds, the region of
 communities and likeminded people. While there are some commercial services that
 play in that area (thinking of meetup or discord), that space is heavily
 underrepresented.
@@ -95,7 +95,7 @@ Well, almost. Let's recap and speculate first what might be missing:
   want to be founders or part of the core team. All of them should be able to
   find their place and their means of communication and exchange.
 
-**So we need to bridge the gap. Let’s do it!**
+**So we need to bridge the gap.**
 
 # Pitch
 
@@ -119,7 +119,7 @@ Be part of something
 
 ## Effective Exchange and Publicity Tooling
 
-The platform Meetup.com is a significant contender in our space. But (besides
+The platform Meetup.com is a significant contender in this space. But (besides
 its commercial goals) it lacks some features that would make it a great tool for
 communities.
 
@@ -173,11 +173,11 @@ One goal is to provide easy to use dev-ops recipes for setting up and updating
 an own instance of the ecosystem. Another goal is to provide artefacts
 (specialised server modules) that collect information from all the decentral
 systems to make them discoverable again (e.g. though a comprehensive location
-based search).
+based search). I.e. a system for content federation.
 
 To leverage that we go protocol first (and implementation details later), like
-the other federated networks do. It even makes sens to build everything on top
-of some of the other's protocols (AT is very flexible, for example).
+the other federated networks do. It even might make sense to build everything on
+top of some of the other's protocols (AT is very flexible, for example).
 
 ## UX as First Class Citizen
 
@@ -248,10 +248,10 @@ free time:
 - Passionate frontend devs and architects who can align on a streamlined set of
   technology and frameworks
 - Backend and DevOps experts willing to work on services that are integrated
-  into a bigger social media landscape
+  into a bigger social media landscape as well as serializable tooling
 
 Let’s return the power of community into the hands of the people. Join us today
-and help shape the future of community connection and growth.
+and help shape the future of human connection and growth.
 
 ## Contact
 
