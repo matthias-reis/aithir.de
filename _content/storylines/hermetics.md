@@ -2,7 +2,7 @@
 superTitle: Worldbuilding
 title: Hermetics
 description:
-  et's dive into the worldbuilding of a fantasy story that circles around
+  Let's dive into the worldbuilding of a fantasy story that circles around
   magicians. We have even created a novel out of it.
 colorSpace: sky
 start: 2022-05-25
